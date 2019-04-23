@@ -1,0 +1,2 @@
+<import src="./suiguo_shop.vue.wxml" />
+    <template is="5c174faa" data="{{ ...$root['0'], $root }}"/>

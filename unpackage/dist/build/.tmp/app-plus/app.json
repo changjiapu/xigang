@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/logn/logn",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/userCenter/userCenter",
+    "pages/suiguo_shop/suiguo_shop",
+    "pages/suiguo_list/suiguo_list",
+    "pages/product_detaill/product_detaill",
+    "pages/confirmOrder/confirmOrder",
+    "pages/commentList/commentList",
+    "pages/shouHou/shouHou",
+    "pages/collect/collect",
+    "pages/zhuji/zhuji",
+    "pages/ggList/ggList",
+    "pages/addressList/addressList",
+    "pages/ggDetail/ggDetail",
+    "pages/merchant/merchant",
+    "pages/callCenter/callCenter",
+    "pages/Account_center/Account_center",
+    "pages/system_setup/system_setup",
+    "pages/cz_psssword/cz_psssword",
+    "pages/complain/complain",
+    "pages/help/help",
+    "pages/helpDetail/helpDetail",
+    "pages/complain_2/complain_2",
+    "pages/About_Us/About_Us",
+    "pages/comment/comment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "购物车",
+    "navigationBarBackgroundColor": "#6d71d5",
+    "backgroundColor": "#6d71d5"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home/shouyeweixuanzhong_03.png",
+        "selectedIconPath": "static/home/shouye .png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/home/gouwucheweixuanzhong_06.png",
+        "selectedIconPath": "static/home/gouwucche_06.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/home/dingdanweixuanzhong_09.png",
+        "selectedIconPath": "static/home/dingdanxuanzhong_09.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/userCenter/userCenter",
+        "iconPath": "static/home/wode_49.png",
+        "selectedIconPath": "static/home/wodexuanzhong_09.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "bbb",
+  "compilerVersion": "1.9.2"
+}
