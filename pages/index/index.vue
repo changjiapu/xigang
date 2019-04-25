@@ -3,8 +3,8 @@
 		<!-- 头部 -->
 		<view class="head">
 			<view class="left">
-				<image src="../../static/home/dizhi_03.png"></image>
-				<text>西安</text>
+				<image src="../../static/home/ziyuan.png"></image>
+				<text>{{city}}</text>
 			</view>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
@@ -16,18 +16,21 @@
 			<swiper-item v-for="(item, index) in bannerList" :key="index"><image :src="imgURl + item.productImage" mode=""></image></swiper-item>
 		</swiper>
 		<!-- 公告 -->
-		<view class="gonggao">
-			<view class="msg">
-				<text class="title">最新公告  {{gonggaoList[0].title}}</text>
-				<text class="neirong">{{gonggaoList[0].content}}</text>
-				<image src="../../static/home/tongzhigengduo_03.png" mode=""></image>
-			</view>
-		</view>
+		<swiper class="gonggao" :indicator-dots="false" :autoplay="true" :interval="3000" :duration="1000" vertical="true">
+			<swiper-item v-for="(item, index) in gonggaoList" :key="index">
+				<view class="msg">
+					<text class="title">最新公告 {{ item.title }}</text>
+					<text class="neirong">{{ item.content }}</text>
+					<image src="../../static/home/tongzhigengduo_03.png" mode=""></image>
+				</view>
+			</swiper-item>
+		</swiper>
+
 		<!-- 分类 -->
 		<view class="fenlei">
-			<view class="item" v-for="(item, index) in 8" :key="index" @click="gotoShopList()">
-				<image src="../../static/home/shuoguo_14.png" mode=""></image>
-				<text>水果</text>
+			<view class="item" v-for="(item, index) in classify" :key="index" @click="gotoShopList(item.categoryId)">
+				<image :src="imgURl + item.categoryIcon" mode=""></image>
+				<text>{{ item.categoryName }}</text>
 			</view>
 		</view>
 		<view class="product_title">
@@ -96,21 +99,31 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getProductSlidesList, getNoticeList ,getProductCategory} from '@/request/API/product.js';
+import { getProductSlidesList, getNoticeList, getProductCategory } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
 			imgURl: '',
 			bannerList: [], //轮播图
-			gonggaoList: [] ,//公告列表
-			classify:[],//分类列表
+			gonggaoList: [], //公告列表
+			classify: [] ,//分类列表
+			city:'西安',
 		};
 	},
 	onLoad() {
 		this.imgURl = imgURl;
 		this.getProductSlidesList();
 		this.getNoticeList();
-		this.getProductCategory()
+		this.getProductCategory();
+		let _this = this;
+		//#ifdef APP-PLUS
+		plus.geolocation.getCurrentPosition(
+			function(position) {
+				console.log(JSON.stringify(position))
+				_this.city = position.address.city;
+			},
+		);
+		//#endif
 	},
 	methods: {
 		//轮播图
@@ -123,22 +136,22 @@ export default {
 		},
 		//公告列表
 		getNoticeList() {
-			getNoticeList(1,1).then(res => {
+			getNoticeList(1, 10).then(res => {
 				if (res.data.code == 0) {
 					this.gonggaoList = res.data.data.list;
 				}
 			});
 		},
 		//分类列表
-		getProductCategory(){
-			getProductCategory(1,1).then(res=>{
-				this.classify=res.data.data.cateGories
-			})
+		getProductCategory() {
+			getProductCategory(1, 1).then(res => {
+				this.classify = res.data.data.cateGories;
+			});
 		},
 		gotoDetail() {},
-		gotoShopList() {
+		gotoShopList(id) {
 			uni.navigateTo({
-				url: '/pages/suiguo_shop/suiguo_shop'
+				url: '/pages/suiguo_shop/suiguo_shop?id=' + id
 			});
 		}
 	}
@@ -150,7 +163,7 @@ export default {
 	font-size: 22upx;
 	.head {
 		z-index: 999;
-		background-color: #ffffff;
+		background-color: #6d71d5;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -160,7 +173,7 @@ export default {
 		align-items: center;
 		justify-content: space-around;
 		font-size: 30upx;
-		color: rgb(153, 153, 153);
+		color: #ffffff;
 		.left {
 			height: 80upx;
 			display: flex;
@@ -177,15 +190,15 @@ export default {
 			font-size: 22upx;
 			display: flex;
 			align-items: center;
-			background-color: rgb(235, 235, 235);
+			background-color: #ffffff;
 			padding: 0 20upx;
 			border-radius: 10upx;
 			input {
 				width: 100%;
 			}
 			image {
-				height: 30upx;
-				width: 30upx;
+				height: 35upx;
+				width: 35upx;
 			}
 		}
 		.img {
@@ -208,7 +221,7 @@ export default {
 		}
 	}
 	.gonggao {
-		height: 120upx;
+		height: 140upx;
 		width: 100%;
 		background-image: url('../../static/home/tongzhi_03.png');
 		background-size: 100% 100%;
@@ -226,15 +239,21 @@ export default {
 			}
 		}
 		.msg {
+			margin-top: 8upx;
 			margin-left: 150upx;
 			background-color: #ffffff;
 			position: relative;
+			// justify-content: center;
 			display: flex;
 			flex-direction: column;
-			width: 550upx;
-			padding: 20upx;
+			justify-content: center;
+			padding: 10upx;
 			box-sizing: border-box;
-			font-size: 22upx;
+			border-radius: 10upx;
+			width: 550upx;
+			height: 115upx;
+			box-sizing: border-box;
+			font-size: 26upx;
 			.title {
 				font-weight: bold;
 			}
@@ -246,7 +265,7 @@ export default {
 			}
 			image {
 				position: absolute;
-				top: 30upx;
+				top: 40upx;
 				right: 0upx;
 				height: 36upx;
 				width: 36upx;

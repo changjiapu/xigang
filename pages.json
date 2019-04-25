@@ -1,6 +1,15 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
 			"path": "pages/logn/logn",
 			"style": {
 				"navigationBarTitleText": "登录"
@@ -10,15 +19,6 @@
 			"path": "pages/register/register",
 			"style": {
 				"navigationBarTitleText": "注册"
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationStyle": "custom",
-				"app-plus": {
-					"titleNView": false //禁用原生导航栏
-				}
 			}
 		},
 		{
@@ -104,6 +104,12 @@
 			}
 		},
 		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
 			"path": "pages/ggDetail/ggDetail",
 			"style": {
 				"navigationBarTitleText": "公告信息"
@@ -181,7 +187,7 @@
 				"navigationBarTitleText": "忘记密码"
 			}
 		},
-		{   
+		{
 			"path": "pages/userMsg/userMsg",
 			"style": {
 				"navigationBarTitleText": "个人信息"

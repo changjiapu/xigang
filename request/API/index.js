@@ -1,4 +1,4 @@
-import {postRequest,getRequest,postGetRequest}from'@/request/index.js'
+import {postRequest,getRequest,postGetRequest,deleteRequest}from'@/request/index.js'
 
 //系统用户注册
 export function addUserBySystem(data){
@@ -47,4 +47,24 @@ export function updUserSex(data){
 //修改用户密码
 export function updUserPassword(data){
  return postRequest(data,'/user/updUserPassword').then(res => res)
+}
+//添加地址
+export function addUserAddress(data){
+	return postRequest(data,'/address/addUserAddress').then(res => res)
+}
+//修改用户地址
+export function updAddById(data){
+	return postRequest(data,'/address/updAddById').then(res => res)
+}
+//删除地址
+export function delAddById(data){
+	return deleteRequest(data,'/address/delAddById').then(res => res)
+}
+//获取用户地址集合
+export function getUserAddressListByUserId(userId){
+	return getRequest('/address/getUserAddressListByUserId?userId='+userId).then(res => res)
+}
+//设置或取消默认地址
+export function updAddDefaultById(data){
+	return postRequest(data,'/address/updAddDefaultById').then(res => res)
 }

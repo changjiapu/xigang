@@ -1,37 +1,116 @@
 <template>
 	<view class="content">
-		<view class="address_list" v-for="(item,index) in 4" :key='index'>
-			<view class="head">
+		<view class="address_list" v-for="(item, index) in addressList" :key="index">
+			<view class="head" @click="gotoBack(item)">
 				<image src="../../static/home/xiaodizhi_44.png" mode=""></image>
 				<view class="info">
-					<text>收货人:&nbsp;张晓&nbsp;1889898998</text>
-					<text>收货地址:&nbsp;陕西省汉中市汉台区张三路</text>
+					<text>收货人:&nbsp;{{ item.userName }}&nbsp;{{ item.userPhone }}</text>
+					<text>收货地址:&nbsp;{{ item.province }}-{{ item.city }}-{{ item.area }}{{ item.addressLine1 }}</text>
 				</view>
 			</view>
 			<view class="footer">
-				<image class="img_1" v-if="moren" src="../../static/home/sheweimoren_18.png" mode=""></image>
+				<image class="img_1" v-if="!item.isDefault" src="../../static/home/sheweimoren_18.png" mode=""></image>
 				<image class="img_1" v-else src="../../static/home/morendizhi_07.png" mode=""></image>
-				<text>{{ moren ? '默认地址' : '设为默认' }}</text>
+				<text @click="isDefault(item)">{{ item.isDefault ? '默认地址' : '设为默认' }}</text>
 				<image class="img_2" src="../../static/home/bianji_09.png" mode=""></image>
-				<text>编辑</text>
+				<text @click="edit(item)">编辑</text>
 				<image class="img_3" src="../../static/home/bianji_09.png" mode=""></image>
-				<text>删除</text>
+				<text @click="Delete(item.addressId)">删除</text>
 			</view>
 		</view>
-		<view class="btn">添加地址</view>
+		<navigator class="btn" url="/pages/address/address">添加地址</navigator>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { getUserAddressListByUserId, delAddById, updAddDefaultById } from '@/request/API/index.js';
+import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
-			moren: false
+			moren: false,
+			addressList: [] //地址列表
 		};
 	},
 	onLoad() {},
-	methods: {}
+	onShow() {
+		this.getUserAddressListByUserId(this.userId);
+	},
+	computed: {
+		...mapState(['userId'])
+	},
+	methods: {
+		//设置取消默认
+		isDefault(item) {
+			let params = {
+				addressId: item.addressId,
+				userId: this.userId,
+				isDefault: item.isDefault ? 0 : 1
+			};
+			updAddDefaultById(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: res.data.data,
+						duration: 2000
+					});
+					this.getUserAddressListByUserId(this.userId);
+				}
+			});
+		},
+		gotoBack(item) {
+			let params = {
+				addressId: item.addressId,
+				userId: this.userId,
+				isDefault: item.isDefault ? 0 : 1
+			};
+			updAddDefaultById(params).then(res => {
+				if (res.data.code == 0) {
+					uni.navigateBack({
+						data: 1
+					});
+				}
+			});
+		},
+		//编辑
+		edit(item) {
+			let params = {
+				addressId: item.addressId,
+				userName: item.userName, //姓名
+				userPhone: item.userPhone, //电话
+				addressLine1: item.addressLine1, //地址
+				location_a: item.province, //省
+				location_b: item.city, //市
+				location_c: item.area //区
+			};
+			uni.navigateTo({
+				url: '/pages/address/address?params=' + JSON.stringify(params)
+			});
+		},
+		//删除
+		Delete(id) {
+			let params = {
+				addressId: id,
+				userId: this.userId
+			};
+			delAddById(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: res.data.data,
+						duration: 2000
+					});
+					this.getUserAddressListByUserId(this.userId);
+				}
+			});
+		},
+		//用户地址列表
+		getUserAddressListByUserId(id) {
+			getUserAddressListByUserId(id).then(res => {
+				if (res.data.code == 0) {
+					this.addressList = res.data.data;
+				}
+			});
+		}
+	}
 };
 </script>
 

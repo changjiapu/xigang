@@ -1,8 +1,9 @@
 <template>
 	<view class="content">
 		<view class="head">
-				<!-- 		<image class="img_1" :src="imgURl+imglist" mode=""></image> -->
-			<image class="img_1" :src="imglist ?imgURl+imglist : '../../static/home/touxiang_03.png'" mode=""></image>
+			<!-- 		<image class="img_1" :src="imgURl+imglist" mode=""></image> -->
+			<image v-if="imglist" class="img_1" :src="imgURl + imglist" mode=""></image>
+			<image v-else class="img_1" src="../../static/home/touxiang_03.png" mode=""></image>
 			<view class="msg">
 				<text>{{ nickName ? nickName : '未填写' }}</text>
 				<text>{{ spec_name ? spec_name : '未填写' }}</text>
@@ -22,7 +23,7 @@
 				<image src="../../static/home/shangpinzuji_09.png" mode=""></image>
 				<text>商品足迹</text>
 			</navigator>
-			<navigator class="item">
+			<navigator class="item" @click="fenxiang()">
 				<image src="../../static/home/wodefenxiang_15.png" mode=""></image>
 				<text>我的分享</text>
 			</navigator>
@@ -55,6 +56,24 @@
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
 			</navigator>
 		</view>
+		<view class="tankuang" v-if="isShow">
+			<view class="container1">
+				<view class="close" @click="bottomClose">
+					<text>分享</text>
+					<image class="close2" src="../../static/home/tuichu_07.png" mode=""></image>
+				</view>
+				<view class="share">
+					<view class="btn" open-type="share">
+						<view><image src="../../static/home/pengyouquan_05.png"></image></view>
+						<text>分享给朋友</text>
+					</view>
+					<view class="btn" @click="ontophaibao">
+						<view><image src="../../static/home/weixin_03.png"></image></view>
+						<text>分享朋友圈</text>
+					</view>
+				</view>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -65,13 +84,15 @@ import { getUserById } from '@/request/API/index.js';
 export default {
 	data() {
 		return {
+			imgURl:'',
 			imglist: '', //用户头像
 			nickName: '', //用户昵称
-			spec_name: '' //用户签名
+			spec_name: '', //用户签名
+			isShow: false
 		};
 	},
 	onLoad() {
-		this.imgURl=imgURl
+		this.imgURl = imgURl;
 		this.getUserById();
 	},
 	methods: {
@@ -83,10 +104,16 @@ export default {
 				this.nickName = res.data.data.nickName;
 			});
 		},
+		bottomClose() {
+			this.isShow = false;
+		},
 		gotoUserMsg() {
 			uni.navigateTo({
 				url: '/pages/userMsg/userMsg'
 			});
+		},
+		fenxiang() {
+			this.isShow = true;
 		}
 	},
 	computed: {
@@ -184,6 +211,79 @@ export default {
 				margin-left: 5%;
 				width: 85%;
 			}
+		}
+	}
+
+	.tankuang {
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.6);
+		z-index: 103;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.tankuang .container1 {
+		background-color: #eee;
+		height: 35%;
+		width: 100%;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		animation: fenxiang 0.4s;
+		overflow: hidden;
+	}
+
+	@keyframes fenxiang {
+		from {
+			height: 0%;
+		}
+
+		to {
+			height: 35%;
+		}
+	}
+
+	.tankuang .container1 .share {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.tankuang .container1 .share .btn {
+		font-size: 28upx;
+		height: 200upx;
+		width: 330upx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.tankuang .container1 .share .btn::after {
+		border: none;
+	}
+
+	.tankuang .container1 .share image {
+		width: 100upx;
+		height: 100upx;
+	}
+
+	.tankuang .container1 .close {
+		background-color: #fff;
+		height: 100upx;
+		width: 100%;
+		line-height: 100upx;
+		text-align: center;
+		position: relative;
+		.close2 {
+			position: absolute;
+			right: 30upx;
+			top: 30upx;
+			height: 40upx;
+			width: 40upx;
 		}
 	}
 }

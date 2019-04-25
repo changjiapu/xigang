@@ -10,15 +10,19 @@
 		</view>
 		<view class="title">
 			<text>全部商品</text>
-			<text>价格排序</text>
+			<view class="price" @click="isShangChange()">
+				<text>价格排序</text>
+				<image v-if="isShang" src="../../static/home/shangjiantou.png" mode=""></image>
+				<image v-else src="../../static/home/xiajiantou.png" mode=""></image>
+			</view>
 		</view>
 		<view class="scroll-view">
-			<view class="list-item" v-for="(item, index) in 6" :key="index" @click="gotoDetail()">
-				<image src="../../static/home/tongzhi_03.png" mode=""></image>
+			<view class="list-item" v-for="(item, index) in productList" :key="index" @click="gotoDetail(item.productId)">
+				<image :src="imgURl+item.imgList[0]" mode=""></image>
 				<view class="list_msg">
-					<text>新鲜黄瓜</text>
-					<text>新鲜蔬菜商品详情</text>
-					<text>￥2.5元/斤</text>
+					<text>{{item.productName}}</text>
+					<text>{{item.descript}}</text>
+					<text>￥{{item.price}}元/斤</text>
 					<image class="cart" src="../../static/home/gouwuche_44.png" mode=""></image>
 				</view>
 			</view>
@@ -27,25 +31,52 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getProductByShopId } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			title: 'Hello'
+			isShang:true,
+			pageNo: 1,
+			productList:[],
+			imgURl:'',
+			sortWay:0,//排序方式
+			productId:'',
 		};
 	},
-	onLoad() {},
+	onLoad(options) {
+		this.productId=options.id
+		this.imgURl=imgURl
+		this.getProductByShopId(this.pageNo, 10, this.productId, 1,this.sortWay);
+	},
 	methods: {
+		//获取商品列表
+		getProductByShopId(pageNo, pageSize, shopId, publishStatus,sortWay) {
+			getProductByShopId(pageNo, pageSize, shopId, publishStatus,sortWay).then(res => {
+				if(res.data.code==0){
+					this.productList=res.data.data.list
+				}
+			});
+		},
+		isShangChange(){
+			this.isShang=!this.isShang
+			if(this.sortWay==0){
+				this.sortWay=1
+			}else{
+				this.sortWay=0
+			}
+		  	this.getProductByShopId(this.pageNo, 10, this.productId, 1,this.sortWay);
+		},
 		gotoBack() {
 			uni.navigateBack({
 				delta: 1
 			});
 		},
-		gotoDetail(){
+		gotoDetail(id) {
 			uni.navigateTo({
-				url:'/pages/product_detaill/product_detaill'
-			})
-		},
+				url: '/pages/product_detaill/product_detaill?id='+id
+			});
+		}
 	}
 };
 </script>
@@ -122,10 +153,21 @@ export default {
 			line-height: 80upx;
 			text-align: center;
 		}
+		.price{
+			width: 50%;
+			height: 80upx;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			image{
+				height: 40upx;
+				width: 30upx;
+			}
+		}
 	}
 	.scroll-view {
 		margin-top: 270upx;
-		 width: 100%;
+		width: 100%;
 		.list-item {
 			margin-top: 25upx;
 			display: inline-block;

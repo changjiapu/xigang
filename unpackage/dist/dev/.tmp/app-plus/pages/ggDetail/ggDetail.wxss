@@ -1,0 +1,15 @@
+.content.data-v-38bff658 {
+  font-size: 28rpx;
+  width: 100%;
+}
+.content image.data-v-38bff658 {
+  height: 333rpx;
+  width: 100%;
+}
+.content text.data-v-38bff658 {
+  padding: 20rpx;
+  display: inline-block;
+  color: #999999;
+  text-indent: 50rpx;
+}
+

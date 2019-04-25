@@ -13,5 +13,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /*每个页面公共css */
+uni-page-body,
+page {
+	font-size: 30rpx;
+}
 

@@ -1,28 +1,27 @@
 <template>
 	<view class="content">
 		<swiper class="swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
-			<swiper-item><image src="../../static/home/shilingmangguo_05.png" mode=""></image></swiper-item>
-			<swiper-item><image src="../../static/home/xiangjiao_23.png" mode=""></image></swiper-item>
-			<swiper-item><image src="../../static/home/xiangcheng_25.png" mode=""></image></swiper-item>
+			<swiper-item v-for="(item, index) in productDetail.imgList" :key="index"><image :src="imgURl + item" mode=""></image></swiper-item>
 		</swiper>
 		<view class="tishi">温馨提示！下单前请联系商家确认是否有货！</view>
 		<view class="msg">
 			<view class="title">
-				<text>黄皮芒果600G</text>
-				<image src="../../static/home/shoucang_03.png" mode=""></image>
+				<text>{{ productDetail.productName }}</text>
+				<image v-if="!isLike" src="../../static/home/like1.png" mode="" @click="AddCollection(productDetail.productId)"></image>
+				<image v-else src="../../static/home/like2.png" mode="" @click="AddCollection(productDetail.productId)"></image>
 			</view>
-			<view class="info">如果收到的芒果果是生的，建议与苹果或者香蕉同放一两天。</view>
-			<view class="price">￥12.5元/斤</view>
-			<view class="address">
+			<view class="info">{{ productDetail.descript }}</view>
+			<view class="price">￥{{ productDetail.price }}元/斤</view>
+			<navigator class="address" url="/pages/addressList/addressList">
 				<text>送至</text>
-				<text>西安市未央区长和国际A座</text>
+				<text>{{ address.province }}-{{ address.city }}-{{ address.area }}{{ address.addressLine1 }}</text>
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
-			</view>
+			</navigator>
 		</view>
 		<view class="liubai"></view>
 		<view class="guige" @click="isShowguige">
 			<text>规格</text>
-			<text>已选600GX1</text>
+			<text>{{ guige ? guige + 'X' + buy_count : '请选择规格' }}</text>
 			<image src="../../static/home/gengduo_41.png" mode=""></image>
 		</view>
 		<view class="liubai"></view>
@@ -39,10 +38,10 @@
 		</view>
 		<view class="liubai"></view>
 		<view class="product_title"><text>热门店铺</text></view>
-		<view class="img_list"><image src="../../static/home/xiangjiao_23.png" mode="" v-for="(item, index2) in 4" :key="index2"></image></view>
+		<view class="img_list"><image :src="imgURl + item" mode="" v-for="(item, index2) in productDetail.imgList" :key="index2"></image></view>
 		<view class="bottom">
-			<image src="../../static/home/weixin_07.png" mode=""></image>
-			<image src="../../static/home/dianhua_07.png" mode="" @click="callUp"></image>
+			<image src="../../static/home/weixin_07.png" mode="" @click="copy(productDetail.weChatId)"></image>
+			<image src="../../static/home/dianhua_07.png" mode="" @click="callUp(productDetail.phone)"></image>
 			<text @click="addCart()">加入购物车</text>
 			<text @click="gotoPay">立即下单</text>
 		</view>
@@ -51,15 +50,20 @@
 				<view class="head">
 					<image src="../../static/home/xiangjiao_23.png" mode=""></image>
 					<view class="msg">
-						<text>￥12.5元/斤</text>
-						<text>已选择600g</text>
+						<text>￥{{ productDetail.price }}元/斤</text>
+						<text>已选择{{ guige }}</text>
 					</view>
 				</view>
 				<text>规格</text>
 				<view class="guige2">
-					<text>600g</text>
-					<text>700g</text>
-					<text>800g</text>
+					<text
+						:class="{ active: guigeTabs == index }"
+						v-for="(item, index) in productDetail.specList"
+						:key="index"
+						@click="guigeChange(item.productSpecs, index, item.specId)"
+					>
+						{{ item.productSpecs }}
+					</text>
 				</view>
 				<view class="shuliang">
 					<text>选数量</text>
@@ -76,31 +80,133 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getProductById, AddCollection, addShopCart } from '@/request/API/product.js';
+import { getUserAddressListByUserId } from '@/request/API/index.js';
+import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
+			isLike: 0, //是否收藏的标记  0未收藏 1收藏
+			guigeTabs: '-1', //
+			guige: '', //选择的规格
+			specId: '', //规格id
+			imgURl: '',
 			showGuige: false,
-			buy_count: 1
+			buy_count: 1,
+			productDetail: {},
+			address: {}
 		};
 	},
-	onLoad() {},
+	computed: {
+		...mapState(['userId'])
+	},
+	onLoad(options) {
+		this.imgURl = imgURl;
+		this.getProductById(options.id);
+	},
+	onShow() {
+		this.getUserAddressListByUserId(this.userId);
+	},
 	methods: {
+		//添加取消收藏
+		AddCollection(id) {
+			let dataFailure = '';
+			if (this.isLike == 0) {
+				this.isLike = 1;
+				dataFailure = 1;
+			} else {
+				this.isLike = 0;
+				dataFailure = 0;
+			}
+
+			let params = {
+				userId: this.userId,
+				productId: id,
+				dataFailure: dataFailure //0取消收藏 1收藏
+			};
+			AddCollection(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: res.data.data,
+						duration: 2000
+					});
+				}
+			});
+		},
+		//选择规格
+		guigeChange(name, index, specId) {
+			this.guige = name;
+			this.guigeTabs = index;
+			this.specId = specId;
+		},
+		//用户地址列表
+		getUserAddressListByUserId(id) {
+			getUserAddressListByUserId(id).then(res => {
+				if (res.data.code == 0) {
+					//有默认地址取默认地址 没有取第一个
+					for (let item of res.data.data) {
+						if (item.isDefault) {
+							this.address = item;
+						} else {
+							this.address = res.data.data[0];
+						}
+					}
+				}
+			});
+		},
+		//获取商品详情
+		getProductById(id) {
+			getProductById(id).then(res => {
+				if (res.data.code == 0) {
+					this.productDetail = res.data.data;
+					this.isLike = res.data.data.isCollection;
+				}
+			});
+		},
 		isShowguige() {
 			this.showGuige = true;
 		},
 		isOK() {
 			this.showGuige = false;
 		},
-		callUp() {
+
+		callUp(e) {
 			uni.makePhoneCall({
-				phoneNumber: '1340000'
+				phoneNumber: e
+			});
+		},
+		//复制
+		copy(e) {
+			uni.setClipboardData({
+				data: e,
+				success: function() {
+					console.log('success');
+				}
 			});
 		},
 		addCart() {
-			uni.showToast({
-				title: '加入购物车成功',
-				duration: 2000
+			if (this.specId == '') {
+				uni.showModal({
+					title: '',
+					content: '请选择商品规格',
+					showCancel: false
+				});
+				return;
+			}
+			let params = {
+				userId: this.userId,
+				productId: this.productDetail.productId,
+				specId: this.specId,
+				productNum: 1
+			};
+			addShopCart(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '加入购物车成功',
+						duration: 2000
+					});
+				}
 			});
 		},
 		sub() {},
@@ -124,6 +230,7 @@ export default {
 .content {
 	width: 100%;
 	font-size: 26upx;
+	overflow-x: hidden;
 	.swiper {
 		height: 375upx;
 		width: 100%;
@@ -338,6 +445,10 @@ export default {
 					border-radius: 10upx;
 					&:not(:first-of-type) {
 						margin-left: 20upx;
+					}
+					&.active {
+						border: 1px solid red;
+						color: #ed7180;
 					}
 				}
 			}

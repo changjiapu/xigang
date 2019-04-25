@@ -1,0 +1,2 @@
+<import src="./ggList.vue.wxml" />
+    <template is="dccc0c9c" data="{{ ...$root['0'], $root }}"/>

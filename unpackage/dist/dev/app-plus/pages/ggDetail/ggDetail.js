@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content.",[1],"data-v-38bff658 { font-size: ",[0,28],"; width: 100%; }\n.",[1],"content wx-image.",[1],"data-v-38bff658 { height: ",[0,333],"; width: 100%; }\n.",[1],"content wx-text.",[1],"data-v-38bff658 { padding: ",[0,20],"; display: inline-block; color: #999999; text-indent: ",[0,50],"; }\n",],undefined,{path:"./pages/ggDetail/ggDetail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/ggDetail/ggDetail.wxml') } }));

@@ -1,29 +1,42 @@
 <template>
 	<view class="suiguo_shop">
-		<view class="shop_list" v-for="(item, index) in 6" :key="index" @click="gotoDetaill()">
-			<image src="../../static/home/guoshuhaoduomei_12.png"></image>
+		<view class="shop_list" v-for="(item, index) in shopList" :key="index" @click="gotoDetaill(item.shopId)">
+			<image :src="imgURl+item.shopLogo"></image>
 			<view class="shop_msg">
-				<text>鲜果时光超市</text>
-				<text>我们店铺已经营业,长达8年之久,都是好东西,欢迎大家来选购</text>
+				<text>{{item.shopName}}</text>
+				<text>{{item.shopDesc}}</text>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getShopByCategoryId } from '@/request/API/product.js';
 export default {
 	name: 'suiguo_shop',
 	data() {
 		return {
-			title: 'Hello'
+			shopList:[],
+			imgURl:''
 		};
 	},
-	onLoad() {},
+	onLoad(options) {
+		this.imgURl=imgURl
+		this.getShopByCategoryId(options.id);
+	},
 	methods: {
-		gotoDetaill() {
+		//获取店铺列表
+		getShopByCategoryId(id) {
+			getShopByCategoryId(id).then(res => {
+				if (res.data.code == 0) {
+					this.shopList = res.data.data;
+				}
+			});
+		},
+		gotoDetaill(id) {
 			uni.navigateTo({
-				url: '/pages/suiguo_list/suiguo_list'
+				url: '/pages/suiguo_list/suiguo_list?id='+id
 			});
 		}
 	}
