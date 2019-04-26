@@ -21,6 +21,29 @@ export function postRequest(data, url) {
 		});
 	}).catch(err => console.log(err))
 }
+export function deleteGetRequest(url) {
+	console.log(store.state)
+	return new Promise((resolve, reject) => {
+		uni.showLoading()
+		uni.request({
+			url: baseUrl + url,
+			method: 'DELETE',
+			header: {
+				'content-type': 'application/json',
+				'token': store.state.token
+			},
+			success: (res) => {
+				uni.hideLoading()
+				// if (res.data.code == -14) {
+				// 	uni.reLaunch({
+				// 		url: '/pages/logn/logn'
+				// 	})
+				// }
+				resolve(res)
+			}
+		});
+	}).catch(err => console.log(err))
+}
 export function deleteRequest(data, url) {
 	console.log(store.state)
 	return new Promise((resolve, reject) => {

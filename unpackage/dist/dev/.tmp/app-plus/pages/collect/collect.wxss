@@ -72,6 +72,12 @@
 .content .collect_item .right .title2.data-v-ef1506e4 {
   margin-top: 20rpx;
   color: #999999;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .content .collect_item .right .price.data-v-ef1506e4 {
   margin-top: 20rpx;

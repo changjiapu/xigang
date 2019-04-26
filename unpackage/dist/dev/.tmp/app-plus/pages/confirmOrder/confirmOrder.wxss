@@ -52,6 +52,7 @@
           flex-direction: column;
 }
 .content .product_detail.data-v-7a342510 {
+  position: relative;
   margin-top: 20rpx;
   padding: 0 20rpx;
   -webkit-box-sizing: border-box;
@@ -79,6 +80,11 @@
 }
 .content .product_detail text.data-v-7a342510:nth-of-type(2) {
   color: #e35161;
+}
+.content .product_detail .num.data-v-7a342510 {
+  position: absolute;
+  right: 20rpx;
+  bottom: 10rpx;
 }
 .content .prict.data-v-7a342510 {
   width: 100%;

@@ -1,49 +1,126 @@
 <template>
 	<view class="content">
 		<view class="head">
-			<text>共5个商品</text>
+			<text>共{{ productList.length }}个商品</text>
 			<text @click="editorChange()">{{ editor ? '完成' : '管理' }}</text>
 		</view>
-		<view class="collect_item" v-for="(item,index) in 6" :key='index'>
+		<view class="collect_item" v-for="(item, index) in productList" :key="index" v-if="productList.length != 0" @click="gotoDetail(item.productId)">
 			<view class="left" v-if="editor">
-				<image v-if="isShow" src="../../static/home/sheweimoren_18.png" mode=""></image>
-				<image v-else src="../../static/home/morendizhi_07.png" mode=""></image>
+				<image v-if="item.ick" src="../../static/home/morendizhi_07.png" mode="" @click="isIck(index)"></image>
+				<image v-else src="../../static/home/sheweimoren_18.png" mode="" @click="isIck(index)"></image>
 			</view>
-			<view class="center"><image src="../../static/home/dakoufu_36.png" mode=""></image></view>
+			<view class="center"><image :src="imgURl + item.productImage[0]" mode=""></image></view>
 			<view class="right">
-				<text class="title">大甜橙</text>
-				<text class="title2">大甜橙子显示特惠</text>
+				<text class="title">{{ item.productName }}</text>
+				<text class="title2">{{ item.descript }}</text>
 				<view class="price">
-					<text>￥5.8元/斤</text>
+					<text>￥{{ item.price }}元/斤</text>
 					<text class="GG" v-if="editor">进店逛逛</text>
 				</view>
 			</view>
 		</view>
+		<empty-data v-if="productList.length == 0"></empty-data>
 		<view class="btn" v-if="editor">
-			<image v-if="isShow" src="../../static/home/sheweimoren_18.png" mode=""  @click="sellAll()"></image>
-			<image v-else src="../../static/home/morendizhi_07.png" mode=""  @click="sellAll()"></image>
+			<image v-if="isShow" src="../../static/home/sheweimoren_18.png" mode="" @click="sellAll()"></image>
+			<image v-else src="../../static/home/morendizhi_07.png" mode="" @click="sellAll()"></image>
 			<text @click="sellAll()">全选</text>
-			<text  @click="Delete()">删除</text>
+			<text @click="Delete()">删除</text>
 		</view>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getVisitRecordList, delVisitRecord } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
 			editor: false,
-			isShow: true
+			isShow: true, //全选非全选
+			pages: 1, //页码
+			productList: [] //收藏列表
 		};
 	},
-	onLoad() {},
+	computed: {
+		...mapState(['userId'])
+	},
+	onLoad() {
+		this.imgURl = imgURl;
+		this.getVisitRecordList(this.pages, 10, this.userId);
+	},
+	//上拉加载
+	onReachBottom() {
+		this.pages++;
+		this.getVisitRecordList(this.pages, 10, this.userId);
+	},
+	//下来刷新
+	onPullDownRefresh() {
+		console.log('onPullDownRefresh');
+		this.initData();
+	},
 	methods: {
+		//获取收藏列表
+		getVisitRecordList(pageNo, pageSize, userId) {
+			getVisitRecordList(pageNo, pageSize, userId).then(res => {
+				if (res.data.code == 0) {
+					if (res.data.data.list.length == 0) {
+						uni.showToast({
+							title: '没有更多数据了',
+							icon: 'none',
+							duration: 1000
+						});
+					}
+					for (let item of res.data.data.list) {
+						Object.assign(item, { ick: false });
+					}
+					this.productList = [...this.productList, ...res.data.data.list];
+				}
+			});
+		},
+		isIck(index) {
+			this.productList[index].ick = !this.productList[index].ick;
+		},
 		editorChange() {
 			this.editor = !this.editor;
 		},
-		sellAll(){
-			this.isShow=!this.isShow
+		Delete() {
+			let aaa = [];
+			for (let item of this.productList) {
+				if (item.ick) {
+					aaa.push(item.id);
+				}
+			}
+			let id = aaa.join(',');
+			console.log(id);
+			delVisitRecord(id).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '删除成功',
+						duration: 1000
+					});
+					this.pages=1,
+					this.productList=[]
+				    this.getVisitRecordList(this.pages, 10, this.userId);
+				}
+			});
+		},
+		sellAll() {
+			this.isShow = !this.isShow;
+			if (this.isShow) {
+				for (let item of this.productList) {
+					item.ick = false;
+				}
+			} else {
+				for (let item of this.productList) {
+					item.ick = true;
+				}
+			}
+		},
+		gotoDetail(id){
+			uni.navigateTo({
+				url: '/pages/product_detaill/product_detaill?id=' + id
+			})
 		}
 	}
 };
@@ -96,6 +173,11 @@ export default {
 			.title2 {
 				margin-top: 20upx;
 				color: #999999;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 2;
 			}
 			.price {
 				margin-top: 20upx;
@@ -114,7 +196,7 @@ export default {
 			}
 		}
 	}
-	.btn{
+	.btn {
 		height: 110upx;
 		width: 100%;
 		padding: 0 30upx;
@@ -126,20 +208,19 @@ export default {
 		bottom: 0;
 		background-color: #ffffff;
 		border-top: 1px solid #dddddd;
-		image{
+		image {
 			height: 35upx;
 			width: 35upx;
 		}
-		text{
+		text {
 			margin-left: 20upx;
 		}
-		text:last-of-type{
+		text:last-of-type {
 			color: #ffffff;
 			margin-left: 350upx;
 			padding: 20upx 80upx;
 			background-color: #6d71d5;
 			border-radius: 10upx;
-			
 		}
 	}
 }

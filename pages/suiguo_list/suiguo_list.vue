@@ -18,11 +18,11 @@
 		</view>
 		<view class="scroll-view">
 			<view class="list-item" v-for="(item, index) in productList" :key="index" @click="gotoDetail(item.productId)">
-				<image :src="imgURl+item.imgList[0]" mode=""></image>
+				<image :src="imgURl + item.imgList[0]" mode=""></image>
 				<view class="list_msg">
-					<text>{{item.productName}}</text>
-					<text>{{item.descript}}</text>
-					<text>￥{{item.price}}元/斤</text>
+					<text>{{ item.productName }}</text>
+					<text>{{ item.descript }}</text>
+					<text>￥{{ item.price }}元/斤</text>
 					<image class="cart" src="../../static/home/gouwuche_44.png" mode=""></image>
 				</view>
 			</view>
@@ -36,36 +36,48 @@ import { getProductByShopId } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			isShang:true,
+			isShang: true,
 			pageNo: 1,
-			productList:[],
-			imgURl:'',
-			sortWay:0,//排序方式
-			productId:'',
+			productList: [],
+			imgURl: '',
+			sortWay: 0, //排序方式
+			productId: ''
 		};
 	},
 	onLoad(options) {
-		this.productId=options.id
-		this.imgURl=imgURl
-		this.getProductByShopId(this.pageNo, 10, this.productId, 1,this.sortWay);
+		this.productId = options.id;
+		this.imgURl = imgURl;
+		this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+	},
+	//上拉加载
+	onReachBottom() {
+		this.pageNo++;
+		this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
 	},
 	methods: {
 		//获取商品列表
-		getProductByShopId(pageNo, pageSize, shopId, publishStatus,sortWay) {
-			getProductByShopId(pageNo, pageSize, shopId, publishStatus,sortWay).then(res => {
-				if(res.data.code==0){
-					this.productList=res.data.data.list
+		getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {
+			getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay).then(res => {
+				if (res.data.code == 0) {
+					if (res.data.data.list.length == 0) {
+						uni.showToast({
+							title: '没有更多数据了',
+							icon: 'none',
+							duration: 1000
+						});
+					}
+					this.productList = [...this.productList, ...res.data.data.list];
 				}
 			});
 		},
-		isShangChange(){
-			this.isShang=!this.isShang
-			if(this.sortWay==0){
-				this.sortWay=1
-			}else{
-				this.sortWay=0
+		isShangChange() {
+			this.isShang = !this.isShang;
+			if (this.sortWay == 0) {
+				this.sortWay = 1;
+			} else {
+				this.sortWay = 0;
 			}
-		  	this.getProductByShopId(this.pageNo, 10, this.productId, 1,this.sortWay);
+			this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
 		},
 		gotoBack() {
 			uni.navigateBack({
@@ -74,7 +86,7 @@ export default {
 		},
 		gotoDetail(id) {
 			uni.navigateTo({
-				url: '/pages/product_detaill/product_detaill?id='+id
+				url: '/pages/product_detaill/product_detaill?id=' + id
 			});
 		}
 	}
@@ -153,13 +165,13 @@ export default {
 			line-height: 80upx;
 			text-align: center;
 		}
-		.price{
+		.price {
 			width: 50%;
 			height: 80upx;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			image{
+			image {
 				height: 40upx;
 				width: 30upx;
 			}

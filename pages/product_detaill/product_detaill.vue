@@ -11,7 +11,7 @@
 				<image v-else src="../../static/home/like2.png" mode="" @click="AddCollection(productDetail.productId)"></image>
 			</view>
 			<view class="info">{{ productDetail.descript }}</view>
-			<view class="price">￥{{ productDetail.price }}元/斤</view>
+			<view class="price">￥{{ currentPrice ? currentPrice : productDetail.price }}元/{{ productDetail.specUnit }}</view>
 			<navigator class="address" url="/pages/addressList/addressList">
 				<text>送至</text>
 				<text>{{ address.province }}-{{ address.city }}-{{ address.area }}{{ address.addressLine1 }}</text>
@@ -50,7 +50,7 @@
 				<view class="head">
 					<image src="../../static/home/xiangjiao_23.png" mode=""></image>
 					<view class="msg">
-						<text>￥{{ productDetail.price }}元/斤</text>
+						<text>￥{{ currentPrice ? currentPrice : productDetail.price }}元/{{ productDetail.specUnit }}</text>
 						<text>已选择{{ guige }}</text>
 					</view>
 				</view>
@@ -60,7 +60,7 @@
 						:class="{ active: guigeTabs == index }"
 						v-for="(item, index) in productDetail.specList"
 						:key="index"
-						@click="guigeChange(item.productSpecs, index, item.specId)"
+						@click="guigeChange(item.productSpecs, index, item.specId, item.price)"
 					>
 						{{ item.productSpecs }}
 					</text>
@@ -81,12 +81,13 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getProductById, AddCollection, addShopCart } from '@/request/API/product.js';
+import { getProductById, AddCollection, addShopCart, addVisitRecord } from '@/request/API/product.js';
 import { getUserAddressListByUserId } from '@/request/API/index.js';
 import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
+			currentPrice: '', //当前选中规格价格
 			isLike: 0, //是否收藏的标记  0未收藏 1收藏
 			guigeTabs: '-1', //
 			guige: '', //选择的规格
@@ -103,7 +104,9 @@ export default {
 	},
 	onLoad(options) {
 		this.imgURl = imgURl;
-		this.getProductById(options.id);
+		this.productDetail.productId = options.id;
+		this.getProductById(options.id, this.userId); //获取商品详情
+		this.addVisitRecord(); //添加商品足迹
 	},
 	onShow() {
 		this.getUserAddressListByUserId(this.userId);
@@ -135,8 +138,9 @@ export default {
 			});
 		},
 		//选择规格
-		guigeChange(name, index, specId) {
+		guigeChange(name, index, specId, price) {
 			this.guige = name;
+			this.currentPrice = price;
 			this.guigeTabs = index;
 			this.specId = specId;
 		},
@@ -155,9 +159,18 @@ export default {
 				}
 			});
 		},
+		//添加足迹
+		addVisitRecord() {
+			let params = {
+				userId: this.userId,
+				productId: this.productDetail.productId,
+				visitType: 0
+			};
+			addVisitRecord(params).then(res => {});
+		},
 		//获取商品详情
-		getProductById(id) {
-			getProductById(id).then(res => {
+		getProductById(id, userId) {
+			getProductById(id, userId).then(res => {
 				if (res.data.code == 0) {
 					this.productDetail = res.data.data;
 					this.isLike = res.data.data.isCollection;
@@ -198,7 +211,7 @@ export default {
 				userId: this.userId,
 				productId: this.productDetail.productId,
 				specId: this.specId,
-				productNum: 1
+				productNum: this.buy_count
 			};
 			addShopCart(params).then(res => {
 				if (res.data.code == 0) {
@@ -209,12 +222,38 @@ export default {
 				}
 			});
 		},
-		sub() {},
-		add() {},
+		sub() {
+			if (this.buy_count == 0) {
+				return;
+			}
+			this.buy_count--;
+		},
+		add() {
+			this.buy_count++;
+		},
 		inputBuycount() {},
 		gotoPay() {
+			if (this.specId == '') {
+				uni.showModal({
+					title: '',
+					content: '请选择商品规格',
+					showCancel: false
+				});
+				return;
+			}
+			let params = {
+				expressId:this.productDetail.expressId,//配送方式
+				specUnit: this.productDetail.specUnit, //单位
+				shopId: this.productDetail.shopId,
+				productId: this.productDetail.productId,
+				specId: this.specId,
+				productName: this.productDetail.productName,
+				productPrice: this.productDetail.price,
+				productCount: this.buy_count,
+				prescriptionPrice: this.productDetail.price * this.buy_count
+			};
 			uni.navigateTo({
-				url: '/pages/confirmOrder/confirmOrder'
+				url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params)
 			});
 		},
 		gotoComment() {

@@ -33,7 +33,7 @@
 				<text>{{ item.categoryName }}</text>
 			</view>
 		</view>
-		<view class="product_title">
+<!-- 		<view class="product_title">
 			<text>热卖商品</text>
 			<text>更多 ></text>
 		</view>
@@ -48,9 +48,9 @@
 				</view>
 			</view>
 		</scroll-view>
-		<view class="liubai"></view>
+		<view class="liubai"></view> -->
 		<!-- 滚动公告 -->
-		<view class="gonggao_2">
+<!-- 		<view class="gonggao_2">
 			<view class="title">
 				<image src="../../static/home/gonggaozhanshi_38.png" mode=""></image>
 				<text>近期公告展示</text>
@@ -60,13 +60,13 @@
 				<swiper-item><image src="../../static/home/ganhuo_26.png" mode=""></image></swiper-item>
 				<swiper-item><image src="../../static/home/gonggaozhanshi_38.png" mode=""></image></swiper-item>
 			</swiper>
-		</view>
+		</view> -->
 		<!-- 新品推荐 -->
-		<view class="product_title">
+<!-- 		<view class="product_title">
 			<text>新品推荐</text>
 			<text>更多 ></text>
-		</view>
-		<view class="product_list">
+		</view> -->
+<!-- 		<view class="product_list">
 			<view class="list_item" v-for="(item, index) in 6" :key="index">
 				<image src="../../static/home/roushi_27.png" mode=""></image>
 				<text>以纯</text>
@@ -93,7 +93,7 @@
 					</view>
 				</view>
 			</view>
-		</view>
+		</view> -->
 	</view>
 </template>
 
@@ -168,13 +168,14 @@ export default {
 		top: 0;
 		width: 100%;
 		padding-top: 30upx;
-		height: 150upx;
+		height: 125upx;
 		display: flex;
-		align-items: center;
+		// align-items: center;
 		justify-content: space-around;
 		font-size: 30upx;
 		color: #ffffff;
 		.left {
+			margin-top: 35upx;
 			height: 80upx;
 			display: flex;
 			align-items: center;
@@ -185,6 +186,7 @@ export default {
 			}
 		}
 		.input {
+				margin-top: 35upx;
 			height: 80upx;
 			width: 50%;
 			font-size: 22upx;
@@ -202,6 +204,7 @@ export default {
 			}
 		}
 		.img {
+				margin-top: 35upx;
 			height: 80upx;
 			display: flex;
 			align-items: center;
@@ -212,7 +215,7 @@ export default {
 		}
 	}
 	.swiper {
-		margin-top: 180upx;
+		margin-top: 150upx;
 		height: 375upx;
 		width: 100%;
 		image {
@@ -221,8 +224,9 @@ export default {
 		}
 	}
 	.gonggao {
+		margin: 0 auto;
 		height: 140upx;
-		width: 100%;
+		width: 95%;
 		background-image: url('../../static/home/tongzhi_03.png');
 		background-size: 100% 100%;
 		background-repeat: repeat;
@@ -250,7 +254,7 @@ export default {
 			padding: 10upx;
 			box-sizing: border-box;
 			border-radius: 10upx;
-			width: 550upx;
+			width: 500upx;
 			height: 115upx;
 			box-sizing: border-box;
 			font-size: 26upx;
@@ -273,6 +277,7 @@ export default {
 		}
 	}
 	.fenlei {
+		margin: 20upx 0;
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
@@ -285,6 +290,7 @@ export default {
 			margin-left: 70upx;
 			margin-top: 20upx;
 			image {
+				margin-bottom: 10upx;
 				height: 90upx;
 				width: 90upx;
 				border-radius: 100%;
