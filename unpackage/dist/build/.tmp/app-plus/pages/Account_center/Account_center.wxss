@@ -1,9 +1,9 @@
-.content.data-v-1b7ce9c4 {
+.content.data-v-159d2c78 {
   width: 100%;
   padding: 20rpx;
   font-size: 30rpx;
 }
-.content .item.data-v-1b7ce9c4 {
+.content .item.data-v-159d2c78 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,11 +15,11 @@
   height: 95rpx;
   border-bottom: 1px solid #dddddd;
 }
-.content .item image.data-v-1b7ce9c4 {
+.content .item image.data-v-159d2c78 {
   height: 35rpx;
   width: 35rpx;
 }
-.content .item text.data-v-1b7ce9c4 {
+.content .item text.data-v-159d2c78 {
   margin-left: 30rpx;
   margin-right: 400rpx;
 }

@@ -14,7 +14,8 @@
 			<view class="price">￥{{ currentPrice ? currentPrice : productDetail.price }}元/{{ productDetail.specUnit }}</view>
 			<navigator class="address" url="/pages/addressList/addressList">
 				<text>送至</text>
-				<text>{{ address.province }}-{{ address.city }}-{{ address.area }}{{ address.addressLine1 }}</text>
+				<text v-if="address.addressId">{{ address.province }}-{{ address.city }}-{{ address.area }}{{ address.addressLine1 }}</text>
+				<text v-else>添加收货地址</text>
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
 			</navigator>
 		</view>
@@ -28,12 +29,12 @@
 		<view class="comment">
 			<view class="title">
 				<text>用户评价(18)</text>
-				<text @click="gotoComment()">查看全部></text>
+				<text @click="gotoComment(productDetail.productId)">查看全部></text>
 			</view>
 			<view class="item">
-				<image class="h_img" src="../../static/home/roushi_27.png" mode=""></image>
-				<text>我叫马冬梅</text>
-				<image class="x_img" src="../../static/home/wujiaoxing_03.png" mode="" v-for="(item, index) in 5" :key="index"></image>
+				<image class="h_img" :src="imgURl+commentList[0].userPhoto" mode=""></image>
+				<text>{{commentList[0].nickName}}</text>
+				<image class="x_img" src="../../static/home/wujiaoxing_03.png" mode="" v-for="(item, index) in commentList[0].commentStar" :key="index"></image>
 			</view>
 		</view>
 		<view class="liubai"></view>
@@ -81,7 +82,7 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getProductById, AddCollection, addShopCart, addVisitRecord } from '@/request/API/product.js';
+import { getProductById, AddCollection, addShopCart, addVisitRecord, addOrder,getCommentList } from '@/request/API/product.js';
 import { getUserAddressListByUserId } from '@/request/API/index.js';
 import { mapState } from 'vuex';
 export default {
@@ -96,17 +97,20 @@ export default {
 			showGuige: false,
 			buy_count: 1,
 			productDetail: {},
-			address: {}
+			address: {},
+			commentList:[],//评论列表
 		};
 	},
 	computed: {
 		...mapState(['userId'])
 	},
 	onLoad(options) {
+		console.log(options.id)
 		this.imgURl = imgURl;
 		this.productDetail.productId = options.id;
 		this.getProductById(options.id, this.userId); //获取商品详情
 		this.addVisitRecord(); //添加商品足迹
+		this.getCommentList(options.id,1,10)
 	},
 	onShow() {
 		this.getUserAddressListByUserId(this.userId);
@@ -136,6 +140,14 @@ export default {
 					});
 				}
 			});
+		},
+		//获取评论列表
+		getCommentList(productId,pageNo,pageSize){
+			getCommentList(productId,pageNo,pageSize).then(res=>{
+				if(res.data.code==0){
+					this.commentList=res.data.data.list
+				}
+			})
 		},
 		//选择规格
 		guigeChange(name, index, specId, price) {
@@ -171,6 +183,7 @@ export default {
 		//获取商品详情
 		getProductById(id, userId) {
 			getProductById(id, userId).then(res => {
+				console.log(JSON.stringify(res))
 				if (res.data.code == 0) {
 					this.productDetail = res.data.data;
 					this.isLike = res.data.data.isCollection;
@@ -207,7 +220,16 @@ export default {
 				});
 				return;
 			}
+			if (this.specId == '') {
+				uni.showModal({
+					title: '',
+					content: '请添加收货地址',
+					showCancel: false
+				});
+				return;
+			}
 			let params = {
+				addressId: this.address.addressId,
 				userId: this.userId,
 				productId: this.productDetail.productId,
 				specId: this.specId,
@@ -241,8 +263,9 @@ export default {
 				});
 				return;
 			}
+			let productList = []; //循环遍历 此处只有一条  为了方便 跟购物车下单统一格式
 			let params = {
-				expressId:this.productDetail.expressId,//配送方式
+				expressId: this.productDetail.expressId, //配送方式
 				specUnit: this.productDetail.specUnit, //单位
 				shopId: this.productDetail.shopId,
 				productId: this.productDetail.productId,
@@ -252,13 +275,44 @@ export default {
 				productCount: this.buy_count,
 				prescriptionPrice: this.productDetail.price * this.buy_count
 			};
-			uni.navigateTo({
-				url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params)
+			productList.push(params);
+			let productList2 = [];
+			for (let item of productList) {
+				let product = {
+					expressId: item.expressId,
+					shopId: item.shopId,
+					productId: item.productId,
+					specId: item.specId,
+					productName: item.productName,
+					productPrice: item.productPrice,
+					productCount: item.productCount,
+					prescriptionPrice: item.prescriptionPrice,
+					orderRemark: '',
+				    addressId: this.address.addressId,
+				};
+				productList2.push(product);
+			}
+			let params2 = {
+				userId: this.userId,
+				orderDetailList: productList2
+			};
+			addOrder(params2).then(res => {
+				if (res.data.code == 0) {
+					uni.navigateTo({
+						url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params)+'&orderList='+res.data.data.orderIdList[0]
+					});
+				} else {
+					uni.showToast({
+						title: '生成订单失败',
+						icon: 'none',
+						duration: 1000
+					});
+				}
 			});
 		},
-		gotoComment() {
+		gotoComment(id) {
 			uni.navigateTo({
-				url: '/pages/commentList/commentList'
+				url: '/pages/commentList/commentList?id='+id
 			});
 		}
 	}

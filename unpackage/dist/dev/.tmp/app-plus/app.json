@@ -10,6 +10,7 @@
     "pages/suiguo_list/suiguo_list",
     "pages/product_detaill/product_detaill",
     "pages/confirmOrder/confirmOrder",
+    "pages/orderDetail/orderDetail",
     "pages/commentList/commentList",
     "pages/shouHou/shouHou",
     "pages/collect/collect",
@@ -27,10 +28,12 @@
     "pages/help/help",
     "pages/helpDetail/helpDetail",
     "pages/complain_2/complain_2",
+    "pages/complain_2/complain_2",
     "pages/About_Us/About_Us",
     "pages/comment/comment",
     "pages/wjPassword/wjPassword",
-    "pages/userMsg/userMsg"
+    "pages/userMsg/userMsg",
+    "pages/fenlei/fenlei"
   ],
   "subPackages": [],
   "window": {
@@ -76,6 +79,6 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "bbb",
-  "compilerVersion": "1.9.3"
+  "appname": "西港集贸市场",
+  "compilerVersion": "1.9.4"
 }

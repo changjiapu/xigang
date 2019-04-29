@@ -86,6 +86,12 @@
   right: 20rpx;
   bottom: 10rpx;
 }
+.content .product_detail .peisong.data-v-7a342510 {
+  color: #777777;
+  position: absolute;
+  right: 250rpx;
+  bottom: 5rpx;
+}
 .content .prict.data-v-7a342510 {
   width: 100%;
   margin-top: 20rpx;

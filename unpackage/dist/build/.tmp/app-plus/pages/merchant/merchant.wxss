@@ -1,9 +1,9 @@
-.content.data-v-7a1296df {
+.content.data-v-c09f36de {
   font-size: 30rpx;
   width: 100%;
   padding: 20rpx;
 }
-.content .item.data-v-7a1296df {
+.content .item.data-v-c09f36de {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,20 +15,20 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-7a1296df {
+.content .item text.data-v-c09f36de {
   width: 200rpx;
 }
-.content .zhaopian.data-v-7a1296df {
+.content .zhaopian.data-v-c09f36de {
   margin: 20rpx 0;
 }
-.content .zhaopian .img.data-v-7a1296df {
+.content .zhaopian .img.data-v-c09f36de {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-.content .zhaopian .img .img_item.data-v-7a1296df {
+.content .zhaopian .img .img_item.data-v-c09f36de {
   width: 320rpx;
   height: 210rpx;
   display: -webkit-box;
@@ -45,15 +45,15 @@
           justify-content: center;
   border: 1px dashed #dddddd;
 }
-.content .zhaopian .img .img_item image.data-v-7a1296df {
+.content .zhaopian .img .img_item image.data-v-c09f36de {
   height: 75rpx;
   width: 75rpx;
 }
-.content .zhaopian .img .img_1.data-v-7a1296df {
+.content .zhaopian .img .img_1.data-v-c09f36de {
   width: 320rpx;
   height: 210rpx;
 }
-.content .LG .lg_img.data-v-7a1296df {
+.content .LG .lg_img.data-v-c09f36de {
   color: #999999;
   margin: 20rpx 0;
   display: block;
@@ -63,7 +63,12 @@
   line-height: 140rpx;
   border: 1px dashed #dddddd;
 }
-.content .code .code_list.data-v-7a1296df {
+.content .LG image.data-v-c09f36de {
+  width: 200rpx;
+  height: 140rpx;
+  border: 1px dashed #dddddd;
+}
+.content .code .code_list.data-v-c09f36de {
   color: #999999;
   width: 100%;
   display: -webkit-box;
@@ -71,7 +76,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-.content .code .code_list .code_img.data-v-7a1296df {
+.content .code .code_list .code_img.data-v-c09f36de {
   margin: 20rpx 0;
   margin-left: 40rpx;
   display: inline-block;
@@ -81,10 +86,7 @@
   line-height: 140rpx;
   border: 1px dashed #dddddd;
 }
-.content .code .code_list .code_img.data-v-7a1296df:first-of-type {
-  margin-left: 0rpx;
-}
-.content .btn.data-v-7a1296df {
+.content .btn.data-v-c09f36de {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

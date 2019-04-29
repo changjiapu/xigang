@@ -1,9 +1,9 @@
-.content.data-v-ce1683fa {
+.content.data-v-b2e1b594 {
   width: 100%;
   padding: 20rpx;
   font-size: 20rpx;
 }
-.content .item.data-v-ce1683fa {
+.content .item.data-v-b2e1b594 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,10 +15,10 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-ce1683fa {
+.content .item text.data-v-b2e1b594 {
   width: 150rpx;
 }
-.content .btn.data-v-ce1683fa {
+.content .btn.data-v-b2e1b594 {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

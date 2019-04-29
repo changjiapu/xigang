@@ -68,6 +68,12 @@
 			}
 		},
 		{
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
 			"path": "pages/commentList/commentList",
 			"style": {
 				"navigationBarTitleText": "用户评价"
@@ -170,6 +176,12 @@
 			}
 		},
 		{
+			"path": "pages/complain_2/complain_2",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
 			"path": "pages/About_Us/About_Us",
 			"style": {
 				"navigationBarTitleText": "关于我们"
@@ -191,6 +203,14 @@
 			"path": "pages/userMsg/userMsg",
 			"style": {
 				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/fenlei/fenlei",
+			"style": {
+				"navigationBarBackgroundColor":"#ffffff",
+				"navigationBarTextStyle":"black",
+				"navigationBarTitleText": "分类"
 			}
 		}
 	],

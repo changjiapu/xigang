@@ -6,10 +6,6 @@ export default {
 		if (userId) {
 			this.$store.commit('SET_USERID', userId);
 			this.$store.commit('SET_TOKEN', token);
-		} else {
-			uni.reLaunch({
-				url: '/pages/logn/logn'
-			});
 		}
 	},
 	onShow: function() {

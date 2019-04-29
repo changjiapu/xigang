@@ -1,4 +1,4 @@
-.content.data-v-3a85195a {
+.content.data-v-786951bc {
   font-size: 30rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -14,12 +14,12 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.content .img_1.data-v-3a85195a {
+.content .img_1.data-v-786951bc {
   margin-top: 180rpx;
   height: 300rpx;
   width: 230rpx;
 }
-.content .btn.data-v-3a85195a {
+.content .btn.data-v-786951bc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -39,7 +39,7 @@
   border-radius: 10rpx;
   color: #ffffff;
 }
-.content .btn image.data-v-3a85195a {
+.content .btn image.data-v-786951bc {
   height: 40rpx;
   width: 40rpx;
 }

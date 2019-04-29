@@ -1,50 +1,46 @@
 <template>
-	<view >
-		<!-- 			<view class='no-data' style='background-color:#f4f4f4' v-if='no_data'>
-				<image src="../../static/home/duanwaitao_07.png"></image>
-				<text>购物车为空，赶紧去逛逛吧~~</text>
-			</view> -->
-		<block>
-			<view class="title">
-				<text>购物车共有6个商品</text>
-				<text @click="Editor">{{ editor ? '完成' : '编辑' }}</text>
-			</view>
-			<view class="list">
-				<view class="list-item" v-for="(item, index) in 6" :key="index">
-					<view class="clear">
-						<image src="../../static/home/clear.png" :style="{ display: editor ? '' : 'none' }" @click="clear(index)"></image>
-						<view :style="{ display: editor ? 'none' : '' }" @click="statusChange(index)">
-							<image v-if="select_all" src="../../static/home/weixuanzhong_03.png" mode=""></image>
-							<image v-else src="../../static/home/xuanzhong_07.png" mode=""></image>
-						</view>
-					</view>
-					<view class="img"><image src="../../static/home/duanwaitao_07.png" style="width:100%;height:100%"></image></view>
-					<view class="msg-detail">
-						<view class="product-name">新鲜辣椒约400g大炮辣子盒装</view>
-						<view class="price">
-							<text>￥</text>
-							25元
-						</view>
-					</view>
-					<view class="count">
-						<text @click="sub(index)">-</text>
-						<input class="input" type="number" value="1" @blur="handleBlur($event, index)" />
-						<text @click="add(index)">+</text>
+	<view>
+		<view class="title1" @click="editorChange()">
+			<text>购物车共有{{ productList.length }}个商品</text>
+			<text>{{ editor ? '完成' : '编辑' }}</text>
+		</view>
+		<view class="list" v-if="productList.length">
+			<view class="list-item" v-for="(item, index) in productList" :key="index">
+				<view class="clear">
+					<image src="../../static/home/clear.png" v-if="editor" @click="clear(item.cartId)"></image>
+					<view v-if="!editor" @click="isIck(index)">
+						<image v-if="item.ick" src="../../static/home/xuanzhong_07.png" mode=""></image>
+						<image v-else src="../../static/home/weixuanzhong_03.png" mode=""></image>
 					</view>
 				</view>
+				<view class="img"><image :src="imgURL + item.product.imgList[0]" style="width:100%;height:100%"></image></view>
+				<view class="msg-detail">
+					<view class="product-name">{{ item.product.productName }}</view>
+					<view class="guige">{{ item.productSpec.productSpecs }}</view>
+					<view class="price">
+						<text>￥</text>
+						{{ item.productSpec.price }}元/{{ item.productSpec.specUnit }}
+					</view>
+				</view>
+				<view class="count">
+					<text @click="sub(index)">-</text>
+					<text class="input">{{item.productNum}}</text>
+					<text @click="add(index)">+</text>
+				</view>
 			</view>
-		</block>
+		</view>
+		<empty-data v-if="productList.length == 0"></empty-data>
 		<view class="empty" style="width:100%;height:114upx;"></view>
 		<view class="buy-btn">
 			<view class="left" @click="selectAll">
-				<image v-if="select_all" src="../../static/home/weixuanzhong_03.png" mode=""></image>
+				<image v-if="isShow" src="../../static/home/weixuanzhong_03.png" mode=""></image>
 				<image v-else src="../../static/home/xuanzhong_07.png" mode=""></image>
 				<text>全选</text>
 			</view>
 			<view class="right">
 				<view>
 					合计￥
-					<text>200</text>
+					<text>{{ totalPrices }}</text>
 				</view>
 				<view @click="gotoPay">立即下单</view>
 			</view>
@@ -53,48 +49,195 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getShopCartList,delShopCart,addOrder} from '@/request/API/product.js';
 export default {
 	data() {
 		return {
 			empty: '',
 			editor: false,
 			no_data: true,
-			select_all: true
+			select_all: true,
+			pageNo: 1, //分页页码
+			productList: [], //列表
+			imgURL: '',
+			isShow: true,
+			totalPrices: 0
 		};
 	},
-	onLoad() {},
+	computed: {
+		...mapState(['userId'])
+	},
+	onLoad() {
+		this.imgURL = imgURl;
+		this.getShopCartList(this.userId, this.pageNo, 10);
+	},
+	//上拉加载
+	onReachBottom() {
+		this.pageNo++;
+		this.getShopCartList(this.userId, this.pageNo, 10);
+	},
 	methods: {
-		Editor() {
+		//获取购物车列表
+		getShopCartList(userId, pageNo, pageSize) {
+			getShopCartList(userId, pageNo, pageSize).then(res => {
+				if (res.data.code == 0) {
+					for (let item of res.data.data.list) {
+						Object.assign(item, { ick: false });
+					}
+					this.productList = [...this.productList, ...res.data.data.list];
+				}
+			});
+		},
+		//清除购物车
+		clear(id) {
+			delShopCart(this.userId, id).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '删除成功',
+						duration: 1000
+					});
+					this.pageNo = 1; //分页页码
+					this.productList = []; //列表
+					this.getShopCartList(this.userId, this.pageNo, 10);
+				} else {
+					uni.showToast({
+						title: '删除失败',
+						icon: 'none',
+						duration: 1000
+					});
+				}
+			});
+		},
+		editorChange() {
 			this.editor = !this.editor;
 		},
 		statusChange(e) {
 			var index = e;
 		},
-		selectAll(){
-			this.select_all=!this.select_all
+		isIck(index) {
+			this.productList[index].ick = !this.productList[index].ick;
+			let totalPrices = 0;
+			for (let item of this.productList) {
+				if (item.ick) {
+					totalPrices = item.productSpec.price * item.productNum + totalPrices;
+				}
+			}
+			this.totalPrices = totalPrices;
+		},
+		sub(index) {
+			if (this.productList[index].productNum == 1) {
+				return;
+			}
+			this.productList[index].productNum--;
+			let totalPrices = 0;
+			for (let item of this.productList) {
+				if (item.ick) {
+					totalPrices = item.productSpec.price * item.productNum + totalPrices;
+				}
+			}
+			this.totalPrices = totalPrices;
+		},
+		add(index) {
+			this.productList[index].productNum++;
+			let totalPrices = 0;
+			for (let item of this.productList) {
+				if (item.ick) {
+					totalPrices = item.productSpec.price * item.productNum + totalPrices;
+				}
+			}
+			this.totalPrices = totalPrices;
+		},
+		selectAll() {
+			this.isShow = !this.isShow;
+
+			if (this.isShow) {
+				for (let item of this.productList) {
+					item.ick = false;
+				}
+			} else {
+				for (let item of this.productList) {
+					item.ick = true;
+				}
+			}
+			let totalPrices = 0;
+			for (let item of this.productList) {
+				if (item.ick) {
+					totalPrices = item.productSpec.price * item.productNum + totalPrices;
+				}
+			}
+			this.totalPrices = totalPrices;
+		},
+		//去下单页面
+		gotoPay() {
+			let paramsList = [];
+			for (let item of this.productList) {
+				if (item.ick) {
+					let params = {
+						expressId: item.product.expressId, //配送方式
+						specUnit: item.productSpec.specUnit, //单位
+						shopId: item.product.shopId,
+						productId: item.productId,
+						specId: item.specId,
+						productName: item.product.productName,
+						productPrice: item.productSpec.price,
+						productCount: item.productNum,
+						prescriptionPrice: item.productSpec.price * item.productNum,
+						addressId: item.addressId,
+					};
+					paramsList.push(params);
+				}
+			}
+			if (paramsList.length == 0) {
+				uni.showModal({
+					title: '',
+					content: '请选择要结算的商品',
+					showCancel: false
+				});
+				return;
+			}
+			let productList2=[]
+			for (let item of paramsList) {
+				let product = {
+					expressId: item.expressId,
+					shopId: item.shopId,
+					productId: item.productId,
+					specId: item.specId,
+					productName: item.productName,
+					productPrice: item.productPrice,
+					productCount: item.productCount,
+					prescriptionPrice: item.prescriptionPrice,
+					addressId: item.addressId,
+					orderRemark: ''
+				};
+				productList2.push(product);
+			}
+			let params2 = {
+				userId: this.userId,
+				orderDetailList: productList2
+			};
+			addOrder(params2).then(res => {
+				if (res.data.code == 0) {
+					uni.navigateTo({
+						url: '/pages/confirmOrder/confirmOrder?paramsList=' + JSON.stringify(paramsList)+'&orderList='+res.data.data.orderIdList.join(',')
+					});
+				} else {
+					uni.showToast({
+						title: '生成订单失败',
+						icon: 'none',
+						duration: 1000
+					});
+				}
+			});
+			
 		}
 	}
 };
 </script>
 
-<style scoped>
-.no-data {
-	height: 400upx;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	color: #707070;
-}
-
-.no-data image {
-	width: 150upx;
-	height: 150upx;
-	margin-bottom: 40upx;
-}
-
-.title {
+<style lang="less" scoped>
+.title1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -105,7 +248,7 @@ export default {
 	color: #888;
 }
 
-.title text:nth-child(2) {
+.title1 text:nth-child(2) {
 	color: #c30;
 	font-size: 30upx;
 }
@@ -181,7 +324,9 @@ export default {
 	font-size: 32upx;
 	margin-top: 3px;
 }
-
+.list .list-item .msg-detail .guige {
+	color: #999999;
+}
 .list .list-item .msg-detail .price text {
 	font-size: 24upx;
 }
@@ -200,7 +345,7 @@ export default {
 }
 
 .list .list-item .count text {
-	width: 50upx;
+	width: 60upx;
 	text-align: center;
 	height: 50upx;
 	line-height: 50upx;
@@ -225,7 +370,7 @@ export default {
 	width: 100%;
 	height: 100upx;
 	position: fixed;
-	bottom:0;
+	bottom: 0;
 	background-color: #fff;
 	padding-bottom: 5px;
 	z-index: 2000;
@@ -261,7 +406,7 @@ export default {
 .buy-btn .right view text {
 	font-size: 34upx;
 	color: #c30;
-	font-weight: bold;;
+	font-weight: bold;
 }
 
 .buy-btn .right view:nth-child(2) {

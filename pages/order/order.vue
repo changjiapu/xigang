@@ -1,29 +1,31 @@
 <template>
 	<view class="content">
 		<view class="head" scroll-x>
-			<text :class="{ active: currentTab == 0 }" @click="tabs(0)">全部</text>
-			<text :class="{ active: currentTab == 1 }" @click="tabs(1)">待确认</text>
-			<text :class="{ active: currentTab == 2 }" @click="tabs(2)">待收货</text>
-			<text :class="{ active: currentTab == 3 }" @click="tabs(3)">已完成</text>
-			<text :class="{ active: currentTab == 4 }" @click="tabs(4)">待评价</text>
-			<text :class="{ active: currentTab == 5 }" @click="tabs(5)">售后</text>
+			<text :class="{ active: currentTab == 0 }" @click="tabs(0, '')">全部</text>
+			<text :class="{ active: currentTab == 1 }" @click="tabs(1, 0)">待确认</text>
+			<text :class="{ active: currentTab == 2 }" @click="tabs(2, 1)">待收货</text>
+			<text :class="{ active: currentTab == 4 }" @click="tabs(4, 3)">待评价</text>
+			<text :class="{ active: currentTab == 3 }" @click="tabs(3, 4)">已完成</text>
+			<!-- 		<text :class="{ active: currentTab == 5 }" @click="tabs(5)">售后</text> -->
 		</view>
-		<view class="item" v-for="(item, index) in 6" :key="index">
-			<image src="../../static/home/dianpupaihangmangguo_05.png" mode=""></image>
+		<view class="item" v-for="(item, index) in orderList" :key="index">
+			<image :src="imgURl + item.product.imgList[0]" mode="" @click="gotoDetail(item.detailId)"></image>
 			<view class="msg">
 				<view class="title">
-					<text>果蔬超市</text>
-					<text>￥12.5元</text>
+					<text>{{ item.product.productName }}</text>
+					<text>￥{{ item.prescriptionPrice }}元</text>
 				</view>
-				<text class="msg_2">最新鲜的黄瓜限时抢购限时特卖</text>
+				<text class="msg_2">{{ item.updatedTime }}</text>
 				<view class="btn">
-					<text v-if="currentTab == 4">查看订单</text>
-					<text v-if="currentTab == 4" class="pingjia" @click="gotoComment()">立即评价</text>
-					<text v-if="currentTab == 0||currentTab == 2">取消订单</text>
-					<text v-if="currentTab == 0" class="pingjia">确认订单</text>
-					<text v-if="currentTab == 2">确认收货</text>
-					<text v-if="currentTab == 5">申请退款</text>
-					<text v-if="currentTab == 5" @click="shouHou()">申请售后</text>
+					<text v-if="item.orderStatus == 1 || item.orderStatus == 2" @click="gotoDetail(item.detailId)">查看订单</text>
+					<text v-if="item.orderStatus == 3 && item.orderStatus != 4" class="pingjia" @click="gotoComment(item)">立即评价</text>
+					<text v-if="item.orderStatus == -3">订单已取消</text>
+					<text v-if="item.orderStatus == 0" @click="cancelOrder(item.detailId)">取消订单</text>
+					<text v-if="item.orderStatus == 0" class="pingjia" @click="ConfirmOrder(item.detailId)">确认订单</text>
+					<text v-if="item.orderStatus == 1 || item.orderStatus == 2" @click="qRshouhuo(item.detailId, item.orderStatus)">
+						{{ item.orderStatus == 2 ? '确认收货' : '商家确认中' }}
+					</text>
+					<text v-if="item.orderStatus == 3||item.orderStatus == 4" @click="shouHou()">申请售后</text>
 				</view>
 			</view>
 		</view>
@@ -31,29 +33,126 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { queryOrderList, cancelOrder, ConfirmOrder } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			currentTab: 0
+			currentTab: 0,
+			imgURl: '',
+			orderList: [],
+			state: '', //
+			pageNo: 1 //页码
 		};
 	},
-	onLoad() {},
+	onLoad() {
+		this.imgURl = imgURl;
+		this.queryOrderList(this.userId, this.state, this.pageNo, 10);
+	},
+	//上拉加载
+	onReachBottom() {
+		this.pageNo++;
+		this.queryOrderList(this.userId, this.state, this.pageNo, 10);
+	},
+	computed: {
+		...mapState(['userId'])
+	},
 	methods: {
-		tabs(e) {
-			this.currentTab = e;
+		//获取订单列表
+		queryOrderList(userId, state, pageNo, pageSize) {
+			queryOrderList(userId, state, pageNo, pageSize).then(res => {
+				if (res.data.code == 0) {
+					if (res.data.data.list.length == 0) {
+						uni.showToast({
+							title: '没有更多数据了',
+							icon: 'none',
+							duration: 1000
+						});
+					}
+					this.orderList = [...this.orderList, ...res.data.data.list];
+				}
+			});
 		},
-		gotoComment(){
-			uni.navigateTo({
-				url:'/pages/comment/comment'
-			})
+		tabs(tab, state) {
+			this.currentTab = tab;
+			this.state = state;
+			this.orderList = [];
+			this.pageNo = 1;
+			this.queryOrderList(this.userId, this.state, this.pageNo, 10);
 		},
-		shouHou(){
+		//取消订单
+		cancelOrder(id) {
+			cancelOrder(id).then(res => {
+				if (res.data.code == 0) {
+					this.orderList = [];
+					this.pageNo = 1;
+					this.queryOrderList(this.userId, this.state, this.pageNo, 10);
+				}
+			});
+		},
+		//确认订单
+		ConfirmOrder(id) {
+			//订单状态修改 1-用户确认订单（待收货）3-用户确认收货
+			ConfirmOrder(id, 1).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '订单已确认',
+						icon: 'none',
+						duration: 1500
+					});
+					this.orderList = [];
+					this.pageNo = 1;
+					this.queryOrderList(this.userId, this.state, this.pageNo, 10);
+				}
+			});
+		},
+		//确认收货
+		qRshouhuo(id, orderStatus) {
+			console.log(22222);
+			if (orderStatus == 2) {
+				ConfirmOrder(id, 3).then(res => {
+					if (res.data.code == 0) {
+						uni.showToast({
+							title: '订单已确认',
+							icon: 'none',
+							duration: 1500
+						});
+						this.orderList = [];
+						this.pageNo = 1;
+						this.queryOrderList(this.userId, this.state, this.pageNo, 10);
+					}
+				});
+			} else {
+				uni.showToast({
+					title: '等待商家确认',
+					icon: 'none',
+					duration: 1500
+				});
+			}
+		},
+		gotoDetail(id) {
 			uni.navigateTo({
-				url:'/pages/shouHou/shouHou'
-			})
+				url: '/pages/orderDetail/orderDetail?id='+id
+			});
+		},
+		gotoComment(item) {
+			let params={
+				orderId:item.orderId,
+				productId:item.product.productId,
+				productName:item.product.productName,
+				descript:item.product.descript,
+				img: item.product.imgList[0]
+			}
+			uni.navigateTo({
+				url: '/pages/comment/comment?params='+JSON.stringify(params)
+			});
+		},
+		shouHou() {
+			uni.navigateTo({
+				url: '/pages/shouHou/shouHou'
+			});
 		}
-		
 	}
 };
 </script>

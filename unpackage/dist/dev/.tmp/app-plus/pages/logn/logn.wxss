@@ -40,6 +40,9 @@
   height: 35rpx;
   width: 35rpx;
 }
+.content .input input.data-v-584fb410 {
+  margin-left: 20rpx;
+}
 .content .btn.data-v-584fb410 {
   margin-top: 30rpx;
   height: 100rpx;

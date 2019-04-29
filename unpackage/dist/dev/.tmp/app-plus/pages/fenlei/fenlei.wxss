@@ -1,0 +1,114 @@
+.content.data-v-450c9750 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content .seach.data-v-450c9750 {
+  width: 100%;
+}
+.content .seach .input.data-v-450c9750 {
+  margin: 0 auto;
+  color: #000000;
+  height: 80rpx;
+  width: 50%;
+  font-size: 22rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f7f7;
+  padding: 0 20rpx;
+  border-radius: 10rpx;
+}
+.content .seach .input input.data-v-450c9750 {
+  width: 100%;
+}
+.content .seach .input image.data-v-450c9750 {
+  height: 35rpx;
+  width: 35rpx;
+}
+.content .liubai.data-v-450c9750 {
+  margin: 10rpx 0;
+  height: 10rpx;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.content .container.data-v-450c9750 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .container .left.data-v-450c9750 {
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 210rpx;
+}
+.content .container .left text.data-v-450c9750 {
+  text-align: center;
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.content .container .left text.active.data-v-450c9750 {
+  background-color: #ffffff;
+  color: red;
+}
+.content .container .fenlei.data-v-450c9750 {
+  margin: 20rpx 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.content .container .fenlei .item.data-v-450c9750 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100rpx;
+  font-size: 28rpx;
+  text-align: center;
+  margin-left: 70rpx;
+  margin-top: 20rpx;
+}
+.content .container .fenlei .item image.data-v-450c9750 {
+  margin-bottom: 10rpx;
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 100%;
+}
+

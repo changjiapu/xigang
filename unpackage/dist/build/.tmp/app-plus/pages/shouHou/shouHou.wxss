@@ -1,9 +1,9 @@
-.content.data-v-3f3f3234 {
+.content.data-v-44d3b234 {
   width: 100%;
   background-color: #f7f7f7;
   font-size: 30rpx;
 }
-.content .head.data-v-3f3f3234 {
+.content .head.data-v-44d3b234 {
   padding: 20rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,11 +13,11 @@
   display: -ms-flexbox;
   display: flex;
 }
-.content .head image.data-v-3f3f3234 {
+.content .head image.data-v-44d3b234 {
   width: 200rpx;
   height: 180rpx;
 }
-.content .head .msg.data-v-3f3f3234 {
+.content .head .msg.data-v-44d3b234 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
@@ -34,13 +34,13 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content .head .msg .title.data-v-3f3f3234 {
+.content .head .msg .title.data-v-44d3b234 {
   margin-top: 10rpx;
   margin-bottom: 20rpx;
   font-weight: bold;
   color: #000000;
 }
-.content .head .msg view.data-v-3f3f3234 {
+.content .head .msg view.data-v-44d3b234 {
   margin-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -51,7 +51,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.content .cantainer.data-v-3f3f3234 {
+.content .cantainer.data-v-44d3b234 {
   margin-bottom: 20rpx;
   margin-top: 20rpx;
   width: 100%;
@@ -69,7 +69,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content .cantainer .img_list.data-v-3f3f3234 {
+.content .cantainer .img_list.data-v-44d3b234 {
   margin-top: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -79,34 +79,34 @@
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
-.content .cantainer .img_list image.data-v-3f3f3234 {
+.content .cantainer .img_list image.data-v-44d3b234 {
   height: 80rpx;
   width: 80rpx;
   border: 1px solid #dddddd;
 }
-.content .cantainer image.data-v-3f3f3234 {
+.content .cantainer image.data-v-44d3b234 {
   padding: 20rpx;
   height: 60rpx;
   width: 60rpx;
   border: 1px solid #dddddd;
 }
-.content .cantainer .input.data-v-3f3f3234 {
+.content .cantainer .input.data-v-44d3b234 {
   width: 100%;
   background-color: #f7f7f7;
 }
-.content .cantainer .title.data-v-3f3f3234 {
+.content .cantainer .title.data-v-44d3b234 {
   margin: 10rpx 0;
 }
-.content .cantainer .title2.data-v-3f3f3234 {
+.content .cantainer .title2.data-v-44d3b234 {
   margin-top: 20rpx;
   color: #999999;
   font-size: 26rpx;
 }
-.content .btn.data-v-3f3f3234 {
+.content .btn.data-v-44d3b234 {
   width: 100%;
   background-color: #ffffff;
 }
-.content .btn text.data-v-3f3f3234 {
+.content .btn text.data-v-44d3b234 {
   display: block;
   margin-top: 100rpx;
   height: 95rpx;

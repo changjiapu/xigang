@@ -30,11 +30,11 @@
 		</view>
 		<navigator class="GG" url="/pages/ggList/ggList"><image src="../../static/home/dianpugonggao_03.png" mode=""></image></navigator>
 		<view class="list">
-			<navigator class="list_item" url="/pages/merchant/merchant">
+			<view class="list_item" @click="ruzhu()">
 				<image src="../../static/home/shangjiaruzhu_26.png" mode=""></image>
 				<text>商家入驻</text>
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
-			</navigator>
+			</view>
 			<navigator class="list_item" url="/pages/complain/complain">
 				<image src="../../static/home/tousujianyi_29.png" mode=""></image>
 				<text>投诉建议</text>
@@ -63,12 +63,12 @@
 					<image class="close2" src="../../static/home/tuichu_07.png" mode=""></image>
 				</view>
 				<view class="share">
-					<view class="btn" open-type="share">
-						<view><image src="../../static/home/pengyouquan_05.png"></image></view>
+					<view class="btn" @click="shareFriend">	
+						<view><image src="../../static/home/weixin_03.png"></image></view>
 						<text>分享给朋友</text>
 					</view>
-					<view class="btn" @click="ontophaibao">
-						<view><image src="../../static/home/weixin_03.png"></image></view>
+					<view class="btn" @click="shareFriendQuan">
+						<view><image src="../../static/home/pengyouquan_05.png"></image></view>
 						<text>分享朋友圈</text>
 					</view>
 				</view>
@@ -80,20 +80,22 @@
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
 import { mapState } from 'vuex';
-import { getUserById } from '@/request/API/index.js';
+import { getUserById, getShopStatusByUserId } from '@/request/API/index.js';
 export default {
 	data() {
 		return {
-			imgURl:'',
+			imgURl: '',
 			imglist: '', //用户头像
 			nickName: '', //用户昵称
 			spec_name: '', //用户签名
-			isShow: false
+			isShow: false,
+			shopStatus: -1 //默认为2未入住 入驻状态 -1:未入驻 0:审核中 1:已入驻 2:审核驳回重新入驻
 		};
 	},
 	onLoad() {
 		this.imgURl = imgURl;
 		this.getUserById();
+		this.getShopStatusByUserId(this.userId);
 	},
 	methods: {
 		//获取用户信息
@@ -102,6 +104,14 @@ export default {
 				this.imglist = res.data.data.userPhoto;
 				this.spec_name = res.data.data.specName;
 				this.nickName = res.data.data.nickName;
+			});
+		},
+		//获取用户入住状态
+		getShopStatusByUserId(userId) {
+			getShopStatusByUserId(userId).then(res => {
+				if (res.data.code == 0) {
+					this.shopStatus = res.data.data.shopStatus;
+				}
 			});
 		},
 		bottomClose() {
@@ -114,6 +124,81 @@ export default {
 		},
 		fenxiang() {
 			this.isShow = true;
+		},
+		shareFriend() {
+			//分享到微信好友
+			uni.share({
+				provider: 'weixin',
+				scene: 'WXSceneSession',
+				type: 0,
+				href: 'http://uniapp.dcloud.io/',
+				title: 'uni-app分享',
+				summary: '我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！',
+				imageUrl: 'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png',
+				success: function(res) {
+					console.log('success:' + JSON.stringify(res));
+				},
+				fail: function(err) {
+					console.log('fail:' + JSON.stringify(err));
+				}
+			});
+		},
+		shareFriendQuan() {
+			//分享到朋友圈
+			uni.share({
+				provider: 'weixin',
+				scene: 'WXSenceTimeline',
+				type: 0,
+				href: 'http://uniapp.dcloud.io/',
+				title: 'uni-app分享',
+				summary: '我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！',
+				imageUrl: 'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png',
+				success: function(res) {
+					console.log(111)
+					console.log('success:' + JSON.stringify(res));
+				},
+				fail: function(err) {
+					console.log('fail:' + JSON.stringify(err));
+					console.log(123)
+				}
+			});
+		},
+		ruzhu() {
+			if (this.shopStatus == 0) {
+				uni.showToast({
+					title: '入住信息审核中',
+					icon: 'none',
+					duration: 1000
+				});
+				return;
+			}
+			if (this.shopStatus == 1) {
+				uni.showToast({
+					title: '已经入住成功',
+					icon: 'none',
+					duration: 1000
+				});
+				return;
+			}
+			if (this.shopStatus == 2) {
+				uni.showModal({
+					title: '',
+					content: '入住失败是否从新入住',
+					success: res => {
+						if (res.confirm) {
+							uni.navigateTo({
+								url: '/pages/merchant/merchant'
+							});
+						} else if (res.cancel) {
+							console.log('用户点击取消');
+						}
+					}
+				});
+				return;
+			}
+			uni.navigateTo({
+				url: '/pages/merchant/merchant'
+			});
 		}
 	},
 	computed: {

@@ -1197,6 +1197,18 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
 __WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'747af69c'])
+Z([3,'_view data-v-a6ab8090'])
+Z([[6],[[7],[3,'productList']],[3,'length']])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'productList']])
+Z(z[3])
+Z([3,'_view data-v-a6ab8090 clear'])
+Z([[7],[3,'editor']])
+Z([[2,'!'],[[7],[3,'editor']]])
+Z([[2,'=='],[[6],[[7],[3,'productList']],[3,'length']],[1,0]])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'747af69c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e2419220'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
@@ -1255,7 +1267,7 @@ Z(z[4])
 Z([1,'410d871c-1'])
 Z(z[6])
 Z(z[7])
-Z(z[8])
+Z([[7],[3,'rate2']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
 function gz$gwx_21(){
@@ -1345,7 +1357,7 @@ function gz$gwx_32(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
 __WXML_GLOBAL__.ops_cached.$gwx_32=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'2e2cd952'])
+Z([3,'ba799f5c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
 }
 function gz$gwx_33(){
@@ -1353,14 +1365,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
 __WXML_GLOBAL__.ops_cached.$gwx_33=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2e2cd952'])
+Z([3,'ba799f5c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
 }
 function gz$gwx_34(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
 __WXML_GLOBAL__.ops_cached.$gwx_34=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'dccc0c9c'])
+Z([3,'2e2cd952'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
 }
 function gz$gwx_35(){
@@ -1368,14 +1380,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
 __WXML_GLOBAL__.ops_cached.$gwx_35=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'dccc0c9c'])
+Z([3,'2e2cd952'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
 }
 function gz$gwx_36(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
 __WXML_GLOBAL__.ops_cached.$gwx_36=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'0666f152'])
+Z([3,'dccc0c9c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_36);return __WXML_GLOBAL__.ops_cached.$gwx_36
 }
 function gz$gwx_37(){
@@ -1383,14 +1395,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_37)return __WXML_GLOBAL__.ops_cached.$gwx_37
 __WXML_GLOBAL__.ops_cached.$gwx_37=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0666f152'])
+Z([3,'dccc0c9c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_37);return __WXML_GLOBAL__.ops_cached.$gwx_37
 }
 function gz$gwx_38(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_38)return __WXML_GLOBAL__.ops_cached.$gwx_38
 __WXML_GLOBAL__.ops_cached.$gwx_38=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'22c1b9b2'])
+Z([3,'0666f152'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_38);return __WXML_GLOBAL__.ops_cached.$gwx_38
 }
 function gz$gwx_39(){
@@ -1398,14 +1410,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_39)return __WXML_GLOBAL__.ops_cached.$gwx_39
 __WXML_GLOBAL__.ops_cached.$gwx_39=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'22c1b9b2'])
+Z([3,'0666f152'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_39);return __WXML_GLOBAL__.ops_cached.$gwx_39
 }
 function gz$gwx_40(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_40)return __WXML_GLOBAL__.ops_cached.$gwx_40
 __WXML_GLOBAL__.ops_cached.$gwx_40=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'609606d0'])
+Z([3,'22c1b9b2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
 }
 function gz$gwx_41(){
@@ -1413,14 +1425,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
 __WXML_GLOBAL__.ops_cached.$gwx_41=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'609606d0'])
+Z([3,'22c1b9b2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
 }
 function gz$gwx_42(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
 __WXML_GLOBAL__.ops_cached.$gwx_42=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'5a5d8af2'])
+Z([3,'609606d0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
 }
 function gz$gwx_43(){
@@ -1428,14 +1440,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
 __WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'5a5d8af2'])
+Z([3,'609606d0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 function gz$gwx_44(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
 __WXML_GLOBAL__.ops_cached.$gwx_44=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'612c6f32'])
+Z([3,'5a5d8af2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
 }
 function gz$gwx_45(){
@@ -1443,26 +1455,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
 __WXML_GLOBAL__.ops_cached.$gwx_45=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'612c6f32'])
+Z([3,'5a5d8af2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
 }
 function gz$gwx_46(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
 __WXML_GLOBAL__.ops_cached.$gwx_46=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3db026e0'])
-Z([3,'index'])
-Z([3,'item'])
-Z([1,6])
-Z(z[1])
-Z([3,'_view data-v-6655e516 btn'])
-Z([[2,'=='],[[7],[3,'currentTab']],[1,4]])
-Z(z[6])
-Z([[2,'||'],[[2,'=='],[[7],[3,'currentTab']],[1,0]],[[2,'=='],[[7],[3,'currentTab']],[1,2]]])
-Z([[2,'=='],[[7],[3,'currentTab']],[1,0]])
-Z([[2,'=='],[[7],[3,'currentTab']],[1,2]])
-Z([[2,'=='],[[7],[3,'currentTab']],[1,5]])
-Z(z[11])
+Z([3,'612c6f32'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
 function gz$gwx_47(){
@@ -1470,15 +1470,26 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
 __WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3db026e0'])
+Z([3,'612c6f32'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
 function gz$gwx_48(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
 __WXML_GLOBAL__.ops_cached.$gwx_48=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3d279f8a'])
-Z([[7],[3,'showGuige']])
+Z([3,'3db026e0'])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'orderList']])
+Z(z[1])
+Z([3,'_view data-v-6655e516 btn'])
+Z([[2,'||'],[[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,1]],[[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,2]]])
+Z([[2,'&&'],[[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,3]],[[2,'!='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,4]]])
+Z([[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[[2,'-'],[1,3]]])
+Z([[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,0]])
+Z(z[9])
+Z(z[6])
+Z([[2,'||'],[[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,3]],[[2,'=='],[[6],[[7],[3,'item']],[3,'orderStatus']],[1,4]]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
 }
 function gz$gwx_49(){
@@ -1486,14 +1497,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
 __WXML_GLOBAL__.ops_cached.$gwx_49=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3d279f8a'])
+Z([3,'3db026e0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
 }
 function gz$gwx_50(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
 __WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'0570b592'])
+Z([3,'bbf0b19c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
 function gz$gwx_51(){
@@ -1501,15 +1512,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
 __WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0570b592'])
+Z([3,'bbf0b19c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
 function gz$gwx_52(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
 __WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'57e9625a'])
-Z([[2,'!='],[[7],[3,'img_list']],[1,0]])
+Z([3,'3d279f8a'])
+Z([[7],[3,'showGuige']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
 function gz$gwx_53(){
@@ -1517,14 +1528,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
 __WXML_GLOBAL__.ops_cached.$gwx_53=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'57e9625a'])
+Z([3,'3d279f8a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
 }
 function gz$gwx_54(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
 __WXML_GLOBAL__.ops_cached.$gwx_54=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6714820c'])
+Z([3,'0570b592'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
 }
 function gz$gwx_55(){
@@ -1532,14 +1543,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
 __WXML_GLOBAL__.ops_cached.$gwx_55=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6714820c'])
+Z([3,'0570b592'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
 }
 function gz$gwx_56(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
 __WXML_GLOBAL__.ops_cached.$gwx_56=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'5c174faa'])
+Z([3,'57e9625a'])
+Z([[2,'!='],[[7],[3,'img_list']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
 }
 function gz$gwx_57(){
@@ -1547,14 +1559,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
 __WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'5c174faa'])
+Z([3,'57e9625a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
 function gz$gwx_58(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
 __WXML_GLOBAL__.ops_cached.$gwx_58=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6526365c'])
+Z([3,'6714820c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
 }
 function gz$gwx_59(){
@@ -1562,15 +1574,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
 __WXML_GLOBAL__.ops_cached.$gwx_59=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6526365c'])
+Z([3,'6714820c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
 }
 function gz$gwx_60(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
 __WXML_GLOBAL__.ops_cached.$gwx_60=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3b0624f2'])
-Z([[7],[3,'isShow']])
+Z([3,'5c174faa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
 }
 function gz$gwx_61(){
@@ -1578,14 +1589,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
 __WXML_GLOBAL__.ops_cached.$gwx_61=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3b0624f2'])
+Z([3,'5c174faa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
 }
 function gz$gwx_62(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
 __WXML_GLOBAL__.ops_cached.$gwx_62=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'71d77020'])
+Z([3,'6526365c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
 function gz$gwx_63(){
@@ -1593,14 +1604,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
 __WXML_GLOBAL__.ops_cached.$gwx_63=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'71d77020'])
+Z([3,'6526365c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
 }
 function gz$gwx_64(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_64)return __WXML_GLOBAL__.ops_cached.$gwx_64
 __WXML_GLOBAL__.ops_cached.$gwx_64=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'251da032'])
+Z([3,'3b0624f2'])
+Z([[7],[3,'isShow']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_64);return __WXML_GLOBAL__.ops_cached.$gwx_64
 }
 function gz$gwx_65(){
@@ -1608,12 +1620,42 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_65)return __WXML_GLOBAL__.ops_cached.$gwx_65
 __WXML_GLOBAL__.ops_cached.$gwx_65=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'251da032'])
+Z([3,'3b0624f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_65);return __WXML_GLOBAL__.ops_cached.$gwx_65
 }
 function gz$gwx_66(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_66)return __WXML_GLOBAL__.ops_cached.$gwx_66
 __WXML_GLOBAL__.ops_cached.$gwx_66=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'71d77020'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_66);return __WXML_GLOBAL__.ops_cached.$gwx_66
+}
+function gz$gwx_67(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_67)return __WXML_GLOBAL__.ops_cached.$gwx_67
+__WXML_GLOBAL__.ops_cached.$gwx_67=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'71d77020'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_67);return __WXML_GLOBAL__.ops_cached.$gwx_67
+}
+function gz$gwx_68(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_68)return __WXML_GLOBAL__.ops_cached.$gwx_68
+__WXML_GLOBAL__.ops_cached.$gwx_68=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'251da032'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_68);return __WXML_GLOBAL__.ops_cached.$gwx_68
+}
+function gz$gwx_69(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_69)return __WXML_GLOBAL__.ops_cached.$gwx_69
+__WXML_GLOBAL__.ops_cached.$gwx_69=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'251da032'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_69);return __WXML_GLOBAL__.ops_cached.$gwx_69
+}
+function gz$gwx_70(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_70)return __WXML_GLOBAL__.ops_cached.$gwx_70
+__WXML_GLOBAL__.ops_cached.$gwx_70=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'7ee5de00'])
 Z([3,'_view data-v-0cb35186 content'])
@@ -1622,41 +1664,55 @@ Z([3,'item'])
 Z([[7],[3,'productList']])
 Z(z[2])
 Z([[2,'!='],[[6],[[7],[3,'productList']],[3,'length']],[1,0]])
+Z([3,'handleProxy'])
 Z([3,'_view data-v-0cb35186 collect_item'])
+Z([[7],[3,'$k']])
+Z([[2,'+'],[1,'7ee5de00-3-'],[[7],[3,'index']]])
 Z([[7],[3,'index']])
 Z([[7],[3,'editor']])
-Z(z[9])
+Z(z[12])
 Z([[2,'=='],[[6],[[7],[3,'productList']],[3,'length']],[1,0]])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'7ee5de00-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'e2419220'])
-Z(z[9])
-})(__WXML_GLOBAL__.ops_cached.$gwx_66);return __WXML_GLOBAL__.ops_cached.$gwx_66
+Z(z[12])
+})(__WXML_GLOBAL__.ops_cached.$gwx_70);return __WXML_GLOBAL__.ops_cached.$gwx_70
 }
-function gz$gwx_67(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_67)return __WXML_GLOBAL__.ops_cached.$gwx_67
-__WXML_GLOBAL__.ops_cached.$gwx_67=[];
+function gz$gwx_71(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_71)return __WXML_GLOBAL__.ops_cached.$gwx_71
+__WXML_GLOBAL__.ops_cached.$gwx_71=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'7ee5de00'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_67);return __WXML_GLOBAL__.ops_cached.$gwx_67
+})(__WXML_GLOBAL__.ops_cached.$gwx_71);return __WXML_GLOBAL__.ops_cached.$gwx_71
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./components/EmptyData.vue.wxml','/common/slots.wxml','./components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./components/uni-icon.vue.wxml','./components/uni-rate.vue.wxml','/components/uni-icon.vue.wxml','./pages/About_Us/About_Us.vue.wxml','./pages/About_Us/About_Us.wxml','./About_Us.vue.wxml','./pages/Account_center/Account_center.vue.wxml','./pages/Account_center/Account_center.wxml','./Account_center.vue.wxml','./pages/address/address.vue.wxml','/components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./pages/address/address.wxml','./address.vue.wxml','./pages/addressList/addressList.vue.wxml','./pages/addressList/addressList.wxml','./addressList.vue.wxml','./pages/callCenter/callCenter.vue.wxml','./pages/callCenter/callCenter.wxml','./callCenter.vue.wxml','./pages/cart/cart.vue.wxml','./pages/cart/cart.wxml','./cart.vue.wxml','./pages/collect/collect.vue.wxml','/components/EmptyData.vue.wxml','./pages/collect/collect.wxml','./collect.vue.wxml','./pages/comment/comment.vue.wxml','/components/uni-rate.vue.wxml','./pages/comment/comment.wxml','./comment.vue.wxml','./pages/commentList/commentList.vue.wxml','./pages/commentList/commentList.wxml','./commentList.vue.wxml','./pages/complain/complain.vue.wxml','./pages/complain/complain.wxml','./complain.vue.wxml','./pages/complain_2/complain_2.vue.wxml','./pages/complain_2/complain_2.wxml','./complain_2.vue.wxml','./pages/confirmOrder/confirmOrder.vue.wxml','./pages/confirmOrder/confirmOrder.wxml','./confirmOrder.vue.wxml','./pages/cz_psssword/cz_psssword.vue.wxml','./pages/cz_psssword/cz_psssword.wxml','./cz_psssword.vue.wxml','./pages/ggDetail/ggDetail.vue.wxml','./pages/ggDetail/ggDetail.wxml','./ggDetail.vue.wxml','./pages/ggList/ggList.vue.wxml','./pages/ggList/ggList.wxml','./ggList.vue.wxml','./pages/help/help.vue.wxml','./pages/help/help.wxml','./help.vue.wxml','./pages/helpDetail/helpDetail.vue.wxml','./pages/helpDetail/helpDetail.wxml','./helpDetail.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/logn/logn.vue.wxml','./pages/logn/logn.wxml','./logn.vue.wxml','./pages/merchant/merchant.vue.wxml','./pages/merchant/merchant.wxml','./merchant.vue.wxml','./pages/order/order.vue.wxml','./pages/order/order.wxml','./order.vue.wxml','./pages/product_detaill/product_detaill.vue.wxml','./pages/product_detaill/product_detaill.wxml','./product_detaill.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/shouHou/shouHou.vue.wxml','./pages/shouHou/shouHou.wxml','./shouHou.vue.wxml','./pages/suiguo_list/suiguo_list.vue.wxml','./pages/suiguo_list/suiguo_list.wxml','./suiguo_list.vue.wxml','./pages/suiguo_shop/suiguo_shop.vue.wxml','./pages/suiguo_shop/suiguo_shop.wxml','./suiguo_shop.vue.wxml','./pages/system_setup/system_setup.vue.wxml','./pages/system_setup/system_setup.wxml','./system_setup.vue.wxml','./pages/userCenter/userCenter.vue.wxml','./pages/userCenter/userCenter.wxml','./userCenter.vue.wxml','./pages/userMsg/userMsg.vue.wxml','./pages/userMsg/userMsg.wxml','./userMsg.vue.wxml','./pages/wjPassword/wjPassword.vue.wxml','./pages/wjPassword/wjPassword.wxml','./wjPassword.vue.wxml','./pages/zhuji/zhuji.vue.wxml','./pages/zhuji/zhuji.wxml','./zhuji.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/common/slots.wxml','/components/EmptyData.vue.wxml','/components/mpvue-citypicker/mpvueCityPicker.vue.wxml','/components/uni-rate.vue.wxml','/components/uni-icon.vue.wxml','./components/EmptyData.vue.wxml','./components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./components/uni-icon.vue.wxml','./components/uni-rate.vue.wxml','./pages/About_Us/About_Us.vue.wxml','./pages/About_Us/About_Us.wxml','./About_Us.vue.wxml','./pages/Account_center/Account_center.vue.wxml','./pages/Account_center/Account_center.wxml','./Account_center.vue.wxml','./pages/address/address.vue.wxml','./pages/address/address.wxml','./address.vue.wxml','./pages/addressList/addressList.vue.wxml','./pages/addressList/addressList.wxml','./addressList.vue.wxml','./pages/callCenter/callCenter.vue.wxml','./pages/callCenter/callCenter.wxml','./callCenter.vue.wxml','./pages/cart/cart.vue.wxml','./pages/cart/cart.wxml','./cart.vue.wxml','./pages/collect/collect.vue.wxml','./pages/collect/collect.wxml','./collect.vue.wxml','./pages/comment/comment.vue.wxml','./pages/comment/comment.wxml','./comment.vue.wxml','./pages/commentList/commentList.vue.wxml','./pages/commentList/commentList.wxml','./commentList.vue.wxml','./pages/complain/complain.vue.wxml','./pages/complain/complain.wxml','./complain.vue.wxml','./pages/complain_2/complain_2.vue.wxml','./pages/complain_2/complain_2.wxml','./complain_2.vue.wxml','./pages/confirmOrder/confirmOrder.vue.wxml','./pages/confirmOrder/confirmOrder.wxml','./confirmOrder.vue.wxml','./pages/cz_psssword/cz_psssword.vue.wxml','./pages/cz_psssword/cz_psssword.wxml','./cz_psssword.vue.wxml','./pages/fenlei/fenlei.vue.wxml','./pages/fenlei/fenlei.wxml','./fenlei.vue.wxml','./pages/ggDetail/ggDetail.vue.wxml','./pages/ggDetail/ggDetail.wxml','./ggDetail.vue.wxml','./pages/ggList/ggList.vue.wxml','./pages/ggList/ggList.wxml','./ggList.vue.wxml','./pages/help/help.vue.wxml','./pages/help/help.wxml','./help.vue.wxml','./pages/helpDetail/helpDetail.vue.wxml','./pages/helpDetail/helpDetail.wxml','./helpDetail.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/logn/logn.vue.wxml','./pages/logn/logn.wxml','./logn.vue.wxml','./pages/merchant/merchant.vue.wxml','./pages/merchant/merchant.wxml','./merchant.vue.wxml','./pages/order/order.vue.wxml','./pages/order/order.wxml','./order.vue.wxml','./pages/orderDetail/orderDetail.vue.wxml','./pages/orderDetail/orderDetail.wxml','./orderDetail.vue.wxml','./pages/product_detaill/product_detaill.vue.wxml','./pages/product_detaill/product_detaill.wxml','./product_detaill.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/shouHou/shouHou.vue.wxml','./pages/shouHou/shouHou.wxml','./shouHou.vue.wxml','./pages/suiguo_list/suiguo_list.vue.wxml','./pages/suiguo_list/suiguo_list.wxml','./suiguo_list.vue.wxml','./pages/suiguo_shop/suiguo_shop.vue.wxml','./pages/suiguo_shop/suiguo_shop.wxml','./suiguo_shop.vue.wxml','./pages/system_setup/system_setup.vue.wxml','./pages/system_setup/system_setup.wxml','./system_setup.vue.wxml','./pages/userCenter/userCenter.vue.wxml','./pages/userCenter/userCenter.wxml','./userCenter.vue.wxml','./pages/userMsg/userMsg.vue.wxml','./pages/userMsg/userMsg.wxml','./userMsg.vue.wxml','./pages/wjPassword/wjPassword.vue.wxml','./pages/wjPassword/wjPassword.wxml','./wjPassword.vue.wxml','./pages/zhuji/zhuji.vue.wxml','./pages/zhuji/zhuji.wxml','./zhuji.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
+var oB=e_[x[0]].i
+_ai(oB,x[1],e_,x[0],1,1)
+_ai(oB,x[2],e_,x[0],2,2)
+_ai(oB,x[3],e_,x[0],3,2)
+_ai(oB,x[4],e_,x[0],4,2)
+_ai(oB,x[5],e_,x[0],5,2)
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
-d_[x[1]]={}
-d_[x[1]]["e2419220"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5]],ic:[]}
+d_[x[6]]={}
+d_[x[6]]["e2419220"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':e2419220'
+var b=x[6]+':e2419220'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/EmptyData.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[1]);return}
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 cs.push("./components/EmptyData.vue.wxml:view:1:62")
@@ -1666,7 +1722,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./components/EmptyData.vue.wxml:template:1:281")
 var oD=_oz(z,4,e,s,gg)
-var fE=_gd(x[1],oD,e_,d_)
+var fE=_gd(x[6],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1674,7 +1730,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[1],1,339)
+else _w(oD,x[6],1,339)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1685,12 +1741,12 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[1]]["default"]=function(e,s,r,gg){
+d_[x[6]]["default"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':default'
+var b=x[6]+':default'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/EmptyData.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[1]);return}
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1702,19 +1758,19 @@ return r
 }
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var xC=e_[x[1]].i
-_ai(xC,x[2],e_,x[1],1,1)
-xC.pop()
+var oD=e_[x[6]].i
+_ai(oD,x[1],e_,x[6],1,1)
+oD.pop()
 return r
 }
-e_[x[1]]={f:m1,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["a6172d52"]=function(e,s,r,gg){
+e_[x[6]]={f:m1,j:[],i:[],ti:[x[1]],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["a6172d52"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[3]+':a6172d52'
+var b=x[7]+':a6172d52'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/mpvue-citypicker/mpvueCityPicker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1728,14 +1784,14 @@ var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 return r
 }
-e_[x[3]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
-d_[x[4]]["5534c0c6"]=function(e,s,r,gg){
+e_[x[7]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["5534c0c6"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[4]+':5534c0c6'
+var b=x[8]+':5534c0c6'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-icon.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[4]);return}
+if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1749,14 +1805,14 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[4]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["552c9ff8"]=function(e,s,r,gg){
+e_[x[8]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["552c9ff8"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[5]+':552c9ff8'
+var b=x[9]+':552c9ff8'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-rate.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1769,7 +1825,7 @@ var cI=_v()
 _(oH,cI)
 cs.push("./components/uni-rate.vue.wxml:template:1:380")
 var oJ=_oz(z,12,fE,oD,gg)
-var lK=_gd(x[5],oJ,e_,d_)
+var lK=_gd(x[9],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,fE,oD,gg) || {}
 var cur_globalf=gg.f
@@ -1777,13 +1833,13 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[5],1,458)
+else _w(oJ,x[9],1,458)
 cs.pop()
 var tM=_v()
 _(oH,tM)
 cs.push("./components/uni-rate.vue.wxml:template:1:576")
 var eN=_oz(z,14,fE,oD,gg)
-var bO=_gd(x[5],eN,e_,d_)
+var bO=_gd(x[9],eN,e_,d_)
 if(bO){
 var oP=_1z(z,13,fE,oD,gg) || {}
 var cur_globalf=gg.f
@@ -1791,7 +1847,7 @@ tM.wxXCkey=3
 bO(oP,oP,tM,gg)
 gg.f=cur_globalf
 }
-else _w(eN,x[5],1,673)
+else _w(eN,x[9],1,673)
 cs.pop()
 cs.pop()
 _(cF,oH)
@@ -1809,19 +1865,19 @@ return r
 }
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var hG=e_[x[5]].i
-_ai(hG,x[6],e_,x[5],1,1)
-hG.pop()
+var oH=e_[x[9]].i
+_ai(oH,x[5],e_,x[9],1,1)
+oH.pop()
 return r
 }
-e_[x[5]]={f:m4,j:[],i:[],ti:[x[6]],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["542a4f9c"]=function(e,s,r,gg){
+e_[x[9]]={f:m4,j:[],i:[],ti:[x[5]],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["542a4f9c"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[7]+':542a4f9c'
+var b=x[10]+':542a4f9c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/About_Us/About_Us.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1835,37 +1891,37 @@ var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 return r
 }
-e_[x[7]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
+e_[x[10]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oJ=e_[x[8]].i
-_ai(oJ,x[9],e_,x[8],1,1)
-var lK=_v()
-_(r,lK)
+var lK=e_[x[11]].i
+_ai(lK,x[12],e_,x[11],1,1)
+var aL=_v()
+_(r,aL)
 cs.push("./pages/About_Us/About_Us.wxml:template:2:6")
-var aL=_oz(z,1,e,s,gg)
-var tM=_gd(x[8],aL,e_,d_)
-if(tM){
-var eN=_1z(z,0,e,s,gg) || {}
+var tM=_oz(z,1,e,s,gg)
+var eN=_gd(x[11],tM,e_,d_)
+if(eN){
+var bO=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lK.wxXCkey=3
-tM(eN,eN,lK,gg)
+aL.wxXCkey=3
+eN(bO,bO,aL,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[8],2,18)
+else _w(tM,x[11],2,18)
 cs.pop()
-oJ.pop()
+lK.pop()
 return r
 }
-e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["10015b92"]=function(e,s,r,gg){
+e_[x[11]]={f:m6,j:[],i:[],ti:[x[12]],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["10015b92"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[10]+':10015b92'
+var b=x[13]+':10015b92'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/Account_center/Account_center.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1879,44 +1935,44 @@ var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
 return r
 }
-e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
+e_[x[13]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var xQ=e_[x[11]].i
-_ai(xQ,x[12],e_,x[11],1,1)
-var oR=_v()
-_(r,oR)
+var oR=e_[x[14]].i
+_ai(oR,x[15],e_,x[14],1,1)
+var fS=_v()
+_(r,fS)
 cs.push("./pages/Account_center/Account_center.wxml:template:2:6")
-var fS=_oz(z,1,e,s,gg)
-var cT=_gd(x[11],fS,e_,d_)
-if(cT){
-var hU=_1z(z,0,e,s,gg) || {}
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[14],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oR.wxXCkey=3
-cT(hU,hU,oR,gg)
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
 gg.f=cur_globalf
 }
-else _w(fS,x[11],2,18)
+else _w(cT,x[14],2,18)
 cs.pop()
-xQ.pop()
+oR.pop()
 return r
 }
-e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
-d_[x[13]]={}
-d_[x[13]]["21979ac8"]=function(e,s,r,gg){
+e_[x[14]]={f:m8,j:[],i:[],ti:[x[15]],ic:[]}
+d_[x[16]]={}
+d_[x[16]]["21979ac8"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[13]+':21979ac8'
+var b=x[16]+':21979ac8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/address/address.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[13]);return}
+if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/address/address.vue.wxml:template:1:2237")
 var xC=_oz(z,6,e,s,gg)
-var oD=_gd(x[13],xC,e_,d_)
+var oD=_gd(x[16],xC,e_,d_)
 if(oD){
 var fE=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1924,7 +1980,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[13],1,2438)
+else _w(xC,x[16],1,2438)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -1935,42 +1991,42 @@ return r
 }
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var cW=e_[x[13]].i
-_ai(cW,x[14],e_,x[13],1,1)
-cW.pop()
+var oX=e_[x[16]].i
+_ai(oX,x[3],e_,x[16],1,1)
+oX.pop()
 return r
 }
-e_[x[13]]={f:m9,j:[],i:[],ti:[x[14]],ic:[]}
-d_[x[15]]={}
+e_[x[16]]={f:m9,j:[],i:[],ti:[x[3]],ic:[]}
+d_[x[17]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var lY=e_[x[15]].i
-_ai(lY,x[16],e_,x[15],1,1)
-var aZ=_v()
-_(r,aZ)
+var aZ=e_[x[17]].i
+_ai(aZ,x[18],e_,x[17],1,1)
+var t1=_v()
+_(r,t1)
 cs.push("./pages/address/address.wxml:template:2:6")
-var t1=_oz(z,1,e,s,gg)
-var e2=_gd(x[15],t1,e_,d_)
-if(e2){
-var b3=_1z(z,0,e,s,gg) || {}
+var e2=_oz(z,1,e,s,gg)
+var b3=_gd(x[17],e2,e_,d_)
+if(b3){
+var o4=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aZ.wxXCkey=3
-e2(b3,b3,aZ,gg)
+t1.wxXCkey=3
+b3(o4,o4,t1,gg)
 gg.f=cur_globalf
 }
-else _w(t1,x[15],2,18)
+else _w(e2,x[17],2,18)
 cs.pop()
-lY.pop()
+aZ.pop()
 return r
 }
-e_[x[15]]={f:m10,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
-d_[x[17]]["4796ad98"]=function(e,s,r,gg){
+e_[x[17]]={f:m10,j:[],i:[],ti:[x[18]],ic:[]}
+d_[x[19]]={}
+d_[x[19]]["4796ad98"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[17]+':4796ad98'
+var b=x[19]+':4796ad98'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/addressList/addressList.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[17]);return}
+if(p_[b]){_wl(b,x[19]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1984,37 +2040,37 @@ var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
 return r
 }
-e_[x[17]]={f:m11,j:[],i:[],ti:[],ic:[]}
-d_[x[18]]={}
+e_[x[19]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[20]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var o6=e_[x[18]].i
-_ai(o6,x[19],e_,x[18],1,1)
-var f7=_v()
-_(r,f7)
+var f7=e_[x[20]].i
+_ai(f7,x[21],e_,x[20],1,1)
+var c8=_v()
+_(r,c8)
 cs.push("./pages/addressList/addressList.wxml:template:2:6")
-var c8=_oz(z,1,e,s,gg)
-var h9=_gd(x[18],c8,e_,d_)
-if(h9){
-var o0=_1z(z,0,e,s,gg) || {}
+var h9=_oz(z,1,e,s,gg)
+var o0=_gd(x[20],h9,e_,d_)
+if(o0){
+var cAB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-f7.wxXCkey=3
-h9(o0,o0,f7,gg)
+c8.wxXCkey=3
+o0(cAB,cAB,c8,gg)
 gg.f=cur_globalf
 }
-else _w(c8,x[18],2,18)
+else _w(h9,x[20],2,18)
 cs.pop()
-o6.pop()
+f7.pop()
 return r
 }
-e_[x[18]]={f:m12,j:[],i:[],ti:[x[19]],ic:[]}
-d_[x[20]]={}
-d_[x[20]]["12ea4312"]=function(e,s,r,gg){
+e_[x[20]]={f:m12,j:[],i:[],ti:[x[21]],ic:[]}
+d_[x[22]]={}
+d_[x[22]]["12ea4312"]=function(e,s,r,gg){
 var z=gz$gwx_14()
-var b=x[20]+':12ea4312'
+var b=x[22]+':12ea4312'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/callCenter/callCenter.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[20]);return}
+if(p_[b]){_wl(b,x[22]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2028,39 +2084,100 @@ var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
 return r
 }
-e_[x[20]]={f:m13,j:[],i:[],ti:[],ic:[]}
-d_[x[21]]={}
+e_[x[22]]={f:m13,j:[],i:[],ti:[],ic:[]}
+d_[x[23]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var lCB=e_[x[21]].i
-_ai(lCB,x[22],e_,x[21],1,1)
-var aDB=_v()
-_(r,aDB)
+var aDB=e_[x[23]].i
+_ai(aDB,x[24],e_,x[23],1,1)
+var tEB=_v()
+_(r,tEB)
 cs.push("./pages/callCenter/callCenter.wxml:template:2:6")
-var tEB=_oz(z,1,e,s,gg)
-var eFB=_gd(x[21],tEB,e_,d_)
-if(eFB){
-var bGB=_1z(z,0,e,s,gg) || {}
+var eFB=_oz(z,1,e,s,gg)
+var bGB=_gd(x[23],eFB,e_,d_)
+if(bGB){
+var oHB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aDB.wxXCkey=3
-eFB(bGB,bGB,aDB,gg)
+tEB.wxXCkey=3
+bGB(oHB,oHB,tEB,gg)
 gg.f=cur_globalf
 }
-else _w(tEB,x[21],2,18)
+else _w(eFB,x[23],2,18)
 cs.pop()
-lCB.pop()
+aDB.pop()
 return r
 }
-e_[x[21]]={f:m14,j:[],i:[],ti:[x[22]],ic:[]}
-d_[x[23]]={}
-d_[x[23]]["747af69c"]=function(e,s,r,gg){
+e_[x[23]]={f:m14,j:[],i:[],ti:[x[24]],ic:[]}
+d_[x[25]]={}
+d_[x[25]]["747af69c"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[23]+':747af69c'
+var b=x[25]+':747af69c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/cart/cart.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[23]);return}
+if(p_[b]){_wl(b,x[25]);return}
 p_[b]=true
 try{
+cs.push("./pages/cart/cart.vue.wxml:view:1:74")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/cart/cart.vue.wxml:view:1:403")
+var fE=_v()
+_(xC,fE)
+cs.push("./pages/cart/cart.vue.wxml:view:1:475")
+var cF=function(oH,hG,cI,gg){
+cs.push("./pages/cart/cart.vue.wxml:view:1:617")
+var lK=_n('view')
+_rz(z,lK,'class',7,oH,hG,gg)
+var aL=_v()
+_(lK,aL)
+if(_oz(z,8,oH,hG,gg)){aL.wxVkey=1
+cs.push("./pages/cart/cart.vue.wxml:image:1:659")
+cs.pop()
+}
+var tM=_v()
+_(lK,tM)
+if(_oz(z,9,oH,hG,gg)){tM.wxVkey=1
+cs.push("./pages/cart/cart.vue.wxml:view:1:840")
+cs.pop()
+}
+aL.wxXCkey=1
+tM.wxXCkey=1
+cs.pop()
+_(cI,lK)
+return cI
+}
+fE.wxXCkey=2
+_2z(z,5,cF,e,s,gg,fE,'item','index','index')
+cs.pop()
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+if(_oz(z,10,e,s,gg)){oD.wxVkey=1
+cs.push("./pages/cart/cart.vue.wxml:template:1:2140")
+var eN=_v()
+_(oD,eN)
+cs.push("./pages/cart/cart.vue.wxml:template:1:2140")
+var bO=_oz(z,12,e,s,gg)
+var oP=_gd(x[25],bO,e_,d_)
+if(oP){
+var xQ=_1z(z,11,e,s,gg) || {}
+var cur_globalf=gg.f
+eN.wxXCkey=3
+oP(xQ,xQ,eN,gg)
+gg.f=cur_globalf
+}
+else _w(bO,x[25],1,2247)
+cs.pop()
+cs.pop()
+}
+xC.wxXCkey=1
+oD.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -2070,39 +2187,42 @@ return r
 }
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-return r
-}
-e_[x[23]]={f:m15,j:[],i:[],ti:[],ic:[]}
-d_[x[24]]={}
-var m16=function(e,s,r,gg){
-var z=gz$gwx_17()
-var oJB=e_[x[24]].i
-_ai(oJB,x[25],e_,x[24],1,1)
-var fKB=_v()
-_(r,fKB)
-cs.push("./pages/cart/cart.wxml:template:2:6")
-var cLB=_oz(z,1,e,s,gg)
-var hMB=_gd(x[24],cLB,e_,d_)
-if(hMB){
-var oNB=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-fKB.wxXCkey=3
-hMB(oNB,oNB,fKB,gg)
-gg.f=cur_globalf
-}
-else _w(cLB,x[24],2,18)
-cs.pop()
+var oJB=e_[x[25]].i
+_ai(oJB,x[2],e_,x[25],1,1)
 oJB.pop()
 return r
 }
-e_[x[24]]={f:m16,j:[],i:[],ti:[x[25]],ic:[]}
+e_[x[25]]={f:m15,j:[],i:[],ti:[x[2]],ic:[]}
 d_[x[26]]={}
-d_[x[26]]["6a0e2708"]=function(e,s,r,gg){
+var m16=function(e,s,r,gg){
+var z=gz$gwx_17()
+var cLB=e_[x[26]].i
+_ai(cLB,x[27],e_,x[26],1,1)
+var hMB=_v()
+_(r,hMB)
+cs.push("./pages/cart/cart.wxml:template:2:6")
+var oNB=_oz(z,1,e,s,gg)
+var cOB=_gd(x[26],oNB,e_,d_)
+if(cOB){
+var oPB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+hMB.wxXCkey=3
+cOB(oPB,oPB,hMB,gg)
+gg.f=cur_globalf
+}
+else _w(oNB,x[26],2,18)
+cs.pop()
+cLB.pop()
+return r
+}
+e_[x[26]]={f:m16,j:[],i:[],ti:[x[27]],ic:[]}
+d_[x[28]]={}
+d_[x[28]]["6a0e2708"]=function(e,s,r,gg){
 var z=gz$gwx_18()
-var b=x[26]+':6a0e2708'
+var b=x[28]+':6a0e2708'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/collect/collect.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[26]);return}
+if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
 cs.push("./pages/collect/collect.vue.wxml:view:1:74")
@@ -2127,7 +2247,7 @@ cs.pop()
 var eN=_v()
 _(aL,eN)
 if(_oz(z,10,oH,hG,gg)){eN.wxVkey=1
-cs.push("./pages/collect/collect.vue.wxml:text:1:1491")
+cs.push("./pages/collect/collect.vue.wxml:text:1:1486")
 cs.pop()
 }
 tM.wxXCkey=1
@@ -2145,12 +2265,12 @@ cs.pop()
 var xC=_v()
 _(oB,xC)
 if(_oz(z,11,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/collect/collect.vue.wxml:template:1:1589")
+cs.push("./pages/collect/collect.vue.wxml:template:1:1584")
 var bO=_v()
 _(xC,bO)
-cs.push("./pages/collect/collect.vue.wxml:template:1:1589")
+cs.push("./pages/collect/collect.vue.wxml:template:1:1584")
 var oP=_oz(z,13,e,s,gg)
-var xQ=_gd(x[26],oP,e_,d_)
+var xQ=_gd(x[28],oP,e_,d_)
 if(xQ){
 var oR=_1z(z,12,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2158,14 +2278,14 @@ bO.wxXCkey=3
 xQ(oR,oR,bO,gg)
 gg.f=cur_globalf
 }
-else _w(oP,x[26],1,1694)
+else _w(oP,x[28],1,1691)
 cs.pop()
 cs.pop()
 }
 var oD=_v()
 _(oB,oD)
 if(_oz(z,14,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/collect/collect.vue.wxml:view:1:1717")
+cs.push("./pages/collect/collect.vue.wxml:view:1:1714")
 cs.pop()
 }
 xC.wxXCkey=1
@@ -2181,52 +2301,52 @@ return r
 }
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var oPB=e_[x[26]].i
-_ai(oPB,x[27],e_,x[26],1,1)
-oPB.pop()
-return r
-}
-e_[x[26]]={f:m17,j:[],i:[],ti:[x[27]],ic:[]}
-d_[x[28]]={}
-var m18=function(e,s,r,gg){
-var z=gz$gwx_19()
 var aRB=e_[x[28]].i
-_ai(aRB,x[29],e_,x[28],1,1)
-var tSB=_v()
-_(r,tSB)
-cs.push("./pages/collect/collect.wxml:template:2:6")
-var eTB=_oz(z,1,e,s,gg)
-var bUB=_gd(x[28],eTB,e_,d_)
-if(bUB){
-var oVB=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-tSB.wxXCkey=3
-bUB(oVB,oVB,tSB,gg)
-gg.f=cur_globalf
-}
-else _w(eTB,x[28],2,18)
-cs.pop()
+_ai(aRB,x[2],e_,x[28],1,1)
 aRB.pop()
 return r
 }
-e_[x[28]]={f:m18,j:[],i:[],ti:[x[29]],ic:[]}
-d_[x[30]]={}
-d_[x[30]]["410d871c"]=function(e,s,r,gg){
+e_[x[28]]={f:m17,j:[],i:[],ti:[x[2]],ic:[]}
+d_[x[29]]={}
+var m18=function(e,s,r,gg){
+var z=gz$gwx_19()
+var eTB=e_[x[29]].i
+_ai(eTB,x[30],e_,x[29],1,1)
+var bUB=_v()
+_(r,bUB)
+cs.push("./pages/collect/collect.wxml:template:2:6")
+var oVB=_oz(z,1,e,s,gg)
+var xWB=_gd(x[29],oVB,e_,d_)
+if(xWB){
+var oXB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+bUB.wxXCkey=3
+xWB(oXB,oXB,bUB,gg)
+gg.f=cur_globalf
+}
+else _w(oVB,x[29],2,18)
+cs.pop()
+eTB.pop()
+return r
+}
+e_[x[29]]={f:m18,j:[],i:[],ti:[x[30]],ic:[]}
+d_[x[31]]={}
+d_[x[31]]["410d871c"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[30]+':410d871c'
+var b=x[31]+':410d871c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/comment/comment.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[30]);return}
+if(p_[b]){_wl(b,x[31]);return}
 p_[b]=true
 try{
-cs.push("./pages/comment/comment.vue.wxml:view:1:655")
+cs.push("./pages/comment/comment.vue.wxml:view:1:627")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/comment/comment.vue.wxml:template:1:787")
+cs.push("./pages/comment/comment.vue.wxml:template:1:759")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[30],oD,e_,d_)
+var fE=_gd(x[31],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2234,13 +2354,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[30],1,963)
+else _w(oD,x[31],1,935)
 cs.pop()
 var hG=_v()
 _(oB,hG)
-cs.push("./pages/comment/comment.vue.wxml:template:1:1084")
+cs.push("./pages/comment/comment.vue.wxml:template:1:1056")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[30],oH,e_,d_)
+var cI=_gd(x[31],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2248,7 +2368,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[30],1,1260)
+else _w(oH,x[31],1,1233)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2261,32 +2381,32 @@ return r
 }
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var oXB=e_[x[30]].i
-_ai(oXB,x[31],e_,x[30],1,1)
-oXB.pop()
+var cZB=e_[x[31]].i
+_ai(cZB,x[4],e_,x[31],1,1)
+cZB.pop()
 return r
 }
-e_[x[30]]={f:m19,j:[],i:[],ti:[x[31]],ic:[]}
+e_[x[31]]={f:m19,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[32]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var cZB=e_[x[32]].i
-_ai(cZB,x[33],e_,x[32],1,1)
-var h1B=_v()
-_(r,h1B)
+var o2B=e_[x[32]].i
+_ai(o2B,x[33],e_,x[32],1,1)
+var c3B=_v()
+_(r,c3B)
 cs.push("./pages/comment/comment.wxml:template:2:6")
-var o2B=_oz(z,1,e,s,gg)
-var c3B=_gd(x[32],o2B,e_,d_)
-if(c3B){
-var o4B=_1z(z,0,e,s,gg) || {}
+var o4B=_oz(z,1,e,s,gg)
+var l5B=_gd(x[32],o4B,e_,d_)
+if(l5B){
+var a6B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-h1B.wxXCkey=3
-c3B(o4B,o4B,h1B,gg)
+c3B.wxXCkey=3
+l5B(a6B,a6B,c3B,gg)
 gg.f=cur_globalf
 }
-else _w(o2B,x[32],2,18)
+else _w(o4B,x[32],2,18)
 cs.pop()
-cZB.pop()
+o2B.pop()
 return r
 }
 e_[x[32]]={f:m20,j:[],i:[],ti:[x[33]],ic:[]}
@@ -2314,23 +2434,23 @@ e_[x[34]]={f:m21,j:[],i:[],ti:[],ic:[]}
 d_[x[35]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var t7B=e_[x[35]].i
-_ai(t7B,x[36],e_,x[35],1,1)
-var e8B=_v()
-_(r,e8B)
+var b9B=e_[x[35]].i
+_ai(b9B,x[36],e_,x[35],1,1)
+var o0B=_v()
+_(r,o0B)
 cs.push("./pages/commentList/commentList.wxml:template:2:6")
-var b9B=_oz(z,1,e,s,gg)
-var o0B=_gd(x[35],b9B,e_,d_)
-if(o0B){
-var xAC=_1z(z,0,e,s,gg) || {}
+var xAC=_oz(z,1,e,s,gg)
+var oBC=_gd(x[35],xAC,e_,d_)
+if(oBC){
+var fCC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-e8B.wxXCkey=3
-o0B(xAC,xAC,e8B,gg)
+o0B.wxXCkey=3
+oBC(fCC,fCC,o0B,gg)
 gg.f=cur_globalf
 }
-else _w(b9B,x[35],2,18)
+else _w(xAC,x[35],2,18)
 cs.pop()
-t7B.pop()
+b9B.pop()
 return r
 }
 e_[x[35]]={f:m22,j:[],i:[],ti:[x[36]],ic:[]}
@@ -2358,23 +2478,23 @@ e_[x[37]]={f:m23,j:[],i:[],ti:[],ic:[]}
 d_[x[38]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var cDC=e_[x[38]].i
-_ai(cDC,x[39],e_,x[38],1,1)
-var hEC=_v()
-_(r,hEC)
+var oFC=e_[x[38]].i
+_ai(oFC,x[39],e_,x[38],1,1)
+var cGC=_v()
+_(r,cGC)
 cs.push("./pages/complain/complain.wxml:template:2:6")
-var oFC=_oz(z,1,e,s,gg)
-var cGC=_gd(x[38],oFC,e_,d_)
-if(cGC){
-var oHC=_1z(z,0,e,s,gg) || {}
+var oHC=_oz(z,1,e,s,gg)
+var lIC=_gd(x[38],oHC,e_,d_)
+if(lIC){
+var aJC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hEC.wxXCkey=3
-cGC(oHC,oHC,hEC,gg)
+cGC.wxXCkey=3
+lIC(aJC,aJC,cGC,gg)
 gg.f=cur_globalf
 }
-else _w(oFC,x[38],2,18)
+else _w(oHC,x[38],2,18)
 cs.pop()
-cDC.pop()
+oFC.pop()
 return r
 }
 e_[x[38]]={f:m24,j:[],i:[],ti:[x[39]],ic:[]}
@@ -2402,23 +2522,23 @@ e_[x[40]]={f:m25,j:[],i:[],ti:[],ic:[]}
 d_[x[41]]={}
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
-var tKC=e_[x[41]].i
-_ai(tKC,x[42],e_,x[41],1,1)
-var eLC=_v()
-_(r,eLC)
+var bMC=e_[x[41]].i
+_ai(bMC,x[42],e_,x[41],1,1)
+var oNC=_v()
+_(r,oNC)
 cs.push("./pages/complain_2/complain_2.wxml:template:2:6")
-var bMC=_oz(z,1,e,s,gg)
-var oNC=_gd(x[41],bMC,e_,d_)
-if(oNC){
-var xOC=_1z(z,0,e,s,gg) || {}
+var xOC=_oz(z,1,e,s,gg)
+var oPC=_gd(x[41],xOC,e_,d_)
+if(oPC){
+var fQC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eLC.wxXCkey=3
-oNC(xOC,xOC,eLC,gg)
+oNC.wxXCkey=3
+oPC(fQC,fQC,oNC,gg)
 gg.f=cur_globalf
 }
-else _w(bMC,x[41],2,18)
+else _w(xOC,x[41],2,18)
 cs.pop()
-tKC.pop()
+bMC.pop()
 return r
 }
 e_[x[41]]={f:m26,j:[],i:[],ti:[x[42]],ic:[]}
@@ -2446,23 +2566,23 @@ e_[x[43]]={f:m27,j:[],i:[],ti:[],ic:[]}
 d_[x[44]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var cRC=e_[x[44]].i
-_ai(cRC,x[45],e_,x[44],1,1)
-var hSC=_v()
-_(r,hSC)
+var oTC=e_[x[44]].i
+_ai(oTC,x[45],e_,x[44],1,1)
+var cUC=_v()
+_(r,cUC)
 cs.push("./pages/confirmOrder/confirmOrder.wxml:template:2:6")
-var oTC=_oz(z,1,e,s,gg)
-var cUC=_gd(x[44],oTC,e_,d_)
-if(cUC){
-var oVC=_1z(z,0,e,s,gg) || {}
+var oVC=_oz(z,1,e,s,gg)
+var lWC=_gd(x[44],oVC,e_,d_)
+if(lWC){
+var aXC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hSC.wxXCkey=3
-cUC(oVC,oVC,hSC,gg)
+cUC.wxXCkey=3
+lWC(aXC,aXC,cUC,gg)
 gg.f=cur_globalf
 }
-else _w(oTC,x[44],2,18)
+else _w(oVC,x[44],2,18)
 cs.pop()
-cRC.pop()
+oTC.pop()
 return r
 }
 e_[x[44]]={f:m28,j:[],i:[],ti:[x[45]],ic:[]}
@@ -2490,32 +2610,32 @@ e_[x[46]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[47]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var tYC=e_[x[47]].i
-_ai(tYC,x[48],e_,x[47],1,1)
-var eZC=_v()
-_(r,eZC)
+var b1C=e_[x[47]].i
+_ai(b1C,x[48],e_,x[47],1,1)
+var o2C=_v()
+_(r,o2C)
 cs.push("./pages/cz_psssword/cz_psssword.wxml:template:2:6")
-var b1C=_oz(z,1,e,s,gg)
-var o2C=_gd(x[47],b1C,e_,d_)
-if(o2C){
-var x3C=_1z(z,0,e,s,gg) || {}
+var x3C=_oz(z,1,e,s,gg)
+var o4C=_gd(x[47],x3C,e_,d_)
+if(o4C){
+var f5C=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eZC.wxXCkey=3
-o2C(x3C,x3C,eZC,gg)
+o2C.wxXCkey=3
+o4C(f5C,f5C,o2C,gg)
 gg.f=cur_globalf
 }
-else _w(b1C,x[47],2,18)
+else _w(x3C,x[47],2,18)
 cs.pop()
-tYC.pop()
+b1C.pop()
 return r
 }
 e_[x[47]]={f:m30,j:[],i:[],ti:[x[48]],ic:[]}
 d_[x[49]]={}
-d_[x[49]]["2e2cd952"]=function(e,s,r,gg){
+d_[x[49]]["ba799f5c"]=function(e,s,r,gg){
 var z=gz$gwx_32()
-var b=x[49]+':2e2cd952'
+var b=x[49]+':ba799f5c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/ggDetail/ggDetail.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/fenlei/fenlei.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[49]);return}
 p_[b]=true
 try{
@@ -2534,32 +2654,32 @@ e_[x[49]]={f:m31,j:[],i:[],ti:[],ic:[]}
 d_[x[50]]={}
 var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
-var c6C=e_[x[50]].i
-_ai(c6C,x[51],e_,x[50],1,1)
-var h7C=_v()
-_(r,h7C)
-cs.push("./pages/ggDetail/ggDetail.wxml:template:2:6")
-var o8C=_oz(z,1,e,s,gg)
-var c9C=_gd(x[50],o8C,e_,d_)
-if(c9C){
-var o0C=_1z(z,0,e,s,gg) || {}
+var o8C=e_[x[50]].i
+_ai(o8C,x[51],e_,x[50],1,1)
+var c9C=_v()
+_(r,c9C)
+cs.push("./pages/fenlei/fenlei.wxml:template:2:6")
+var o0C=_oz(z,1,e,s,gg)
+var lAD=_gd(x[50],o0C,e_,d_)
+if(lAD){
+var aBD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-h7C.wxXCkey=3
-c9C(o0C,o0C,h7C,gg)
+c9C.wxXCkey=3
+lAD(aBD,aBD,c9C,gg)
 gg.f=cur_globalf
 }
-else _w(o8C,x[50],2,18)
+else _w(o0C,x[50],2,18)
 cs.pop()
-c6C.pop()
+o8C.pop()
 return r
 }
 e_[x[50]]={f:m32,j:[],i:[],ti:[x[51]],ic:[]}
 d_[x[52]]={}
-d_[x[52]]["dccc0c9c"]=function(e,s,r,gg){
+d_[x[52]]["2e2cd952"]=function(e,s,r,gg){
 var z=gz$gwx_34()
-var b=x[52]+':dccc0c9c'
+var b=x[52]+':2e2cd952'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/ggList/ggList.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/ggDetail/ggDetail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[52]);return}
 p_[b]=true
 try{
@@ -2578,32 +2698,32 @@ e_[x[52]]={f:m33,j:[],i:[],ti:[],ic:[]}
 d_[x[53]]={}
 var m34=function(e,s,r,gg){
 var z=gz$gwx_35()
-var tCD=e_[x[53]].i
-_ai(tCD,x[54],e_,x[53],1,1)
-var eDD=_v()
-_(r,eDD)
-cs.push("./pages/ggList/ggList.wxml:template:2:6")
-var bED=_oz(z,1,e,s,gg)
-var oFD=_gd(x[53],bED,e_,d_)
-if(oFD){
-var xGD=_1z(z,0,e,s,gg) || {}
+var bED=e_[x[53]].i
+_ai(bED,x[54],e_,x[53],1,1)
+var oFD=_v()
+_(r,oFD)
+cs.push("./pages/ggDetail/ggDetail.wxml:template:2:6")
+var xGD=_oz(z,1,e,s,gg)
+var oHD=_gd(x[53],xGD,e_,d_)
+if(oHD){
+var fID=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eDD.wxXCkey=3
-oFD(xGD,xGD,eDD,gg)
+oFD.wxXCkey=3
+oHD(fID,fID,oFD,gg)
 gg.f=cur_globalf
 }
-else _w(bED,x[53],2,18)
+else _w(xGD,x[53],2,18)
 cs.pop()
-tCD.pop()
+bED.pop()
 return r
 }
 e_[x[53]]={f:m34,j:[],i:[],ti:[x[54]],ic:[]}
 d_[x[55]]={}
-d_[x[55]]["0666f152"]=function(e,s,r,gg){
+d_[x[55]]["dccc0c9c"]=function(e,s,r,gg){
 var z=gz$gwx_36()
-var b=x[55]+':0666f152'
+var b=x[55]+':dccc0c9c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/help/help.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/ggList/ggList.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[55]);return}
 p_[b]=true
 try{
@@ -2622,32 +2742,32 @@ e_[x[55]]={f:m35,j:[],i:[],ti:[],ic:[]}
 d_[x[56]]={}
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
-var cJD=e_[x[56]].i
-_ai(cJD,x[57],e_,x[56],1,1)
-var hKD=_v()
-_(r,hKD)
-cs.push("./pages/help/help.wxml:template:2:6")
-var oLD=_oz(z,1,e,s,gg)
-var cMD=_gd(x[56],oLD,e_,d_)
-if(cMD){
-var oND=_1z(z,0,e,s,gg) || {}
+var oLD=e_[x[56]].i
+_ai(oLD,x[57],e_,x[56],1,1)
+var cMD=_v()
+_(r,cMD)
+cs.push("./pages/ggList/ggList.wxml:template:2:6")
+var oND=_oz(z,1,e,s,gg)
+var lOD=_gd(x[56],oND,e_,d_)
+if(lOD){
+var aPD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hKD.wxXCkey=3
-cMD(oND,oND,hKD,gg)
+cMD.wxXCkey=3
+lOD(aPD,aPD,cMD,gg)
 gg.f=cur_globalf
 }
-else _w(oLD,x[56],2,18)
+else _w(oND,x[56],2,18)
 cs.pop()
-cJD.pop()
+oLD.pop()
 return r
 }
 e_[x[56]]={f:m36,j:[],i:[],ti:[x[57]],ic:[]}
 d_[x[58]]={}
-d_[x[58]]["22c1b9b2"]=function(e,s,r,gg){
+d_[x[58]]["0666f152"]=function(e,s,r,gg){
 var z=gz$gwx_38()
-var b=x[58]+':22c1b9b2'
+var b=x[58]+':0666f152'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/helpDetail/helpDetail.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/help/help.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[58]);return}
 p_[b]=true
 try{
@@ -2666,32 +2786,32 @@ e_[x[58]]={f:m37,j:[],i:[],ti:[],ic:[]}
 d_[x[59]]={}
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
-var tQD=e_[x[59]].i
-_ai(tQD,x[60],e_,x[59],1,1)
-var eRD=_v()
-_(r,eRD)
-cs.push("./pages/helpDetail/helpDetail.wxml:template:2:6")
-var bSD=_oz(z,1,e,s,gg)
-var oTD=_gd(x[59],bSD,e_,d_)
-if(oTD){
-var xUD=_1z(z,0,e,s,gg) || {}
+var bSD=e_[x[59]].i
+_ai(bSD,x[60],e_,x[59],1,1)
+var oTD=_v()
+_(r,oTD)
+cs.push("./pages/help/help.wxml:template:2:6")
+var xUD=_oz(z,1,e,s,gg)
+var oVD=_gd(x[59],xUD,e_,d_)
+if(oVD){
+var fWD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eRD.wxXCkey=3
-oTD(xUD,xUD,eRD,gg)
+oTD.wxXCkey=3
+oVD(fWD,fWD,oTD,gg)
 gg.f=cur_globalf
 }
-else _w(bSD,x[59],2,18)
+else _w(xUD,x[59],2,18)
 cs.pop()
-tQD.pop()
+bSD.pop()
 return r
 }
 e_[x[59]]={f:m38,j:[],i:[],ti:[x[60]],ic:[]}
 d_[x[61]]={}
-d_[x[61]]["609606d0"]=function(e,s,r,gg){
+d_[x[61]]["22c1b9b2"]=function(e,s,r,gg){
 var z=gz$gwx_40()
-var b=x[61]+':609606d0'
+var b=x[61]+':22c1b9b2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/helpDetail/helpDetail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[61]);return}
 p_[b]=true
 try{
@@ -2710,32 +2830,32 @@ e_[x[61]]={f:m39,j:[],i:[],ti:[],ic:[]}
 d_[x[62]]={}
 var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
-var cXD=e_[x[62]].i
-_ai(cXD,x[63],e_,x[62],1,1)
-var hYD=_v()
-_(r,hYD)
-cs.push("./pages/index/index.wxml:template:2:6")
-var oZD=_oz(z,1,e,s,gg)
-var c1D=_gd(x[62],oZD,e_,d_)
-if(c1D){
-var o2D=_1z(z,0,e,s,gg) || {}
+var oZD=e_[x[62]].i
+_ai(oZD,x[63],e_,x[62],1,1)
+var c1D=_v()
+_(r,c1D)
+cs.push("./pages/helpDetail/helpDetail.wxml:template:2:6")
+var o2D=_oz(z,1,e,s,gg)
+var l3D=_gd(x[62],o2D,e_,d_)
+if(l3D){
+var a4D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hYD.wxXCkey=3
-c1D(o2D,o2D,hYD,gg)
+c1D.wxXCkey=3
+l3D(a4D,a4D,c1D,gg)
 gg.f=cur_globalf
 }
-else _w(oZD,x[62],2,18)
+else _w(o2D,x[62],2,18)
 cs.pop()
-cXD.pop()
+oZD.pop()
 return r
 }
 e_[x[62]]={f:m40,j:[],i:[],ti:[x[63]],ic:[]}
 d_[x[64]]={}
-d_[x[64]]["5a5d8af2"]=function(e,s,r,gg){
+d_[x[64]]["609606d0"]=function(e,s,r,gg){
 var z=gz$gwx_42()
-var b=x[64]+':5a5d8af2'
+var b=x[64]+':609606d0'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/logn/logn.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[64]);return}
 p_[b]=true
 try{
@@ -2754,32 +2874,32 @@ e_[x[64]]={f:m41,j:[],i:[],ti:[],ic:[]}
 d_[x[65]]={}
 var m42=function(e,s,r,gg){
 var z=gz$gwx_43()
-var t5D=e_[x[65]].i
-_ai(t5D,x[66],e_,x[65],1,1)
-var e6D=_v()
-_(r,e6D)
-cs.push("./pages/logn/logn.wxml:template:2:6")
-var b7D=_oz(z,1,e,s,gg)
-var o8D=_gd(x[65],b7D,e_,d_)
-if(o8D){
-var x9D=_1z(z,0,e,s,gg) || {}
+var b7D=e_[x[65]].i
+_ai(b7D,x[66],e_,x[65],1,1)
+var o8D=_v()
+_(r,o8D)
+cs.push("./pages/index/index.wxml:template:2:6")
+var x9D=_oz(z,1,e,s,gg)
+var o0D=_gd(x[65],x9D,e_,d_)
+if(o0D){
+var fAE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-e6D.wxXCkey=3
-o8D(x9D,x9D,e6D,gg)
+o8D.wxXCkey=3
+o0D(fAE,fAE,o8D,gg)
 gg.f=cur_globalf
 }
-else _w(b7D,x[65],2,18)
+else _w(x9D,x[65],2,18)
 cs.pop()
-t5D.pop()
+b7D.pop()
 return r
 }
 e_[x[65]]={f:m42,j:[],i:[],ti:[x[66]],ic:[]}
 d_[x[67]]={}
-d_[x[67]]["612c6f32"]=function(e,s,r,gg){
+d_[x[67]]["5a5d8af2"]=function(e,s,r,gg){
 var z=gz$gwx_44()
-var b=x[67]+':612c6f32'
+var b=x[67]+':5a5d8af2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/merchant/merchant.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/logn/logn.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[67]);return}
 p_[b]=true
 try{
@@ -2798,82 +2918,126 @@ e_[x[67]]={f:m43,j:[],i:[],ti:[],ic:[]}
 d_[x[68]]={}
 var m44=function(e,s,r,gg){
 var z=gz$gwx_45()
-var cBE=e_[x[68]].i
-_ai(cBE,x[69],e_,x[68],1,1)
-var hCE=_v()
-_(r,hCE)
-cs.push("./pages/merchant/merchant.wxml:template:2:6")
-var oDE=_oz(z,1,e,s,gg)
-var cEE=_gd(x[68],oDE,e_,d_)
-if(cEE){
-var oFE=_1z(z,0,e,s,gg) || {}
+var oDE=e_[x[68]].i
+_ai(oDE,x[69],e_,x[68],1,1)
+var cEE=_v()
+_(r,cEE)
+cs.push("./pages/logn/logn.wxml:template:2:6")
+var oFE=_oz(z,1,e,s,gg)
+var lGE=_gd(x[68],oFE,e_,d_)
+if(lGE){
+var aHE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hCE.wxXCkey=3
-cEE(oFE,oFE,hCE,gg)
+cEE.wxXCkey=3
+lGE(aHE,aHE,cEE,gg)
 gg.f=cur_globalf
 }
-else _w(oDE,x[68],2,18)
+else _w(oFE,x[68],2,18)
 cs.pop()
-cBE.pop()
+oDE.pop()
 return r
 }
 e_[x[68]]={f:m44,j:[],i:[],ti:[x[69]],ic:[]}
 d_[x[70]]={}
-d_[x[70]]["3db026e0"]=function(e,s,r,gg){
+d_[x[70]]["612c6f32"]=function(e,s,r,gg){
 var z=gz$gwx_46()
-var b=x[70]+':3db026e0'
+var b=x[70]+':612c6f32'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/merchant/merchant.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[70]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m45=function(e,s,r,gg){
+var z=gz$gwx_46()
+return r
+}
+e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[71]]={}
+var m46=function(e,s,r,gg){
+var z=gz$gwx_47()
+var bKE=e_[x[71]].i
+_ai(bKE,x[72],e_,x[71],1,1)
+var oLE=_v()
+_(r,oLE)
+cs.push("./pages/merchant/merchant.wxml:template:2:6")
+var xME=_oz(z,1,e,s,gg)
+var oNE=_gd(x[71],xME,e_,d_)
+if(oNE){
+var fOE=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oLE.wxXCkey=3
+oNE(fOE,fOE,oLE,gg)
+gg.f=cur_globalf
+}
+else _w(xME,x[71],2,18)
+cs.pop()
+bKE.pop()
+return r
+}
+e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
+d_[x[73]]={}
+d_[x[73]]["3db026e0"]=function(e,s,r,gg){
+var z=gz$gwx_48()
+var b=x[73]+':3db026e0'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/order/order.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[70]);return}
+if(p_[b]){_wl(b,x[73]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
-cs.push("./pages/order/order.vue.wxml:view:1:1112")
+cs.push("./pages/order/order.vue.wxml:view:1:950")
 var xC=function(fE,oD,cF,gg){
-cs.push("./pages/order/order.vue.wxml:view:1:1630")
+cs.push("./pages/order/order.vue.wxml:view:1:1571")
 var oH=_n('view')
 _rz(z,oH,'class',5,fE,oD,gg)
 var cI=_v()
 _(oH,cI)
 if(_oz(z,6,fE,oD,gg)){cI.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:1670")
+cs.push("./pages/order/order.vue.wxml:text:1:1611")
 cs.pop()
 }
 var oJ=_v()
 _(oH,oJ)
 if(_oz(z,7,fE,oD,gg)){oJ.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:1753")
+cs.push("./pages/order/order.vue.wxml:text:1:1807")
 cs.pop()
 }
 var lK=_v()
 _(oH,lK)
 if(_oz(z,8,fE,oD,gg)){lK.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:1926")
+cs.push("./pages/order/order.vue.wxml:text:1:2011")
 cs.pop()
 }
 var aL=_v()
 _(oH,aL)
 if(_oz(z,9,fE,oD,gg)){aL.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:2026")
+cs.push("./pages/order/order.vue.wxml:text:1:2104")
 cs.pop()
 }
 var tM=_v()
 _(oH,tM)
 if(_oz(z,10,fE,oD,gg)){tM.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:2117")
+cs.push("./pages/order/order.vue.wxml:text:1:2275")
 cs.pop()
 }
 var eN=_v()
 _(oH,eN)
 if(_oz(z,11,fE,oD,gg)){eN.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:2200")
+cs.push("./pages/order/order.vue.wxml:text:1:2454")
 cs.pop()
 }
 var bO=_v()
 _(oH,bO)
 if(_oz(z,12,fE,oD,gg)){bO.wxVkey=1
-cs.push("./pages/order/order.vue.wxml:text:1:2283")
+cs.push("./pages/order/order.vue.wxml:text:1:2703")
 cs.pop()
 }
 cI.wxXCkey=1
@@ -2897,57 +3061,6 @@ throw err
 p_[b]=false
 return r
 }
-var m45=function(e,s,r,gg){
-var z=gz$gwx_46()
-return r
-}
-e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[71]]={}
-var m46=function(e,s,r,gg){
-var z=gz$gwx_47()
-var tIE=e_[x[71]].i
-_ai(tIE,x[72],e_,x[71],1,1)
-var eJE=_v()
-_(r,eJE)
-cs.push("./pages/order/order.wxml:template:2:6")
-var bKE=_oz(z,1,e,s,gg)
-var oLE=_gd(x[71],bKE,e_,d_)
-if(oLE){
-var xME=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-eJE.wxXCkey=3
-oLE(xME,xME,eJE,gg)
-gg.f=cur_globalf
-}
-else _w(bKE,x[71],2,18)
-cs.pop()
-tIE.pop()
-return r
-}
-e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
-d_[x[73]]={}
-d_[x[73]]["3d279f8a"]=function(e,s,r,gg){
-var z=gz$gwx_48()
-var b=x[73]+':3d279f8a'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/product_detaill/product_detaill.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[73]);return}
-p_[b]=true
-try{
-var oB=_v()
-_(r,oB)
-if(_oz(z,1,e,s,gg)){oB.wxVkey=1
-cs.push("./pages/product_detaill/product_detaill.vue.wxml:view:1:3795")
-cs.pop()
-}
-oB.wxXCkey=1
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m47=function(e,s,r,gg){
 var z=gz$gwx_48()
 return r
@@ -2956,32 +3069,32 @@ e_[x[73]]={f:m47,j:[],i:[],ti:[],ic:[]}
 d_[x[74]]={}
 var m48=function(e,s,r,gg){
 var z=gz$gwx_49()
-var cPE=e_[x[74]].i
-_ai(cPE,x[75],e_,x[74],1,1)
-var hQE=_v()
-_(r,hQE)
-cs.push("./pages/product_detaill/product_detaill.wxml:template:2:6")
-var oRE=_oz(z,1,e,s,gg)
-var cSE=_gd(x[74],oRE,e_,d_)
-if(cSE){
-var oTE=_1z(z,0,e,s,gg) || {}
+var oRE=e_[x[74]].i
+_ai(oRE,x[75],e_,x[74],1,1)
+var cSE=_v()
+_(r,cSE)
+cs.push("./pages/order/order.wxml:template:2:6")
+var oTE=_oz(z,1,e,s,gg)
+var lUE=_gd(x[74],oTE,e_,d_)
+if(lUE){
+var aVE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hQE.wxXCkey=3
-cSE(oTE,oTE,hQE,gg)
+cSE.wxXCkey=3
+lUE(aVE,aVE,cSE,gg)
 gg.f=cur_globalf
 }
-else _w(oRE,x[74],2,18)
+else _w(oTE,x[74],2,18)
 cs.pop()
-cPE.pop()
+oRE.pop()
 return r
 }
 e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
 d_[x[76]]={}
-d_[x[76]]["0570b592"]=function(e,s,r,gg){
+d_[x[76]]["bbf0b19c"]=function(e,s,r,gg){
 var z=gz$gwx_50()
-var b=x[76]+':0570b592'
+var b=x[76]+':bbf0b19c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/register.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/orderDetail/orderDetail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
@@ -3000,39 +3113,39 @@ e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
 d_[x[77]]={}
 var m50=function(e,s,r,gg){
 var z=gz$gwx_51()
-var tWE=e_[x[77]].i
-_ai(tWE,x[78],e_,x[77],1,1)
-var eXE=_v()
-_(r,eXE)
-cs.push("./pages/register/register.wxml:template:2:6")
-var bYE=_oz(z,1,e,s,gg)
-var oZE=_gd(x[77],bYE,e_,d_)
-if(oZE){
-var x1E=_1z(z,0,e,s,gg) || {}
+var bYE=e_[x[77]].i
+_ai(bYE,x[78],e_,x[77],1,1)
+var oZE=_v()
+_(r,oZE)
+cs.push("./pages/orderDetail/orderDetail.wxml:template:2:6")
+var x1E=_oz(z,1,e,s,gg)
+var o2E=_gd(x[77],x1E,e_,d_)
+if(o2E){
+var f3E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eXE.wxXCkey=3
-oZE(x1E,x1E,eXE,gg)
+oZE.wxXCkey=3
+o2E(f3E,f3E,oZE,gg)
 gg.f=cur_globalf
 }
-else _w(bYE,x[77],2,18)
+else _w(x1E,x[77],2,18)
 cs.pop()
-tWE.pop()
+bYE.pop()
 return r
 }
 e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
 d_[x[79]]={}
-d_[x[79]]["57e9625a"]=function(e,s,r,gg){
+d_[x[79]]["3d279f8a"]=function(e,s,r,gg){
 var z=gz$gwx_52()
-var b=x[79]+':57e9625a'
+var b=x[79]+':3d279f8a'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/shouHou/shouHou.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/product_detaill/product_detaill.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 if(_oz(z,1,e,s,gg)){oB.wxVkey=1
-cs.push("./pages/shouHou/shouHou.vue.wxml:view:1:975")
+cs.push("./pages/product_detaill/product_detaill.vue.wxml:view:1:3990")
 cs.pop()
 }
 oB.wxXCkey=1
@@ -3051,32 +3164,32 @@ e_[x[79]]={f:m51,j:[],i:[],ti:[],ic:[]}
 d_[x[80]]={}
 var m52=function(e,s,r,gg){
 var z=gz$gwx_53()
-var c4E=e_[x[80]].i
-_ai(c4E,x[81],e_,x[80],1,1)
-var h5E=_v()
-_(r,h5E)
-cs.push("./pages/shouHou/shouHou.wxml:template:2:6")
-var o6E=_oz(z,1,e,s,gg)
-var c7E=_gd(x[80],o6E,e_,d_)
-if(c7E){
-var o8E=_1z(z,0,e,s,gg) || {}
+var o6E=e_[x[80]].i
+_ai(o6E,x[81],e_,x[80],1,1)
+var c7E=_v()
+_(r,c7E)
+cs.push("./pages/product_detaill/product_detaill.wxml:template:2:6")
+var o8E=_oz(z,1,e,s,gg)
+var l9E=_gd(x[80],o8E,e_,d_)
+if(l9E){
+var a0E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-h5E.wxXCkey=3
-c7E(o8E,o8E,h5E,gg)
+c7E.wxXCkey=3
+l9E(a0E,a0E,c7E,gg)
 gg.f=cur_globalf
 }
-else _w(o6E,x[80],2,18)
+else _w(o8E,x[80],2,18)
 cs.pop()
-c4E.pop()
+o6E.pop()
 return r
 }
 e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
 d_[x[82]]={}
-d_[x[82]]["6714820c"]=function(e,s,r,gg){
+d_[x[82]]["0570b592"]=function(e,s,r,gg){
 var z=gz$gwx_54()
-var b=x[82]+':6714820c'
+var b=x[82]+':0570b592'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/suiguo_list/suiguo_list.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/register.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[82]);return}
 p_[b]=true
 try{
@@ -3095,35 +3208,42 @@ e_[x[82]]={f:m53,j:[],i:[],ti:[],ic:[]}
 d_[x[83]]={}
 var m54=function(e,s,r,gg){
 var z=gz$gwx_55()
-var tAF=e_[x[83]].i
-_ai(tAF,x[84],e_,x[83],1,1)
-var eBF=_v()
-_(r,eBF)
-cs.push("./pages/suiguo_list/suiguo_list.wxml:template:2:6")
-var bCF=_oz(z,1,e,s,gg)
-var oDF=_gd(x[83],bCF,e_,d_)
-if(oDF){
-var xEF=_1z(z,0,e,s,gg) || {}
+var bCF=e_[x[83]].i
+_ai(bCF,x[84],e_,x[83],1,1)
+var oDF=_v()
+_(r,oDF)
+cs.push("./pages/register/register.wxml:template:2:6")
+var xEF=_oz(z,1,e,s,gg)
+var oFF=_gd(x[83],xEF,e_,d_)
+if(oFF){
+var fGF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eBF.wxXCkey=3
-oDF(xEF,xEF,eBF,gg)
+oDF.wxXCkey=3
+oFF(fGF,fGF,oDF,gg)
 gg.f=cur_globalf
 }
-else _w(bCF,x[83],2,18)
+else _w(xEF,x[83],2,18)
 cs.pop()
-tAF.pop()
+bCF.pop()
 return r
 }
 e_[x[83]]={f:m54,j:[],i:[],ti:[x[84]],ic:[]}
 d_[x[85]]={}
-d_[x[85]]["5c174faa"]=function(e,s,r,gg){
+d_[x[85]]["57e9625a"]=function(e,s,r,gg){
 var z=gz$gwx_56()
-var b=x[85]+':5c174faa'
+var b=x[85]+':57e9625a'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/suiguo_shop/suiguo_shop.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/shouHou/shouHou.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[85]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+cs.push("./pages/shouHou/shouHou.vue.wxml:view:1:975")
+cs.pop()
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3139,32 +3259,32 @@ e_[x[85]]={f:m55,j:[],i:[],ti:[],ic:[]}
 d_[x[86]]={}
 var m56=function(e,s,r,gg){
 var z=gz$gwx_57()
-var cHF=e_[x[86]].i
-_ai(cHF,x[87],e_,x[86],1,1)
-var hIF=_v()
-_(r,hIF)
-cs.push("./pages/suiguo_shop/suiguo_shop.wxml:template:2:6")
-var oJF=_oz(z,1,e,s,gg)
-var cKF=_gd(x[86],oJF,e_,d_)
-if(cKF){
-var oLF=_1z(z,0,e,s,gg) || {}
+var oJF=e_[x[86]].i
+_ai(oJF,x[87],e_,x[86],1,1)
+var cKF=_v()
+_(r,cKF)
+cs.push("./pages/shouHou/shouHou.wxml:template:2:6")
+var oLF=_oz(z,1,e,s,gg)
+var lMF=_gd(x[86],oLF,e_,d_)
+if(lMF){
+var aNF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hIF.wxXCkey=3
-cKF(oLF,oLF,hIF,gg)
+cKF.wxXCkey=3
+lMF(aNF,aNF,cKF,gg)
 gg.f=cur_globalf
 }
-else _w(oJF,x[86],2,18)
+else _w(oLF,x[86],2,18)
 cs.pop()
-cHF.pop()
+oJF.pop()
 return r
 }
 e_[x[86]]={f:m56,j:[],i:[],ti:[x[87]],ic:[]}
 d_[x[88]]={}
-d_[x[88]]["6526365c"]=function(e,s,r,gg){
+d_[x[88]]["6714820c"]=function(e,s,r,gg){
 var z=gz$gwx_58()
-var b=x[88]+':6526365c'
+var b=x[88]+':6714820c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/system_setup/system_setup.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/suiguo_list/suiguo_list.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[88]);return}
 p_[b]=true
 try{
@@ -3183,42 +3303,35 @@ e_[x[88]]={f:m57,j:[],i:[],ti:[],ic:[]}
 d_[x[89]]={}
 var m58=function(e,s,r,gg){
 var z=gz$gwx_59()
-var tOF=e_[x[89]].i
-_ai(tOF,x[90],e_,x[89],1,1)
-var ePF=_v()
-_(r,ePF)
-cs.push("./pages/system_setup/system_setup.wxml:template:2:6")
-var bQF=_oz(z,1,e,s,gg)
-var oRF=_gd(x[89],bQF,e_,d_)
-if(oRF){
-var xSF=_1z(z,0,e,s,gg) || {}
+var bQF=e_[x[89]].i
+_ai(bQF,x[90],e_,x[89],1,1)
+var oRF=_v()
+_(r,oRF)
+cs.push("./pages/suiguo_list/suiguo_list.wxml:template:2:6")
+var xSF=_oz(z,1,e,s,gg)
+var oTF=_gd(x[89],xSF,e_,d_)
+if(oTF){
+var fUF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-ePF.wxXCkey=3
-oRF(xSF,xSF,ePF,gg)
+oRF.wxXCkey=3
+oTF(fUF,fUF,oRF,gg)
 gg.f=cur_globalf
 }
-else _w(bQF,x[89],2,18)
+else _w(xSF,x[89],2,18)
 cs.pop()
-tOF.pop()
+bQF.pop()
 return r
 }
 e_[x[89]]={f:m58,j:[],i:[],ti:[x[90]],ic:[]}
 d_[x[91]]={}
-d_[x[91]]["3b0624f2"]=function(e,s,r,gg){
+d_[x[91]]["5c174faa"]=function(e,s,r,gg){
 var z=gz$gwx_60()
-var b=x[91]+':3b0624f2'
+var b=x[91]+':5c174faa'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/userCenter/userCenter.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/suiguo_shop/suiguo_shop.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[91]);return}
 p_[b]=true
 try{
-var oB=_v()
-_(r,oB)
-if(_oz(z,1,e,s,gg)){oB.wxVkey=1
-cs.push("./pages/userCenter/userCenter.vue.wxml:view:1:3725")
-cs.pop()
-}
-oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3234,32 +3347,32 @@ e_[x[91]]={f:m59,j:[],i:[],ti:[],ic:[]}
 d_[x[92]]={}
 var m60=function(e,s,r,gg){
 var z=gz$gwx_61()
-var cVF=e_[x[92]].i
-_ai(cVF,x[93],e_,x[92],1,1)
-var hWF=_v()
-_(r,hWF)
-cs.push("./pages/userCenter/userCenter.wxml:template:2:6")
-var oXF=_oz(z,1,e,s,gg)
-var cYF=_gd(x[92],oXF,e_,d_)
-if(cYF){
-var oZF=_1z(z,0,e,s,gg) || {}
+var oXF=e_[x[92]].i
+_ai(oXF,x[93],e_,x[92],1,1)
+var cYF=_v()
+_(r,cYF)
+cs.push("./pages/suiguo_shop/suiguo_shop.wxml:template:2:6")
+var oZF=_oz(z,1,e,s,gg)
+var l1F=_gd(x[92],oZF,e_,d_)
+if(l1F){
+var a2F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hWF.wxXCkey=3
-cYF(oZF,oZF,hWF,gg)
+cYF.wxXCkey=3
+l1F(a2F,a2F,cYF,gg)
 gg.f=cur_globalf
 }
-else _w(oXF,x[92],2,18)
+else _w(oZF,x[92],2,18)
 cs.pop()
-cVF.pop()
+oXF.pop()
 return r
 }
 e_[x[92]]={f:m60,j:[],i:[],ti:[x[93]],ic:[]}
 d_[x[94]]={}
-d_[x[94]]["71d77020"]=function(e,s,r,gg){
+d_[x[94]]["6526365c"]=function(e,s,r,gg){
 var z=gz$gwx_62()
-var b=x[94]+':71d77020'
+var b=x[94]+':6526365c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/userMsg/userMsg.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/system_setup/system_setup.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[94]);return}
 p_[b]=true
 try{
@@ -3278,35 +3391,42 @@ e_[x[94]]={f:m61,j:[],i:[],ti:[],ic:[]}
 d_[x[95]]={}
 var m62=function(e,s,r,gg){
 var z=gz$gwx_63()
-var t3F=e_[x[95]].i
-_ai(t3F,x[96],e_,x[95],1,1)
-var e4F=_v()
-_(r,e4F)
-cs.push("./pages/userMsg/userMsg.wxml:template:2:6")
-var b5F=_oz(z,1,e,s,gg)
-var o6F=_gd(x[95],b5F,e_,d_)
-if(o6F){
-var x7F=_1z(z,0,e,s,gg) || {}
+var b5F=e_[x[95]].i
+_ai(b5F,x[96],e_,x[95],1,1)
+var o6F=_v()
+_(r,o6F)
+cs.push("./pages/system_setup/system_setup.wxml:template:2:6")
+var x7F=_oz(z,1,e,s,gg)
+var o8F=_gd(x[95],x7F,e_,d_)
+if(o8F){
+var f9F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-e4F.wxXCkey=3
-o6F(x7F,x7F,e4F,gg)
+o6F.wxXCkey=3
+o8F(f9F,f9F,o6F,gg)
 gg.f=cur_globalf
 }
-else _w(b5F,x[95],2,18)
+else _w(x7F,x[95],2,18)
 cs.pop()
-t3F.pop()
+b5F.pop()
 return r
 }
 e_[x[95]]={f:m62,j:[],i:[],ti:[x[96]],ic:[]}
 d_[x[97]]={}
-d_[x[97]]["251da032"]=function(e,s,r,gg){
+d_[x[97]]["3b0624f2"]=function(e,s,r,gg){
 var z=gz$gwx_64()
-var b=x[97]+':251da032'
+var b=x[97]+':3b0624f2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/wjPassword/wjPassword.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/userCenter/userCenter.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[97]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+cs.push("./pages/userCenter/userCenter.vue.wxml:view:1:3754")
+cs.pop()
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3322,33 +3442,121 @@ e_[x[97]]={f:m63,j:[],i:[],ti:[],ic:[]}
 d_[x[98]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
-var c0F=e_[x[98]].i
-_ai(c0F,x[99],e_,x[98],1,1)
-var hAG=_v()
-_(r,hAG)
-cs.push("./pages/wjPassword/wjPassword.wxml:template:2:6")
-var oBG=_oz(z,1,e,s,gg)
-var cCG=_gd(x[98],oBG,e_,d_)
-if(cCG){
-var oDG=_1z(z,0,e,s,gg) || {}
+var oBG=e_[x[98]].i
+_ai(oBG,x[99],e_,x[98],1,1)
+var cCG=_v()
+_(r,cCG)
+cs.push("./pages/userCenter/userCenter.wxml:template:2:6")
+var oDG=_oz(z,1,e,s,gg)
+var lEG=_gd(x[98],oDG,e_,d_)
+if(lEG){
+var aFG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hAG.wxXCkey=3
-cCG(oDG,oDG,hAG,gg)
+cCG.wxXCkey=3
+lEG(aFG,aFG,cCG,gg)
 gg.f=cur_globalf
 }
-else _w(oBG,x[98],2,18)
+else _w(oDG,x[98],2,18)
 cs.pop()
-c0F.pop()
+oBG.pop()
 return r
 }
 e_[x[98]]={f:m64,j:[],i:[],ti:[x[99]],ic:[]}
 d_[x[100]]={}
-d_[x[100]]["7ee5de00"]=function(e,s,r,gg){
+d_[x[100]]["71d77020"]=function(e,s,r,gg){
 var z=gz$gwx_66()
-var b=x[100]+':7ee5de00'
+var b=x[100]+':71d77020'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/userMsg/userMsg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[100]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m65=function(e,s,r,gg){
+var z=gz$gwx_66()
+return r
+}
+e_[x[100]]={f:m65,j:[],i:[],ti:[],ic:[]}
+d_[x[101]]={}
+var m66=function(e,s,r,gg){
+var z=gz$gwx_67()
+var bIG=e_[x[101]].i
+_ai(bIG,x[102],e_,x[101],1,1)
+var oJG=_v()
+_(r,oJG)
+cs.push("./pages/userMsg/userMsg.wxml:template:2:6")
+var xKG=_oz(z,1,e,s,gg)
+var oLG=_gd(x[101],xKG,e_,d_)
+if(oLG){
+var fMG=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oJG.wxXCkey=3
+oLG(fMG,fMG,oJG,gg)
+gg.f=cur_globalf
+}
+else _w(xKG,x[101],2,18)
+cs.pop()
+bIG.pop()
+return r
+}
+e_[x[101]]={f:m66,j:[],i:[],ti:[x[102]],ic:[]}
+d_[x[103]]={}
+d_[x[103]]["251da032"]=function(e,s,r,gg){
+var z=gz$gwx_68()
+var b=x[103]+':251da032'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/wjPassword/wjPassword.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[103]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m67=function(e,s,r,gg){
+var z=gz$gwx_68()
+return r
+}
+e_[x[103]]={f:m67,j:[],i:[],ti:[],ic:[]}
+d_[x[104]]={}
+var m68=function(e,s,r,gg){
+var z=gz$gwx_69()
+var oPG=e_[x[104]].i
+_ai(oPG,x[105],e_,x[104],1,1)
+var cQG=_v()
+_(r,cQG)
+cs.push("./pages/wjPassword/wjPassword.wxml:template:2:6")
+var oRG=_oz(z,1,e,s,gg)
+var lSG=_gd(x[104],oRG,e_,d_)
+if(lSG){
+var aTG=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+cQG.wxXCkey=3
+lSG(aTG,aTG,cQG,gg)
+gg.f=cur_globalf
+}
+else _w(oRG,x[104],2,18)
+cs.pop()
+oPG.pop()
+return r
+}
+e_[x[104]]={f:m68,j:[],i:[],ti:[x[105]],ic:[]}
+d_[x[106]]={}
+d_[x[106]]["7ee5de00"]=function(e,s,r,gg){
+var z=gz$gwx_70()
+var b=x[106]+':7ee5de00'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/zhuji/zhuji.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[100]);return}
+if(p_[b]){_wl(b,x[106]);return}
 p_[b]=true
 try{
 cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:74")
@@ -3363,17 +3571,17 @@ _(cI,lK)
 if(_oz(z,6,oH,hG,gg)){lK.wxVkey=1
 cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:397")
 cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:397")
-var aL=_mz(z,'view',['class',7,'key',1],[],oH,hG,gg)
+var aL=_mz(z,'view',['bindtap',7,'class',1,'data-comkey',2,'data-eventid',3,'key',4],[],oH,hG,gg)
 var tM=_v()
 _(aL,tM)
-if(_oz(z,9,oH,hG,gg)){tM.wxVkey=1
-cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:578")
+if(_oz(z,12,oH,hG,gg)){tM.wxVkey=1
+cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:660")
 cs.pop()
 }
 var eN=_v()
 _(aL,eN)
-if(_oz(z,10,oH,hG,gg)){eN.wxVkey=1
-cs.push("./pages/zhuji/zhuji.vue.wxml:text:1:1459")
+if(_oz(z,13,oH,hG,gg)){eN.wxVkey=1
+cs.push("./pages/zhuji/zhuji.vue.wxml:text:1:1536")
 cs.pop()
 }
 tM.wxXCkey=1
@@ -3390,28 +3598,28 @@ _2z(z,4,cF,e,s,gg,fE,'item','index','index')
 cs.pop()
 var xC=_v()
 _(oB,xC)
-if(_oz(z,11,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/zhuji/zhuji.vue.wxml:template:1:1557")
+if(_oz(z,14,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/zhuji/zhuji.vue.wxml:template:1:1634")
 var bO=_v()
 _(xC,bO)
-cs.push("./pages/zhuji/zhuji.vue.wxml:template:1:1557")
-var oP=_oz(z,13,e,s,gg)
-var xQ=_gd(x[100],oP,e_,d_)
+cs.push("./pages/zhuji/zhuji.vue.wxml:template:1:1634")
+var oP=_oz(z,16,e,s,gg)
+var xQ=_gd(x[106],oP,e_,d_)
 if(xQ){
-var oR=_1z(z,12,e,s,gg) || {}
+var oR=_1z(z,15,e,s,gg) || {}
 var cur_globalf=gg.f
 bO.wxXCkey=3
 xQ(oR,oR,bO,gg)
 gg.f=cur_globalf
 }
-else _w(oP,x[100],1,1664)
+else _w(oP,x[106],1,1741)
 cs.pop()
 cs.pop()
 }
 var oD=_v()
 _(oB,oD)
-if(_oz(z,14,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:1687")
+if(_oz(z,17,e,s,gg)){oD.wxVkey=1
+cs.push("./pages/zhuji/zhuji.vue.wxml:view:1:1764")
 cs.pop()
 }
 xC.wxXCkey=1
@@ -3425,37 +3633,37 @@ throw err
 p_[b]=false
 return r
 }
-var m65=function(e,s,r,gg){
-var z=gz$gwx_66()
-var aFG=e_[x[100]].i
-_ai(aFG,x[27],e_,x[100],1,1)
-aFG.pop()
+var m69=function(e,s,r,gg){
+var z=gz$gwx_70()
+var eVG=e_[x[106]].i
+_ai(eVG,x[2],e_,x[106],1,1)
+eVG.pop()
 return r
 }
-e_[x[100]]={f:m65,j:[],i:[],ti:[x[27]],ic:[]}
-d_[x[101]]={}
-var m66=function(e,s,r,gg){
-var z=gz$gwx_67()
-var eHG=e_[x[101]].i
-_ai(eHG,x[102],e_,x[101],1,1)
-var bIG=_v()
-_(r,bIG)
+e_[x[106]]={f:m69,j:[],i:[],ti:[x[2]],ic:[]}
+d_[x[107]]={}
+var m70=function(e,s,r,gg){
+var z=gz$gwx_71()
+var oXG=e_[x[107]].i
+_ai(oXG,x[108],e_,x[107],1,1)
+var xYG=_v()
+_(r,xYG)
 cs.push("./pages/zhuji/zhuji.wxml:template:2:6")
-var oJG=_oz(z,1,e,s,gg)
-var xKG=_gd(x[101],oJG,e_,d_)
-if(xKG){
-var oLG=_1z(z,0,e,s,gg) || {}
+var oZG=_oz(z,1,e,s,gg)
+var f1G=_gd(x[107],oZG,e_,d_)
+if(f1G){
+var c2G=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bIG.wxXCkey=3
-xKG(oLG,oLG,bIG,gg)
+xYG.wxXCkey=3
+f1G(c2G,c2G,xYG,gg)
 gg.f=cur_globalf
 }
-else _w(oJG,x[101],2,18)
+else _w(oZG,x[107],2,18)
 cs.pop()
-eHG.pop()
+oXG.pop()
 return r
 }
-e_[x[101]]={f:m66,j:[],i:[],ti:[x[102]],ic:[]}
+e_[x[107]]={f:m70,j:[],i:[],ti:[x[108]],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -3476,7 +3684,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/logn/logn","pages/register/register","pages/cart/cart","pages/order/order","pages/userCenter/userCenter","pages/suiguo_shop/suiguo_shop","pages/suiguo_list/suiguo_list","pages/product_detaill/product_detaill","pages/confirmOrder/confirmOrder","pages/commentList/commentList","pages/shouHou/shouHou","pages/collect/collect","pages/zhuji/zhuji","pages/ggList/ggList","pages/addressList/addressList","pages/address/address","pages/ggDetail/ggDetail","pages/merchant/merchant","pages/callCenter/callCenter","pages/Account_center/Account_center","pages/system_setup/system_setup","pages/cz_psssword/cz_psssword","pages/complain/complain","pages/help/help","pages/helpDetail/helpDetail","pages/complain_2/complain_2","pages/About_Us/About_Us","pages/comment/comment","pages/wjPassword/wjPassword","pages/userMsg/userMsg"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"购物车","navigationBarBackgroundColor":"#6d71d5","backgroundColor":"#6d71d5"},"usingComponents":{},"tabBar":{"color":"#7A7E83","selectedColor":"#3cc51f","borderStyle":"black","backgroundColor":"#ffffff","list":[{"pagePath":"pages/index/index","iconPath":"static/home/shouyeweixuanzhong_03.png","selectedIconPath":"static/home/shouye .png","text":"首页"},{"pagePath":"pages/cart/cart","iconPath":"static/home/gouwucheweixuanzhong_06.png","selectedIconPath":"static/home/gouwucche_06.png","text":"购物车"},{"pagePath":"pages/order/order","iconPath":"static/home/dingdanweixuanzhong_09.png","selectedIconPath":"static/home/dingdanxuanzhong_09.png","text":"订单"},{"pagePath":"pages/userCenter/userCenter","iconPath":"static/home/wode_49.png","selectedIconPath":"static/home/wodexuanzhong_09.png","text":"我的"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"bbb","compilerVersion":"1.9.3"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/logn/logn","pages/register/register","pages/cart/cart","pages/order/order","pages/userCenter/userCenter","pages/suiguo_shop/suiguo_shop","pages/suiguo_list/suiguo_list","pages/product_detaill/product_detaill","pages/confirmOrder/confirmOrder","pages/orderDetail/orderDetail","pages/commentList/commentList","pages/shouHou/shouHou","pages/collect/collect","pages/zhuji/zhuji","pages/ggList/ggList","pages/addressList/addressList","pages/address/address","pages/ggDetail/ggDetail","pages/merchant/merchant","pages/callCenter/callCenter","pages/Account_center/Account_center","pages/system_setup/system_setup","pages/cz_psssword/cz_psssword","pages/complain/complain","pages/help/help","pages/helpDetail/helpDetail","pages/complain_2/complain_2","pages/complain_2/complain_2","pages/About_Us/About_Us","pages/comment/comment","pages/wjPassword/wjPassword","pages/userMsg/userMsg","pages/fenlei/fenlei"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"购物车","navigationBarBackgroundColor":"#6d71d5","backgroundColor":"#6d71d5"},"usingComponents":{},"tabBar":{"color":"#7A7E83","selectedColor":"#3cc51f","borderStyle":"black","backgroundColor":"#ffffff","list":[{"pagePath":"pages/index/index","iconPath":"static/home/shouyeweixuanzhong_03.png","selectedIconPath":"static/home/shouye .png","text":"首页"},{"pagePath":"pages/cart/cart","iconPath":"static/home/gouwucheweixuanzhong_06.png","selectedIconPath":"static/home/gouwucche_06.png","text":"购物车"},{"pagePath":"pages/order/order","iconPath":"static/home/dingdanweixuanzhong_09.png","selectedIconPath":"static/home/dingdanxuanzhong_09.png","text":"订单"},{"pagePath":"pages/userCenter/userCenter","iconPath":"static/home/wode_49.png","selectedIconPath":"static/home/wodexuanzhong_09.png","text":"我的"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"西港集贸市场","compilerVersion":"1.9.4"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/About_Us/About_Us.json']={"usingComponents":{},"navigationBarTitleText":"关于我们"};
@@ -3518,6 +3726,9 @@ __wxAppCode__['pages/confirmOrder/confirmOrder.wxml']=$gwx('./pages/confirmOrder
 __wxAppCode__['pages/cz_psssword/cz_psssword.json']={"usingComponents":{},"navigationBarTitleText":"重置登录密码"};
 __wxAppCode__['pages/cz_psssword/cz_psssword.wxml']=$gwx('./pages/cz_psssword/cz_psssword.wxml');
 
+__wxAppCode__['pages/fenlei/fenlei.json']={"usingComponents":{},"navigationBarBackgroundColor":"#ffffff","navigationBarTextStyle":"black","navigationBarTitleText":"分类"};
+__wxAppCode__['pages/fenlei/fenlei.wxml']=$gwx('./pages/fenlei/fenlei.wxml');
+
 __wxAppCode__['pages/ggDetail/ggDetail.json']={"usingComponents":{},"navigationBarTitleText":"公告信息"};
 __wxAppCode__['pages/ggDetail/ggDetail.wxml']=$gwx('./pages/ggDetail/ggDetail.wxml');
 
@@ -3541,6 +3752,9 @@ __wxAppCode__['pages/merchant/merchant.wxml']=$gwx('./pages/merchant/merchant.wx
 
 __wxAppCode__['pages/order/order.json']={"usingComponents":{},"navigationBarTitleText":"我的订单"};
 __wxAppCode__['pages/order/order.wxml']=$gwx('./pages/order/order.wxml');
+
+__wxAppCode__['pages/orderDetail/orderDetail.json']={"usingComponents":{},"navigationBarTitleText":"订单详情"};
+__wxAppCode__['pages/orderDetail/orderDetail.wxml']=$gwx('./pages/orderDetail/orderDetail.wxml');
 
 __wxAppCode__['pages/product_detaill/product_detaill.json']={"usingComponents":{},"navigationBarTitleText":"商品详情页"};
 __wxAppCode__['pages/product_detaill/product_detaill.wxml']=$gwx('./pages/product_detaill/product_detaill.wxml');
@@ -3585,7 +3799,7 @@ define('common/main.js',function(require, module, exports, window, document, fra
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    } else {\n      uni.reLaunch({\n        url: '/pages/logn/logn' });\n\n    }\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?49d6");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    }\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?49d6");
 
 /***/ }),
 
@@ -4005,7 +4219,7 @@ eval("\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages.jso
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.addUserBySystem = addUserBySystem;exports.login = login;exports.retrievePassword = retrievePassword;exports.getCustomerService = getCustomerService;exports.getUserById = getUserById;exports.updUserPhoto = updUserPhoto;exports.updUserName = updUserName;exports.updUserNikeName = updUserNikeName;exports.updUserPhone = updUserPhone;exports.updUserSpecName = updUserSpecName;exports.updUserSex = updUserSex;exports.updUserPassword = updUserPassword;exports.addUserAddress = addUserAddress;exports.updAddById = updAddById;exports.delAddById = delAddById;exports.getUserAddressListByUserId = getUserAddressListByUserId;exports.updAddDefaultById = updAddDefaultById;var _index = __webpack_require__(/*! @/request/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\index.js\");\n\n//系统用户注册\nfunction addUserBySystem(data) {\n  return (0, _index.postRequest)(data, '/user/addUserBySystem').then(function (res) {return res;});\n}\n//用户登录\nfunction login(data) {\n  return (0, _index.postRequest)(data, '/user/login').then(function (res) {return res;});\n}\n//忘记密码 修改\nfunction retrievePassword(data) {\n  return (0, _index.postRequest)(data, '/user/retrievePassword').then(function (res) {return res;});\n}\n//获取客服服务信息\nfunction getCustomerService() {\n  return (0, _index.getRequest)('/user/getCustomerService').then(function (res) {return res;});\n}\n//获取用户信息\nfunction getUserById(userId) {\n  return (0, _index.postGetRequest)('/user/getUserById?userId=' + userId).then(function (res) {return res;});\n}\n//修改用户头像\nfunction updUserPhoto(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPhoto').then(function (res) {return res;});\n}\n//修改用户名\nfunction updUserName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserName').then(function (res) {return res;});\n}\n//修改用户昵称\nfunction updUserNikeName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserNikeName').then(function (res) {return res;});\n}\n//修改用户电话号码\nfunction updUserPhone(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPhone').then(function (res) {return res;});\n}\n//修改用户个性签名\nfunction updUserSpecName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserSpecName').then(function (res) {return res;});\n}\n//修改用户性别\nfunction updUserSex(data) {\n  return (0, _index.postRequest)(data, '/user/updUserSex').then(function (res) {return res;});\n}\n//修改用户密码\nfunction updUserPassword(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPassword').then(function (res) {return res;});\n}\n//添加地址\nfunction addUserAddress(data) {\n  return (0, _index.postRequest)(data, '/address/addUserAddress').then(function (res) {return res;});\n}\n//修改用户地址\nfunction updAddById(data) {\n  return (0, _index.postRequest)(data, '/address/updAddById').then(function (res) {return res;});\n}\n//删除地址\nfunction delAddById(data) {\n  return (0, _index.deleteRequest)(data, '/address/delAddById').then(function (res) {return res;});\n}\n//获取用户地址集合\nfunction getUserAddressListByUserId(userId) {\n  return (0, _index.getRequest)('/address/getUserAddressListByUserId?userId=' + userId).then(function (res) {return res;});\n}\n//设置或取消默认地址\nfunction updAddDefaultById(data) {\n  return (0, _index.postRequest)(data, '/address/updAddDefaultById').then(function (res) {return res;});\n}\n\n//# sourceURL=uni-app:///request/API/index.js?8365");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.addUserBySystem = addUserBySystem;exports.login = login;exports.retrievePassword = retrievePassword;exports.getCustomerService = getCustomerService;exports.getUserById = getUserById;exports.updUserPhoto = updUserPhoto;exports.updUserName = updUserName;exports.updUserNikeName = updUserNikeName;exports.updUserPhone = updUserPhone;exports.updUserSpecName = updUserSpecName;exports.updUserSex = updUserSex;exports.updUserPassword = updUserPassword;exports.addUserAddress = addUserAddress;exports.updAddById = updAddById;exports.delAddById = delAddById;exports.getUserAddressListByUserId = getUserAddressListByUserId;exports.updAddDefaultById = updAddDefaultById;exports.addShop = addShop;exports.getShopStatusByUserId = getShopStatusByUserId;exports.customerFeedback = customerFeedback;var _index = __webpack_require__(/*! @/request/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\index.js\");\n\n//系统用户注册\nfunction addUserBySystem(data) {\n  return (0, _index.postRequest)(data, '/user/addUserBySystem').then(function (res) {return res;});\n}\n//用户登录\nfunction login(data) {\n  return (0, _index.postRequest)(data, '/user/login').then(function (res) {return res;});\n}\n//忘记密码 修改\nfunction retrievePassword(data) {\n  return (0, _index.postRequest)(data, '/user/retrievePassword').then(function (res) {return res;});\n}\n//获取客服服务信息\nfunction getCustomerService() {\n  return (0, _index.getRequest)('/user/getCustomerService').then(function (res) {return res;});\n}\n//获取用户信息\nfunction getUserById(userId) {\n  return (0, _index.postGetRequest)('/user/getUserById?userId=' + userId).then(function (res) {return res;});\n}\n//修改用户头像\nfunction updUserPhoto(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPhoto').then(function (res) {return res;});\n}\n//修改用户名\nfunction updUserName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserName').then(function (res) {return res;});\n}\n//修改用户昵称\nfunction updUserNikeName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserNikeName').then(function (res) {return res;});\n}\n//修改用户电话号码\nfunction updUserPhone(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPhone').then(function (res) {return res;});\n}\n//修改用户个性签名\nfunction updUserSpecName(data) {\n  return (0, _index.postRequest)(data, '/user/updUserSpecName').then(function (res) {return res;});\n}\n//修改用户性别\nfunction updUserSex(data) {\n  return (0, _index.postRequest)(data, '/user/updUserSex').then(function (res) {return res;});\n}\n//修改用户密码\nfunction updUserPassword(data) {\n  return (0, _index.postRequest)(data, '/user/updUserPassword').then(function (res) {return res;});\n}\n//添加地址\nfunction addUserAddress(data) {\n  return (0, _index.postRequest)(data, '/address/addUserAddress').then(function (res) {return res;});\n}\n//修改用户地址\nfunction updAddById(data) {\n  return (0, _index.postRequest)(data, '/address/updAddById').then(function (res) {return res;});\n}\n//删除地址\nfunction delAddById(data) {\n  return (0, _index.deleteRequest)(data, '/address/delAddById').then(function (res) {return res;});\n}\n//获取用户地址集合\nfunction getUserAddressListByUserId(userId) {\n  return (0, _index.getRequest)('/address/getUserAddressListByUserId?userId=' + userId).then(function (res) {return res;});\n}\n//设置或取消默认地址\nfunction updAddDefaultById(data) {\n  return (0, _index.postRequest)(data, '/address/updAddDefaultById').then(function (res) {return res;});\n}\n//商家入驻\nfunction addShop(data) {\n  return (0, _index.postRequest)(data, '/shop/addShop').then(function (res) {return res;});\n}\n//根据用户 id 判断是否入驻商家\nfunction getShopStatusByUserId(userId) {\n  return (0, _index.getRequest)('/shop/getShopStatusByUserId?userId=' + userId).then(function (res) {return res;});\n}\n//投诉建议\nfunction customerFeedback(data) {\n  return (0, _index.postRequest)(data, '/user/customerFeedback').then(function (res) {return res;});\n}\n\n//# sourceURL=uni-app:///request/API/index.js?8365");
 
 /***/ }),
 
@@ -4017,7 +4231,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.ad
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.getProductSlidesList = getProductSlidesList;exports.getNoticeList = getNoticeList;exports.getProductCategory = getProductCategory;exports.getShopByCategoryId = getShopByCategoryId;exports.getProductByShopId = getProductByShopId;exports.getProductById = getProductById;exports.AddCollection = AddCollection;exports.queryCollectionList = queryCollectionList;exports.delCollection = delCollection;exports.addShopCart = addShopCart;exports.addOrder = addOrder;exports.addVisitRecord = addVisitRecord;exports.getVisitRecordList = getVisitRecordList;var _index = __webpack_require__(/*! @/request/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\index.js\");\n//轮播图\nfunction getProductSlidesList(data) {\n  return (0, _index.getRequest)('/slides/getProductSlidesList').then(function (res) {return res;});\n}\n//获取公告列表\nfunction getNoticeList(pageNo, pageSize) {\n  return (0, _index.getRequest)('/notice/getNoticeList?pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//获取分类列表\nfunction getProductCategory(level, type) {\n  return (0, _index.getRequest)('/category/getProductCategory?level=' + level + '&type=' + type).then(function (res) {return res;});\n}\n//根据分类id获取店铺列表\nfunction getShopByCategoryId(categoryId) {\n  return (0, _index.getRequest)('/category/getShopByCategoryId?categoryId=' + categoryId).then(function (res) {return res;});\n}\n//根据分类id获取店铺商品\nfunction getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {\n  return (0, _index.getRequest)('/product/getProductByShopId?pageNo=' + pageNo + '&pageSize=' + pageSize + '&shopId=' + shopId + '&publishStatus=' + publishStatus + '&sortWay=' + sortWay).then(function (res) {return res;});\n}\n//根据id获取商品详情\nfunction getProductById(productId) {\n  return (0, _index.getRequest)('/product/getProductById?productId=' + productId).then(function (res) {return res;});\n}\n//商品添加取消收藏\nfunction AddCollection(data) {\n  return (0, _index.postRequest)(data, '/collect/addCollection').then(function (res) {return res;});\n}\n//获取收藏列表\nfunction queryCollectionList(userId, pageNo, pageSize) {\n  return (0, _index.getRequest)('/collect/queryCollectionList?userId=' + userId + '&pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//删除收藏 \nfunction delCollection(userId, collectId) {\n  return (0, _index.postGetRequest)('/collect/delCollection?userId=' + userId + '&collectId=' + collectId).then(function (res) {return res;});\n}\n//商品添加购物车\nfunction addShopCart(data) {\n  return (0, _index.postRequest)(data, '/cart/addShopCart').then(function (res) {return res;});\n}\n//创建订单\nfunction addOrder(data) {\n  return (0, _index.postRequest)(data, '/order/addOrder').then(function (res) {return res;});\n}\n//添加足迹\nfunction addVisitRecord(data) {\n  return (0, _index.postRequest)(data, '/visitRecord/addVisitRecord').then(function (res) {return res;});\n}\n//获取足列表\nfunction getVisitRecordList(pageNo, pageSize, userId) {\n  return (0, _index.getRequest)('/visitRecord/getVisitRecordList?pageNo=' + pageNo + '&pageSize=' + pageSize + '&userId=' + userId).then(function (res) {return res;});\n}\n\n//# sourceURL=uni-app:///request/API/product.js?3318");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.getProductSlidesList = getProductSlidesList;exports.getNoticeList = getNoticeList;exports.getNoticeById = getNoticeById;exports.getProductCategory = getProductCategory;exports.getShopByCategoryId = getShopByCategoryId;exports.getProductByShopId = getProductByShopId;exports.getProductById = getProductById;exports.AddCollection = AddCollection;exports.queryCollectionList = queryCollectionList;exports.delCollection = delCollection;exports.addShopCart = addShopCart;exports.addVisitRecord = addVisitRecord;exports.getVisitRecordList = getVisitRecordList;exports.delVisitRecord = delVisitRecord;exports.getShopCartList = getShopCartList;exports.delShopCart = delShopCart;exports.addOrder = addOrder;exports.confirmOrderByShopCart = confirmOrderByShopCart;exports.queryOrderList = queryOrderList;exports.cancelOrder = cancelOrder;exports.ConfirmOrder = ConfirmOrder;exports.getOrderDetailById = getOrderDetailById;exports.getAllShopByContent = getAllShopByContent;exports.getAllProductByContent = getAllProductByContent;exports.getCommentList = getCommentList;exports.addComment = addComment;exports.getProductByCategoryId = getProductByCategoryId;var _index = __webpack_require__(/*! @/request/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\index.js\");\n//轮播图\nfunction getProductSlidesList(data) {\n  return (0, _index.getRequest)('/slides/getProductSlidesList').then(function (res) {return res;});\n}\n//获取公告列表\nfunction getNoticeList(pageNo, pageSize) {\n  return (0, _index.getRequest)('/notice/getNoticeList?pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//获取公告详情\nfunction getNoticeById(id) {\n  return (0, _index.getRequest)('/notice/getNoticeById?id=' + id).then(function (res) {return res;});\n}\n//获取分类列表\nfunction getProductCategory(level, type) {\n  return (0, _index.getRequest)('/category/getProductCategory?level=' + level + '&type=' + type).then(function (res) {return res;});\n}\n//根据分类id获取店铺列表\nfunction getShopByCategoryId(categoryId) {\n  return (0, _index.getRequest)('/category/getShopByCategoryId?categoryId=' + categoryId).then(function (res) {return res;});\n}\n//根据分类id获取店铺商品\nfunction getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {\n  return (0, _index.getRequest)('/product/getProductByShopId?pageNo=' + pageNo + '&pageSize=' + pageSize + '&shopId=' + shopId + '&publishStatus=' + publishStatus + '&sortWay=' + sortWay).then(function (res) {return res;});\n}\n//根据id获取商品详情\nfunction getProductById(productId, userId) {\n  return (0, _index.getRequest)('/product/getProductById?productId=' + productId + '&userId=' + userId).then(function (res) {return res;});\n}\n//商品添加取消收藏\nfunction AddCollection(data) {\n  return (0, _index.postRequest)(data, '/collect/addCollection').then(function (res) {return res;});\n}\n//获取收藏列表\nfunction queryCollectionList(userId, pageNo, pageSize) {\n  return (0, _index.getRequest)('/collect/queryCollectionList?userId=' + userId + '&pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//删除收藏 \nfunction delCollection(userId, collectId) {\n  return (0, _index.postGetRequest)('/collect/delCollection?userId=' + userId + '&collectId=' + collectId).then(function (res) {return res;});\n}\n//商品添加购物车\nfunction addShopCart(data) {\n  return (0, _index.postRequest)(data, '/cart/addShopCart').then(function (res) {return res;});\n}\n//添加足迹\nfunction addVisitRecord(data) {\n  return (0, _index.postRequest)(data, '/visitRecord/addVisitRecord').then(function (res) {return res;});\n}\n//获取足列表\nfunction getVisitRecordList(pageNo, pageSize, userId) {\n  return (0, _index.getRequest)('/visitRecord/getVisitRecordList?pageNo=' + pageNo + '&pageSize=' + pageSize + '&userId=' + userId).then(function (res) {return res;});\n}\n//删除足迹\nfunction delVisitRecord(prodIds) {\n  return (0, _index.deleteGetRequest)('/visitRecord/delVisitRecord?prodIds=' + prodIds).then(function (res) {return res;});\n}\n//获取用户购物车信息\nfunction getShopCartList(userId, pageNo, pageSize) {\n  return (0, _index.getRequest)('/cart/getShopCartList?userId=' + userId + '&pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//删除购物车\nfunction delShopCart(userId, cartId) {\n  return (0, _index.getRequest)('/cart/delShopCart?userId=' + userId + '&cartId=' + cartId).then(function (res) {return res;});\n}\n//创建订单\nfunction addOrder(data) {\n  return (0, _index.postRequest)(data, '/order/addOrder').then(function (res) {return res;});\n}\n//结算页面确认订单\nfunction confirmOrderByShopCart(data) {\n  return (0, _index.postRequest)(data, '/order/confirmOrderByShopCart').then(function (res) {return res;});\n}\n//获取订单列表\nfunction queryOrderList(userId, state, pageNo, pageSize) {\n  return (0, _index.postGetRequest)('/order/queryOrderList?userId=' + userId + '&state=' + state + '&pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//取消订单\nfunction cancelOrder(detailId) {\n  return (0, _index.postGetRequest)('/order/cancelOrder?detailId=' + detailId).then(function (res) {return res;});\n}\n//确认订单\nfunction ConfirmOrder(detailId, orderStatus) {\n  return (0, _index.postGetRequest)('/order/confirmOrder?detailId=' + detailId + '&orderStatus=' + orderStatus).then(function (res) {return res;});\n}\n//查看订单详情\nfunction getOrderDetailById(detailId) {\n  return (0, _index.postGetRequest)('/order/getOrderDetailById?detailId=' + detailId).then(function (res) {return res;});\n}\n//根据关键字搜索所有店铺\nfunction getAllShopByContent(pageNo, pageSize, content) {\n  return (0, _index.getRequest)('/search/getAllShopByContent?pageNo=' + pageNo + '&pageSize=' + pageSize + '&content=' + content).then(function (res) {return res;});\n}\n//根据关键字搜索所有商品\nfunction getAllProductByContent(pageNo, pageSize, content) {\n  return (0, _index.getRequest)('/search/getAllProductByContent?pageNo=' + pageNo + '&pageSize=' + pageSize + '&content=' + content).then(function (res) {return res;});\n}\n//获取评论列表\nfunction getCommentList(productId, pageNo, pageSize) {\n  return (0, _index.getRequest)('/comment/getCommentList?productId=' + productId + '&pageNo=' + pageNo + '&pageSize=' + pageSize).then(function (res) {return res;});\n}\n//添加商品评论\nfunction addComment(data) {\n  return (0, _index.postRequest)(data, '/comment/addComment').then(function (res) {return res;});\n}\n//查询所有分类及分类下的商品\nfunction getProductByCategoryId() {\n  return (0, _index.getRequest)('/product/getProductByCategoryId').then(function (res) {return res;});\n}\n\n//# sourceURL=uni-app:///request/API/product.js?3318");
 
 /***/ }),
 
@@ -4029,7 +4243,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.ge
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.postRequest = postRequest;exports.deleteRequest = deleteRequest;exports.postGetRequest = postGetRequest;exports.getRequest = getRequest;\nvar _index = _interopRequireDefault(__webpack_require__(/*! ../common/store/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\store\\\\index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var baseUrl = 'http://192.168.1.125:8088/web';\nfunction postRequest(data, url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'post',\n      data: _objectSpread({},\n      data),\n\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction deleteRequest(data, url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'DELETE',\n      data: _objectSpread({},\n      data),\n\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        // if (res.data.code == -14) {\n        // \tuni.reLaunch({\n        // \t\turl: '/pages/logn/logn'\n        // \t})\n        // }\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction postGetRequest(url) {\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'post',\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction getRequest(url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'get',\n      header: {\n        'content-type': 'application/x-www-form-urlencoded',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///request/index.js?6588");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.postRequest = postRequest;exports.deleteGetRequest = deleteGetRequest;exports.deleteRequest = deleteRequest;exports.postGetRequest = postGetRequest;exports.getRequest = getRequest;\nvar _index = _interopRequireDefault(__webpack_require__(/*! ../common/store/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\store\\\\index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var baseUrl = 'http://192.168.1.125:8088/web';\nfunction postRequest(data, url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'post',\n      data: _objectSpread({},\n      data),\n\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction deleteGetRequest(url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'DELETE',\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        // if (res.data.code == -14) {\n        // \tuni.reLaunch({\n        // \t\turl: '/pages/logn/logn'\n        // \t})\n        // }\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction deleteRequest(data, url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'DELETE',\n      data: _objectSpread({},\n      data),\n\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        // if (res.data.code == -14) {\n        // \tuni.reLaunch({\n        // \t\turl: '/pages/logn/logn'\n        // \t})\n        // }\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction postGetRequest(url) {\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'post',\n      header: {\n        'content-type': 'application/json',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\nfunction getRequest(url) {\n  console.log(_index.default.state);\n  return new Promise(function (resolve, reject) {\n    uni.showLoading();\n    uni.request({\n      url: baseUrl + url,\n      method: 'get',\n      header: {\n        'content-type': 'application/x-www-form-urlencoded',\n        'token': _index.default.state.token },\n\n      success: function success(res) {\n        uni.hideLoading();\n        resolve(res);\n      } });\n\n  }).catch(function (err) {return console.log(err);});\n}\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///request/index.js?6588");
 
 /***/ })
 
@@ -4057,7 +4271,7 @@ define('pages/index/index.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      bannerList: [], //轮播图\n      gonggaoList: [], //公告列表\n      classify: [], //分类列表\n      city: '西安' };\n\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getProductSlidesList();\n    this.getNoticeList();\n    this.getProductCategory();\n    var _this = this;\n\n    plus.geolocation.getCurrentPosition(\n    function (position) {\n      console.log(JSON.stringify(position));\n      _this.city = position.address.city;\n    });\n\n\n  },\n  methods: {\n    //轮播图\n    getProductSlidesList: function getProductSlidesList() {var _this2 = this;\n      (0, _product.getProductSlidesList)().then(function (res) {\n        if (res.data.code == 0) {\n          _this2.bannerList = res.data.data;\n        }\n      });\n    },\n    //公告列表\n    getNoticeList: function getNoticeList() {var _this3 = this;\n      (0, _product.getNoticeList)(1, 10).then(function (res) {\n        if (res.data.code == 0) {\n          _this3.gonggaoList = res.data.data.list;\n        }\n      });\n    },\n    //分类列表\n    getProductCategory: function getProductCategory() {var _this4 = this;\n      (0, _product.getProductCategory)(1, 1).then(function (res) {\n        _this4.classify = res.data.data.cateGories;\n      });\n    },\n    gotoDetail: function gotoDetail() {},\n    gotoShopList: function gotoShopList(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?7423");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      search: '',\n      imgURl: '',\n      bannerList: [], //轮播图\n      gonggaoList: [], //公告列表\n      classify: [], //分类列表\n      city: '西安' };\n\n  },\n  onLoad: function onLoad() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    } else {\n      uni.reLaunch({\n        url: '/pages/logn/logn' });\n\n    }\n    this.imgURl = _index.imgURl;\n    this.getProductSlidesList();\n    this.getNoticeList();\n    this.getProductCategory();\n    var _this = this;\n\n    plus.geolocation.getCurrentPosition(function (position) {\n      console.log(JSON.stringify(position));\n      _this.city = position.address.city;\n    });\n\n  },\n  methods: {\n    //轮播图\n    getProductSlidesList: function getProductSlidesList() {var _this2 = this;\n      (0, _product.getProductSlidesList)().then(function (res) {\n        if (res.data.code == 0) {\n          _this2.bannerList = res.data.data;\n        }\n      });\n    },\n    //公告列表\n    getNoticeList: function getNoticeList() {var _this3 = this;\n      (0, _product.getNoticeList)(1, 10).then(function (res) {\n        if (res.data.code == 0) {\n          _this3.gonggaoList = res.data.data.list;\n        }\n      });\n    },\n    //分类列表\n    getProductCategory: function getProductCategory() {var _this4 = this;\n      (0, _product.getProductCategory)(1, 1).then(function (res) {\n        _this4.classify = res.data.data.cateGories;\n      });\n    },\n    //去公告详情\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/ggDetail/ggDetail?id=' + id });\n\n    },\n    gotoShopList: function gotoShopList(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?id=' + id });\n\n    },\n    searchShop: function searchShop() {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?search=' + this.search });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?7423");
 
 /***/ }),
 
@@ -4080,7 +4294,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _c(\"view\", { staticClass: \"left\" }, [\n          _c(\"image\", { attrs: { src: \"../../static/home/ziyuan.png\" } }),\n          _c(\"text\", [_vm._v(_vm._s(_vm.city))])\n        ]),\n        _vm._m(0),\n        _vm._m(1)\n      ]),\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"swiper\",\n          attrs: {\n            \"indicator-dots\": true,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000\n          }\n        },\n        _vm._l(_vm.bannerList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            { key: index, attrs: { mpcomid: \"609606d0-0-\" + index } },\n            [\n              _c(\"image\", {\n                attrs: { src: _vm.imgURl + item.productImage, mode: \"\" }\n              })\n            ]\n          )\n        })\n      ),\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"gonggao\",\n          attrs: {\n            \"indicator-dots\": false,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000,\n            vertical: \"true\"\n          }\n        },\n        _vm._l(_vm.gonggaoList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            { key: index, attrs: { mpcomid: \"609606d0-1-\" + index } },\n            [\n              _c(\"view\", { staticClass: \"msg\" }, [\n                _c(\"text\", { staticClass: \"title\" }, [\n                  _vm._v(\"最新公告 \" + _vm._s(item.title))\n                ]),\n                _c(\"text\", { staticClass: \"neirong\" }, [\n                  _vm._v(_vm._s(item.content))\n                ]),\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/tongzhigengduo_03.png\",\n                    mode: \"\"\n                  }\n                })\n              ])\n            ]\n          )\n        })\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"fenlei\" },\n        _vm._l(_vm.classify, function(item, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              staticClass: \"item\",\n              attrs: { eventid: \"609606d0-0-\" + index },\n              on: {\n                click: function($event) {\n                  _vm.gotoShopList(item.categoryId)\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: _vm.imgURl + item.categoryIcon, mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(_vm._s(item.categoryName))])\n            ]\n          )\n        })\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"input\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/sousuo_06.png\", mode: \"\" }\n      }),\n      _c(\"input\", {\n        attrs: {\n          type: \"text\",\n          value: \"\",\n          placeholder: \"请输入要搜索的商品或店铺\"\n        }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/fenlei_06.png\", mode: \"\" }\n      })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/index/index.vue?vue&type=template&id=284bb11e&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"head\" },\n        [\n          _c(\"view\", { staticClass: \"left\" }, [\n            _c(\"image\", { attrs: { src: \"../../static/home/ziyuan.png\" } }),\n            _c(\"text\", [_vm._v(_vm._s(_vm.city))])\n          ]),\n          _c(\"view\", { staticClass: \"input\" }, [\n            _c(\"image\", {\n              attrs: { src: \"../../static/home/sousuo_06.png\", mode: \"\" }\n            }),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.search,\n                  expression: \"search\"\n                }\n              ],\n              attrs: {\n                type: \"text\",\n                placeholder: \"请输入要搜索的店铺\",\n                eventid: \"609606d0-0\"\n              },\n              domProps: { value: _vm.search },\n              on: {\n                confirm: _vm.searchShop,\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.search = $event.target.value\n                }\n              }\n            })\n          ]),\n          _c(\n            \"navigator\",\n            { staticClass: \"img\", attrs: { url: \"/pages/fenlei/fenlei\" } },\n            [\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/fenlei_06.png\", mode: \"\" }\n              })\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"swiper\",\n          attrs: {\n            \"indicator-dots\": true,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000\n          }\n        },\n        _vm._l(_vm.bannerList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            { key: index, attrs: { mpcomid: \"609606d0-0-\" + index } },\n            [\n              _c(\"image\", {\n                attrs: { src: _vm.imgURl + item.productImage, mode: \"\" }\n              })\n            ]\n          )\n        })\n      ),\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"gonggao\",\n          attrs: {\n            \"indicator-dots\": false,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000,\n            vertical: \"true\"\n          }\n        },\n        _vm._l(_vm.gonggaoList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            {\n              key: index,\n              attrs: {\n                eventid: \"609606d0-1-\" + index,\n                mpcomid: \"609606d0-1-\" + index\n              },\n              on: {\n                click: function($event) {\n                  _vm.gotoDetail(item.id)\n                }\n              }\n            },\n            [\n              _c(\"view\", { staticClass: \"msg\" }, [\n                _c(\"text\", { staticClass: \"title\" }, [\n                  _vm._v(\"最新公告 \" + _vm._s(item.title))\n                ]),\n                _c(\"text\", { staticClass: \"neirong\" }, [\n                  _vm._v(_vm._s(item.content))\n                ]),\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/tongzhigengduo_03.png\",\n                    mode: \"\"\n                  }\n                })\n              ])\n            ]\n          )\n        })\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"fenlei\" },\n        _vm._l(_vm.classify, function(item, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              staticClass: \"item\",\n              attrs: { eventid: \"609606d0-2-\" + index },\n              on: {\n                click: function($event) {\n                  _vm.gotoShopList(item.categoryId)\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: _vm.imgURl + item.categoryIcon, mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(_vm._s(item.categoryName))])\n            ]\n          )\n        })\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/index/index.vue?vue&type=template&id=284bb11e&scoped=true&");
 
 /***/ }),
 
@@ -4366,18 +4580,18 @@ define('pages/cart/cart.js',function(require, module, exports, window, document,
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      empty: '',\n      editor: false,\n      no_data: true,\n      select_all: true };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {\n    Editor: function Editor() {\n      this.editor = !this.editor;\n    },\n    statusChange: function statusChange(e) {\n      var index = e;\n    },\n    selectAll: function selectAll() {\n      this.select_all = !this.select_all;\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/cart/cart.vue?vue&type=script&lang=js&?3954");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      empty: '',\n      editor: false,\n      no_data: true,\n      select_all: true,\n      pageNo: 1, //分页页码\n      productList: [], //列表\n      imgURL: '',\n      isShow: true,\n      totalPrices: 0 };\n\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad() {\n    this.imgURL = _index.imgURl;\n    this.getShopCartList(this.userId, this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.getShopCartList(this.userId, this.pageNo, 10);\n  },\n  methods: {\n    //获取购物车列表\n    getShopCartList: function getShopCartList(userId, pageNo, pageSize) {var _this = this;\n      (0, _product.getShopCartList)(userId, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n            for (var _iterator = res.data.data.list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              Object.assign(item, { ick: false });\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n          _this.productList = [].concat(_toConsumableArray(_this.productList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    //清除购物车\n    clear: function clear(id) {var _this2 = this;\n      (0, _product.delShopCart)(this.userId, id).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '删除成功',\n            duration: 1000 });\n\n          _this2.pageNo = 1; //分页页码\n          _this2.productList = []; //列表\n          _this2.getShopCartList(_this2.userId, _this2.pageNo, 10);\n        } else {\n          uni.showToast({\n            title: '删除失败',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n    },\n    editorChange: function editorChange() {\n      this.editor = !this.editor;\n    },\n    statusChange: function statusChange(e) {\n      var index = e;\n    },\n    isIck: function isIck(index) {\n      this.productList[index].ick = !this.productList[index].ick;\n      var totalPrices = 0;var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {\n        for (var _iterator2 = this.productList[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n          if (item.ick) {\n            totalPrices = item.productSpec.price * item.productNum + totalPrices;\n          }\n        }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n      this.totalPrices = totalPrices;\n    },\n    sub: function sub(index) {\n      if (this.productList[index].productNum == 1) {\n        return;\n      }\n      this.productList[index].productNum--;\n      var totalPrices = 0;var _iteratorNormalCompletion3 = true;var _didIteratorError3 = false;var _iteratorError3 = undefined;try {\n        for (var _iterator3 = this.productList[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {var item = _step3.value;\n          if (item.ick) {\n            totalPrices = item.productSpec.price * item.productNum + totalPrices;\n          }\n        }} catch (err) {_didIteratorError3 = true;_iteratorError3 = err;} finally {try {if (!_iteratorNormalCompletion3 && _iterator3.return != null) {_iterator3.return();}} finally {if (_didIteratorError3) {throw _iteratorError3;}}}\n      this.totalPrices = totalPrices;\n    },\n    add: function add(index) {\n      this.productList[index].productNum++;\n      var totalPrices = 0;var _iteratorNormalCompletion4 = true;var _didIteratorError4 = false;var _iteratorError4 = undefined;try {\n        for (var _iterator4 = this.productList[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {var item = _step4.value;\n          if (item.ick) {\n            totalPrices = item.productSpec.price * item.productNum + totalPrices;\n          }\n        }} catch (err) {_didIteratorError4 = true;_iteratorError4 = err;} finally {try {if (!_iteratorNormalCompletion4 && _iterator4.return != null) {_iterator4.return();}} finally {if (_didIteratorError4) {throw _iteratorError4;}}}\n      this.totalPrices = totalPrices;\n    },\n    selectAll: function selectAll() {\n      this.isShow = !this.isShow;\n\n      if (this.isShow) {var _iteratorNormalCompletion5 = true;var _didIteratorError5 = false;var _iteratorError5 = undefined;try {\n          for (var _iterator5 = this.productList[Symbol.iterator](), _step5; !(_iteratorNormalCompletion5 = (_step5 = _iterator5.next()).done); _iteratorNormalCompletion5 = true) {var item = _step5.value;\n            item.ick = false;\n          }} catch (err) {_didIteratorError5 = true;_iteratorError5 = err;} finally {try {if (!_iteratorNormalCompletion5 && _iterator5.return != null) {_iterator5.return();}} finally {if (_didIteratorError5) {throw _iteratorError5;}}}\n      } else {var _iteratorNormalCompletion6 = true;var _didIteratorError6 = false;var _iteratorError6 = undefined;try {\n          for (var _iterator6 = this.productList[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {var _item = _step6.value;\n            _item.ick = true;\n          }} catch (err) {_didIteratorError6 = true;_iteratorError6 = err;} finally {try {if (!_iteratorNormalCompletion6 && _iterator6.return != null) {_iterator6.return();}} finally {if (_didIteratorError6) {throw _iteratorError6;}}}\n      }\n      var totalPrices = 0;var _iteratorNormalCompletion7 = true;var _didIteratorError7 = false;var _iteratorError7 = undefined;try {\n        for (var _iterator7 = this.productList[Symbol.iterator](), _step7; !(_iteratorNormalCompletion7 = (_step7 = _iterator7.next()).done); _iteratorNormalCompletion7 = true) {var _item2 = _step7.value;\n          if (_item2.ick) {\n            totalPrices = _item2.productSpec.price * _item2.productNum + totalPrices;\n          }\n        }} catch (err) {_didIteratorError7 = true;_iteratorError7 = err;} finally {try {if (!_iteratorNormalCompletion7 && _iterator7.return != null) {_iterator7.return();}} finally {if (_didIteratorError7) {throw _iteratorError7;}}}\n      this.totalPrices = totalPrices;\n    },\n    //去下单页面\n    gotoPay: function gotoPay() {\n      var paramsList = [];var _iteratorNormalCompletion8 = true;var _didIteratorError8 = false;var _iteratorError8 = undefined;try {\n        for (var _iterator8 = this.productList[Symbol.iterator](), _step8; !(_iteratorNormalCompletion8 = (_step8 = _iterator8.next()).done); _iteratorNormalCompletion8 = true) {var item = _step8.value;\n          if (item.ick) {\n            var params = {\n              expressId: item.product.expressId, //配送方式\n              specUnit: item.productSpec.specUnit, //单位\n              shopId: item.product.shopId,\n              productId: item.productId,\n              specId: item.specId,\n              productName: item.product.productName,\n              productPrice: item.productSpec.price,\n              productCount: item.productNum,\n              prescriptionPrice: item.productSpec.price * item.productNum,\n              addressId: item.addressId };\n\n            paramsList.push(params);\n          }\n        }} catch (err) {_didIteratorError8 = true;_iteratorError8 = err;} finally {try {if (!_iteratorNormalCompletion8 && _iterator8.return != null) {_iterator8.return();}} finally {if (_didIteratorError8) {throw _iteratorError8;}}}\n      if (paramsList.length == 0) {\n        uni.showModal({\n          title: '',\n          content: '请选择要结算的商品',\n          showCancel: false });\n\n        return;\n      }\n      var productList2 = [];\n      for (var _i = 0; _i < paramsList.length; _i++) {var _item3 = paramsList[_i];\n        var product = {\n          expressId: _item3.expressId,\n          shopId: _item3.shopId,\n          productId: _item3.productId,\n          specId: _item3.specId,\n          productName: _item3.productName,\n          productPrice: _item3.productPrice,\n          productCount: _item3.productCount,\n          prescriptionPrice: _item3.prescriptionPrice,\n          addressId: _item3.addressId,\n          orderRemark: '' };\n\n        productList2.push(product);\n      }\n      var params2 = {\n        userId: this.userId,\n        orderDetailList: productList2 };\n\n      (0, _product.addOrder)(params2).then(function (res) {\n        if (res.data.code == 0) {\n          uni.navigateTo({\n            url: '/pages/confirmOrder/confirmOrder?paramsList=' + JSON.stringify(paramsList) + '&orderList=' + res.data.data.orderIdList.join(',') });\n\n        } else {\n          uni.showToast({\n            title: '生成订单失败',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/cart/cart.vue?vue&type=script&lang=js&?3954");
 
 /***/ }),
 
-/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\cart\\cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\cart\\cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&");
 
 /***/ }),
 
@@ -4389,7 +4603,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\"block\", [\n        _c(\"view\", { staticClass: \"title\" }, [\n          _c(\"text\", [_vm._v(\"购物车共有6个商品\")]),\n          _c(\n            \"text\",\n            { attrs: { eventid: \"747af69c-0\" }, on: { click: _vm.Editor } },\n            [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"编辑\"))]\n          )\n        ]),\n        _c(\n          \"view\",\n          { staticClass: \"list\" },\n          _vm._l(6, function(item, index) {\n            return _c(\"view\", { key: index, staticClass: \"list-item\" }, [\n              _c(\"view\", { staticClass: \"clear\" }, [\n                _c(\"image\", {\n                  style: { display: _vm.editor ? \"\" : \"none\" },\n                  attrs: {\n                    src: \"../../static/home/clear.png\",\n                    eventid: \"747af69c-1-\" + index\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.clear(index)\n                    }\n                  }\n                }),\n                _c(\n                  \"view\",\n                  {\n                    style: { display: _vm.editor ? \"none\" : \"\" },\n                    attrs: { eventid: \"747af69c-2-\" + index },\n                    on: {\n                      click: function($event) {\n                        _vm.statusChange(index)\n                      }\n                    }\n                  },\n                  [\n                    _vm.select_all\n                      ? _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/weixuanzhong_03.png\",\n                            mode: \"\"\n                          }\n                        })\n                      : _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/xuanzhong_07.png\",\n                            mode: \"\"\n                          }\n                        })\n                  ]\n                )\n              ]),\n              _c(\"view\", { staticClass: \"img\" }, [\n                _c(\"image\", {\n                  staticStyle: { width: \"100%\", height: \"100%\" },\n                  attrs: { src: \"../../static/home/duanwaitao_07.png\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"msg-detail\" }, [\n                _c(\"view\", { staticClass: \"product-name\" }, [\n                  _vm._v(\"新鲜辣椒约400g大炮辣子盒装\")\n                ]),\n                _c(\"view\", { staticClass: \"price\" }, [\n                  _c(\"text\", [_vm._v(\"￥\")]),\n                  _vm._v(\"25元\")\n                ])\n              ]),\n              _c(\"view\", { staticClass: \"count\" }, [\n                _c(\n                  \"text\",\n                  {\n                    attrs: { eventid: \"747af69c-3-\" + index },\n                    on: {\n                      click: function($event) {\n                        _vm.sub(index)\n                      }\n                    }\n                  },\n                  [_vm._v(\"-\")]\n                ),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"number\",\n                    value: \"1\",\n                    eventid: \"747af69c-4-\" + index\n                  },\n                  on: {\n                    blur: function($event) {\n                      _vm.handleBlur($event, index)\n                    }\n                  }\n                }),\n                _c(\n                  \"text\",\n                  {\n                    attrs: { eventid: \"747af69c-5-\" + index },\n                    on: {\n                      click: function($event) {\n                        _vm.add(index)\n                      }\n                    }\n                  },\n                  [_vm._v(\"+\")]\n                )\n              ])\n            ])\n          })\n        )\n      ]),\n      _c(\"view\", {\n        staticClass: \"empty\",\n        staticStyle: { width: \"100%\", height: \"114rpx\" }\n      }),\n      _c(\"view\", { staticClass: \"buy-btn\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"left\",\n            attrs: { eventid: \"747af69c-6\" },\n            on: { click: _vm.selectAll }\n          },\n          [\n            _vm.select_all\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/weixuanzhong_03.png\",\n                    mode: \"\"\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: { src: \"../../static/home/xuanzhong_07.png\", mode: \"\" }\n                }),\n            _c(\"text\", [_vm._v(\"全选\")])\n          ]\n        ),\n        _c(\"view\", { staticClass: \"right\" }, [\n          _vm._m(0),\n          _c(\n            \"view\",\n            { attrs: { eventid: \"747af69c-7\" }, on: { click: _vm.gotoPay } },\n            [_vm._v(\"立即下单\")]\n          )\n        ])\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [_vm._v(\"合计￥\"), _c(\"text\", [_vm._v(\"200\")])])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=template&id=a6ab8090&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"title1\",\n          attrs: { eventid: \"747af69c-0\" },\n          on: {\n            click: function($event) {\n              _vm.editorChange()\n            }\n          }\n        },\n        [\n          _c(\"text\", [\n            _vm._v(\"购物车共有\" + _vm._s(_vm.productList.length) + \"个商品\")\n          ]),\n          _c(\"text\", [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"编辑\"))])\n        ]\n      ),\n      _vm.productList.length\n        ? _c(\n            \"view\",\n            { staticClass: \"list\" },\n            _vm._l(_vm.productList, function(item, index) {\n              return _c(\"view\", { key: index, staticClass: \"list-item\" }, [\n                _c(\"view\", { staticClass: \"clear\" }, [\n                  _vm.editor\n                    ? _c(\"image\", {\n                        attrs: {\n                          src: \"../../static/home/clear.png\",\n                          eventid: \"747af69c-1-\" + index\n                        },\n                        on: {\n                          click: function($event) {\n                            _vm.clear(item.cartId)\n                          }\n                        }\n                      })\n                    : _vm._e(),\n                  !_vm.editor\n                    ? _c(\n                        \"view\",\n                        {\n                          attrs: { eventid: \"747af69c-2-\" + index },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        },\n                        [\n                          item.ick\n                            ? _c(\"image\", {\n                                attrs: {\n                                  src: \"../../static/home/xuanzhong_07.png\",\n                                  mode: \"\"\n                                }\n                              })\n                            : _c(\"image\", {\n                                attrs: {\n                                  src: \"../../static/home/weixuanzhong_03.png\",\n                                  mode: \"\"\n                                }\n                              })\n                        ]\n                      )\n                    : _vm._e()\n                ]),\n                _c(\"view\", { staticClass: \"img\" }, [\n                  _c(\"image\", {\n                    staticStyle: { width: \"100%\", height: \"100%\" },\n                    attrs: { src: _vm.imgURL + item.product.imgList[0] }\n                  })\n                ]),\n                _c(\"view\", { staticClass: \"msg-detail\" }, [\n                  _c(\"view\", { staticClass: \"product-name\" }, [\n                    _vm._v(_vm._s(item.product.productName))\n                  ]),\n                  _c(\"view\", { staticClass: \"guige\" }, [\n                    _vm._v(_vm._s(item.productSpec.productSpecs))\n                  ]),\n                  _c(\"view\", { staticClass: \"price\" }, [\n                    _c(\"text\", [_vm._v(\"￥\")]),\n                    _vm._v(\n                      _vm._s(item.productSpec.price) +\n                        \"元/\" +\n                        _vm._s(item.productSpec.specUnit)\n                    )\n                  ])\n                ]),\n                _c(\"view\", { staticClass: \"count\" }, [\n                  _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"747af69c-3-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.sub(index)\n                        }\n                      }\n                    },\n                    [_vm._v(\"-\")]\n                  ),\n                  _c(\"text\", { staticClass: \"input\" }, [\n                    _vm._v(_vm._s(item.productNum))\n                  ]),\n                  _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"747af69c-4-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.add(index)\n                        }\n                      }\n                    },\n                    [_vm._v(\"+\")]\n                  )\n                ])\n              ])\n            })\n          )\n        : _vm._e(),\n      _vm.productList.length == 0\n        ? _c(\"empty-data\", { attrs: { mpcomid: \"747af69c-0\" } })\n        : _vm._e(),\n      _c(\"view\", {\n        staticClass: \"empty\",\n        staticStyle: { width: \"100%\", height: \"114rpx\" }\n      }),\n      _c(\"view\", { staticClass: \"buy-btn\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"left\",\n            attrs: { eventid: \"747af69c-5\" },\n            on: { click: _vm.selectAll }\n          },\n          [\n            _vm.isShow\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/weixuanzhong_03.png\",\n                    mode: \"\"\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: { src: \"../../static/home/xuanzhong_07.png\", mode: \"\" }\n                }),\n            _c(\"text\", [_vm._v(\"全选\")])\n          ]\n        ),\n        _c(\"view\", { staticClass: \"right\" }, [\n          _c(\"view\", [\n            _vm._v(\"合计￥\"),\n            _c(\"text\", [_vm._v(_vm._s(_vm.totalPrices))])\n          ]),\n          _c(\n            \"view\",\n            { attrs: { eventid: \"747af69c-6\" }, on: { click: _vm.gotoPay } },\n            [_vm._v(\"立即下单\")]\n          )\n        ])\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=template&id=a6ab8090&scoped=true&");
 
 /***/ }),
 
@@ -4413,7 +4627,7 @@ eval("__webpack_require__(/*! uni-pages */ \"D:\\\\西港项目\\\\xigang\\\\pag
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart.vue?vue&type=template&id=a6ab8090&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=template&id=a6ab8090&scoped=true&\");\n/* harmony import */ var _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cart.vue?vue&type=script&lang=js& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"a6ab8090\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"D:/西港项目/xigang/pages/cart/cart.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cart.vue?vue&type=template&id=a6ab8090&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=template&id=a6ab8090&scoped=true&\");\n/* harmony import */ var _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cart.vue?vue&type=script&lang=js& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _cart_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _cart_vue_vue_type_template_id_a6ab8090_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"a6ab8090\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"D:/西港项目/xigang/pages/cart/cart.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue");
 
 /***/ }),
 
@@ -4429,15 +4643,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_U
 
 /***/ }),
 
-/***/ "D:\\西港项目\\xigang\\pages\\cart\\cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&":
-/*!***************************************************************************************************!*\
-  !*** D:/西港项目/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css& ***!
-  \***************************************************************************************************/
+/***/ "D:\\西港项目\\xigang\\pages\\cart\\cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&":
+/*!****************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true& ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&scoped=true&lang=css&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!./cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\cart\\\\cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_cart_vue_vue_type_style_index_0_id_a6ab8090_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/cart/cart.vue?vue&type=style&index=0&id=a6ab8090&lang=less&scoped=true&");
 
 /***/ }),
 
@@ -4469,7 +4683,7 @@ define('pages/order/order.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      currentTab: 0 };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {\n    tabs: function tabs(e) {\n      this.currentTab = e;\n    },\n    gotoComment: function gotoComment() {\n      uni.navigateTo({\n        url: '/pages/comment/comment' });\n\n    },\n    shouHou: function shouHou() {\n      uni.navigateTo({\n        url: '/pages/shouHou/shouHou' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/order/order.vue?vue&type=script&lang=js&?40ea");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      currentTab: 0,\n      imgURl: '',\n      orderList: [],\n      state: '', //\n      pageNo: 1 //页码\n    };\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    //获取订单列表\n    queryOrderList: function queryOrderList(userId, state, pageNo, pageSize) {var _this = this;\n      (0, _product.queryOrderList)(userId, state, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }\n          _this.orderList = [].concat(_toConsumableArray(_this.orderList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    tabs: function tabs(tab, state) {\n      this.currentTab = tab;\n      this.state = state;\n      this.orderList = [];\n      this.pageNo = 1;\n      this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n    },\n    //取消订单\n    cancelOrder: function cancelOrder(id) {var _this2 = this;\n      (0, _product.cancelOrder)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.orderList = [];\n          _this2.pageNo = 1;\n          _this2.queryOrderList(_this2.userId, _this2.state, _this2.pageNo, 10);\n        }\n      });\n    },\n    //确认订单\n    ConfirmOrder: function ConfirmOrder(id) {var _this3 = this;\n      //订单状态修改 1-用户确认订单（待收货）3-用户确认收货\n      (0, _product.ConfirmOrder)(id, 1).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '订单已确认',\n            icon: 'none',\n            duration: 1500 });\n\n          _this3.orderList = [];\n          _this3.pageNo = 1;\n          _this3.queryOrderList(_this3.userId, _this3.state, _this3.pageNo, 10);\n        }\n      });\n    },\n    //确认收货\n    qRshouhuo: function qRshouhuo(id, orderStatus) {var _this4 = this;\n      console.log(22222);\n      if (orderStatus == 2) {\n        (0, _product.ConfirmOrder)(id, 3).then(function (res) {\n          if (res.data.code == 0) {\n            uni.showToast({\n              title: '订单已确认',\n              icon: 'none',\n              duration: 1500 });\n\n            _this4.orderList = [];\n            _this4.pageNo = 1;\n            _this4.queryOrderList(_this4.userId, _this4.state, _this4.pageNo, 10);\n          }\n        });\n      } else {\n        uni.showToast({\n          title: '等待商家确认',\n          icon: 'none',\n          duration: 1500 });\n\n      }\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/orderDetail/orderDetail?id=' + id });\n\n    },\n    gotoComment: function gotoComment(item) {\n      var params = {\n        orderId: item.orderId,\n        productId: item.product.productId,\n        productName: item.product.productName,\n        descript: item.product.descript,\n        img: item.product.imgList[0] };\n\n      uni.navigateTo({\n        url: '/pages/comment/comment?params=' + JSON.stringify(params) });\n\n    },\n    shouHou: function shouHou() {\n      uni.navigateTo({\n        url: '/pages/shouHou/shouHou' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/order/order.vue?vue&type=script&lang=js&?40ea");
 
 /***/ }),
 
@@ -4492,7 +4706,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\", attrs: { \"scroll-x\": \"\" } }, [\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 0 },\n            attrs: { eventid: \"3db026e0-0\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(0)\n              }\n            }\n          },\n          [_vm._v(\"全部\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 1 },\n            attrs: { eventid: \"3db026e0-1\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(1)\n              }\n            }\n          },\n          [_vm._v(\"待确认\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 2 },\n            attrs: { eventid: \"3db026e0-2\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(2)\n              }\n            }\n          },\n          [_vm._v(\"待收货\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 3 },\n            attrs: { eventid: \"3db026e0-3\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(3)\n              }\n            }\n          },\n          [_vm._v(\"已完成\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 4 },\n            attrs: { eventid: \"3db026e0-4\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(4)\n              }\n            }\n          },\n          [_vm._v(\"待评价\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 5 },\n            attrs: { eventid: \"3db026e0-5\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(5)\n              }\n            }\n          },\n          [_vm._v(\"售后\")]\n        )\n      ]),\n      _vm._l(6, function(item, index) {\n        return _c(\"view\", { key: index, staticClass: \"item\" }, [\n          _c(\"image\", {\n            attrs: {\n              src: \"../../static/home/dianpupaihangmangguo_05.png\",\n              mode: \"\"\n            }\n          }),\n          _c(\"view\", { staticClass: \"msg\" }, [\n            _vm._m(0, true),\n            _c(\"text\", { staticClass: \"msg_2\" }, [\n              _vm._v(\"最新鲜的黄瓜限时抢购限时特卖\")\n            ]),\n            _c(\"view\", { staticClass: \"btn\" }, [\n              _vm.currentTab == 4 ? _c(\"text\", [_vm._v(\"查看订单\")]) : _vm._e(),\n              _vm.currentTab == 4\n                ? _c(\n                    \"text\",\n                    {\n                      staticClass: \"pingjia\",\n                      attrs: { eventid: \"3db026e0-6-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.gotoComment()\n                        }\n                      }\n                    },\n                    [_vm._v(\"立即评价\")]\n                  )\n                : _vm._e(),\n              _vm.currentTab == 0 || _vm.currentTab == 2\n                ? _c(\"text\", [_vm._v(\"取消订单\")])\n                : _vm._e(),\n              _vm.currentTab == 0\n                ? _c(\"text\", { staticClass: \"pingjia\" }, [_vm._v(\"确认订单\")])\n                : _vm._e(),\n              _vm.currentTab == 2 ? _c(\"text\", [_vm._v(\"确认收货\")]) : _vm._e(),\n              _vm.currentTab == 5 ? _c(\"text\", [_vm._v(\"申请退款\")]) : _vm._e(),\n              _vm.currentTab == 5\n                ? _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"3db026e0-7-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.shouHou()\n                        }\n                      }\n                    },\n                    [_vm._v(\"申请售后\")]\n                  )\n                : _vm._e()\n            ])\n          ])\n        ])\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"title\" }, [\n      _c(\"text\", [_vm._v(\"果蔬超市\")]),\n      _c(\"text\", [_vm._v(\"￥12.5元\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/order/order.vue?vue&type=template&id=6655e516&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\", attrs: { \"scroll-x\": \"\" } }, [\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 0 },\n            attrs: { eventid: \"3db026e0-0\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(0, \"\")\n              }\n            }\n          },\n          [_vm._v(\"全部\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 1 },\n            attrs: { eventid: \"3db026e0-1\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(1, 0)\n              }\n            }\n          },\n          [_vm._v(\"待确认\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 2 },\n            attrs: { eventid: \"3db026e0-2\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(2, 1)\n              }\n            }\n          },\n          [_vm._v(\"待收货\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 4 },\n            attrs: { eventid: \"3db026e0-3\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(4, 3)\n              }\n            }\n          },\n          [_vm._v(\"待评价\")]\n        ),\n        _c(\n          \"text\",\n          {\n            class: { active: _vm.currentTab == 3 },\n            attrs: { eventid: \"3db026e0-4\" },\n            on: {\n              click: function($event) {\n                _vm.tabs(3, 4)\n              }\n            }\n          },\n          [_vm._v(\"已完成\")]\n        )\n      ]),\n      _vm._l(_vm.orderList, function(item, index) {\n        return _c(\"view\", { key: index, staticClass: \"item\" }, [\n          _c(\"image\", {\n            attrs: {\n              src: _vm.imgURl + item.product.imgList[0],\n              mode: \"\",\n              eventid: \"3db026e0-5-\" + index\n            },\n            on: {\n              click: function($event) {\n                _vm.gotoDetail(item.detailId)\n              }\n            }\n          }),\n          _c(\"view\", { staticClass: \"msg\" }, [\n            _c(\"view\", { staticClass: \"title\" }, [\n              _c(\"text\", [_vm._v(_vm._s(item.product.productName))]),\n              _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.prescriptionPrice) + \"元\")])\n            ]),\n            _c(\"text\", { staticClass: \"msg_2\" }, [\n              _vm._v(_vm._s(item.updatedTime))\n            ]),\n            _c(\"view\", { staticClass: \"btn\" }, [\n              item.orderStatus == 1 || item.orderStatus == 2\n                ? _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"3db026e0-6-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.gotoDetail(item.detailId)\n                        }\n                      }\n                    },\n                    [_vm._v(\"查看订单\")]\n                  )\n                : _vm._e(),\n              item.orderStatus == 3 && item.orderStatus != 4\n                ? _c(\n                    \"text\",\n                    {\n                      staticClass: \"pingjia\",\n                      attrs: { eventid: \"3db026e0-7-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.gotoComment(item)\n                        }\n                      }\n                    },\n                    [_vm._v(\"立即评价\")]\n                  )\n                : _vm._e(),\n              item.orderStatus == -3\n                ? _c(\"text\", [_vm._v(\"订单已取消\")])\n                : _vm._e(),\n              item.orderStatus == 0\n                ? _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"3db026e0-8-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.cancelOrder(item.detailId)\n                        }\n                      }\n                    },\n                    [_vm._v(\"取消订单\")]\n                  )\n                : _vm._e(),\n              item.orderStatus == 0\n                ? _c(\n                    \"text\",\n                    {\n                      staticClass: \"pingjia\",\n                      attrs: { eventid: \"3db026e0-9-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.ConfirmOrder(item.detailId)\n                        }\n                      }\n                    },\n                    [_vm._v(\"确认订单\")]\n                  )\n                : _vm._e(),\n              item.orderStatus == 1 || item.orderStatus == 2\n                ? _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"3db026e0-10-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.qRshouhuo(item.detailId, item.orderStatus)\n                        }\n                      }\n                    },\n                    [\n                      _vm._v(\n                        _vm._s(\n                          item.orderStatus == 2 ? \"确认收货\" : \"商家确认中\"\n                        )\n                      )\n                    ]\n                  )\n                : _vm._e(),\n              item.orderStatus == 3 || item.orderStatus == 4\n                ? _c(\n                    \"text\",\n                    {\n                      attrs: { eventid: \"3db026e0-11-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.shouHou()\n                        }\n                      }\n                    },\n                    [_vm._v(\"申请售后\")]\n                  )\n                : _vm._e()\n            ])\n          ])\n        ])\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/order/order.vue?vue&type=template&id=6655e516&scoped=true&");
 
 /***/ }),
 
@@ -4572,7 +4786,7 @@ define('pages/userCenter/userCenter.js',function(require, module, exports, windo
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index2 = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      imglist: '', //用户头像\n      nickName: '', //用户昵称\n      spec_name: '', //用户签名\n      isShow: false };\n\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getUserById();\n  },\n  methods: {\n    //获取用户信息\n    getUserById: function getUserById() {var _this = this;\n      (0, _index2.getUserById)(this.userId).then(function (res) {\n        _this.imglist = res.data.data.userPhoto;\n        _this.spec_name = res.data.data.specName;\n        _this.nickName = res.data.data.nickName;\n      });\n    },\n    bottomClose: function bottomClose() {\n      this.isShow = false;\n    },\n    gotoUserMsg: function gotoUserMsg() {\n      uni.navigateTo({\n        url: '/pages/userMsg/userMsg' });\n\n    },\n    fenxiang: function fenxiang() {\n      this.isShow = true;\n    } },\n\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/userCenter/userCenter.vue?vue&type=script&lang=js&?ec3e");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index2 = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      imglist: '', //用户头像\n      nickName: '', //用户昵称\n      spec_name: '', //用户签名\n      isShow: false,\n      shopStatus: -1 //默认为2未入住 入驻状态 -1:未入驻 0:审核中 1:已入驻 2:审核驳回重新入驻\n    };\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getUserById();\n    this.getShopStatusByUserId(this.userId);\n  },\n  methods: {\n    //获取用户信息\n    getUserById: function getUserById() {var _this = this;\n      (0, _index2.getUserById)(this.userId).then(function (res) {\n        _this.imglist = res.data.data.userPhoto;\n        _this.spec_name = res.data.data.specName;\n        _this.nickName = res.data.data.nickName;\n      });\n    },\n    //获取用户入住状态\n    getShopStatusByUserId: function getShopStatusByUserId(userId) {var _this2 = this;\n      (0, _index2.getShopStatusByUserId)(userId).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.shopStatus = res.data.data.shopStatus;\n        }\n      });\n    },\n    bottomClose: function bottomClose() {\n      this.isShow = false;\n    },\n    gotoUserMsg: function gotoUserMsg() {\n      uni.navigateTo({\n        url: '/pages/userMsg/userMsg' });\n\n    },\n    fenxiang: function fenxiang() {\n      this.isShow = true;\n    },\n    shareFriend: function shareFriend() {\n      //分享到微信好友\n      uni.share({\n        provider: 'weixin',\n        scene: 'WXSceneSession',\n        type: 0,\n        href: 'http://uniapp.dcloud.io/',\n        title: 'uni-app分享',\n        summary: '我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！',\n        imageUrl: 'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png',\n        success: function success(res) {\n          console.log('success:' + JSON.stringify(res));\n        },\n        fail: function fail(err) {\n          console.log('fail:' + JSON.stringify(err));\n        } });\n\n    },\n    shareFriendQuan: function shareFriendQuan() {\n      //分享到朋友圈\n      uni.share({\n        provider: 'weixin',\n        scene: 'WXSenceTimeline',\n        type: 0,\n        href: 'http://uniapp.dcloud.io/',\n        title: 'uni-app分享',\n        summary: '我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！',\n        imageUrl: 'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png',\n        success: function success(res) {\n          console.log(111);\n          console.log('success:' + JSON.stringify(res));\n        },\n        fail: function fail(err) {\n          console.log('fail:' + JSON.stringify(err));\n          console.log(123);\n        } });\n\n    },\n    ruzhu: function ruzhu() {\n      if (this.shopStatus == 0) {\n        uni.showToast({\n          title: '入住信息审核中',\n          icon: 'none',\n          duration: 1000 });\n\n        return;\n      }\n      if (this.shopStatus == 1) {\n        uni.showToast({\n          title: '已经入住成功',\n          icon: 'none',\n          duration: 1000 });\n\n        return;\n      }\n      if (this.shopStatus == 2) {\n        uni.showModal({\n          title: '',\n          content: '入住失败是否从新入住',\n          success: function success(res) {\n            if (res.confirm) {\n              uni.navigateTo({\n                url: '/pages/merchant/merchant' });\n\n            } else if (res.cancel) {\n              console.log('用户点击取消');\n            }\n          } });\n\n        return;\n      }\n      uni.navigateTo({\n        url: '/pages/merchant/merchant' });\n\n    } },\n\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/userCenter/userCenter.vue?vue&type=script&lang=js&?ec3e");
 
 /***/ }),
 
@@ -4595,7 +4809,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _vm.imglist\n          ? _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.imgURl + _vm.imglist, mode: \"\" }\n            })\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: \"../../static/home/touxiang_03.png\", mode: \"\" }\n            }),\n        _c(\"view\", { staticClass: \"msg\" }, [\n          _c(\"text\", [_vm._v(_vm._s(_vm.nickName ? _vm.nickName : \"未填写\"))]),\n          _c(\"text\", [_vm._v(_vm._s(_vm.spec_name ? _vm.spec_name : \"未填写\"))])\n        ]),\n        _c(\"image\", {\n          staticClass: \"img_2\",\n          attrs: {\n            src: \"../../static/home/baigou.png\",\n            mode: \"\",\n            eventid: \"3b0624f2-0\"\n          },\n          on: { click: _vm.gotoUserMsg }\n        })\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"tabs\" },\n        [\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"item\",\n              attrs: { url: \"/pages/addressList/addressList\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/dizhiguanli_07.png\", mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(\"地址管理\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            { staticClass: \"item\", attrs: { url: \"/pages/collect/collect\" } },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/wodeshoucnag_10.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"我的收藏\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            { staticClass: \"item\", attrs: { url: \"/pages/zhuji/zhuji\" } },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/shangpinzuji_09.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"商品足迹\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"item\",\n              attrs: { eventid: \"3b0624f2-1\" },\n              on: {\n                click: function($event) {\n                  _vm.fenxiang()\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/wodefenxiang_15.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"我的分享\")])\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\n        \"navigator\",\n        { staticClass: \"GG\", attrs: { url: \"/pages/ggList/ggList\" } },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/dianpugonggao_03.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"list\" },\n        [\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/merchant/merchant\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/shangjiaruzhu_26.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"商家入驻\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/complain/complain\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/tousujianyi_29.png\", mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(\"投诉建议\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/callCenter/callCenter\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/kefuzhongxin_33.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"客服中心\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/Account_center/Account_center\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/zhanghuanquan_37.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"账户安全\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/system_setup/system_setup\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/xitongshezhi_41.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"系统设置\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          )\n        ],\n        1\n      ),\n      _vm.isShow\n        ? _c(\"view\", { staticClass: \"tankuang\" }, [\n            _c(\"view\", { staticClass: \"container1\" }, [\n              _c(\n                \"view\",\n                {\n                  staticClass: \"close\",\n                  attrs: { eventid: \"3b0624f2-2\" },\n                  on: { click: _vm.bottomClose }\n                },\n                [\n                  _c(\"text\", [_vm._v(\"分享\")]),\n                  _c(\"image\", {\n                    staticClass: \"close2\",\n                    attrs: { src: \"../../static/home/tuichu_07.png\", mode: \"\" }\n                  })\n                ]\n              ),\n              _c(\"view\", { staticClass: \"share\" }, [\n                _vm._m(0),\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"btn\",\n                    attrs: { eventid: \"3b0624f2-3\" },\n                    on: { click: _vm.ontophaibao }\n                  },\n                  [_vm._m(1), _c(\"text\", [_vm._v(\"分享朋友圈\")])]\n                )\n              ])\n            ])\n          ])\n        : _vm._e()\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"btn\", attrs: { \"open-type\": \"share\" } }, [\n      _c(\"view\", [\n        _c(\"image\", { attrs: { src: \"../../static/home/pengyouquan_05.png\" } })\n      ]),\n      _c(\"text\", [_vm._v(\"分享给朋友\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [\n      _c(\"image\", { attrs: { src: \"../../static/home/weixin_03.png\" } })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/userCenter/userCenter.vue?vue&type=template&id=056f0af8&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _vm.imglist\n          ? _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.imgURl + _vm.imglist, mode: \"\" }\n            })\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: \"../../static/home/touxiang_03.png\", mode: \"\" }\n            }),\n        _c(\"view\", { staticClass: \"msg\" }, [\n          _c(\"text\", [_vm._v(_vm._s(_vm.nickName ? _vm.nickName : \"未填写\"))]),\n          _c(\"text\", [_vm._v(_vm._s(_vm.spec_name ? _vm.spec_name : \"未填写\"))])\n        ]),\n        _c(\"image\", {\n          staticClass: \"img_2\",\n          attrs: {\n            src: \"../../static/home/baigou.png\",\n            mode: \"\",\n            eventid: \"3b0624f2-0\"\n          },\n          on: { click: _vm.gotoUserMsg }\n        })\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"tabs\" },\n        [\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"item\",\n              attrs: { url: \"/pages/addressList/addressList\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/dizhiguanli_07.png\", mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(\"地址管理\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            { staticClass: \"item\", attrs: { url: \"/pages/collect/collect\" } },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/wodeshoucnag_10.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"我的收藏\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            { staticClass: \"item\", attrs: { url: \"/pages/zhuji/zhuji\" } },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/shangpinzuji_09.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"商品足迹\")])\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"item\",\n              attrs: { eventid: \"3b0624f2-1\" },\n              on: {\n                click: function($event) {\n                  _vm.fenxiang()\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/wodefenxiang_15.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"我的分享\")])\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\n        \"navigator\",\n        { staticClass: \"GG\", attrs: { url: \"/pages/ggList/ggList\" } },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/dianpugonggao_03.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"list\" },\n        [\n          _c(\n            \"view\",\n            {\n              staticClass: \"list_item\",\n              attrs: { eventid: \"3b0624f2-2\" },\n              on: {\n                click: function($event) {\n                  _vm.ruzhu()\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/shangjiaruzhu_26.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"商家入驻\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/complain/complain\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/tousujianyi_29.png\", mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(\"投诉建议\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/callCenter/callCenter\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/kefuzhongxin_33.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"客服中心\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/Account_center/Account_center\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/zhanghuanquan_37.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"账户安全\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          ),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"list_item\",\n              attrs: { url: \"/pages/system_setup/system_setup\" }\n            },\n            [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/home/xitongshezhi_41.png\",\n                  mode: \"\"\n                }\n              }),\n              _c(\"text\", [_vm._v(\"系统设置\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          )\n        ],\n        1\n      ),\n      _vm.isShow\n        ? _c(\"view\", { staticClass: \"tankuang\" }, [\n            _c(\"view\", { staticClass: \"container1\" }, [\n              _c(\n                \"view\",\n                {\n                  staticClass: \"close\",\n                  attrs: { eventid: \"3b0624f2-3\" },\n                  on: { click: _vm.bottomClose }\n                },\n                [\n                  _c(\"text\", [_vm._v(\"分享\")]),\n                  _c(\"image\", {\n                    staticClass: \"close2\",\n                    attrs: { src: \"../../static/home/tuichu_07.png\", mode: \"\" }\n                  })\n                ]\n              ),\n              _c(\"view\", { staticClass: \"share\" }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"btn\",\n                    attrs: { eventid: \"3b0624f2-4\" },\n                    on: { click: _vm.shareFriend }\n                  },\n                  [_vm._m(0), _c(\"text\", [_vm._v(\"分享给朋友\")])]\n                ),\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"btn\",\n                    attrs: { eventid: \"3b0624f2-5\" },\n                    on: { click: _vm.shareFriendQuan }\n                  },\n                  [_vm._m(1), _c(\"text\", [_vm._v(\"分享朋友圈\")])]\n                )\n              ])\n            ])\n          ])\n        : _vm._e()\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [\n      _c(\"image\", { attrs: { src: \"../../static/home/weixin_03.png\" } })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [\n      _c(\"image\", { attrs: { src: \"../../static/home/pengyouquan_05.png\" } })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/userCenter/userCenter.vue?vue&type=template&id=056f0af8&scoped=true&");
 
 /***/ }),
 
@@ -4675,7 +4889,7 @@ define('pages/suiguo_shop/suiguo_shop.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  name: 'suiguo_shop',\n  data: function data() {\n    return {\n      shopList: [],\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.imgURl = _index.imgURl;\n    this.getShopByCategoryId(options.id);\n  },\n  methods: {\n    //获取店铺列表\n    getShopByCategoryId: function getShopByCategoryId(id) {var _this = this;\n      (0, _product.getShopByCategoryId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this.shopList = res.data.data;\n        }\n      });\n    },\n    gotoDetaill: function gotoDetaill(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_list/suiguo_list?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/suiguo_shop/suiguo_shop.vue?vue&type=script&lang=js&?896c");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  name: 'suiguo_shop',\n  data: function data() {\n    return {\n      shopList: [],\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.imgURl = _index.imgURl;\n    //分类页面进来\n    if (options.id) {\n      this.getShopByCategoryId(options.id);\n    }\n    //搜索页进来\n    if (options.search) {\n      this.getAllShopByContent(1, 20, options.search);\n    }\n\n  },\n  methods: {\n    //搜索\n    getAllShopByContent: function getAllShopByContent(pageNo, pageSize, content) {var _this = this;\n      (0, _product.getAllShopByContent)(pageNo, pageSize, content).then(function (res) {\n        if (res.data.code == 0) {\n          _this.shopList = res.data.data.list;\n        }\n      });\n    },\n    //获取店铺列表\n    getShopByCategoryId: function getShopByCategoryId(id) {var _this2 = this;\n      (0, _product.getShopByCategoryId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.shopList = res.data.data;\n        }\n      });\n    },\n    gotoDetaill: function gotoDetaill(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_list/suiguo_list?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/suiguo_shop/suiguo_shop.vue?vue&type=script&lang=js&?896c");
 
 /***/ }),
 
@@ -4778,7 +4992,7 @@ define('pages/suiguo_list/suiguo_list.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      isShang: true,\n      pageNo: 1,\n      productList: [],\n      imgURl: '',\n      sortWay: 0, //排序方式\n      productId: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.productId = options.id;\n    this.imgURl = _index.imgURl;\n    this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);\n  },\n  methods: {\n    //获取商品列表\n    getProductByShopId: function getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {var _this = this;\n      (0, _product.getProductByShopId)(pageNo, pageSize, shopId, publishStatus, sortWay).then(function (res) {\n        if (res.data.code == 0) {\n          _this.productList = res.data.data.list;\n        }\n      });\n    },\n    isShangChange: function isShangChange() {\n      this.isShang = !this.isShang;\n      if (this.sortWay == 0) {\n        this.sortWay = 1;\n      } else {\n        this.sortWay = 0;\n      }\n      this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);\n    },\n    gotoBack: function gotoBack() {\n      uni.navigateBack({\n        delta: 1 });\n\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/suiguo_list/suiguo_list.vue?vue&type=script&lang=js&?3a90");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}var _default =\n{\n  data: function data() {\n    return {\n      search: '',\n      isShang: true,\n      pageNo: 1,\n      productList: [],\n      imgURl: '',\n      sortWay: 0, //排序方式\n      productId: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.productId = options.id;\n    this.imgURl = _index.imgURl;\n    this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    if (this.search == '') {\n      this.pageNo++;\n      this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);\n    }\n  },\n  methods: {\n    //获取商品列表\n    getProductByShopId: function getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {var _this = this;\n      (0, _product.getProductByShopId)(pageNo, pageSize, shopId, publishStatus, sortWay).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }\n          _this.productList = [].concat(_toConsumableArray(_this.productList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    isShangChange: function isShangChange() {\n      this.isShang = !this.isShang;\n      if (this.sortWay == 0) {\n        this.sortWay = 1;\n      } else {\n        this.sortWay = 0;\n      }\n      this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);\n    },\n    gotoBack: function gotoBack() {\n      uni.navigateBack({\n        delta: 1 });\n\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    },\n    searchProduct: function searchProduct() {var _this2 = this;\n      (0, _product.getAllProductByContent)(1, 20, this.search).then(function (res) {\n        if (res.data.data.list.length == 0) {\n          uni.showToast({\n            title: '没有更多数据了',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n        _this2.productList = _toConsumableArray(res.data.data.list);\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/suiguo_list/suiguo_list.vue?vue&type=script&lang=js&?3a90");
 
 /***/ }),
 
@@ -4801,7 +5015,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"head\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"left\",\n          attrs: { eventid: \"6714820c-0\" },\n          on: {\n            click: function($event) {\n              _vm.gotoBack()\n            }\n          }\n        },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/xiangzuofanhui_03.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _vm._m(0)\n    ]),\n    _c(\"view\", { staticClass: \"title\" }, [\n      _c(\"text\", [_vm._v(\"全部商品\")]),\n      _c(\n        \"view\",\n        {\n          staticClass: \"price\",\n          attrs: { eventid: \"6714820c-1\" },\n          on: {\n            click: function($event) {\n              _vm.isShangChange()\n            }\n          }\n        },\n        [\n          _c(\"text\", [_vm._v(\"价格排序\")]),\n          _vm.isShang\n            ? _c(\"image\", {\n                attrs: { src: \"../../static/home/shangjiantou.png\", mode: \"\" }\n              })\n            : _c(\"image\", {\n                attrs: { src: \"../../static/home/xiajiantou.png\", mode: \"\" }\n              })\n        ]\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"scroll-view\" },\n      _vm._l(_vm.productList, function(item, index) {\n        return _c(\n          \"view\",\n          {\n            key: index,\n            staticClass: \"list-item\",\n            attrs: { eventid: \"6714820c-2-\" + index },\n            on: {\n              click: function($event) {\n                _vm.gotoDetail(item.productId)\n              }\n            }\n          },\n          [\n            _c(\"image\", {\n              attrs: { src: _vm.imgURl + item.imgList[0], mode: \"\" }\n            }),\n            _c(\"view\", { staticClass: \"list_msg\" }, [\n              _c(\"text\", [_vm._v(_vm._s(item.productName))]),\n              _c(\"text\", [_vm._v(_vm._s(item.descript))]),\n              _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.price) + \"元/斤\")]),\n              _c(\"image\", {\n                staticClass: \"cart\",\n                attrs: { src: \"../../static/home/gouwuche_44.png\", mode: \"\" }\n              })\n            ])\n          ]\n        )\n      })\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"input\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/sousuo_06.png\", mode: \"\" }\n      }),\n      _c(\"input\", {\n        attrs: {\n          type: \"text\",\n          value: \"\",\n          placeholder: \"请输入要搜索的商品或店铺\"\n        }\n      })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/suiguo_list/suiguo_list.vue?vue&type=template&id=5d64fd80&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"head\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"left\",\n          attrs: { eventid: \"6714820c-0\" },\n          on: {\n            click: function($event) {\n              _vm.gotoBack()\n            }\n          }\n        },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/xiangzuofanhui_03.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _c(\"view\", { staticClass: \"input\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/home/sousuo_06.png\", mode: \"\" }\n        }),\n        _c(\"input\", {\n          directives: [\n            {\n              name: \"model\",\n              rawName: \"v-model\",\n              value: _vm.search,\n              expression: \"search\"\n            }\n          ],\n          attrs: {\n            type: \"text\",\n            placeholder: \"请输入要搜索的商品\",\n            eventid: \"6714820c-1\"\n          },\n          domProps: { value: _vm.search },\n          on: {\n            confirm: function($event) {\n              _vm.searchProduct()\n            },\n            input: function($event) {\n              if ($event.target.composing) {\n                return\n              }\n              _vm.search = $event.target.value\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\"view\", { staticClass: \"title\" }, [\n      _c(\"text\", [_vm._v(\"全部商品\")]),\n      _c(\n        \"view\",\n        {\n          staticClass: \"price\",\n          attrs: { eventid: \"6714820c-2\" },\n          on: {\n            click: function($event) {\n              _vm.isShangChange()\n            }\n          }\n        },\n        [\n          _c(\"text\", [_vm._v(\"价格排序\")]),\n          _vm.isShang\n            ? _c(\"image\", {\n                attrs: { src: \"../../static/home/shangjiantou.png\", mode: \"\" }\n              })\n            : _c(\"image\", {\n                attrs: { src: \"../../static/home/xiajiantou.png\", mode: \"\" }\n              })\n        ]\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"scroll-view\" },\n      _vm._l(_vm.productList, function(item, index) {\n        return _c(\n          \"view\",\n          {\n            key: index,\n            staticClass: \"list-item\",\n            attrs: { eventid: \"6714820c-3-\" + index },\n            on: {\n              click: function($event) {\n                _vm.gotoDetail(item.productId)\n              }\n            }\n          },\n          [\n            _c(\"image\", {\n              attrs: { src: _vm.imgURl + item.imgList[0], mode: \"\" }\n            }),\n            _c(\"view\", { staticClass: \"list_msg\" }, [\n              _c(\"text\", [_vm._v(_vm._s(item.productName))]),\n              _c(\"text\", [_vm._v(_vm._s(item.descript))]),\n              _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.price) + \"元/斤\")]),\n              _c(\"image\", {\n                staticClass: \"cart\",\n                attrs: { src: \"../../static/home/gouwuche_44.png\", mode: \"\" }\n              })\n            ])\n          ]\n        )\n      })\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/suiguo_list/suiguo_list.vue?vue&type=template&id=5d64fd80&scoped=true&");
 
 /***/ }),
 
@@ -4881,7 +5095,7 @@ define('pages/product_detaill/product_detaill.js',function(require, module, expo
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");\nvar _index2 = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      isLike: 0, //是否收藏的标记  0未收藏 1收藏\n      guigeTabs: '-1', //\n      guige: '', //选择的规格\n      specId: '', //规格id\n      imgURl: '',\n      showGuige: false,\n      buy_count: 1,\n      productDetail: {},\n      address: {} };\n\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad(options) {\n    this.imgURl = _index.imgURl;\n    this.productDetail.productId = options.id;\n    this.getProductById(options.id); //获取商品详情\n    this.addVisitRecord(); //添加商品足迹\n  },\n  onShow: function onShow() {\n    this.getUserAddressListByUserId(this.userId);\n  },\n  methods: {\n    //添加取消收藏\n    AddCollection: function AddCollection(id) {\n      var dataFailure = '';\n      if (this.isLike == 0) {\n        this.isLike = 1;\n        dataFailure = 1;\n      } else {\n        this.isLike = 0;\n        dataFailure = 0;\n      }\n\n      var params = {\n        userId: this.userId,\n        productId: id,\n        dataFailure: dataFailure //0取消收藏 1收藏\n      };\n      (0, _product.AddCollection)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: res.data.data,\n            duration: 2000 });\n\n        }\n      });\n    },\n    //选择规格\n    guigeChange: function guigeChange(name, index, specId) {\n      this.guige = name;\n      this.guigeTabs = index;\n      this.specId = specId;\n    },\n    //用户地址列表\n    getUserAddressListByUserId: function getUserAddressListByUserId(id) {var _this = this;\n      (0, _index2.getUserAddressListByUserId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          //有默认地址取默认地址 没有取第一个\n          var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {for (var _iterator = res.data.data[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              if (item.isDefault) {\n                _this.address = item;\n              } else {\n                _this.address = res.data.data[0];\n              }\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n        }\n      });\n    },\n    //添加足迹\n    addVisitRecord: function addVisitRecord() {\n      var params = {\n        userId: this.userId,\n        productId: this.productDetail.productId,\n        visitType: 0 };\n\n      (0, _product.addVisitRecord)(params).then(function (res) {});\n    },\n    //获取商品详情\n    getProductById: function getProductById(id) {var _this2 = this;\n      (0, _product.getProductById)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.productDetail = res.data.data;\n          _this2.isLike = res.data.data.isCollection;\n        }\n      });\n    },\n    isShowguige: function isShowguige() {\n      this.showGuige = true;\n    },\n    isOK: function isOK() {\n      this.showGuige = false;\n    },\n\n    callUp: function callUp(e) {\n      uni.makePhoneCall({\n        phoneNumber: e });\n\n    },\n    //复制\n    copy: function copy(e) {\n      uni.setClipboardData({\n        data: e,\n        success: function success() {\n          console.log('success');\n        } });\n\n    },\n    addCart: function addCart() {\n      if (this.specId == '') {\n        uni.showModal({\n          title: '',\n          content: '请选择商品规格',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        userId: this.userId,\n        productId: this.productDetail.productId,\n        specId: this.specId,\n        productNum: this.buy_count };\n\n      (0, _product.addShopCart)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '加入购物车成功',\n            duration: 2000 });\n\n        }\n      });\n    },\n    sub: function sub() {\n      if (this.buy_count == 0) {\n        return;\n      }\n      this.buy_count--;\n    },\n    add: function add() {\n      this.buy_count++;\n    },\n    inputBuycount: function inputBuycount() {},\n    gotoPay: function gotoPay() {\n      var params = {\n        shopId: this.productDetail.shopId,\n        productId: this.productDetail.productId,\n        specId: this.specId,\n        productName: this.productDetail.productName,\n        productPrice: this.productDetail.price,\n        productCount: this.buy_count,\n        prescriptionPrice: this.productDetail.price * this.buy_count };\n\n      uni.navigateTo({\n        url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params) });\n\n    },\n    gotoComment: function gotoComment() {\n      uni.navigateTo({\n        url: '/pages/commentList/commentList' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/product_detaill/product_detaill.vue?vue&type=script&lang=js&?d76b");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");\nvar _index2 = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      currentPrice: '', //当前选中规格价格\n      isLike: 0, //是否收藏的标记  0未收藏 1收藏\n      guigeTabs: '-1', //\n      guige: '', //选择的规格\n      specId: '', //规格id\n      imgURl: '',\n      showGuige: false,\n      buy_count: 1,\n      productDetail: {},\n      address: {},\n      commentList: [] //评论列表\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad(options) {\n    console.log(options.id);\n    this.imgURl = _index.imgURl;\n    this.productDetail.productId = options.id;\n    this.getProductById(options.id, this.userId); //获取商品详情\n    this.addVisitRecord(); //添加商品足迹\n    this.getCommentList(options.id, 1, 10);\n  },\n  onShow: function onShow() {\n    this.getUserAddressListByUserId(this.userId);\n  },\n  methods: {\n    //添加取消收藏\n    AddCollection: function AddCollection(id) {\n      var dataFailure = '';\n      if (this.isLike == 0) {\n        this.isLike = 1;\n        dataFailure = 1;\n      } else {\n        this.isLike = 0;\n        dataFailure = 0;\n      }\n\n      var params = {\n        userId: this.userId,\n        productId: id,\n        dataFailure: dataFailure //0取消收藏 1收藏\n      };\n      (0, _product.AddCollection)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: res.data.data,\n            duration: 2000 });\n\n        }\n      });\n    },\n    //获取评论列表\n    getCommentList: function getCommentList(productId, pageNo, pageSize) {var _this = this;\n      (0, _product.getCommentList)(productId, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          _this.commentList = res.data.data.list;\n        }\n      });\n    },\n    //选择规格\n    guigeChange: function guigeChange(name, index, specId, price) {\n      this.guige = name;\n      this.currentPrice = price;\n      this.guigeTabs = index;\n      this.specId = specId;\n    },\n    //用户地址列表\n    getUserAddressListByUserId: function getUserAddressListByUserId(id) {var _this2 = this;\n      (0, _index2.getUserAddressListByUserId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          //有默认地址取默认地址 没有取第一个\n          var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {for (var _iterator = res.data.data[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              if (item.isDefault) {\n                _this2.address = item;\n              } else {\n                _this2.address = res.data.data[0];\n              }\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n        }\n      });\n    },\n    //添加足迹\n    addVisitRecord: function addVisitRecord() {\n      var params = {\n        userId: this.userId,\n        productId: this.productDetail.productId,\n        visitType: 0 };\n\n      (0, _product.addVisitRecord)(params).then(function (res) {});\n    },\n    //获取商品详情\n    getProductById: function getProductById(id, userId) {var _this3 = this;\n      (0, _product.getProductById)(id, userId).then(function (res) {\n        console.log(JSON.stringify(res));\n        if (res.data.code == 0) {\n          _this3.productDetail = res.data.data;\n          _this3.isLike = res.data.data.isCollection;\n        }\n      });\n    },\n    isShowguige: function isShowguige() {\n      this.showGuige = true;\n    },\n    isOK: function isOK() {\n      this.showGuige = false;\n    },\n\n    callUp: function callUp(e) {\n      uni.makePhoneCall({\n        phoneNumber: e });\n\n    },\n    //复制\n    copy: function copy(e) {\n      uni.setClipboardData({\n        data: e,\n        success: function success() {\n          console.log('success');\n        } });\n\n    },\n    addCart: function addCart() {\n      if (this.specId == '') {\n        uni.showModal({\n          title: '',\n          content: '请选择商品规格',\n          showCancel: false });\n\n        return;\n      }\n      if (this.specId == '') {\n        uni.showModal({\n          title: '',\n          content: '请添加收货地址',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        addressId: this.address.addressId,\n        userId: this.userId,\n        productId: this.productDetail.productId,\n        specId: this.specId,\n        productNum: this.buy_count };\n\n      (0, _product.addShopCart)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '加入购物车成功',\n            duration: 2000 });\n\n        }\n      });\n    },\n    sub: function sub() {\n      if (this.buy_count == 0) {\n        return;\n      }\n      this.buy_count--;\n    },\n    add: function add() {\n      this.buy_count++;\n    },\n    inputBuycount: function inputBuycount() {},\n    gotoPay: function gotoPay() {\n      if (this.specId == '') {\n        uni.showModal({\n          title: '',\n          content: '请选择商品规格',\n          showCancel: false });\n\n        return;\n      }\n      var productList = []; //循环遍历 此处只有一条  为了方便 跟购物车下单统一格式\n      var params = {\n        expressId: this.productDetail.expressId, //配送方式\n        specUnit: this.productDetail.specUnit, //单位\n        shopId: this.productDetail.shopId,\n        productId: this.productDetail.productId,\n        specId: this.specId,\n        productName: this.productDetail.productName,\n        productPrice: this.productDetail.price,\n        productCount: this.buy_count,\n        prescriptionPrice: this.productDetail.price * this.buy_count };\n\n      productList.push(params);\n      var productList2 = [];\n      for (var _i = 0; _i < productList.length; _i++) {var item = productList[_i];\n        var product = {\n          expressId: item.expressId,\n          shopId: item.shopId,\n          productId: item.productId,\n          specId: item.specId,\n          productName: item.productName,\n          productPrice: item.productPrice,\n          productCount: item.productCount,\n          prescriptionPrice: item.prescriptionPrice,\n          orderRemark: '',\n          addressId: this.address.addressId };\n\n        productList2.push(product);\n      }\n      var params2 = {\n        userId: this.userId,\n        orderDetailList: productList2 };\n\n      (0, _product.addOrder)(params2).then(function (res) {\n        if (res.data.code == 0) {\n          uni.navigateTo({\n            url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params) + '&orderList=' + res.data.data.orderIdList[0] });\n\n        } else {\n          uni.showToast({\n            title: '生成订单失败',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n    },\n    gotoComment: function gotoComment(id) {\n      uni.navigateTo({\n        url: '/pages/commentList/commentList?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/product_detaill/product_detaill.vue?vue&type=script&lang=js&?d76b");
 
 /***/ }),
 
@@ -4904,7 +5118,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"swiper\",\n          attrs: {\n            \"indicator-dots\": true,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000\n          }\n        },\n        _vm._l(_vm.productDetail.imgList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            { key: index, attrs: { mpcomid: \"3d279f8a-0-\" + index } },\n            [_c(\"image\", { attrs: { src: _vm.imgURl + item, mode: \"\" } })]\n          )\n        })\n      ),\n      _c(\"view\", { staticClass: \"tishi\" }, [\n        _vm._v(\"温馨提示！下单前请联系商家确认是否有货！\")\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"msg\" },\n        [\n          _c(\"view\", { staticClass: \"title\" }, [\n            _c(\"text\", [_vm._v(_vm._s(_vm.productDetail.productName))]),\n            !_vm.isLike\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/like1.png\",\n                    mode: \"\",\n                    eventid: \"3d279f8a-1\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.AddCollection(_vm.productDetail.productId)\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/like2.png\",\n                    mode: \"\",\n                    eventid: \"3d279f8a-0\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.AddCollection(_vm.productDetail.productId)\n                    }\n                  }\n                })\n          ]),\n          _c(\"view\", { staticClass: \"info\" }, [\n            _vm._v(_vm._s(_vm.productDetail.descript))\n          ]),\n          _c(\"view\", { staticClass: \"price\" }, [\n            _vm._v(\"￥\" + _vm._s(_vm.productDetail.price) + \"元/斤\")\n          ]),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"address\",\n              attrs: { url: \"/pages/addressList/addressList\" }\n            },\n            [\n              _c(\"text\", [_vm._v(\"送至\")]),\n              _c(\"text\", [\n                _vm._v(\n                  _vm._s(_vm.address.province) +\n                    \"-\" +\n                    _vm._s(_vm.address.city) +\n                    \"-\" +\n                    _vm._s(_vm.address.area) +\n                    _vm._s(_vm.address.addressLine1)\n                )\n              ]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"guige\",\n          attrs: { eventid: \"3d279f8a-2\" },\n          on: { click: _vm.isShowguige }\n        },\n        [\n          _c(\"text\", [_vm._v(\"规格\")]),\n          _c(\"text\", [\n            _vm._v(\n              _vm._s(_vm.guige ? _vm.guige + \"X\" + _vm.buy_count : \"请选择规格\")\n            )\n          ]),\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _c(\"view\", { staticClass: \"comment\" }, [\n        _c(\"view\", { staticClass: \"title\" }, [\n          _c(\"text\", [_vm._v(\"用户评价(18)\")]),\n          _c(\n            \"text\",\n            {\n              attrs: { eventid: \"3d279f8a-3\" },\n              on: {\n                click: function($event) {\n                  _vm.gotoComment()\n                }\n              }\n            },\n            [_vm._v(\"查看全部>\")]\n          )\n        ]),\n        _c(\n          \"view\",\n          { staticClass: \"item\" },\n          [\n            _c(\"image\", {\n              staticClass: \"h_img\",\n              attrs: { src: \"../../static/home/roushi_27.png\", mode: \"\" }\n            }),\n            _c(\"text\", [_vm._v(\"我叫马冬梅\")]),\n            _vm._l(5, function(item, index) {\n              return _c(\"image\", {\n                key: index,\n                staticClass: \"x_img\",\n                attrs: { src: \"../../static/home/wujiaoxing_03.png\", mode: \"\" }\n              })\n            })\n          ],\n          2\n        )\n      ]),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _vm._m(0),\n      _c(\n        \"view\",\n        { staticClass: \"img_list\" },\n        _vm._l(_vm.productDetail.imgList, function(item, index2) {\n          return _c(\"image\", {\n            key: index2,\n            attrs: { src: _vm.imgURl + item, mode: \"\" }\n          })\n        })\n      ),\n      _c(\"view\", { staticClass: \"bottom\" }, [\n        _c(\"image\", {\n          attrs: {\n            src: \"../../static/home/weixin_07.png\",\n            mode: \"\",\n            eventid: \"3d279f8a-4\"\n          },\n          on: {\n            click: function($event) {\n              _vm.copy(_vm.productDetail.weChatId)\n            }\n          }\n        }),\n        _c(\"image\", {\n          attrs: {\n            src: \"../../static/home/dianhua_07.png\",\n            mode: \"\",\n            eventid: \"3d279f8a-5\"\n          },\n          on: {\n            click: function($event) {\n              _vm.callUp(_vm.productDetail.phone)\n            }\n          }\n        }),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"3d279f8a-6\" },\n            on: {\n              click: function($event) {\n                _vm.addCart()\n              }\n            }\n          },\n          [_vm._v(\"加入购物车\")]\n        ),\n        _c(\n          \"text\",\n          { attrs: { eventid: \"3d279f8a-7\" }, on: { click: _vm.gotoPay } },\n          [_vm._v(\"立即下单\")]\n        )\n      ]),\n      _vm.showGuige\n        ? _c(\"view\", { staticClass: \"bottomWindow\" }, [\n            _c(\"view\", { staticClass: \"content\" }, [\n              _c(\"view\", { staticClass: \"head\" }, [\n                _c(\"image\", {\n                  attrs: { src: \"../../static/home/xiangjiao_23.png\", mode: \"\" }\n                }),\n                _c(\"view\", { staticClass: \"msg\" }, [\n                  _c(\"text\", [\n                    _vm._v(\"￥\" + _vm._s(_vm.productDetail.price) + \"元/斤\")\n                  ]),\n                  _c(\"text\", [_vm._v(\"已选择\" + _vm._s(_vm.guige))])\n                ])\n              ]),\n              _c(\"text\", [_vm._v(\"规格\")]),\n              _c(\n                \"view\",\n                { staticClass: \"guige2\" },\n                _vm._l(_vm.productDetail.specList, function(item, index) {\n                  return _c(\n                    \"text\",\n                    {\n                      key: index,\n                      class: { active: _vm.guigeTabs == index },\n                      attrs: { eventid: \"3d279f8a-8-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.guigeChange(item.productSpecs, index, item.specId)\n                        }\n                      }\n                    },\n                    [_vm._v(_vm._s(item.productSpecs))]\n                  )\n                })\n              ),\n              _c(\"view\", { staticClass: \"shuliang\" }, [\n                _c(\"text\", [_vm._v(\"选数量\")]),\n                _c(\"view\", { staticClass: \"list-cont\" }, [\n                  _c(\n                    \"text\",\n                    {\n                      staticClass: \"sub\",\n                      attrs: { eventid: \"3d279f8a-9\" },\n                      on: { click: _vm.sub }\n                    },\n                    [_vm._v(\"-\")]\n                  ),\n                  _c(\"input\", {\n                    attrs: {\n                      type: \"number\",\n                      value: _vm.buy_count,\n                      eventid: \"3d279f8a-10\"\n                    },\n                    on: { blur: _vm.inputBuycount }\n                  }),\n                  _c(\n                    \"text\",\n                    {\n                      staticClass: \"add\",\n                      attrs: { eventid: \"3d279f8a-11\" },\n                      on: { click: _vm.add }\n                    },\n                    [_vm._v(\"+\")]\n                  )\n                ])\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"btn\",\n                  attrs: { eventid: \"3d279f8a-12\" },\n                  on: {\n                    click: function($event) {\n                      _vm.isOK()\n                    }\n                  }\n                },\n                [_vm._v(\"完成\")]\n              )\n            ])\n          ])\n        : _vm._e()\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"product_title\" }, [\n      _c(\"text\", [_vm._v(\"热门店铺\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/product_detaill/product_detaill.vue?vue&type=template&id=7f9b4810&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\n        \"swiper\",\n        {\n          staticClass: \"swiper\",\n          attrs: {\n            \"indicator-dots\": true,\n            autoplay: true,\n            interval: 3000,\n            duration: 1000\n          }\n        },\n        _vm._l(_vm.productDetail.imgList, function(item, index) {\n          return _c(\n            \"swiper-item\",\n            { key: index, attrs: { mpcomid: \"3d279f8a-0-\" + index } },\n            [_c(\"image\", { attrs: { src: _vm.imgURl + item, mode: \"\" } })]\n          )\n        })\n      ),\n      _c(\"view\", { staticClass: \"tishi\" }, [\n        _vm._v(\"温馨提示！下单前请联系商家确认是否有货！\")\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"msg\" },\n        [\n          _c(\"view\", { staticClass: \"title\" }, [\n            _c(\"text\", [_vm._v(_vm._s(_vm.productDetail.productName))]),\n            !_vm.isLike\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/like1.png\",\n                    mode: \"\",\n                    eventid: \"3d279f8a-1\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.AddCollection(_vm.productDetail.productId)\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/like2.png\",\n                    mode: \"\",\n                    eventid: \"3d279f8a-0\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.AddCollection(_vm.productDetail.productId)\n                    }\n                  }\n                })\n          ]),\n          _c(\"view\", { staticClass: \"info\" }, [\n            _vm._v(_vm._s(_vm.productDetail.descript))\n          ]),\n          _c(\"view\", { staticClass: \"price\" }, [\n            _vm._v(\n              \"￥\" +\n                _vm._s(\n                  _vm.currentPrice ? _vm.currentPrice : _vm.productDetail.price\n                ) +\n                \"元/\" +\n                _vm._s(_vm.productDetail.specUnit)\n            )\n          ]),\n          _c(\n            \"navigator\",\n            {\n              staticClass: \"address\",\n              attrs: { url: \"/pages/addressList/addressList\" }\n            },\n            [\n              _c(\"text\", [_vm._v(\"送至\")]),\n              _vm.address.addressId\n                ? _c(\"text\", [\n                    _vm._v(\n                      _vm._s(_vm.address.province) +\n                        \"-\" +\n                        _vm._s(_vm.address.city) +\n                        \"-\" +\n                        _vm._s(_vm.address.area) +\n                        _vm._s(_vm.address.addressLine1)\n                    )\n                  ])\n                : _c(\"text\", [_vm._v(\"添加收货地址\")]),\n              _c(\"image\", {\n                attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n              })\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"guige\",\n          attrs: { eventid: \"3d279f8a-2\" },\n          on: { click: _vm.isShowguige }\n        },\n        [\n          _c(\"text\", [_vm._v(\"规格\")]),\n          _c(\"text\", [\n            _vm._v(\n              _vm._s(_vm.guige ? _vm.guige + \"X\" + _vm.buy_count : \"请选择规格\")\n            )\n          ]),\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _c(\"view\", { staticClass: \"comment\" }, [\n        _c(\"view\", { staticClass: \"title\" }, [\n          _c(\"text\", [_vm._v(\"用户评价(18)\")]),\n          _c(\n            \"text\",\n            {\n              attrs: { eventid: \"3d279f8a-3\" },\n              on: {\n                click: function($event) {\n                  _vm.gotoComment(_vm.productDetail.productId)\n                }\n              }\n            },\n            [_vm._v(\"查看全部>\")]\n          )\n        ]),\n        _c(\n          \"view\",\n          { staticClass: \"item\" },\n          [\n            _c(\"image\", {\n              staticClass: \"h_img\",\n              attrs: {\n                src: _vm.imgURl + _vm.commentList[0].userPhoto,\n                mode: \"\"\n              }\n            }),\n            _c(\"text\", [_vm._v(_vm._s(_vm.commentList[0].nickName))]),\n            _vm._l(_vm.commentList[0].commentStar, function(item, index) {\n              return _c(\"image\", {\n                key: index,\n                staticClass: \"x_img\",\n                attrs: { src: \"../../static/home/wujiaoxing_03.png\", mode: \"\" }\n              })\n            })\n          ],\n          2\n        )\n      ]),\n      _c(\"view\", { staticClass: \"liubai\" }),\n      _vm._m(0),\n      _c(\n        \"view\",\n        { staticClass: \"img_list\" },\n        _vm._l(_vm.productDetail.imgList, function(item, index2) {\n          return _c(\"image\", {\n            key: index2,\n            attrs: { src: _vm.imgURl + item, mode: \"\" }\n          })\n        })\n      ),\n      _c(\"view\", { staticClass: \"bottom\" }, [\n        _c(\"image\", {\n          attrs: {\n            src: \"../../static/home/weixin_07.png\",\n            mode: \"\",\n            eventid: \"3d279f8a-4\"\n          },\n          on: {\n            click: function($event) {\n              _vm.copy(_vm.productDetail.weChatId)\n            }\n          }\n        }),\n        _c(\"image\", {\n          attrs: {\n            src: \"../../static/home/dianhua_07.png\",\n            mode: \"\",\n            eventid: \"3d279f8a-5\"\n          },\n          on: {\n            click: function($event) {\n              _vm.callUp(_vm.productDetail.phone)\n            }\n          }\n        }),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"3d279f8a-6\" },\n            on: {\n              click: function($event) {\n                _vm.addCart()\n              }\n            }\n          },\n          [_vm._v(\"加入购物车\")]\n        ),\n        _c(\n          \"text\",\n          { attrs: { eventid: \"3d279f8a-7\" }, on: { click: _vm.gotoPay } },\n          [_vm._v(\"立即下单\")]\n        )\n      ]),\n      _vm.showGuige\n        ? _c(\"view\", { staticClass: \"bottomWindow\" }, [\n            _c(\"view\", { staticClass: \"content\" }, [\n              _c(\"view\", { staticClass: \"head\" }, [\n                _c(\"image\", {\n                  attrs: { src: \"../../static/home/xiangjiao_23.png\", mode: \"\" }\n                }),\n                _c(\"view\", { staticClass: \"msg\" }, [\n                  _c(\"text\", [\n                    _vm._v(\n                      \"￥\" +\n                        _vm._s(\n                          _vm.currentPrice\n                            ? _vm.currentPrice\n                            : _vm.productDetail.price\n                        ) +\n                        \"元/\" +\n                        _vm._s(_vm.productDetail.specUnit)\n                    )\n                  ]),\n                  _c(\"text\", [_vm._v(\"已选择\" + _vm._s(_vm.guige))])\n                ])\n              ]),\n              _c(\"text\", [_vm._v(\"规格\")]),\n              _c(\n                \"view\",\n                { staticClass: \"guige2\" },\n                _vm._l(_vm.productDetail.specList, function(item, index) {\n                  return _c(\n                    \"text\",\n                    {\n                      key: index,\n                      class: { active: _vm.guigeTabs == index },\n                      attrs: { eventid: \"3d279f8a-8-\" + index },\n                      on: {\n                        click: function($event) {\n                          _vm.guigeChange(\n                            item.productSpecs,\n                            index,\n                            item.specId,\n                            item.price\n                          )\n                        }\n                      }\n                    },\n                    [_vm._v(_vm._s(item.productSpecs))]\n                  )\n                })\n              ),\n              _c(\"view\", { staticClass: \"shuliang\" }, [\n                _c(\"text\", [_vm._v(\"选数量\")]),\n                _c(\"view\", { staticClass: \"list-cont\" }, [\n                  _c(\n                    \"text\",\n                    {\n                      staticClass: \"sub\",\n                      attrs: { eventid: \"3d279f8a-9\" },\n                      on: { click: _vm.sub }\n                    },\n                    [_vm._v(\"-\")]\n                  ),\n                  _c(\"input\", {\n                    attrs: {\n                      type: \"number\",\n                      value: _vm.buy_count,\n                      eventid: \"3d279f8a-10\"\n                    },\n                    on: { blur: _vm.inputBuycount }\n                  }),\n                  _c(\n                    \"text\",\n                    {\n                      staticClass: \"add\",\n                      attrs: { eventid: \"3d279f8a-11\" },\n                      on: { click: _vm.add }\n                    },\n                    [_vm._v(\"+\")]\n                  )\n                ])\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"btn\",\n                  attrs: { eventid: \"3d279f8a-12\" },\n                  on: {\n                    click: function($event) {\n                      _vm.isOK()\n                    }\n                  }\n                },\n                [_vm._v(\"完成\")]\n              )\n            ])\n          ])\n        : _vm._e()\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"product_title\" }, [\n      _c(\"text\", [_vm._v(\"热门店铺\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/product_detaill/product_detaill.vue?vue&type=template&id=7f9b4810&scoped=true&");
 
 /***/ }),
 
@@ -4984,7 +5198,7 @@ define('pages/confirmOrder/confirmOrder.js',function(require, module, exports, w
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      address: {},\n      productList: [], //结算产品列表\n      totalPrices: '' //总价\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad(options) {\n    if (options.params) {\n      this.productList.push(JSON.parse(options.params));\n      this.totalPrices = this.productList[0].prescriptionPrice;\n    }\n    console.log(this.productList);\n  },\n  onShow: function onShow() {\n    this.getUserAddressListByUserId(this.userId);\n  },\n  methods: {\n    //用户地址列表\n    getUserAddressListByUserId: function getUserAddressListByUserId(id) {var _this = this;\n      (0, _index.getUserAddressListByUserId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          //有默认地址取默认地址 没有取第一个\n          var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {for (var _iterator = res.data.data[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              if (item.isDefault) {\n                _this.address = item;\n              } else {\n                _this.address = res.data.data[0];\n              }\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n        }\n      });\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/confirmOrder/confirmOrder.vue?vue&type=script&lang=js&?3d85");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      orderList: '',\n      orderRemark: '', //备注信息\n      address: {},\n      productList: [], //结算产品列表\n      totalPrices: '' //总价\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad(options) {\n    if (options.orderList) {\n      this.orderList = options.orderList;\n      console.log(this.orderList);\n    }\n    if (options.params) {\n      this.productList.push(JSON.parse(options.params));\n      this.totalPrices = this.productList[0].prescriptionPrice;\n    }\n    if (options.paramsList) {\n      this.productList = JSON.parse(options.paramsList);\n      var totalPrices = 0;var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n        for (var _iterator = this.productList[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n          totalPrices = item.prescriptionPrice + totalPrices;\n        }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n      this.totalPrices = totalPrices;\n    }\n    console.log(this.productList);\n  },\n  onShow: function onShow() {\n    this.getUserAddressListByUserId(this.userId);\n  },\n  methods: {\n    //用户地址列表\n    getUserAddressListByUserId: function getUserAddressListByUserId(id) {var _this = this;\n      (0, _index.getUserAddressListByUserId)(id).then(function (res) {\n        if (res.data.code == 0) {\n          //有默认地址取默认地址 没有取第一个\n          var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {for (var _iterator2 = res.data.data[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n              if (item.isDefault) {\n                _this.address = item;\n              } else {\n                _this.address = res.data.data[0];\n              }\n            }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n        }\n      });\n    },\n    //c创建订单\n    addOrder: function addOrder() {\n      var params = {\n        userId: this.userId,\n        orderIds: this.orderList,\n        addressId: this.address.addressId,\n        orderRemark: this.addressId };\n\n      (0, _product.confirmOrderByShopCart)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '订单确认成功',\n            icon: 'none',\n            duration: 1000 });\n\n          setTimeout(function (res) {\n            uni.switchTab({\n              url: '/pages/order/order' });\n\n          }, 2000);\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/confirmOrder/confirmOrder.vue?vue&type=script&lang=js&?3d85");
 
 /***/ }),
 
@@ -5007,7 +5221,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\n        \"navigator\",\n        {\n          staticClass: \"address\",\n          attrs: { url: \"/pages/addressList/addressList\" }\n        },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/xiaodizhi_44.png\", mode: \"\" }\n          }),\n          _vm.address\n            ? _c(\"view\", { staticClass: \"info\" }, [\n                _c(\"text\", [\n                  _vm._v(\n                    \"收货人: \" +\n                      _vm._s(_vm.address.userName) +\n                      \" \" +\n                      _vm._s(_vm.address.userPhone)\n                  )\n                ]),\n                _c(\"text\", [\n                  _vm._v(\n                    \"收货地址: \" +\n                      _vm._s(_vm.address.province) +\n                      \"-\" +\n                      _vm._s(_vm.address.city) +\n                      \"-\" +\n                      _vm._s(_vm.address.area) +\n                      _vm._s(_vm.address.addressLine1)\n                  )\n                ])\n              ])\n            : _c(\"view\", { staticClass: \"info\" }, [\n                _c(\"text\", [_vm._v(\"收货人: xxxxx xxxxxxxx\")]),\n                _c(\"text\", [_vm._v(\"收货地址: xxxxxxxxxxxxx\")])\n              ]),\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _vm._l(_vm.productList, function(item, index) {\n        return _c(\"view\", { key: index, staticClass: \"product_detail\" }, [\n          _c(\"image\", {\n            attrs: {\n              src: \"../../static/home/dianpupaihangmangguo_05.png\",\n              mode: \"\"\n            }\n          }),\n          _c(\"text\", [_vm._v(_vm._s(item.productName))]),\n          _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.productPrice) + \"元/斤\")]),\n          _c(\"text\", { staticClass: \"num\" }, [\n            _vm._v(\"x\" + _vm._s(item.productCount))\n          ])\n        ])\n      }),\n      _c(\"view\", { staticClass: \"prict\" }, [\n        _c(\"view\", [\n          _c(\"text\", [_vm._v(\"商品总额\")]),\n          _c(\"text\", { staticStyle: { color: \"#E91E63\" } }, [\n            _vm._v(\"￥\" + _vm._s(_vm.totalPrices))\n          ])\n        ]),\n        _vm._m(0)\n      ]),\n      _vm._m(1),\n      _vm._m(2)\n    ],\n    2\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [\n      _c(\"text\", [_vm._v(\"配送费\")]),\n      _c(\"text\", [_vm._v(\"￥0\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"beizhu\" }, [\n      _c(\"text\", [_vm._v(\"订单备注\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"可输入备注,最多50个字\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"btn\" }, [\n      _c(\"text\", [_vm._v(\"待支付:\")]),\n      _c(\"text\", [_vm._v(\"￥12.5\")]),\n      _c(\"text\", [_vm._v(\"确认订单\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/confirmOrder/confirmOrder.vue?vue&type=template&id=7a342510&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\n        \"navigator\",\n        {\n          staticClass: \"address\",\n          attrs: { url: \"/pages/addressList/addressList\" }\n        },\n        [\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/xiaodizhi_44.png\", mode: \"\" }\n          }),\n          _vm.address\n            ? _c(\"view\", { staticClass: \"info\" }, [\n                _c(\"text\", [\n                  _vm._v(\n                    \"收货人: \" +\n                      _vm._s(_vm.address.userName) +\n                      \" \" +\n                      _vm._s(_vm.address.userPhone)\n                  )\n                ]),\n                _c(\"text\", [\n                  _vm._v(\n                    \"收货地址: \" +\n                      _vm._s(_vm.address.province) +\n                      \"-\" +\n                      _vm._s(_vm.address.city) +\n                      \"-\" +\n                      _vm._s(_vm.address.area) +\n                      _vm._s(_vm.address.addressLine1)\n                  )\n                ])\n              ])\n            : _c(\"view\", { staticClass: \"info\" }, [\n                _c(\"text\", [_vm._v(\"收货人: xxxxx xxxxxxxx\")]),\n                _c(\"text\", [_vm._v(\"收货地址: xxxxxxxxxxxxx\")])\n              ]),\n          _c(\"image\", {\n            attrs: { src: \"../../static/home/gengduo_41.png\", mode: \"\" }\n          })\n        ]\n      ),\n      _vm._l(_vm.productList, function(item, index) {\n        return _c(\"view\", { key: index, staticClass: \"product_detail\" }, [\n          _c(\"image\", {\n            attrs: {\n              src: \"../../static/home/dianpupaihangmangguo_05.png\",\n              mode: \"\"\n            }\n          }),\n          _c(\"text\", [_vm._v(_vm._s(item.productName))]),\n          _c(\"text\", [\n            _vm._v(\n              \"￥\" + _vm._s(item.productPrice) + \"元/\" + _vm._s(item.specUnit)\n            )\n          ]),\n          _c(\"text\", { staticClass: \"num\" }, [\n            _vm._v(\"x\" + _vm._s(item.productCount))\n          ]),\n          _c(\"text\", { staticClass: \"peisong\" }, [\n            _vm._v(\"配送方式:\" + _vm._s(item.expressId ? \"自提\" : \"免费配送\"))\n          ])\n        ])\n      }),\n      _c(\"view\", { staticClass: \"prict\" }, [\n        _c(\"view\", [\n          _c(\"text\", [_vm._v(\"商品总额\")]),\n          _c(\"text\", { staticStyle: { color: \"#E91E63\" } }, [\n            _vm._v(\"￥\" + _vm._s(_vm.totalPrices))\n          ])\n        ]),\n        _vm._m(0)\n      ]),\n      _c(\"view\", { staticClass: \"beizhu\" }, [\n        _c(\"text\", [_vm._v(\"订单备注\")]),\n        _c(\"input\", {\n          directives: [\n            {\n              name: \"model\",\n              rawName: \"v-model\",\n              value: _vm.orderRemark,\n              expression: \"orderRemark\"\n            }\n          ],\n          attrs: {\n            type: \"text\",\n            value: \"\",\n            placeholder: \"可输入备注,最多50个字\",\n            eventid: \"24a4a31c-0\"\n          },\n          domProps: { value: _vm.orderRemark },\n          on: {\n            input: function($event) {\n              if ($event.target.composing) {\n                return\n              }\n              _vm.orderRemark = $event.target.value\n            }\n          }\n        })\n      ]),\n      _c(\"view\", { staticClass: \"btn\" }, [\n        _c(\"text\", [_vm._v(\"待支付:\")]),\n        _c(\"text\", [_vm._v(\"￥\" + _vm._s(_vm.totalPrices))]),\n        _c(\n          \"text\",\n          { attrs: { eventid: \"24a4a31c-1\" }, on: { click: _vm.addOrder } },\n          [_vm._v(\"确认订单\")]\n        )\n      ])\n    ],\n    2\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", [\n      _c(\"text\", [_vm._v(\"配送费\")]),\n      _c(\"text\", [_vm._v(\"￥0\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/confirmOrder/confirmOrder.vue?vue&type=template&id=7a342510&scoped=true&");
 
 /***/ }),
 
@@ -5074,6 +5288,109 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_U
 },[["D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2FconfirmOrder%2FconfirmOrder\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/confirmOrder/confirmOrder.js');
+__wxRoute = 'pages/orderDetail/orderDetail';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/orderDetail/orderDetail.js';
+
+define('pages/orderDetail/orderDetail.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/orderDetail/orderDetail"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      orderDetail: {} };\n\n  },\n  computed: {\n    currentorderStatus: function currentorderStatus() {\n      if (this.orderDetail.orderStatus == 0) {\n        return '待确认';\n      } else if (this.orderDetail.orderStatus == 1 || this.orderDetail.orderStatus == 2) {\n        return '待收货';\n      } else if (this.orderDetail.orderStatus == 3) {\n        return '待评价';\n      } else if (this.orderDetail.orderStatus == 4) {\n        return '已完成';\n      }\n    } },\n\n  onLoad: function onLoad(options) {\n    this.imgURl = _index.imgURl;\n    this.getOrderDetailById(options.id);\n  },\n  methods: {\n    getOrderDetailById: function getOrderDetailById(id) {var _this = this;\n      (0, _product.getOrderDetailById)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this.orderDetail = res.data.data;\n        }\n      });\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/orderDetail/orderDetail.vue?vue&type=script&lang=js&?1eee");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/orderDetail/orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"head\" }, [\n      _c(\"text\", [\n        _vm._v(\"订单编号：\" + _vm._s(_vm.orderDetail.order.orderSn))\n      ]),\n      _c(\"text\", [_vm._v(\"下单时间：\" + _vm._s(_vm.orderDetail.updatedTime))]),\n      _c(\"text\", [_vm._v(_vm._s(_vm.currentorderStatus))])\n    ]),\n    _c(\"view\", { staticClass: \"liubai\" }),\n    _c(\"view\", { staticClass: \"center\" }, [\n      _c(\"text\", { staticClass: \"title\" }, [_vm._v(\"收货信息\")]),\n      _c(\"text\", [_vm._v(\"收货人:\" + _vm._s(_vm.orderDetail.order.consignee))]),\n      _c(\"text\", [\n        _vm._v(\"联系方式:\" + _vm._s(_vm.orderDetail.order.userPhone))\n      ]),\n      _c(\"text\", [\n        _vm._v(\n          \"收货地址:\" +\n            _vm._s(_vm.orderDetail.order.province) +\n            _vm._s(_vm.orderDetail.order.city) +\n            _vm._s(_vm.orderDetail.order.area)\n        )\n      ])\n    ]),\n    _c(\"view\", { staticClass: \"liubai\" }),\n    _c(\"view\", { staticClass: \"mingzi\" }, [_vm._v(\"商品信息\")]),\n    _c(\"view\", { staticClass: \"footer\" }, [\n      _c(\"image\", {\n        attrs: {\n          src: _vm.imgURl + _vm.orderDetail.product.imgList[0],\n          mode: \"\"\n        }\n      }),\n      _c(\"view\", { staticClass: \"msg\" }, [\n        _c(\"text\", [_vm._v(_vm._s(_vm.orderDetail.productName))]),\n        _c(\"text\", [_vm._v(\"订单号:\" + _vm._s(_vm.orderDetail.order.orderSn))]),\n        _c(\"text\", [_vm._v(_vm._s(_vm.orderDetail.updatedTime))]),\n        _c(\"text\", { staticClass: \"price\" }, [\n          _vm._v(\n            _vm._s(_vm.orderDetail.productPrice) +\n              \"元x\" +\n              _vm._s(_vm.orderDetail.productCount)\n          )\n        ])\n      ])\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/orderDetail/orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2ForderDetail%2ForderDetail\"}":
+/*!***************************************************************************!*\
+  !*** D:/西港项目/xigang/main.js?{"page":"pages%2ForderDetail%2ForderDetail"} ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"D:\\\\西港项目\\\\xigang\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _orderDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/orderDetail/orderDetail.vue */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_orderDetail.default));\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/main.js?%7B%22page%22:%22pages%252ForderDetail%252ForderDetail%22%7D");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue":
+/*!********************************************************!*\
+  !*** D:/西港项目/xigang/pages/orderDetail/orderDetail.vue ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&\");\n/* harmony import */ var _orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./orderDetail.vue?vue&type=script&lang=js& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"6a4fec90\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"D:/西港项目/xigang/pages/orderDetail/orderDetail.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/orderDetail/orderDetail.vue");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./orderDetail.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/orderDetail/orderDetail.vue?vue&type=script&lang=js&?af49");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&":
+/*!******************************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true& ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!./orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_style_index_0_id_6a4fec90_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/orderDetail/orderDetail.vue?vue&type=style&index=0&id=6a4fec90&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\orderDetail\\orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&":
+/*!***************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/orderDetail/orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true& ***!
+  \***************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\orderDetail\\\\orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_orderDetail_vue_vue_type_template_id_6a4fec90_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/orderDetail/orderDetail.vue?vue&type=template&id=6a4fec90&scoped=true&");
+
+/***/ })
+
+},[["D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2ForderDetail%2ForderDetail\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/orderDetail/orderDetail.js');
 __wxRoute = 'pages/commentList/commentList';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/commentList/commentList.js';
 
 define('pages/commentList/commentList.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -5087,7 +5404,7 @@ define('pages/commentList/commentList.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      title: 'Hello' };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/commentList/commentList.vue?vue&type=script&lang=js&?fd52");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}var _default =\n{\n  data: function data() {\n    return {\n      commentList: [],\n      pageNo: 1,\n      productId: '',\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.productId = options.id;\n    this.imgURl = _index.imgURl;\n    this.getCommentList(this.productId, this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.getCommentList(this.productId, this.pageNo, 10);\n  },\n  methods: {\n    //获取评论列表\n    getCommentList: function getCommentList(productId, pageNo, pageSize) {var _this = this;\n      (0, _product.getCommentList)(productId, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }\n          _this.commentList = [].concat(_toConsumableArray(_this.commentList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/commentList/commentList.vue?vue&type=script&lang=js&?fd52");
 
 /***/ }),
 
@@ -5110,7 +5427,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    _vm._l(6, function(item, index) {\n      return _c(\n        \"view\",\n        { key: index, staticClass: \"item\" },\n        [\n          _c(\"image\", {\n            staticClass: \"h_img\",\n            attrs: { src: \"../../static/home/roushi_27.png\", mode: \"\" }\n          }),\n          _c(\"text\", [_vm._v(\"我叫马冬梅\")]),\n          _vm._l(5, function(item, index2) {\n            return _c(\"image\", {\n              key: index2,\n              staticClass: \"x_img\",\n              attrs: { src: \"../../static/home/wujiaoxing_03.png\", mode: \"\" }\n            })\n          })\n        ],\n        2\n      )\n    })\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/commentList/commentList.vue?vue&type=template&id=ea2fd918&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    _vm._l(_vm.commentList, function(item, index) {\n      return _c(\n        \"view\",\n        { key: index, staticClass: \"item\" },\n        [\n          _c(\"image\", {\n            staticClass: \"h_img\",\n            attrs: { src: _vm.imgURl + item.userPhoto, mode: \"\" }\n          }),\n          _c(\"text\", [_vm._v(_vm._s(item.nickName))]),\n          _vm._l(item.commentStar, function(item2, index2) {\n            return _c(\"image\", {\n              key: index2,\n              staticClass: \"x_img\",\n              attrs: { src: \"../../static/home/wujiaoxing_03.png\", mode: \"\" }\n            })\n          })\n        ],\n        2\n      )\n    })\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/commentList/commentList.vue?vue&type=template&id=ea2fd918&scoped=true&");
 
 /***/ }),
 
@@ -5293,7 +5610,7 @@ define('pages/collect/collect.js',function(require, module, exports, window, doc
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      editor: false,\n      isShow: true, //全选非全选\n      pages: 1, //页码\n      productList: [] //收藏列表\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.queryCollectionList(this.userId, this.pages, 10);\n  },\n  methods: {\n    //获取收藏列表\n    queryCollectionList: function queryCollectionList(userId, pageNo, pageSize) {var _this = this;\n      (0, _product.queryCollectionList)(userId, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n            for (var _iterator = res.data.data.list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              Object.assign(item, { ick: false });\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n          _this.productList = res.data.data.list;\n        }\n      });\n    },\n    isIck: function isIck(index) {\n      this.productList[index].ick = !this.productList[index].ick;\n    },\n    editorChange: function editorChange() {\n      this.editor = !this.editor;\n    },\n    Delete: function Delete() {\n      var aaa = [];var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {\n        for (var _iterator2 = this.productList[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n          if (item.ick) {\n            aaa.push(item.collectId);\n          }\n        }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n      var collectId = aaa.join(',');\n      console.log(collectId);\n      (0, _product.delCollection)(this.userId, collectId).then(function (res) {});\n    },\n    sellAll: function sellAll() {\n      this.isShow = !this.isShow;\n      if (this.isShow) {var _iteratorNormalCompletion3 = true;var _didIteratorError3 = false;var _iteratorError3 = undefined;try {\n          for (var _iterator3 = this.productList[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {var item = _step3.value;\n            item.ick = false;\n          }} catch (err) {_didIteratorError3 = true;_iteratorError3 = err;} finally {try {if (!_iteratorNormalCompletion3 && _iterator3.return != null) {_iterator3.return();}} finally {if (_didIteratorError3) {throw _iteratorError3;}}}\n      } else {var _iteratorNormalCompletion4 = true;var _didIteratorError4 = false;var _iteratorError4 = undefined;try {\n          for (var _iterator4 = this.productList[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {var _item = _step4.value;\n            _item.ick = true;\n          }} catch (err) {_didIteratorError4 = true;_iteratorError4 = err;} finally {try {if (!_iteratorNormalCompletion4 && _iterator4.return != null) {_iterator4.return();}} finally {if (_didIteratorError4) {throw _iteratorError4;}}}\n      }\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/collect/collect.vue?vue&type=script&lang=js&?820c");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      editor: false,\n      isShow: true, //全选非全选\n      pages: 1, //页码\n      productList: [] //收藏列表\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.queryCollectionList(this.userId, this.pages, 10);\n  },\n  onReachBottom: function onReachBottom() {\n    this.pages++;\n    this.queryCollectionList(this.userId, this.pages, 10);\n  },\n  methods: {\n    //获取收藏列表\n    queryCollectionList: function queryCollectionList(userId, pageNo, pageSize) {var _this = this;\n      (0, _product.queryCollectionList)(userId, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n            for (var _iterator = res.data.data.list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              Object.assign(item, { ick: false });\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n          _this.productList = [].concat(_toConsumableArray(_this.productList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    isIck: function isIck(index) {\n      this.productList[index].ick = !this.productList[index].ick;\n    },\n    editorChange: function editorChange() {\n      this.editor = !this.editor;\n    },\n    Delete: function Delete() {var _this2 = this;\n      var aaa = [];var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {\n        for (var _iterator2 = this.productList[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n          if (item.ick) {\n            aaa.push(item.collectId);\n          }\n        }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n      var collectId = aaa.join(',');\n      console.log(collectId);\n      (0, _product.delCollection)(this.userId, collectId).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '删除成功',\n            icon: 'none',\n            duration: 1000 });\n\n          _this2.pages = 1;\n          _this2.productList = [];\n          _this2.queryCollectionList(_this2.userId, _this2.pages, 10);\n        }\n      });\n    },\n    sellAll: function sellAll() {\n      this.isShow = !this.isShow;\n      if (this.isShow) {var _iteratorNormalCompletion3 = true;var _didIteratorError3 = false;var _iteratorError3 = undefined;try {\n          for (var _iterator3 = this.productList[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {var item = _step3.value;\n            item.ick = false;\n          }} catch (err) {_didIteratorError3 = true;_iteratorError3 = err;} finally {try {if (!_iteratorNormalCompletion3 && _iterator3.return != null) {_iterator3.return();}} finally {if (_didIteratorError3) {throw _iteratorError3;}}}\n      } else {var _iteratorNormalCompletion4 = true;var _didIteratorError4 = false;var _iteratorError4 = undefined;try {\n          for (var _iterator4 = this.productList[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {var _item = _step4.value;\n            _item.ick = true;\n          }} catch (err) {_didIteratorError4 = true;_iteratorError4 = err;} finally {try {if (!_iteratorNormalCompletion4 && _iterator4.return != null) {_iterator4.return();}} finally {if (_didIteratorError4) {throw _iteratorError4;}}}\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/collect/collect.vue?vue&type=script&lang=js&?820c");
 
 /***/ }),
 
@@ -5316,7 +5633,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _c(\"text\", [_vm._v(\"共\" + _vm._s(_vm.productList.length) + \"个商品\")]),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"6a0e2708-0\" },\n            on: {\n              click: function($event) {\n                _vm.editorChange()\n              }\n            }\n          },\n          [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"管理\"))]\n        )\n      ]),\n      _vm._l(_vm.productList, function(item, index) {\n        return _vm.productList.length != 0\n          ? _c(\"view\", { key: index, staticClass: \"collect_item\" }, [\n              _vm.editor\n                ? _c(\"view\", { staticClass: \"left\" }, [\n                    item.ick\n                      ? _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/morendizhi_07.png\",\n                            mode: \"\",\n                            eventid: \"6a0e2708-2-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                      : _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/sheweimoren_18.png\",\n                            mode: \"\",\n                            eventid: \"6a0e2708-1-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                  ])\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"center\" }, [\n                _c(\"image\", {\n                  attrs: {\n                    src: _vm.imgURl + item.product.productImage[0],\n                    mode: \"\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"right\" }, [\n                _c(\"text\", { staticClass: \"title\" }, [\n                  _vm._v(_vm._s(item.product.productName))\n                ]),\n                _c(\"text\", { staticClass: \"title2\" }, [\n                  _vm._v(_vm._s(item.product.descript))\n                ]),\n                _c(\"view\", { staticClass: \"price\" }, [\n                  _c(\"text\", [\n                    _vm._v(\"￥\" + _vm._s(item.product.price) + \"元/斤\")\n                  ]),\n                  _vm.editor\n                    ? _c(\"text\", { staticClass: \"GG\" }, [_vm._v(\"进店逛逛\")])\n                    : _vm._e()\n                ])\n              ])\n            ])\n          : _vm._e()\n      }),\n      _vm.productList.length == 0\n        ? _c(\"empty-data\", { attrs: { mpcomid: \"6a0e2708-0\" } })\n        : _vm._e(),\n      _vm.editor\n        ? _c(\"view\", { staticClass: \"btn\" }, [\n            _vm.isShow\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/sheweimoren_18.png\",\n                    mode: \"\",\n                    eventid: \"6a0e2708-4\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/morendizhi_07.png\",\n                    mode: \"\",\n                    eventid: \"6a0e2708-3\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                }),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"6a0e2708-5\" },\n                on: {\n                  click: function($event) {\n                    _vm.sellAll()\n                  }\n                }\n              },\n              [_vm._v(\"全选\")]\n            ),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"6a0e2708-6\" },\n                on: {\n                  click: function($event) {\n                    _vm.Delete()\n                  }\n                }\n              },\n              [_vm._v(\"删除\")]\n            )\n          ])\n        : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/collect/collect.vue?vue&type=template&id=ef1506e4&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _c(\"text\", [_vm._v(\"共\" + _vm._s(_vm.productList.length) + \"个商品\")]),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"6a0e2708-0\" },\n            on: {\n              click: function($event) {\n                _vm.editorChange()\n              }\n            }\n          },\n          [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"管理\"))]\n        )\n      ]),\n      _vm._l(_vm.productList, function(item, index) {\n        return _vm.productList.length != 0\n          ? _c(\"view\", { key: index, staticClass: \"collect_item\" }, [\n              _vm.editor\n                ? _c(\"view\", { staticClass: \"left\" }, [\n                    item.ick\n                      ? _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/morendizhi_07.png\",\n                            mode: \"\",\n                            eventid: \"6a0e2708-2-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                      : _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/sheweimoren_18.png\",\n                            mode: \"\",\n                            eventid: \"6a0e2708-1-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                  ])\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"center\" }, [\n                _c(\"image\", {\n                  attrs: { src: _vm.imgURl + item.product.imgList[0], mode: \"\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"right\" }, [\n                _c(\"text\", { staticClass: \"title\" }, [\n                  _vm._v(_vm._s(item.product.productName))\n                ]),\n                _c(\"text\", { staticClass: \"title2\" }, [\n                  _vm._v(_vm._s(item.product.descript))\n                ]),\n                _c(\"view\", { staticClass: \"price\" }, [\n                  _c(\"text\", [\n                    _vm._v(\"￥\" + _vm._s(item.product.price) + \"元/斤\")\n                  ]),\n                  _vm.editor\n                    ? _c(\"text\", { staticClass: \"GG\" }, [_vm._v(\"进店逛逛\")])\n                    : _vm._e()\n                ])\n              ])\n            ])\n          : _vm._e()\n      }),\n      _vm.productList.length == 0\n        ? _c(\"empty-data\", { attrs: { mpcomid: \"6a0e2708-0\" } })\n        : _vm._e(),\n      _vm.editor\n        ? _c(\"view\", { staticClass: \"btn\" }, [\n            _vm.isShow\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/sheweimoren_18.png\",\n                    mode: \"\",\n                    eventid: \"6a0e2708-4\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/morendizhi_07.png\",\n                    mode: \"\",\n                    eventid: \"6a0e2708-3\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                }),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"6a0e2708-5\" },\n                on: {\n                  click: function($event) {\n                    _vm.sellAll()\n                  }\n                }\n              },\n              [_vm._v(\"全选\")]\n            ),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"6a0e2708-6\" },\n                on: {\n                  click: function($event) {\n                    _vm.Delete()\n                  }\n                }\n              },\n              [_vm._v(\"删除\")]\n            )\n          ])\n        : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/collect/collect.vue?vue&type=template&id=ef1506e4&scoped=true&");
 
 /***/ }),
 
@@ -5396,7 +5713,7 @@ define('pages/zhuji/zhuji.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      editor: false,\n      isShow: true, //全选非全选\n      pages: 1, //页码\n      productList: [] //收藏列表\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getVisitRecordList(this.pages, 10, this.userId);\n  },\n  methods: {\n    //获取收藏列表\n    getVisitRecordList: function getVisitRecordList(pageNo, pageSize, userId) {var _this = this;\n      (0, _product.getVisitRecordList)(pageNo, pageSize, userId).then(function (res) {\n        if (res.data.code == 0) {var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n            for (var _iterator = res.data.data.list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              Object.assign(item, { ick: false });\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n          _this.productList = res.data.data.list;\n        }\n      });\n    },\n    isIck: function isIck(index) {\n      this.productList[index].ick = !this.productList[index].ick;\n    },\n    editorChange: function editorChange() {\n      this.editor = !this.editor;\n    },\n    Delete: function Delete() {\n      var aaa = [];var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {\n        for (var _iterator2 = this.productList[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n          if (item.ick) {\n            aaa.push(item.collectId);\n          }\n        }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n      var collectId = aaa.join(',');\n      console.log(collectId);\n      (0, _product.delCollection)(this.userId, collectId).then(function (res) {});\n    },\n    sellAll: function sellAll() {\n      this.isShow = !this.isShow;\n      if (this.isShow) {var _iteratorNormalCompletion3 = true;var _didIteratorError3 = false;var _iteratorError3 = undefined;try {\n          for (var _iterator3 = this.productList[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {var item = _step3.value;\n            item.ick = false;\n          }} catch (err) {_didIteratorError3 = true;_iteratorError3 = err;} finally {try {if (!_iteratorNormalCompletion3 && _iterator3.return != null) {_iterator3.return();}} finally {if (_didIteratorError3) {throw _iteratorError3;}}}\n      } else {var _iteratorNormalCompletion4 = true;var _didIteratorError4 = false;var _iteratorError4 = undefined;try {\n          for (var _iterator4 = this.productList[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {var _item = _step4.value;\n            _item.ick = true;\n          }} catch (err) {_didIteratorError4 = true;_iteratorError4 = err;} finally {try {if (!_iteratorNormalCompletion4 && _iterator4.return != null) {_iterator4.return();}} finally {if (_didIteratorError4) {throw _iteratorError4;}}}\n      }\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/zhuji/zhuji.vue?vue&type=script&lang=js&?b00c");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      imgURl: '',\n      editor: false,\n      isShow: true, //全选非全选\n      pages: 1, //页码\n      productList: [] //收藏列表\n    };\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getVisitRecordList(this.pages, 10, this.userId);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pages++;\n    this.getVisitRecordList(this.pages, 10, this.userId);\n  },\n  //下来刷新\n  onPullDownRefresh: function onPullDownRefresh() {\n    console.log('onPullDownRefresh');\n    this.initData();\n  },\n  methods: {\n    //获取收藏列表\n    getVisitRecordList: function getVisitRecordList(pageNo, pageSize, userId) {var _this = this;\n      (0, _product.getVisitRecordList)(pageNo, pageSize, userId).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }var _iteratorNormalCompletion = true;var _didIteratorError = false;var _iteratorError = undefined;try {\n            for (var _iterator = res.data.data.list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {var item = _step.value;\n              Object.assign(item, { ick: false });\n            }} catch (err) {_didIteratorError = true;_iteratorError = err;} finally {try {if (!_iteratorNormalCompletion && _iterator.return != null) {_iterator.return();}} finally {if (_didIteratorError) {throw _iteratorError;}}}\n          _this.productList = [].concat(_toConsumableArray(_this.productList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    isIck: function isIck(index) {\n      this.productList[index].ick = !this.productList[index].ick;\n    },\n    editorChange: function editorChange() {\n      this.editor = !this.editor;\n    },\n    Delete: function Delete() {var _this2 = this;\n      var aaa = [];var _iteratorNormalCompletion2 = true;var _didIteratorError2 = false;var _iteratorError2 = undefined;try {\n        for (var _iterator2 = this.productList[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {var item = _step2.value;\n          if (item.ick) {\n            aaa.push(item.id);\n          }\n        }} catch (err) {_didIteratorError2 = true;_iteratorError2 = err;} finally {try {if (!_iteratorNormalCompletion2 && _iterator2.return != null) {_iterator2.return();}} finally {if (_didIteratorError2) {throw _iteratorError2;}}}\n      var id = aaa.join(',');\n      console.log(id);\n      (0, _product.delVisitRecord)(id).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '删除成功',\n            duration: 1000 });\n\n          _this2.pages = 1,\n          _this2.productList = [];\n          _this2.getVisitRecordList(_this2.pages, 10, _this2.userId);\n        }\n      });\n    },\n    sellAll: function sellAll() {\n      this.isShow = !this.isShow;\n      if (this.isShow) {var _iteratorNormalCompletion3 = true;var _didIteratorError3 = false;var _iteratorError3 = undefined;try {\n          for (var _iterator3 = this.productList[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {var item = _step3.value;\n            item.ick = false;\n          }} catch (err) {_didIteratorError3 = true;_iteratorError3 = err;} finally {try {if (!_iteratorNormalCompletion3 && _iterator3.return != null) {_iterator3.return();}} finally {if (_didIteratorError3) {throw _iteratorError3;}}}\n      } else {var _iteratorNormalCompletion4 = true;var _didIteratorError4 = false;var _iteratorError4 = undefined;try {\n          for (var _iterator4 = this.productList[Symbol.iterator](), _step4; !(_iteratorNormalCompletion4 = (_step4 = _iterator4.next()).done); _iteratorNormalCompletion4 = true) {var _item = _step4.value;\n            _item.ick = true;\n          }} catch (err) {_didIteratorError4 = true;_iteratorError4 = err;} finally {try {if (!_iteratorNormalCompletion4 && _iterator4.return != null) {_iterator4.return();}} finally {if (_didIteratorError4) {throw _iteratorError4;}}}\n      }\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/zhuji/zhuji.vue?vue&type=script&lang=js&?b00c");
 
 /***/ }),
 
@@ -5419,7 +5736,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _c(\"text\", [_vm._v(\"共\" + _vm._s(_vm.productList.length) + \"个商品\")]),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"7ee5de00-0\" },\n            on: {\n              click: function($event) {\n                _vm.editorChange()\n              }\n            }\n          },\n          [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"管理\"))]\n        )\n      ]),\n      _vm._l(_vm.productList, function(item, index) {\n        return _vm.productList.length != 0\n          ? _c(\"view\", { key: index, staticClass: \"collect_item\" }, [\n              _vm.editor\n                ? _c(\"view\", { staticClass: \"left\" }, [\n                    item.ick\n                      ? _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/morendizhi_07.png\",\n                            mode: \"\",\n                            eventid: \"7ee5de00-2-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                      : _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/home/sheweimoren_18.png\",\n                            mode: \"\",\n                            eventid: \"7ee5de00-1-\" + index\n                          },\n                          on: {\n                            click: function($event) {\n                              _vm.isIck(index)\n                            }\n                          }\n                        })\n                  ])\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"center\" }, [\n                _c(\"image\", {\n                  attrs: { src: _vm.imgURl + item.productImage[0], mode: \"\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"right\" }, [\n                _c(\"text\", { staticClass: \"title\" }, [\n                  _vm._v(_vm._s(item.productName))\n                ]),\n                _c(\"text\", { staticClass: \"title2\" }, [\n                  _vm._v(_vm._s(item.descript))\n                ]),\n                _c(\"view\", { staticClass: \"price\" }, [\n                  _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.price) + \"元/斤\")]),\n                  _vm.editor\n                    ? _c(\"text\", { staticClass: \"GG\" }, [_vm._v(\"进店逛逛\")])\n                    : _vm._e()\n                ])\n              ])\n            ])\n          : _vm._e()\n      }),\n      _vm.productList.length == 0\n        ? _c(\"empty-data\", { attrs: { mpcomid: \"7ee5de00-0\" } })\n        : _vm._e(),\n      _vm.editor\n        ? _c(\"view\", { staticClass: \"btn\" }, [\n            _vm.isShow\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/sheweimoren_18.png\",\n                    mode: \"\",\n                    eventid: \"7ee5de00-4\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/morendizhi_07.png\",\n                    mode: \"\",\n                    eventid: \"7ee5de00-3\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                }),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"7ee5de00-5\" },\n                on: {\n                  click: function($event) {\n                    _vm.sellAll()\n                  }\n                }\n              },\n              [_vm._v(\"全选\")]\n            ),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"7ee5de00-6\" },\n                on: {\n                  click: function($event) {\n                    _vm.Delete()\n                  }\n                }\n              },\n              [_vm._v(\"删除\")]\n            )\n          ])\n        : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/zhuji/zhuji.vue?vue&type=template&id=0cb35186&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"head\" }, [\n        _c(\"text\", [_vm._v(\"共\" + _vm._s(_vm.productList.length) + \"个商品\")]),\n        _c(\n          \"text\",\n          {\n            attrs: { eventid: \"7ee5de00-0\" },\n            on: {\n              click: function($event) {\n                _vm.editorChange()\n              }\n            }\n          },\n          [_vm._v(_vm._s(_vm.editor ? \"完成\" : \"管理\"))]\n        )\n      ]),\n      _vm._l(_vm.productList, function(item, index) {\n        return _vm.productList.length != 0\n          ? _c(\n              \"view\",\n              {\n                key: index,\n                staticClass: \"collect_item\",\n                attrs: { eventid: \"7ee5de00-3-\" + index },\n                on: {\n                  click: function($event) {\n                    _vm.gotoDetail(item.productId)\n                  }\n                }\n              },\n              [\n                _vm.editor\n                  ? _c(\"view\", { staticClass: \"left\" }, [\n                      item.ick\n                        ? _c(\"image\", {\n                            attrs: {\n                              src: \"../../static/home/morendizhi_07.png\",\n                              mode: \"\",\n                              eventid: \"7ee5de00-2-\" + index\n                            },\n                            on: {\n                              click: function($event) {\n                                _vm.isIck(index)\n                              }\n                            }\n                          })\n                        : _c(\"image\", {\n                            attrs: {\n                              src: \"../../static/home/sheweimoren_18.png\",\n                              mode: \"\",\n                              eventid: \"7ee5de00-1-\" + index\n                            },\n                            on: {\n                              click: function($event) {\n                                _vm.isIck(index)\n                              }\n                            }\n                          })\n                    ])\n                  : _vm._e(),\n                _c(\"view\", { staticClass: \"center\" }, [\n                  _c(\"image\", {\n                    attrs: { src: _vm.imgURl + item.imgList[0], mode: \"\" }\n                  })\n                ]),\n                _c(\"view\", { staticClass: \"right\" }, [\n                  _c(\"text\", { staticClass: \"title\" }, [\n                    _vm._v(_vm._s(item.productName))\n                  ]),\n                  _c(\"text\", { staticClass: \"title2\" }, [\n                    _vm._v(_vm._s(item.descript))\n                  ]),\n                  _c(\"view\", { staticClass: \"price\" }, [\n                    _c(\"text\", [_vm._v(\"￥\" + _vm._s(item.price) + \"元/斤\")]),\n                    _vm.editor\n                      ? _c(\"text\", { staticClass: \"GG\" }, [_vm._v(\"进店逛逛\")])\n                      : _vm._e()\n                  ])\n                ])\n              ]\n            )\n          : _vm._e()\n      }),\n      _vm.productList.length == 0\n        ? _c(\"empty-data\", { attrs: { mpcomid: \"7ee5de00-0\" } })\n        : _vm._e(),\n      _vm.editor\n        ? _c(\"view\", { staticClass: \"btn\" }, [\n            _vm.isShow\n              ? _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/sheweimoren_18.png\",\n                    mode: \"\",\n                    eventid: \"7ee5de00-5\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                })\n              : _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/morendizhi_07.png\",\n                    mode: \"\",\n                    eventid: \"7ee5de00-4\"\n                  },\n                  on: {\n                    click: function($event) {\n                      _vm.sellAll()\n                    }\n                  }\n                }),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"7ee5de00-6\" },\n                on: {\n                  click: function($event) {\n                    _vm.sellAll()\n                  }\n                }\n              },\n              [_vm._v(\"全选\")]\n            ),\n            _c(\n              \"text\",\n              {\n                attrs: { eventid: \"7ee5de00-7\" },\n                on: {\n                  click: function($event) {\n                    _vm.Delete()\n                  }\n                }\n              },\n              [_vm._v(\"删除\")]\n            )\n          ])\n        : _vm._e()\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/zhuji/zhuji.vue?vue&type=template&id=0cb35186&scoped=true&");
 
 /***/ }),
 
@@ -5499,7 +5816,7 @@ define('pages/ggList/ggList.js',function(require, module, exports, window, docum
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      title: 'Hello' };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {\n    gotoDetail: function gotoDetail() {\n      uni.navigateTo({\n        url: '/pages/ggDetail/ggDetail' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/ggList/ggList.vue?vue&type=script&lang=js&?08bb");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}var _default =\n{\n  data: function data() {\n    return {\n      pageNo: 1, //页码\n      ggList: [], //公告列表\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getNoticeList(this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.getNoticeList(this.pageNo, 10);\n  },\n  methods: {\n    //获取公告列表\n    getNoticeList: function getNoticeList(pageNo, pageSize) {var _this = this;\n      (0, _product.getNoticeList)(pageNo, pageSize).then(function (res) {\n        if (res.data.data.list.length == 0) {\n          uni.showToast({\n            title: '没有更多数据了',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n        _this.ggList = [].concat(_toConsumableArray(_this.ggList), _toConsumableArray(res.data.data.list));\n      });\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/ggDetail/ggDetail?id=' + id });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/ggList/ggList.vue?vue&type=script&lang=js&?08bb");
 
 /***/ }),
 
@@ -5522,7 +5839,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"fb\" }, [_vm._v(\"发布\")]),\n      _vm._l(6, function(item, index) {\n        return _c(\n          \"view\",\n          {\n            key: index,\n            staticClass: \"list\",\n            attrs: { eventid: \"dccc0c9c-0-\" + index },\n            on: { click: _vm.gotoDetail }\n          },\n          [\n            _c(\"image\", {\n              attrs: { src: \"../../static/home/dianpugonggao_03.png\", mode: \"\" }\n            }),\n            _vm._m(0, true)\n          ]\n        )\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"msg\" }, [\n      _c(\"text\", [_vm._v(\"时令水果超市\")]),\n      _c(\"text\", [\n        _vm._v(\n          \"上上个月因为医疗事故自己惹上官司，到底是睡的错上官司，到底是睡的错上官司，到底是睡的错\"\n        )\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/ggList/ggList.vue?vue&type=template&id=f1e66490&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"content\" },\n    [\n      _c(\"view\", { staticClass: \"fb\" }),\n      _vm._l(_vm.ggList, function(item, index) {\n        return _c(\n          \"view\",\n          {\n            key: index,\n            staticClass: \"list\",\n            attrs: { eventid: \"dccc0c9c-0-\" + index },\n            on: {\n              click: function($event) {\n                _vm.gotoDetail(item.id)\n              }\n            }\n          },\n          [\n            _c(\"image\", {\n              attrs: { src: _vm.imgURl + item.imageId, mode: \"\" }\n            }),\n            _c(\"view\", { staticClass: \"msg\" }, [\n              _c(\"text\", [_vm._v(_vm._s(item.title))]),\n              _c(\"text\", [_vm._v(_vm._s(item.content))])\n            ])\n          ]\n        )\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/ggList/ggList.vue?vue&type=template&id=f1e66490&scoped=true&");
 
 /***/ }),
 
@@ -5927,7 +6244,7 @@ define('pages/ggDetail/ggDetail.js',function(require, module, exports, window, d
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      title: 'Hello' };\n\n  },\n  onLoad: function onLoad() {\n\n  },\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/ggDetail/ggDetail.vue?vue&type=script&lang=js&?4473");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      detail: {},\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    this.imgURl = _index.imgURl;\n    this.getNoticeById(options.id);\n  },\n  methods: {\n    //公告信息\n    getNoticeById: function getNoticeById(id) {var _this = this;\n      (0, _product.getNoticeById)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this.detail = res.data.data;\n        }\n      });\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/ggDetail/ggDetail.vue?vue&type=script&lang=js&?4473");
 
 /***/ }),
 
@@ -5950,7 +6267,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"content\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/dianpugonggao_03.png\", mode: \"\" }\n      }),\n      _c(\"text\", [\n        _vm._v(\n          \"今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过\"\n        )\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/ggDetail/ggDetail.vue?vue&type=template&id=38bff658&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"image\", { attrs: { src: _vm.imgURl + _vm.detail.imageId, mode: \"\" } }),\n    _c(\"text\", [_vm._v(_vm._s(_vm.detail.content))])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/ggDetail/ggDetail.vue?vue&type=template&id=38bff658&scoped=true&");
 
 /***/ }),
 
@@ -6030,7 +6347,7 @@ define('pages/merchant/merchant.js',function(require, module, exports, window, d
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      img1: [], //身份证正面\n      img2: [] //身份证反面\n    };\n  },\n  onLoad: function onLoad() {},\n  methods: {\n    paizhao1: function paizhao1() {var _this = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this.img1 = res.tempFilePaths;\n        } });\n\n    },\n    paizhao2: function paizhao2() {var _this2 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this2.img2 = res.tempFilePaths;\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/merchant/merchant.vue?vue&type=script&lang=js&?b164");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _index2 = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      img1: [], //身份证正面\n      img2: [], //身份证反面\n      img3: [], //店铺logo\n      img4: [], //微信收款码\n      img5: [], //支付宝收款码\n      img6: [], //营业执照\n      phone: '', //手机号\n      weChatId: '', //微信号\n      idCard: '', //身份证号\n      idFront: '', //身份证正面照\n      idBack: '', //身份证反面照\n      shopName: '', //店铺名称\n      shopDesc: '', //店铺简介\n      shopAddress: '', //店铺地址\n      shopLogo: '', //店铺logo\n      shopLicence: '', //店铺营业执照\n      weChatPhoto: '', //微信收款二维码\n      aliPayPhoto: '' //支付宝收款二维码\n    };\n  },\n  onLoad: function onLoad() {},\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    //身份证正面\n    paizhao1: function paizhao1() {var _this = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this.img1 = res.tempFilePaths;\n          //上传图片\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this.idFront = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //身份证反面\n    paizhao2: function paizhao2() {var _this2 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this2.img2 = res.tempFilePaths;\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this2.idBack = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //logo\n    paizhao3: function paizhao3() {var _this3 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this3.img3 = res.tempFilePaths;\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this3.shopLogo = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //微信收款码\n    paizhao4: function paizhao4() {var _this4 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this4.img4 = res.tempFilePaths;\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this4.weChatPhoto = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //支付宝收款码\n    paizhao5: function paizhao5() {var _this5 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this5.img5 = res.tempFilePaths;\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this5.aliPayPhoto = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //营业执照\n    paizhao6: function paizhao6() {var _this6 = this;\n      uni.chooseImage({\n        count: 1, //默认9\n        sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有\n        sourceType: ['album', 'camera'], //从相册选择\n        success: function success(res) {\n          _this6.img6 = res.tempFilePaths;\n          uni.uploadFile({\n            url: _index.baseURL + '/file/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'file',\n            formData: {\n              user: 'test',\n              file: res.tempFilePaths[0] },\n\n            success: function success(uploadFileRes) {\n              var aaa = JSON.parse(uploadFileRes.data);\n              if (aaa.code == 0) {\n                console.log(uploadFileRes);\n                _this6.shopLicence = aaa.data;\n                uni.showToast({\n                  title: '上传成功' });\n\n              }\n            } });\n\n        } });\n\n    },\n    //入驻\n    ruzhu: function ruzhu() {\n      if (this.phone == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入手机号',\n          showCancel: false });\n\n        return;\n      }\n      if (this.weChatId == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入微信号',\n          showCancel: false });\n\n        return;\n      }\n      if (this.idCard == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入身份证号',\n          showCancel: false });\n\n        return;\n      }\n      if (this.idFront == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传身份证正面照',\n          showCancel: false });\n\n        return;\n      }\n      if (this.idBack == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传身份证反面照',\n          showCancel: false });\n\n        return;\n      }\n      if (this.shopName == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入店铺名称',\n          showCancel: false });\n\n        return;\n      }\n      if (this.shopDesc == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入店铺简介',\n          showCancel: false });\n\n        return;\n      }\n      if (this.shopAddress == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入店铺地址',\n          showCancel: false });\n\n        return;\n      }\n      if (this.shopLogo == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传店铺图片',\n          showCancel: false });\n\n        return;\n      }\n      if (this.shopLicence == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传店铺营业执照',\n          showCancel: false });\n\n        return;\n      }\n      if (this.weChatPhoto == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传微信收款二维码',\n          showCancel: false });\n\n        return;\n      }\n      if (this.aliPayPhoto == '') {\n        uni.showModal({\n          title: '',\n          content: '请上传支付宝收款二维码',\n          showCancel: false });\n\n        return;\n      }\n      var reg = /^[1][3,4,5,7,8][0-9]{9}$/;\n      if (!reg.test(this.phone)) {\n        console.log(this.phone);\n        uni.showModal({\n          title: '',\n          content: '请输入正确的手机号码',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        userId: this.userId,\n        phone: this.phone, //手机号\n        weChatId: this.weChatId, //微信号\n        idCard: this.idCard, //身份证号\n        idFront: this.idFront, //身份证正面照\n        idBack: this.idBack, //身份证反面照\n        shopName: this.shopName, //店铺名称\n        shopDesc: this.shopDesc, //店铺简介\n        shopAddress: this.shopAddress, //店铺地址\n        shopLogo: this.shopLogo, //店铺logo\n        shopLicence: this.shopLicence, //店铺营业执照\n        weChatPhoto: this.weChatPhoto, //微信收款二维码\n        aliPayPhoto: this.aliPayPhoto //支付宝收款二维码\n      };\n      (0, _index2.addShop)(params).then(function (res) {});\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/merchant/merchant.vue?vue&type=script&lang=js&?b164");
 
 /***/ }),
 
@@ -6053,7 +6370,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _vm._m(0),\n    _vm._m(1),\n    _vm._m(2),\n    _c(\"view\", { staticClass: \"zhaopian\" }, [\n      _c(\"text\", [_vm._v(\"上传身份证正反照片\")]),\n      _c(\"view\", { staticClass: \"img\" }, [\n        _vm.img1.length == 0\n          ? _c(\n              \"view\",\n              {\n                staticClass: \"img_item\",\n                attrs: { eventid: \"612c6f32-0\" },\n                on: {\n                  click: function($event) {\n                    _vm.paizhao1()\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/zhengmianzhao_03.png\",\n                    mode: \"\"\n                  }\n                })\n              ]\n            )\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.img1[0], mode: \"\" }\n            }),\n        _vm.img2.length == 0\n          ? _c(\n              \"view\",\n              {\n                staticClass: \"img_item\",\n                attrs: { eventid: \"612c6f32-1\" },\n                on: {\n                  click: function($event) {\n                    _vm.paizhao2()\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/fanmianzhao_05.png\",\n                    mode: \"\"\n                  }\n                })\n              ]\n            )\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.img2[0], mode: \"\" }\n            })\n      ])\n    ]),\n    _vm._m(3),\n    _vm._m(4),\n    _vm._m(5),\n    _vm._m(6),\n    _c(\"view\", { staticClass: \"btn\" }, [_vm._v(\"完成\")])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"手机号\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"请输入注册人电话\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"微信号\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"请输入相关微信号\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"身份证号\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"请输入身份证号码\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"店铺名称\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"请输入店铺名称\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"店铺简介\")]),\n      _c(\"input\", {\n        attrs: { type: \"text\", value: \"\", placeholder: \"请输入店铺描述\" }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"LG\" }, [\n      _c(\"text\", [_vm._v(\"上传店铺LOGO\")]),\n      _c(\"text\", { staticClass: \"lg_img\" }, [_vm._v(\"点击上传\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"code\" }, [\n      _c(\"text\", [_vm._v(\"上传微信支付宝收款二维码\")]),\n      _c(\"view\", { staticClass: \"code_list\" }, [\n        _c(\"text\", { staticClass: \"code_img\" }, [_vm._v(\"点击上传\")]),\n        _c(\"text\", { staticClass: \"code_img\" }, [_vm._v(\"点击上传\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/merchant/merchant.vue?vue&type=template&id=14419c38&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"手机号\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.phone,\n            expression: \"phone\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入注册人电话\",\n          eventid: \"612c6f32-0\"\n        },\n        domProps: { value: _vm.phone },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.phone = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"微信号\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.weChatId,\n            expression: \"weChatId\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入相关微信号\",\n          eventid: \"612c6f32-1\"\n        },\n        domProps: { value: _vm.weChatId },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.weChatId = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"身份证号\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.idCard,\n            expression: \"idCard\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入身份证号码\",\n          eventid: \"612c6f32-2\"\n        },\n        domProps: { value: _vm.idCard },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.idCard = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"zhaopian\" }, [\n      _c(\"text\", [_vm._v(\"上传身份证正反照片\")]),\n      _c(\"text\", { staticStyle: { display: \"block\", color: \"#999999\" } }, [\n        _vm._v(\"(第一张为正面,第二张为反面)\")\n      ]),\n      _c(\"view\", { staticClass: \"img\" }, [\n        _vm.img1.length == 0\n          ? _c(\n              \"view\",\n              {\n                staticClass: \"img_item\",\n                attrs: { eventid: \"612c6f32-3\" },\n                on: {\n                  click: function($event) {\n                    _vm.paizhao1()\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/zhengmianzhao_03.png\",\n                    mode: \"\"\n                  }\n                })\n              ]\n            )\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.img1[0], mode: \"\" }\n            }),\n        _vm.img2.length == 0\n          ? _c(\n              \"view\",\n              {\n                staticClass: \"img_item\",\n                attrs: { eventid: \"612c6f32-4\" },\n                on: {\n                  click: function($event) {\n                    _vm.paizhao2()\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: {\n                    src: \"../../static/home/fanmianzhao_05.png\",\n                    mode: \"\"\n                  }\n                })\n              ]\n            )\n          : _c(\"image\", {\n              staticClass: \"img_1\",\n              attrs: { src: _vm.img2[0], mode: \"\" }\n            })\n      ])\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"店铺名称\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.shopName,\n            expression: \"shopName\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入店铺名称\",\n          eventid: \"612c6f32-5\"\n        },\n        domProps: { value: _vm.shopName },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.shopName = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"店铺简介\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.shopDesc,\n            expression: \"shopDesc\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入店铺描述\",\n          eventid: \"612c6f32-6\"\n        },\n        domProps: { value: _vm.shopDesc },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.shopDesc = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"店铺地址\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.shopAddress,\n            expression: \"shopAddress\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入店铺描述\",\n          eventid: \"612c6f32-7\"\n        },\n        domProps: { value: _vm.shopAddress },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.shopAddress = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"LG\" }, [\n      _c(\"text\", [_vm._v(\"上传店铺图片\")]),\n      _vm.img3.length == 0\n        ? _c(\n            \"text\",\n            {\n              staticClass: \"lg_img\",\n              attrs: { eventid: \"612c6f32-8\" },\n              on: { click: _vm.paizhao3 }\n            },\n            [_vm._v(\"点击上传\")]\n          )\n        : _c(\"image\", {\n            staticClass: \"lg_img\",\n            attrs: { src: _vm.img3[0], mode: \"\" }\n          })\n    ]),\n    _c(\"view\", { staticClass: \"LG\" }, [\n      _c(\"text\", [_vm._v(\"上传店铺营业执照\")]),\n      _vm.img6.length == 0\n        ? _c(\n            \"text\",\n            {\n              staticClass: \"lg_img\",\n              attrs: { eventid: \"612c6f32-9\" },\n              on: { click: _vm.paizhao6 }\n            },\n            [_vm._v(\"点击上传\")]\n          )\n        : _c(\"image\", {\n            staticClass: \"lg_img\",\n            attrs: { src: _vm.img6[0], mode: \"\" }\n          })\n    ]),\n    _c(\"view\", { staticClass: \"code\" }, [\n      _c(\"text\", [_vm._v(\"上传微信支付宝收款二维码\")]),\n      _c(\"text\", { staticStyle: { display: \"block\", color: \"#999999\" } }, [\n        _vm._v(\"(请第一张上传微信,第二张上传支付宝)\")\n      ]),\n      _c(\"view\", { staticClass: \"code_list\" }, [\n        _vm.img4.length == 0\n          ? _c(\n              \"text\",\n              {\n                staticClass: \"code_img\",\n                attrs: { eventid: \"612c6f32-10\" },\n                on: { click: _vm.paizhao4 }\n              },\n              [_vm._v(\"点击上传\")]\n            )\n          : _c(\"image\", {\n              staticClass: \"code_img\",\n              attrs: { src: _vm.img4[0], mode: \"\" }\n            }),\n        _vm.img5.length == 0\n          ? _c(\n              \"text\",\n              {\n                staticClass: \"code_img\",\n                attrs: { eventid: \"612c6f32-11\" },\n                on: { click: _vm.paizhao5 }\n              },\n              [_vm._v(\"点击上传\")]\n            )\n          : _c(\"image\", {\n              staticClass: \"code_img\",\n              attrs: { src: _vm.img5[0], mode: \"\" }\n            })\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"btn\",\n        attrs: { eventid: \"612c6f32-12\" },\n        on: { click: _vm.ruzhu }\n      },\n      [_vm._v(\"完成\")]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/merchant/merchant.vue?vue&type=template&id=14419c38&scoped=true&");
 
 /***/ }),
 
@@ -6545,7 +6862,7 @@ define('pages/complain/complain.js',function(require, module, exports, window, d
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      title: 'Hello' };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/complain/complain.vue?vue&type=script&lang=js&?f455");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      mTopic: '', //主题\n      mContent: '', //内容\n      mPhone: '', //手机号\n      mName: '' //姓名\n    };\n  },\n  onLoad: function onLoad() {},\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    submit: function submit() {\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入主题',\n          showCancel: false });\n\n        return;\n      }\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入反馈内容',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        userId: this.userId,\n        mTopic: this.mTopic, //主题\n        mContent: this.mContent, //内容\n        mPhone: this.mPhone, //手机号\n        mName: this.mName, //姓名\n        mType: 1 // 0 投诉与建议 1意见反馈\n      };\n      (0, _index.customerFeedback)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '意见反馈成功',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/complain/complain.vue?vue&type=script&lang=js&?f455");
 
 /***/ }),
 
@@ -6568,7 +6885,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"content\" }, [\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"主题\")]),\n        _c(\"input\", {\n          attrs: { type: \"text\", value: \"\", placeholder: \"请输入主题\" }\n        })\n      ]),\n      _c(\"textarea\", { attrs: { value: \"\", placeholder: \"请输入反馈描述\" } }),\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"姓名\")]),\n        _c(\"input\", { attrs: { type: \"text\", value: \"\", placeholder: \"选填\" } })\n      ]),\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"电话\")]),\n        _c(\"input\", { attrs: { type: \"text\", value: \"\", placeholder: \"选填\" } })\n      ]),\n      _c(\"view\", { staticClass: \"btn\" }, [_vm._v(\"提交\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain/complain.vue?vue&type=template&id=a6e8fd50&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"主题\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mTopic,\n            expression: \"mTopic\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入主题\",\n          eventid: \"5914375c-0\"\n        },\n        domProps: { value: _vm.mTopic },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mTopic = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"textarea\", {\n      directives: [\n        {\n          name: \"model\",\n          rawName: \"v-model\",\n          value: _vm.mContent,\n          expression: \"mContent\"\n        }\n      ],\n      attrs: { placeholder: \"请输入反馈描述\", eventid: \"5914375c-1\" },\n      domProps: { value: _vm.mContent },\n      on: {\n        input: function($event) {\n          if ($event.target.composing) {\n            return\n          }\n          _vm.mContent = $event.target.value\n        }\n      }\n    }),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"姓名\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mName,\n            expression: \"mName\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"5914375c-2\" },\n        domProps: { value: _vm.mName },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mName = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"电话\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mPhone,\n            expression: \"mPhone\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"5914375c-3\" },\n        domProps: { value: _vm.mPhone },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mPhone = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"btn\",\n        attrs: { eventid: \"5914375c-4\" },\n        on: { click: _vm.submit }\n      },\n      [_vm._v(\"提交\")]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain/complain.vue?vue&type=template&id=a6e8fd50&scoped=true&");
 
 /***/ }),
 
@@ -6854,7 +7171,7 @@ define('pages/complain_2/complain_2.js',function(require, module, exports, windo
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");var _default =\n{\n  data: function data() {\n    return {\n      title: 'Hello' };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/complain_2/complain_2.vue?vue&type=script&lang=js&?7708");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      mTopic: '', //主题\n      mContent: '', //内容\n      mPhone: '', //手机号\n      mName: '' //姓名\n    };\n  },\n  onLoad: function onLoad() {},\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    submit: function submit() {\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入主题',\n          showCancel: false });\n\n        return;\n      }\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入内容',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        userId: this.userId,\n        mTopic: this.mTopic, //主题\n        mContent: this.mContent, //内容\n        mPhone: this.mPhone, //手机号\n        mName: this.mName, //姓名\n        mType: 0 // 0 投诉与建议 1意见反馈\n      };\n      (0, _index.customerFeedback)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '投诉建议成功',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/complain_2/complain_2.vue?vue&type=script&lang=js&?7708");
 
 /***/ }),
 
@@ -6877,7 +7194,110 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"content\" }, [\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"主题\")]),\n        _c(\"input\", {\n          attrs: { type: \"text\", value: \"\", placeholder: \"请输入主题\" }\n        })\n      ]),\n      _c(\"textarea\", { attrs: { value: \"\", placeholder: \"请输入反馈描述\" } }),\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"姓名\")]),\n        _c(\"input\", { attrs: { type: \"text\", value: \"\", placeholder: \"选填\" } })\n      ]),\n      _c(\"view\", { staticClass: \"item\" }, [\n        _c(\"text\", [_vm._v(\"电话\")]),\n        _c(\"input\", { attrs: { type: \"text\", value: \"\", placeholder: \"选填\" } })\n      ]),\n      _c(\"view\", { staticClass: \"btn\" }, [_vm._v(\"提交\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"主题\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mTopic,\n            expression: \"mTopic\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入主题\",\n          eventid: \"0f9fd372-0\"\n        },\n        domProps: { value: _vm.mTopic },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mTopic = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"textarea\", {\n      directives: [\n        {\n          name: \"model\",\n          rawName: \"v-model\",\n          value: _vm.mContent,\n          expression: \"mContent\"\n        }\n      ],\n      attrs: { placeholder: \"请输入内容\", eventid: \"0f9fd372-1\" },\n      domProps: { value: _vm.mContent },\n      on: {\n        input: function($event) {\n          if ($event.target.composing) {\n            return\n          }\n          _vm.mContent = $event.target.value\n        }\n      }\n    }),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"姓名\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mName,\n            expression: \"mName\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"0f9fd372-2\" },\n        domProps: { value: _vm.mName },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mName = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"电话\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mPhone,\n            expression: \"mPhone\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"0f9fd372-3\" },\n        domProps: { value: _vm.mPhone },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mPhone = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"btn\",\n        attrs: { eventid: \"0f9fd372-4\" },\n        on: { click: _vm.submit }\n      },\n      [_vm._v(\"提交\")]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2Fcomplain_2%2Fcomplain_2\"}":
+/*!*************************************************************************!*\
+  !*** D:/西港项目/xigang/main.js?{"page":"pages%2Fcomplain_2%2Fcomplain_2"} ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"D:\\\\西港项目\\\\xigang\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _complain_ = _interopRequireDefault(__webpack_require__(/*! ./pages/complain_2/complain_2.vue */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_complain_.default));\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/main.js?%7B%22page%22:%22pages%252Fcomplain_2%252Fcomplain_2%22%7D");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue":
+/*!******************************************************!*\
+  !*** D:/西港项目/xigang/pages/complain_2/complain_2.vue ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./complain_2.vue?vue&type=template&id=fee50d10&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=template&id=fee50d10&scoped=true&\");\n/* harmony import */ var _complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./complain_2.vue?vue&type=script&lang=js& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"fee50d10\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"D:/西港项目/xigang/pages/complain_2/complain_2.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./complain_2.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/complain_2/complain_2.vue?vue&type=script&lang=js&?b987");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&":
+/*!****************************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true& ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!./complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_style_index_0_id_fee50d10_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=template&id=fee50d10&scoped=true&":
+/*!*************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true& ***!
+  \*************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./complain_2.vue?vue&type=template&id=fee50d10&scoped=true& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\complain_2\\\\complain_2.vue?vue&type=template&id=fee50d10&scoped=true&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_complain_2_vue_vue_type_template_id_fee50d10_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true&");
+
+/***/ })
+
+},[["D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2Fcomplain_2%2Fcomplain_2\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/complain_2/complain_2.js');
+__wxRoute = 'pages/complain_2/complain_2';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/complain_2/complain_2.js';
+
+define('pages/complain_2/complain_2.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/complain_2/complain_2"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      mTopic: '', //主题\n      mContent: '', //内容\n      mPhone: '', //手机号\n      mName: '' //姓名\n    };\n  },\n  onLoad: function onLoad() {},\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    submit: function submit() {\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入主题',\n          showCancel: false });\n\n        return;\n      }\n      if (this.mTopic == '') {\n        uni.showModal({\n          title: '',\n          content: '请输入内容',\n          showCancel: false });\n\n        return;\n      }\n      var params = {\n        userId: this.userId,\n        mTopic: this.mTopic, //主题\n        mContent: this.mContent, //内容\n        mPhone: this.mPhone, //手机号\n        mName: this.mName, //姓名\n        mType: 0 // 0 投诉与建议 1意见反馈\n      };\n      (0, _index.customerFeedback)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '投诉建议成功',\n            icon: 'none',\n            duration: 1000 });\n\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/complain_2/complain_2.vue?vue&type=script&lang=js&?7708");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=style&index=0&id=fee50d10&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\complain_2\\complain_2.vue?vue&type=template&id=fee50d10&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"主题\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mTopic,\n            expression: \"mTopic\"\n          }\n        ],\n        attrs: {\n          type: \"text\",\n          placeholder: \"请输入主题\",\n          eventid: \"0f9fd372-0\"\n        },\n        domProps: { value: _vm.mTopic },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mTopic = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"textarea\", {\n      directives: [\n        {\n          name: \"model\",\n          rawName: \"v-model\",\n          value: _vm.mContent,\n          expression: \"mContent\"\n        }\n      ],\n      attrs: { placeholder: \"请输入内容\", eventid: \"0f9fd372-1\" },\n      domProps: { value: _vm.mContent },\n      on: {\n        input: function($event) {\n          if ($event.target.composing) {\n            return\n          }\n          _vm.mContent = $event.target.value\n        }\n      }\n    }),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"姓名\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mName,\n            expression: \"mName\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"0f9fd372-2\" },\n        domProps: { value: _vm.mName },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mName = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\"view\", { staticClass: \"item\" }, [\n      _c(\"text\", [_vm._v(\"电话\")]),\n      _c(\"input\", {\n        directives: [\n          {\n            name: \"model\",\n            rawName: \"v-model\",\n            value: _vm.mPhone,\n            expression: \"mPhone\"\n          }\n        ],\n        attrs: { type: \"text\", placeholder: \"选填\", eventid: \"0f9fd372-3\" },\n        domProps: { value: _vm.mPhone },\n        on: {\n          input: function($event) {\n            if ($event.target.composing) {\n              return\n            }\n            _vm.mPhone = $event.target.value\n          }\n        }\n      })\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"btn\",\n        attrs: { eventid: \"0f9fd372-4\" },\n        on: { click: _vm.submit }\n      },\n      [_vm._v(\"提交\")]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/complain_2/complain_2.vue?vue&type=template&id=fee50d10&scoped=true&");
 
 /***/ }),
 
@@ -7084,7 +7504,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _uniRate = _interopRequireDefault(__webpack_require__(/*! ../../components/uni-rate.vue */ \"D:\\\\西港项目\\\\xigang\\\\components\\\\uni-rate.vue\"));\nvar _index = __webpack_require__(/*! @/request/API/index.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\index.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    uniRate: _uniRate.default },\n\n  data: function data() {\n    return {\n      rate: 0 };\n\n  },\n  onLoad: function onLoad() {},\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/comment/comment.vue?vue&type=script&lang=js&?037d");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _uniRate = _interopRequireDefault(__webpack_require__(/*! ../../components/uni-rate.vue */ \"D:\\\\西港项目\\\\xigang\\\\components\\\\uni-rate.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  components: {\n    uniRate: _uniRate.default },\n\n  data: function data() {\n    return {\n      rate: 0,\n      rate2: 0,\n      product: {} };\n\n  },\n  onLoad: function onLoad(options) {\n    if (options.params) {\n      this.product = JSON.parse(options.params);\n    }\n    this.imgURl = _index.imgURl;\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    getrate: function getrate(e) {\n      this.rate = e.value;\n    },\n    getrate2: function getrate2(e) {\n      this.rate2 = e.value;\n    },\n    commemt: function commemt() {\n      console.log(this.rate, this.rate2);\n      var params = {\n        productId: this.product.productId,\n        orderId: this.product.orderId,\n        userId: this.userId,\n        commentStar: this.rate,\n        upvoteNum: this.rate2 };\n\n      (0, _product.addComment)(params).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '评价成功',\n            duration: 1500 });\n\n        }\n      });\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/comment/comment.vue?vue&type=script&lang=js&?037d");
 
 /***/ }),
 
@@ -7153,7 +7573,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _vm._m(0),\n    _vm._m(1),\n    _c(\"view\", { staticClass: \"rate\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"text\", [_vm._v(\"描述相符\")]),\n          _c(\"uni-rate\", {\n            attrs: {\n              size: \"25\",\n              value: \"0\",\n              eventid: \"410d871c-0\",\n              mpcomid: \"410d871c-0\"\n            },\n            model: {\n              value: _vm.rate,\n              callback: function($$v) {\n                _vm.rate = $$v\n              },\n              expression: \"rate\"\n            }\n          })\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"text\", [_vm._v(\"服务态度\")]),\n          _c(\"uni-rate\", {\n            attrs: {\n              size: \"25\",\n              value: \"0\",\n              eventid: \"410d871c-1\",\n              mpcomid: \"410d871c-1\"\n            },\n            model: {\n              value: _vm.rate,\n              callback: function($$v) {\n                _vm.rate = $$v\n              },\n              expression: \"rate\"\n            }\n          })\n        ],\n        1\n      )\n    ]),\n    _c(\"view\", { staticClass: \"btn2\" }, [_vm._v(\"立即评价\")])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"head\" }, [\n      _c(\"image\", {\n        attrs: {\n          src: \"../../static/home/dianpupaihangmangguo_05.png\",\n          mode: \"\"\n        }\n      }),\n      _c(\"view\", { staticClass: \"msg\" }, [\n        _c(\"text\", [_vm._v(\"果蔬超市\")]),\n        _c(\"text\", [_vm._v(\"最新鲜的黄瓜限时抢购限时特卖\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"title\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/dianpupingfen_03.jpg\", mode: \"\" }\n      }),\n      _c(\"text\", [_vm._v(\"店铺评分\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/comment/comment.vue?vue&type=template&id=7e23ccf8&scoped=true&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"head\" }, [\n      _c(\"image\", { attrs: { src: _vm.imgURl + _vm.product.img, mode: \"\" } }),\n      _c(\"view\", { staticClass: \"msg\" }, [\n        _c(\"text\", [_vm._v(_vm._s(_vm.product.productName))]),\n        _c(\"text\", [_vm._v(_vm._s(_vm.product.descript))])\n      ])\n    ]),\n    _vm._m(0),\n    _c(\"view\", { staticClass: \"rate\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"text\", [_vm._v(\"描述相符\")]),\n          _c(\"uni-rate\", {\n            attrs: { size: \"25\", eventid: \"410d871c-0\", mpcomid: \"410d871c-0\" },\n            on: {\n              change: function($event) {\n                _vm.getrate($event)\n              }\n            },\n            model: {\n              value: _vm.rate,\n              callback: function($$v) {\n                _vm.rate = $$v\n              },\n              expression: \"rate\"\n            }\n          })\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"text\", [_vm._v(\"服务态度\")]),\n          _c(\"uni-rate\", {\n            attrs: { size: \"25\", eventid: \"410d871c-1\", mpcomid: \"410d871c-1\" },\n            on: {\n              change: function($event) {\n                _vm.getrate2($event)\n              }\n            },\n            model: {\n              value: _vm.rate2,\n              callback: function($$v) {\n                _vm.rate2 = $$v\n              },\n              expression: \"rate2\"\n            }\n          })\n        ],\n        1\n      )\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"btn2\",\n        attrs: { eventid: \"410d871c-2\" },\n        on: {\n          click: function($event) {\n            _vm.commemt()\n          }\n        }\n      },\n      [_vm._v(\"立即评价\")]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"title\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/home/dianpupingfen_03.jpg\", mode: \"\" }\n      }),\n      _c(\"text\", [_vm._v(\"店铺评分\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/comment/comment.vue?vue&type=template&id=7e23ccf8&scoped=true&");
 
 /***/ }),
 
@@ -7522,5 +7942,108 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_U
 },[["D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2FuserMsg%2FuserMsg\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/userMsg/userMsg.js');
+__wxRoute = 'pages/fenlei/fenlei';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/fenlei/fenlei.js';
+
+define('pages/fenlei/fenlei.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/fenlei/fenlei"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      tabs: 0,\n      fenleiList: [],\n      productList: [],\n      imgURl: '' };\n\n  },\n  onLoad: function onLoad() {\n    this.imgURl = _index.imgURl;\n    this.getProductByCategoryId();\n  },\n  methods: {\n    getProductByCategoryId: function getProductByCategoryId() {var _this = this;\n      (0, _product.getProductByCategoryId)().then(function (res) {\n        if (res.data.code == 0) {\n          _this.fenleiList = res.data.data, _this.productList = _this.fenleiList[0].productList;\n        }\n      });\n    },\n    currentTabs: function currentTabs(index) {\n      this.tabs = index, this.productList = this.fenleiList[index].productList;\n    },\n    gotoShopList: function gotoShopList(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    },\n    gotoDetaill: function gotoDetaill() {\n      uni.navigateTo({\n        url: '/pages/suiguo_list/suiguo_list?' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/fenlei/fenlei.vue?vue&type=script&lang=js&?aa4e");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/fenlei/fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=template&id=450c9750&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=template&id=450c9750&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"content\" }, [\n    _c(\"view\", { staticClass: \"seach\" }, [\n      _c(\"view\", { staticClass: \"input\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/home/sousuo_06.png\", mode: \"\" }\n        }),\n        _c(\"input\", {\n          directives: [\n            {\n              name: \"model\",\n              rawName: \"v-model\",\n              value: _vm.search,\n              expression: \"search\"\n            }\n          ],\n          attrs: {\n            type: \"text\",\n            placeholder: \"请输入要搜索的店铺\",\n            eventid: \"ba799f5c-0\"\n          },\n          domProps: { value: _vm.search },\n          on: {\n            confirm: _vm.searchShop,\n            focus: _vm.gotoDetaill,\n            input: function($event) {\n              if ($event.target.composing) {\n                return\n              }\n              _vm.search = $event.target.value\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\"view\", { staticClass: \"liubai\" }),\n    _c(\"view\", { staticClass: \"container\" }, [\n      _c(\n        \"view\",\n        { staticClass: \"left\" },\n        _vm._l(_vm.fenleiList, function(item, index) {\n          return _c(\n            \"text\",\n            {\n              key: index,\n              class: { active: _vm.tabs == index },\n              attrs: { eventid: \"ba799f5c-1-\" + index },\n              on: {\n                click: function($event) {\n                  _vm.currentTabs(index)\n                }\n              }\n            },\n            [_vm._v(_vm._s(item.categoryName))]\n          )\n        })\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"fenlei\" },\n        _vm._l(_vm.productList, function(item, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              staticClass: \"item\",\n              attrs: { eventid: \"ba799f5c-2-\" + index },\n              on: {\n                click: function($event) {\n                  _vm.gotoShopList(item.productId)\n                }\n              }\n            },\n            [\n              _c(\"image\", {\n                attrs: { src: _vm.imgURl + item.imgList[0], mode: \"\" }\n              }),\n              _c(\"text\", [_vm._v(_vm._s(item.productName))])\n            ]\n          )\n        })\n      )\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/fenlei/fenlei.vue?vue&type=template&id=450c9750&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2Ffenlei%2Ffenlei\"}":
+/*!*****************************************************************!*\
+  !*** D:/西港项目/xigang/main.js?{"page":"pages%2Ffenlei%2Ffenlei"} ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"D:\\\\西港项目\\\\xigang\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _fenlei = _interopRequireDefault(__webpack_require__(/*! ./pages/fenlei/fenlei.vue */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_fenlei.default));\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/main.js?%7B%22page%22:%22pages%252Ffenlei%252Ffenlei%22%7D");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue":
+/*!**********************************************!*\
+  !*** D:/西港项目/xigang/pages/fenlei/fenlei.vue ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fenlei.vue?vue&type=template&id=450c9750&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=template&id=450c9750&scoped=true&\");\n/* harmony import */ var _fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fenlei.vue?vue&type=script&lang=js& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true& */ \"D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"450c9750\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"D:/西港项目/xigang/pages/fenlei/fenlei.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/fenlei/fenlei.vue");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./fenlei.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/fenlei/fenlei.vue?vue&type=script&lang=js&?f15d");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&":
+/*!********************************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true& ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--10-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--10-oneOf-1-1!./node_modules/css-loader??ref--10-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--10-oneOf-1-3!./node_modules/less-loader/dist/cjs.js??ref--10-oneOf-1-4!./node_modules/vue-loader/lib??vue-loader-options!./fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/less-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&\");\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_10_oneOf_1_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_10_oneOf_1_1_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_10_oneOf_1_2_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_10_oneOf_1_3_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_less_loader_dist_cjs_js_ref_10_oneOf_1_4_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_style_index_0_id_450c9750_lang_less_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/fenlei/fenlei.vue?vue&type=style&index=0&id=450c9750&lang=less&scoped=true&");
+
+/***/ }),
+
+/***/ "D:\\西港项目\\xigang\\pages\\fenlei\\fenlei.vue?vue&type=template&id=450c9750&scoped=true&":
+/*!*****************************************************************************************!*\
+  !*** D:/西港项目/xigang/pages/fenlei/fenlei.vue?vue&type=template&id=450c9750&scoped=true& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./fenlei.vue?vue&type=template&id=450c9750&scoped=true& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!D:\\\\西港项目\\\\xigang\\\\pages\\\\fenlei\\\\fenlei.vue?vue&type=template&id=450c9750&scoped=true&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_C_Users_changjiapu_Desktop_HBuilderX_1_7_0_20190314_full_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_fenlei_vue_vue_type_template_id_450c9750_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/fenlei/fenlei.vue?vue&type=template&id=450c9750&scoped=true&");
+
+/***/ })
+
+},[["D:\\西港项目\\xigang\\main.js?{\"page\":\"pages%2Ffenlei%2Ffenlei\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/fenlei/fenlei.js');
 
 

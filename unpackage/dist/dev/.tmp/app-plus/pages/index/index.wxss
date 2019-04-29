@@ -40,6 +40,7 @@
   width: 30rpx;
 }
 .content .head .input.data-v-284bb11e {
+  color: #000000;
   margin-top: 35rpx;
   height: 80rpx;
   width: 50%;

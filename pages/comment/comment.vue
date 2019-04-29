@@ -1,10 +1,10 @@
 <template>
 	<view class="content">
 		<view class="head">
-			<image src="../../static/home/dianpupaihangmangguo_05.png" mode=""></image>
+			<image :src="imgURl + product.img" mode=""></image>
 			<view class="msg">
-				<text>果蔬超市</text>
-				<text>最新鲜的黄瓜限时抢购限时特卖</text>
+				<text>{{ product.productName }}</text>
+				<text>{{ product.descript }}</text>
 			</view>
 		</view>
 		<view class="title">
@@ -14,31 +14,68 @@
 		<view class="rate">
 			<view>
 				<text>描述相符</text>
-				<uni-rate size="25" value="0" v-model="rate"></uni-rate>
+				<uni-rate size="25" v-model="rate" @change="getrate($event)"></uni-rate>
 			</view>
 			<view>
 				<text>服务态度</text>
-				<uni-rate size="25" value="0" v-model="rate"></uni-rate>
+				<uni-rate size="25" v-model="rate2"  @change="getrate2($event)"></uni-rate>
 			</view>
 		</view>
-		<view class="btn2">立即评价</view>
+		<view class="btn2" @click="commemt()">立即评价</view>
 	</view>
 </template>
 
 <script>
 import uniRate from '../../components/uni-rate.vue';
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { addComment } from '@/request/API/product.js';
 export default {
 	components: {
 		uniRate
 	},
 	data() {
 		return {
-			rate: 0
+			rate: 0,
+			rate2: 0,
+			product: {}
 		};
 	},
-	onLoad() {},
-	methods: {}
+	onLoad(options) {
+		if (options.params) {
+			this.product = JSON.parse(options.params);
+		}
+		this.imgURl = imgURl;
+	},
+	computed: {
+		...mapState(['userId'])
+	},
+	methods: {
+		getrate(e) {
+			this.rate = e.value;
+		},
+		getrate2(e) {
+			this.rate2 = e.value;
+		},
+		commemt() {
+			console.log(this.rate, this.rate2);
+			let params = {
+				productId: this.product.productId,
+				orderId: this.product.orderId,
+				userId: this.userId,
+				commentStar: this.rate,
+				upvoteNum: this.rate2
+			};
+			addComment(params).then(res => {
+				if(res.data.code==0){
+					uni.showToast({
+						title:'评价成功',
+						duration:1500,
+					})
+				}
+			});
+		}
+	}
 };
 </script>
 
@@ -97,7 +134,7 @@ export default {
 		height: 95upx;
 		line-height: 95upx;
 		width: 80%;
-		background-color:#6d71d5;
+		background-color: #6d71d5;
 		margin: auto;
 		text-align: center;
 		border-radius: 10upx;

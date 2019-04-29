@@ -68,3 +68,15 @@ export function getUserAddressListByUserId(userId){
 export function updAddDefaultById(data){
 	return postRequest(data,'/address/updAddDefaultById').then(res => res)
 }
+//商家入驻
+export function addShop(data){
+	return postRequest(data,'/shop/addShop').then(res => res)
+}
+//根据用户 id 判断是否入驻商家
+export function getShopStatusByUserId(userId){
+	return getRequest('/shop/getShopStatusByUserId?userId='+userId).then(res => res)
+}
+//投诉建议
+export function customerFeedback(data){
+	return postRequest(data,'/user/customerFeedback').then(res => res)
+}

@@ -12,7 +12,7 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getShopByCategoryId } from '@/request/API/product.js';
+import { getShopByCategoryId,getAllShopByContent } from '@/request/API/product.js';
 export default {
 	name: 'suiguo_shop',
 	data() {
@@ -23,9 +23,25 @@ export default {
 	},
 	onLoad(options) {
 		this.imgURl=imgURl
-		this.getShopByCategoryId(options.id);
+		//分类页面进来
+		if(options.id){
+			this.getShopByCategoryId(options.id);
+		}
+		//搜索页进来
+		if(options.search){
+			this.getAllShopByContent(1,20,options.search)
+		}
+		
 	},
 	methods: {
+		//搜索
+		getAllShopByContent(pageNo,pageSize,content){
+			getAllShopByContent(pageNo,pageSize,content).then(res=>{
+						if (res.data.code == 0) {
+					this.shopList = res.data.data.list;
+				}
+			})
+		},
 		//获取店铺列表
 		getShopByCategoryId(id) {
 			getShopByCategoryId(id).then(res => {

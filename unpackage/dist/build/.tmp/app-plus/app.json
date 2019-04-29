@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/logn/logn",
     "pages/register/register",
-    "pages/index/index",
     "pages/cart/cart",
     "pages/order/order",
     "pages/userCenter/userCenter",
@@ -10,12 +10,14 @@
     "pages/suiguo_list/suiguo_list",
     "pages/product_detaill/product_detaill",
     "pages/confirmOrder/confirmOrder",
+    "pages/orderDetail/orderDetail",
     "pages/commentList/commentList",
     "pages/shouHou/shouHou",
     "pages/collect/collect",
     "pages/zhuji/zhuji",
     "pages/ggList/ggList",
     "pages/addressList/addressList",
+    "pages/address/address",
     "pages/ggDetail/ggDetail",
     "pages/merchant/merchant",
     "pages/callCenter/callCenter",
@@ -26,8 +28,12 @@
     "pages/help/help",
     "pages/helpDetail/helpDetail",
     "pages/complain_2/complain_2",
+    "pages/complain_2/complain_2",
     "pages/About_Us/About_Us",
-    "pages/comment/comment"
+    "pages/comment/comment",
+    "pages/wjPassword/wjPassword",
+    "pages/userMsg/userMsg",
+    "pages/fenlei/fenlei"
   ],
   "subPackages": [],
   "window": {
@@ -73,6 +79,6 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "bbb",
-  "compilerVersion": "1.9.2"
+  "appname": "西港集贸市场",
+  "compilerVersion": "1.9.4"
 }

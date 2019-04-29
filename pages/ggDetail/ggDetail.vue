@@ -1,40 +1,53 @@
 <template>
 	<view class="content">
-		<image src="../../static/home/dianpugonggao_03.png" mode=""></image>
-		<text>&nbsp;&nbsp;今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过今年下半年以来，我们的都没吃饱过</text>
+		<image :src="imgURl+detail.imageId" mode=""></image>
+		<text>
+			&nbsp;&nbsp;{{detail.content}}
+		</text>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getNoticeById } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			title: 'Hello'
+			detail:{},
+			imgURl:'',
 		};
 	},
-	onLoad() {
-	
+	onLoad(options) {
+		this.imgURl=imgURl
+		this.getNoticeById(options.id);
 	},
 	methods: {
-
+		//公告信息
+		getNoticeById(id) {
+			getNoticeById(id).then(res => {
+				if(res.data.code==0){
+					this.detail=res.data.data
+				}
+			});
+		}
 	}
 };
 </script>
 
 <style lang="less" scoped>
-	.content{
-		font-size: 28upx;
+.content {
+	font-size: 28upx;
+	width: 100%;
+	image {
+		height: 333upx;
 		width: 100%;
-		image{
-			height: 333upx;;
-			width: 100%;
-		};
-		text{
-			padding: 20upx;
-			display: inline-block;
-			color: #999999;
-			 text-indent:50upx;
-		}
 	}
+	text {
+		padding: 20upx;
+		display: inline-block;
+		color: #999999;
+		text-indent: 50upx;
+	}
+}
 </style>

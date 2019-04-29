@@ -1,8 +1,8 @@
-.content.data-v-2af8f801 {
+.content.data-v-49fa1165 {
   font-size: 30rpx;
   width: 100%;
 }
-.content .fb.data-v-2af8f801 {
+.content .fb.data-v-49fa1165 {
   width: 100%;
   height: 80rpx;
   line-height: 80rpx;
@@ -12,7 +12,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.content .list.data-v-2af8f801 {
+.content .list.data-v-49fa1165 {
   padding: 0 20rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -28,24 +28,24 @@
   width: 100%;
   border-bottom: 1px solid #dddddd;
 }
-.content .list image.data-v-2af8f801 {
+.content .list image.data-v-49fa1165 {
   height: 120rpx;
   width: 210rpx;
 }
-.content .list .msg.data-v-2af8f801 {
+.content .list .msg.data-v-49fa1165 {
   margin-left: 20rpx;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-.content .list .msg text.data-v-2af8f801 {
+.content .list .msg text.data-v-49fa1165 {
   display: block;
 }
-.content .list .msg text.data-v-2af8f801:first-of-type {
+.content .list .msg text.data-v-49fa1165:first-of-type {
   font-weight: bold;
 }
-.content .list .msg text.data-v-2af8f801:last-of-type {
+.content .list .msg text.data-v-49fa1165:last-of-type {
   color: #999999;
   overflow: hidden;
   -o-text-overflow: ellipsis;

@@ -1,12 +1,12 @@
-.content.data-v-5e364a60 {
+.content.data-v-45d9c6f2 {
   font-size: 28rpx;
   width: 100%;
 }
-.content image.data-v-5e364a60 {
+.content image.data-v-45d9c6f2 {
   height: 333rpx;
   width: 100%;
 }
-.content text.data-v-5e364a60 {
+.content text.data-v-45d9c6f2 {
   padding: 20rpx;
   display: inline-block;
   color: #999999;

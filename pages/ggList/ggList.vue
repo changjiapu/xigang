@@ -1,30 +1,55 @@
 <template>
 	<view class="content">
-		<view class="fb">发布</view>
-		<view class="list" v-for="(item, index) in 6" :key="index" @click="gotoDetail">
-			<image src="../../static/home/dianpugonggao_03.png" mode=""></image>
+		<view class="fb"></view>
+		<view class="list" v-for="(item, index) in ggList" :key="index" @click="gotoDetail(item.id)">
+			<image :src="imgURl + item.imageId" mode=""></image>
 			<view class="msg">
-				<text>时令水果超市</text>
-				<text>上上个月因为医疗事故自己惹上官司，到底是睡的错上官司，到底是睡的错上官司，到底是睡的错</text>
+				<text>{{item.title}}</text>
+				<text>{{item.content}}</text>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { getNoticeList } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			title: 'Hello'
+			pageNo: 1, //页码
+			ggList: [], //公告列表
+			imgURl: ''
 		};
 	},
-	onLoad() {},
+	onLoad() {
+		this.imgURl = imgURl;
+		this.getNoticeList(this.pageNo, 10);
+	},
+	//上拉加载
+	onReachBottom() {
+		this.pageNo++;
+		this.getNoticeList(this.pageNo, 10);
+	},
 	methods: {
-		gotoDetail(){
+		//获取公告列表
+		getNoticeList(pageNo, pageSize) {
+			getNoticeList(pageNo, pageSize).then(res => {
+				if (res.data.data.list.length == 0) {
+					uni.showToast({
+						title: '没有更多数据了',
+						icon: 'none',
+						duration: 1000
+					});
+				}
+				this.ggList = [...this.ggList, ...res.data.data.list];
+			});
+		},
+		gotoDetail(id) {
 			uni.navigateTo({
-				url:'/pages/ggDetail/ggDetail'
-			})
+				url: '/pages/ggDetail/ggDetail?id='+id
+			});
 		}
 	}
 };

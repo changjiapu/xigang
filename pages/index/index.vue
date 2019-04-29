@@ -4,20 +4,20 @@
 		<view class="head">
 			<view class="left">
 				<image src="../../static/home/ziyuan.png"></image>
-				<text>{{city}}</text>
+				<text>{{ city }}</text>
 			</view>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
-				<input type="text" value="" placeholder="请输入要搜索的商品或店铺" />
+				<input type="text" v-model="search" placeholder="请输入要搜索的店铺" @confirm="searchShop" />
 			</view>
-			<view class="img"><image src="../../static/home/fenlei_06.png" mode=""></image></view>
+			<navigator class="img" url="/pages/fenlei/fenlei"><image src="../../static/home/fenlei_06.png" mode=""></image></navigator>
 		</view>
 		<swiper class="swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
 			<swiper-item v-for="(item, index) in bannerList" :key="index"><image :src="imgURl + item.productImage" mode=""></image></swiper-item>
 		</swiper>
 		<!-- 公告 -->
 		<swiper class="gonggao" :indicator-dots="false" :autoplay="true" :interval="3000" :duration="1000" vertical="true">
-			<swiper-item v-for="(item, index) in gonggaoList" :key="index">
+			<swiper-item v-for="(item, index) in gonggaoList" :key="index" @click="gotoDetail(item.id)">
 				<view class="msg">
 					<text class="title">最新公告 {{ item.title }}</text>
 					<text class="neirong">{{ item.content }}</text>
@@ -33,7 +33,7 @@
 				<text>{{ item.categoryName }}</text>
 			</view>
 		</view>
-<!-- 		<view class="product_title">
+		<!-- 		<view class="product_title">
 			<text>热卖商品</text>
 			<text>更多 ></text>
 		</view>
@@ -50,7 +50,7 @@
 		</scroll-view>
 		<view class="liubai"></view> -->
 		<!-- 滚动公告 -->
-<!-- 		<view class="gonggao_2">
+		<!-- 		<view class="gonggao_2">
 			<view class="title">
 				<image src="../../static/home/gonggaozhanshi_38.png" mode=""></image>
 				<text>近期公告展示</text>
@@ -62,11 +62,11 @@
 			</swiper>
 		</view> -->
 		<!-- 新品推荐 -->
-<!-- 		<view class="product_title">
+		<!-- 		<view class="product_title">
 			<text>新品推荐</text>
 			<text>更多 ></text>
 		</view> -->
-<!-- 		<view class="product_list">
+		<!-- 		<view class="product_list">
 			<view class="list_item" v-for="(item, index) in 6" :key="index">
 				<image src="../../static/home/roushi_27.png" mode=""></image>
 				<text>以纯</text>
@@ -103,26 +103,35 @@ import { getProductSlidesList, getNoticeList, getProductCategory } from '@/reque
 export default {
 	data() {
 		return {
+			search: '',
 			imgURl: '',
 			bannerList: [], //轮播图
 			gonggaoList: [], //公告列表
-			classify: [] ,//分类列表
-			city:'西安',
+			classify: [], //分类列表
+			city: '西安'
 		};
 	},
 	onLoad() {
+		const userId = uni.getStorageSync('userId');
+		const token = uni.getStorageSync('token');
+		if (userId) {
+			this.$store.commit('SET_USERID', userId);
+			this.$store.commit('SET_TOKEN', token);
+		} else {
+			uni.reLaunch({
+				url: '/pages/logn/logn'
+			});
+		}
 		this.imgURl = imgURl;
 		this.getProductSlidesList();
 		this.getNoticeList();
 		this.getProductCategory();
 		let _this = this;
 		//#ifdef APP-PLUS
-		plus.geolocation.getCurrentPosition(
-			function(position) {
-				console.log(JSON.stringify(position))
-				_this.city = position.address.city;
-			},
-		);
+		plus.geolocation.getCurrentPosition(function(position) {
+			console.log(JSON.stringify(position));
+			_this.city = position.address.city;
+		});
 		//#endif
 	},
 	methods: {
@@ -148,10 +157,20 @@ export default {
 				this.classify = res.data.data.cateGories;
 			});
 		},
-		gotoDetail() {},
+		//去公告详情
+		gotoDetail(id) {
+			uni.navigateTo({
+				url: '/pages/ggDetail/ggDetail?id=' + id
+			});
+		},
 		gotoShopList(id) {
 			uni.navigateTo({
 				url: '/pages/suiguo_shop/suiguo_shop?id=' + id
+			});
+		},
+		searchShop() {
+			uni.navigateTo({
+				url: '/pages/suiguo_shop/suiguo_shop?search=' + this.search
 			});
 		}
 	}
@@ -186,7 +205,8 @@ export default {
 			}
 		}
 		.input {
-				margin-top: 35upx;
+			color: #000000;
+			margin-top: 35upx;
 			height: 80upx;
 			width: 50%;
 			font-size: 22upx;
@@ -204,7 +224,7 @@ export default {
 			}
 		}
 		.img {
-				margin-top: 35upx;
+			margin-top: 35upx;
 			height: 80upx;
 			display: flex;
 			align-items: center;

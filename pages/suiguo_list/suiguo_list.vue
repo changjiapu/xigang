@@ -5,7 +5,7 @@
 			<view class="left" @click="gotoBack()"><image src="../../static/home/xiangzuofanhui_03.png" mode=""></image></view>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
-				<input type="text" value="" placeholder="请输入要搜索的商品或店铺" />
+				<input type="text" v-model="search" placeholder="请输入要搜索的商品" @confirm="searchProduct()" />
 			</view>
 		</view>
 		<view class="title">
@@ -32,10 +32,11 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getProductByShopId } from '@/request/API/product.js';
+import { getProductByShopId, getAllProductByContent } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
+			search: '',
 			isShang: true,
 			pageNo: 1,
 			productList: [],
@@ -51,8 +52,10 @@ export default {
 	},
 	//上拉加载
 	onReachBottom() {
-		this.pageNo++;
-		this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+		if (this.search == '') {
+			this.pageNo++;
+			this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+		}
 	},
 	methods: {
 		//获取商品列表
@@ -87,6 +90,18 @@ export default {
 		gotoDetail(id) {
 			uni.navigateTo({
 				url: '/pages/product_detaill/product_detaill?id=' + id
+			});
+		},
+		searchProduct() {
+			getAllProductByContent(1, 20, this.search).then(res => {
+				if (res.data.data.list.length == 0) {
+					uni.showToast({
+						title: '没有更多数据了',
+						icon: 'none',
+						duration: 1000
+					});
+				}
+				this.productList = [...res.data.data.list];
 			});
 		}
 	}

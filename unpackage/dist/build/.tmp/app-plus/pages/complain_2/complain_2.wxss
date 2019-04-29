@@ -1,9 +1,9 @@
-.content.data-v-59fd71e3 {
+.content.data-v-c6e8bb82 {
   width: 100%;
   padding: 20rpx;
   font-size: 20rpx;
 }
-.content .item.data-v-59fd71e3 {
+.content .item.data-v-c6e8bb82 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,10 +15,10 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-59fd71e3 {
+.content .item text.data-v-c6e8bb82 {
   width: 150rpx;
 }
-.content .btn.data-v-59fd71e3 {
+.content .btn.data-v-c6e8bb82 {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

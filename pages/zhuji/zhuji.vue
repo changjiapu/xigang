@@ -9,7 +9,7 @@
 				<image v-if="item.ick" src="../../static/home/morendizhi_07.png" mode="" @click="isIck(index)"></image>
 				<image v-else src="../../static/home/sheweimoren_18.png" mode="" @click="isIck(index)"></image>
 			</view>
-			<view class="center"><image :src="imgURl + item.productImage[0]" mode=""></image></view>
+			<view class="center"><image :src="imgURl + item.imgList[0]" mode=""></image></view>
 			<view class="right">
 				<text class="title">{{ item.productName }}</text>
 				<text class="title2">{{ item.descript }}</text>
@@ -36,6 +36,7 @@ import { getVisitRecordList, delVisitRecord } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
+			imgURl:'',
 			editor: false,
 			isShow: true, //全选非全选
 			pages: 1, //页码

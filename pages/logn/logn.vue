@@ -111,6 +111,9 @@ export default {
 			height: 35upx;
 			width: 35upx;
 		}
+		input{
+			margin-left: 20upx;
+		}
 	}
 	.btn {
 		margin-top: 30upx;

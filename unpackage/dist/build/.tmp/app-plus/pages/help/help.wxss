@@ -1,4 +1,4 @@
-.content.data-v-d44669a6 {
+.content.data-v-17714b2d {
   width: 100%;
   padding: 20rpx;
   display: -webkit-box;
@@ -11,15 +11,15 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content text.data-v-d44669a6 {
+.content text.data-v-17714b2d {
   height: 90rpx;
   line-height: 90rpx;
 }
-.content .title.data-v-d44669a6 {
+.content .title.data-v-17714b2d {
   margin-left: 20rpx;
   position: relative;
 }
-.content .title.data-v-d44669a6::after {
+.content .title.data-v-17714b2d::after {
   position: absolute;
   top: 20rpx;
   left: -20rpx;
@@ -28,7 +28,7 @@
   width: 5rpx;
   background-color: red;
 }
-.content .btn.data-v-d44669a6 {
+.content .btn.data-v-17714b2d {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -49,7 +49,7 @@
   border-radius: 10rpx;
   color: #ffffff;
 }
-.content .btn image.data-v-d44669a6 {
+.content .btn image.data-v-17714b2d {
   height: 40rpx;
   width: 40rpx;
 }
