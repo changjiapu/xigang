@@ -15,7 +15,7 @@
 					<text>{{ item.product.productName }}</text>
 					<text>￥{{ item.prescriptionPrice }}元</text>
 				</view>
-				<text class="msg_2">{{ item.updatedTime }}</text>
+				<text class="msg_2" style="font-size: 24upx;margin-top: 10upx;">下单时间:{{ item.updatedTime }}</text>
 				<view class="btn">
 					<text v-if="item.orderStatus == 1 || item.orderStatus == 2" @click="gotoDetail(item.detailId)">查看订单</text>
 					<text v-if="item.orderStatus == 3 && item.orderStatus != 4" class="pingjia" @click="gotoComment(item)">立即评价</text>
@@ -25,7 +25,7 @@
 					<text v-if="item.orderStatus == 1 || item.orderStatus == 2" @click="qRshouhuo(item.detailId, item.orderStatus)">
 						{{ item.orderStatus == 2 ? '确认收货' : '商家确认中' }}
 					</text>
-					<text v-if="item.orderStatus == 3||item.orderStatus == 4" @click="shouHou()">申请售后</text>
+					<text v-if="item.orderStatus == 3 || item.orderStatus == 4" @click="shouHou(item)">{{ item.order.saleService ? '售后处理中' : '申请售后' }}</text>
 				</view>
 			</view>
 		</view>
@@ -46,7 +46,9 @@ export default {
 			pageNo: 1 //页码
 		};
 	},
-	onLoad() {
+	onShow() {
+		this.pageNo=1
+	    this.orderList=[],
 		this.imgURl = imgURl;
 		this.queryOrderList(this.userId, this.state, this.pageNo, 10);
 	},
@@ -133,25 +135,43 @@ export default {
 		},
 		gotoDetail(id) {
 			uni.navigateTo({
-				url: '/pages/orderDetail/orderDetail?id='+id
+				url: '/pages/orderDetail/orderDetail?id=' + id
 			});
 		},
 		gotoComment(item) {
-			let params={
-				orderId:item.orderId,
-				productId:item.product.productId,
-				productName:item.product.productName,
-				descript:item.product.descript,
+			let params = {
+				orderId: item.orderId,
+				productId: item.product.productId,
+				productName: item.product.productName,
+				descript: item.product.descript,
 				img: item.product.imgList[0]
-			}
+			};
 			uni.navigateTo({
-				url: '/pages/comment/comment?params='+JSON.stringify(params)
+				url: '/pages/comment/comment?params=' + JSON.stringify(params)
 			});
 		},
-		shouHou() {
-			uni.navigateTo({
-				url: '/pages/shouHou/shouHou'
-			});
+		shouHou(item) {
+			//saleService 为0可以申请 为1是商家处理中
+			if (!item.order.saleService) {
+				let params = {
+					updatedTime: item.updatedTime,
+					orderId: item.orderId,
+					orderSn: item.order.orderSn,
+					productName: item.productName,
+					productPrice: item.productPrice,
+					productCount: item.productCount,
+					img: item.product.imgList[0]
+				};
+				uni.navigateTo({
+					url: '/pages/shouHou/shouHou?params=' + JSON.stringify(params)
+				});
+			} else {
+				uni.showToast({
+					title: '等待商家处理',
+					icon: 'none',
+					duration: 1500
+				});
+			}
 		}
 	}
 };

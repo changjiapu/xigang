@@ -1,7 +1,10 @@
 .content.data-v-fee50d10 {
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 20rpx;
-  font-size: 20rpx;
+  font-size: 30rpx;
+  overflow-x: hidden;
 }
 .content .item.data-v-fee50d10 {
   display: -webkit-box;

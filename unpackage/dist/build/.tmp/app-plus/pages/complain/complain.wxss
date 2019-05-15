@@ -1,9 +1,12 @@
-.content.data-v-b2e1b594 {
+.content.data-v-1ec44d94 {
   width: 100%;
   padding: 20rpx;
-  font-size: 20rpx;
+  font-size: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
 }
-.content .item.data-v-b2e1b594 {
+.content .item.data-v-1ec44d94 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,10 +18,10 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-b2e1b594 {
+.content .item text.data-v-1ec44d94 {
   width: 150rpx;
 }
-.content .btn.data-v-b2e1b594 {
+.content .btn.data-v-1ec44d94 {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

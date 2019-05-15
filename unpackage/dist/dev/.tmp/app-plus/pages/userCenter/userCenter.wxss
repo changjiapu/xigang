@@ -23,10 +23,11 @@
 .content .head .img_1.data-v-056f0af8 {
   height: 130rpx;
   width: 130rpx;
+  border-radius: 100%;
 }
 .content .head .img_2.data-v-056f0af8 {
-  height: 40rpx;
-  width: 40rpx;
+  height: 25rpx;
+  width: 25rpx;
 }
 .content .head .msg.data-v-056f0af8 {
   margin-left: 20rpx;
@@ -45,6 +46,9 @@
   font-weight: bold;
 }
 .content .tabs.data-v-056f0af8 {
+  position: absolute;
+  top: 190rpx;
+  left: 40rpx;
   border-radius: 10rpx;
   padding: 0 20rpx;
   -webkit-box-sizing: border-box;
@@ -88,6 +92,7 @@
 .content .GG.data-v-056f0af8 {
   width: 90%;
   margin: 20rpx auto;
+  margin-top: 150rpx;
   height: 220rpx;
 }
 .content .GG image.data-v-056f0af8 {
@@ -140,11 +145,11 @@
 }
 .content .tankuang .container1.data-v-056f0af8 {
   background-color: #eee;
-  height: 35%;
+  height: 40%;
   width: 100%;
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: 0rpx;
   -webkit-animation: fenxiang-data-v-056f0af8 0.4s;
           animation: fenxiang-data-v-056f0af8 0.4s;
   overflow: hidden;
@@ -154,7 +159,7 @@ from {
     height: 0%;
 }
 to {
-    height: 35%;
+    height: 40%;
 }
 }
 @keyframes fenxiang-data-v-056f0af8 {
@@ -162,7 +167,7 @@ from {
     height: 0%;
 }
 to {
-    height: 35%;
+    height: 40%;
 }
 }
 .content .tankuang .container1 .share.data-v-056f0af8 {

@@ -3,11 +3,14 @@
 		<swiper class="swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
 			<swiper-item v-for="(item, index) in productDetail.imgList" :key="index"><image :src="imgURl + item" mode=""></image></swiper-item>
 		</swiper>
-		<view class="tishi">温馨提示！下单前请联系商家确认是否有货！</view>
+		<view class="tishi">
+			温馨提示！下单前请联系商家确认是否有货！
+			<text style="color: #000000;margin-left: 50upx;">库存{{ productDetail.sellCount }}</text>
+		</view>
 		<view class="msg">
 			<view class="title">
 				<text>{{ productDetail.productName }}</text>
-				<image v-if="!isLike" src="../../static/home/like1.png" mode="" @click="AddCollection(productDetail.productId)"></image>
+				<image v-if="isLike == 0" src="../../static/home/like1.png" mode="" @click="AddCollection(productDetail.productId)"></image>
 				<image v-else src="../../static/home/like2.png" mode="" @click="AddCollection(productDetail.productId)"></image>
 			</view>
 			<view class="info">{{ productDetail.descript }}</view>
@@ -28,12 +31,12 @@
 		<view class="liubai"></view>
 		<view class="comment">
 			<view class="title">
-				<text>用户评价(18)</text>
+				<text>用户评价({{ size }})</text>
 				<text @click="gotoComment(productDetail.productId)">查看全部></text>
 			</view>
-			<view class="item">
-				<image class="h_img" :src="imgURl+commentList[0].userPhoto" mode=""></image>
-				<text>{{commentList[0].nickName}}</text>
+			<view class="item" v-if="commentList.length > 0">
+				<image class="h_img" :src="imgURl + commentList[0].userPhoto" mode=""></image>
+				<text>{{ commentList[0].nickName }}</text>
 				<image class="x_img" src="../../static/home/wujiaoxing_03.png" mode="" v-for="(item, index) in commentList[0].commentStar" :key="index"></image>
 			</view>
 		</view>
@@ -42,14 +45,14 @@
 		<view class="img_list"><image :src="imgURl + item" mode="" v-for="(item, index2) in productDetail.imgList" :key="index2"></image></view>
 		<view class="bottom">
 			<image src="../../static/home/weixin_07.png" mode="" @click="copy(productDetail.weChatId)"></image>
-			<image src="../../static/home/dianhua_07.png" mode="" @click="callUp(productDetail.phone)"></image>
+			<image src="../../static/home/dianhua_06.png" mode="" @click="callUp(productDetail.phone)"></image>
 			<text @click="addCart()">加入购物车</text>
 			<text @click="gotoPay">立即下单</text>
 		</view>
 		<view class="bottomWindow" v-if="showGuige">
 			<view class="content">
 				<view class="head">
-					<image src="../../static/home/xiangjiao_23.png" mode=""></image>
+					<image :src="imgURl + productDetail.imgList[0]" mode=""></image>
 					<view class="msg">
 						<text>￥{{ currentPrice ? currentPrice : productDetail.price }}元/{{ productDetail.specUnit }}</text>
 						<text>已选择{{ guige }}</text>
@@ -70,7 +73,7 @@
 					<text>选数量</text>
 					<view class="list-cont">
 						<text class="sub" @click="sub">-</text>
-						<input type="number" :value="buy_count" @blur="inputBuycount" />
+						<text class="sub">{{ buy_count }}</text>
 						<text class="add" @click="add">+</text>
 					</view>
 				</view>
@@ -82,12 +85,13 @@
 
 <script>
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getProductById, AddCollection, addShopCart, addVisitRecord, addOrder,getCommentList } from '@/request/API/product.js';
+import { getProductById, AddCollection, addShopCart, addVisitRecord, addOrder, getCommentList } from '@/request/API/product.js';
 import { getUserAddressListByUserId } from '@/request/API/index.js';
 import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
+			size: 0, //评论总数
 			currentPrice: '', //当前选中规格价格
 			isLike: 0, //是否收藏的标记  0未收藏 1收藏
 			guigeTabs: '-1', //
@@ -96,21 +100,33 @@ export default {
 			imgURl: '',
 			showGuige: false,
 			buy_count: 1,
-			productDetail: {},
-			address: {},
-			commentList:[],//评论列表
+			productDetail: {
+				productId: '',
+				imgList: [],
+				specList: []
+			},
+			address: {
+				addressId: ''
+			},
+			commentList: [
+				{
+					userPhoto: '',
+					nickName: '',
+					commentStar: ''
+				}
+			] //评论列表
 		};
 	},
 	computed: {
 		...mapState(['userId'])
 	},
 	onLoad(options) {
-		console.log(options.id)
 		this.imgURl = imgURl;
 		this.productDetail.productId = options.id;
-		this.getProductById(options.id, this.userId); //获取商品详情
+		this.getProductById(this.productDetail.productId, this.userId); //获取商品详情
 		this.addVisitRecord(); //添加商品足迹
-		this.getCommentList(options.id,1,10)
+		this.getCommentList(this.productDetail.productId, 1, 10);
+		this.getUserAddressListByUserId(this.userId);
 	},
 	onShow() {
 		this.getUserAddressListByUserId(this.userId);
@@ -142,12 +158,13 @@ export default {
 			});
 		},
 		//获取评论列表
-		getCommentList(productId,pageNo,pageSize){
-			getCommentList(productId,pageNo,pageSize).then(res=>{
-				if(res.data.code==0){
-					this.commentList=res.data.data.list
+		getCommentList(productId, pageNo, pageSize) {
+			getCommentList(productId, pageNo, pageSize).then(res => {
+				if (res.data.code == 0) {
+					this.commentList = res.data.data.list;
+					this.size = res.data.data.size;
 				}
-			})
+			});
 		},
 		//选择规格
 		guigeChange(name, index, specId, price) {
@@ -183,8 +200,8 @@ export default {
 		//获取商品详情
 		getProductById(id, userId) {
 			getProductById(id, userId).then(res => {
-				console.log(JSON.stringify(res))
 				if (res.data.code == 0) {
+					console.log(222);
 					this.productDetail = res.data.data;
 					this.isLike = res.data.data.isCollection;
 				}
@@ -207,7 +224,10 @@ export default {
 			uni.setClipboardData({
 				data: e,
 				success: function() {
-					console.log('success');
+					uni.showToast({
+						title: '复制成功',
+						duration: 2000
+					});
 				}
 			});
 		},
@@ -220,10 +240,18 @@ export default {
 				});
 				return;
 			}
-			if (this.specId == '') {
+			if (this.address.addressId == '') {
 				uni.showModal({
 					title: '',
 					content: '请添加收货地址',
+					showCancel: false
+				});
+				return;
+			}
+			if (this.productDetail.sellCount < 1) {
+				uni.showModal({
+					title: '',
+					content: '库存不足',
 					showCancel: false
 				});
 				return;
@@ -245,7 +273,7 @@ export default {
 			});
 		},
 		sub() {
-			if (this.buy_count == 0) {
+			if (this.buy_count == 1) {
 				return;
 			}
 			this.buy_count--;
@@ -259,6 +287,22 @@ export default {
 				uni.showModal({
 					title: '',
 					content: '请选择商品规格',
+					showCancel: false
+				});
+				return;
+			}
+			if (this.address.addressId == '') {
+				uni.showModal({
+					title: '',
+					content: '请添加收货地址',
+					showCancel: false
+				});
+				return;
+			}
+			if (this.productDetail.sellCount < 1) {
+				uni.showModal({
+					title: '',
+					content: '库存不足',
 					showCancel: false
 				});
 				return;
@@ -288,7 +332,7 @@ export default {
 					productCount: item.productCount,
 					prescriptionPrice: item.prescriptionPrice,
 					orderRemark: '',
-				    addressId: this.address.addressId,
+					addressId: this.address.addressId
 				};
 				productList2.push(product);
 			}
@@ -299,7 +343,7 @@ export default {
 			addOrder(params2).then(res => {
 				if (res.data.code == 0) {
 					uni.navigateTo({
-						url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params)+'&orderList='+res.data.data.orderIdList[0]
+						url: '/pages/confirmOrder/confirmOrder?params=' + JSON.stringify(params) + '&orderList=' + res.data.data.orderIdList[0]
 					});
 				} else {
 					uni.showToast({
@@ -312,7 +356,7 @@ export default {
 		},
 		gotoComment(id) {
 			uni.navigateTo({
-				url: '/pages/commentList/commentList?id='+id
+				url: '/pages/commentList/commentList?id=' + id
 			});
 		}
 	}
@@ -400,6 +444,7 @@ export default {
 			.h_img {
 				height: 80upx;
 				width: 80upx;
+				border-radius: 100%;
 			}
 			.x_img {
 				margin-left: 10upx;
@@ -459,6 +504,9 @@ export default {
 			margin-top: 10upx;
 			width: 100%;
 			height: 400upx;
+		}
+		image:last-of-type {
+			margin-bottom: 100upx;
 		}
 	}
 	.bottom {

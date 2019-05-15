@@ -110,7 +110,7 @@
   height: 50rpx;
   font-size: 26rpx;
   border-radius: 3px;
-  color: #555;
+  color: #999999;
   border: 1px solid #ddd;
   display: -webkit-box;
   display: -webkit-flex;
@@ -194,16 +194,18 @@
           align-items: center;
 }
 .buy-btn .right view text.data-v-a6ab8090 {
+  margin-right: 50rpx;
   font-size: 34rpx;
   color: #c30;
   font-weight: bold;
 }
 .buy-btn .right view.data-v-a6ab8090:nth-child(2) {
   width: 220rpx;
-  height: 112rpx;
-  line-height: 112rpx;
+  height: 90rpx;
+  line-height: 90rpx;
   text-align: center;
   color: #fff;
+  border-radius: 20rpx;
   background-color: #6d71d5;
   font-size: 34rpx;
   margin-left: 5px;

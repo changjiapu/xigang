@@ -22,6 +22,7 @@
 .content .item .h_img.data-v-ea2fd918 {
   height: 80rpx;
   width: 80rpx;
+  border-radius: 100%;
 }
 .content .item .x_img.data-v-ea2fd918 {
   margin-left: 10rpx;
@@ -29,6 +30,6 @@
   width: 30rpx;
 }
 .content .item text.data-v-ea2fd918 {
-  margin-right: 280rpx;
+  margin-right: 340rpx;
 }
 

@@ -92,7 +92,7 @@ export default {
 			shopStatus: -1 //默认为2未入住 入驻状态 -1:未入驻 0:审核中 1:已入驻 2:审核驳回重新入驻
 		};
 	},
-	onLoad() {
+	onShow() {
 		this.imgURl = imgURl;
 		this.getUserById();
 		this.getShopStatusByUserId(this.userId);
@@ -174,7 +174,7 @@ export default {
 			}
 			if (this.shopStatus == 1) {
 				uni.showToast({
-					title: '已经入住成功',
+					title: '已经入驻成功',
 					icon: 'none',
 					duration: 1000
 				});
@@ -183,7 +183,7 @@ export default {
 			if (this.shopStatus == 2) {
 				uni.showModal({
 					title: '',
-					content: '入住失败是否从新入住',
+					content: '入驻失败是否重新入驻',
 					success: res => {
 						if (res.confirm) {
 							uni.navigateTo({
@@ -225,10 +225,11 @@ export default {
 		.img_1 {
 			height: 130upx;
 			width: 130upx;
+			border-radius: 100%;
 		}
 		.img_2 {
-			height: 40upx;
-			width: 40upx;
+			height: 25upx;
+			width: 25upx;
 		}
 		.msg {
 			margin-left: 20upx;
@@ -241,6 +242,9 @@ export default {
 		}
 	}
 	.tabs {
+		position: absolute;
+		top: 190upx;
+		left: 40upx;
 		border-radius: 10upx;
 		padding: 0 20upx;
 		box-sizing: border-box;
@@ -264,6 +268,7 @@ export default {
 	.GG {
 		width: 90%;
 		margin: 20upx auto;
+		margin-top: 150upx;
 		height: 220upx;
 		image {
 			height: 100%;
@@ -311,11 +316,11 @@ export default {
 
 	.tankuang .container1 {
 		background-color: #eee;
-		height: 35%;
+		height: 40%;
 		width: 100%;
 		position: fixed;
 		right: 0;
-		bottom: 0;
+		bottom:0upx;
 		animation: fenxiang 0.4s;
 		overflow: hidden;
 	}
@@ -326,7 +331,7 @@ export default {
 		}
 
 		to {
-			height: 35%;
+			height: 40%;
 		}
 	}
 

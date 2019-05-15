@@ -1,7 +1,10 @@
 .content.data-v-a6e8fd50 {
   width: 100%;
   padding: 20rpx;
-  font-size: 20rpx;
+  font-size: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
 }
 .content .item.data-v-a6e8fd50 {
   display: -webkit-box;

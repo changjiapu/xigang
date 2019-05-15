@@ -1,10 +1,10 @@
 <template>
 	<view class="content">
-		<view class="head">
+		<view class="head" >
 			<text>共{{ productList.length }}个商品</text>
 			<text @click="editorChange()">{{ editor ? '完成' : '管理' }}</text>
 		</view>
-		<view class="collect_item" v-for="(item, index) in productList" :key="index" v-if="productList.length != 0">
+		<view class="collect_item" v-for="(item, index) in productList" :key="index" v-if="productList.length != 0" >
 			<view class="left" v-if="editor">
 				<image v-if="item.ick" src="../../static/home/morendizhi_07.png" mode="" @click="isIck(index)"></image>
 				<image v-else src="../../static/home/sheweimoren_18.png" mode="" @click="isIck(index)"></image>
@@ -15,7 +15,7 @@
 				<text class="title2">{{ item.product.descript }}</text>
 				<view class="price">
 					<text>￥{{ item.product.price }}元/斤</text>
-					<text class="GG" v-if="editor">进店逛逛</text>
+					<text class="GG" v-if="editor" @click="gotoDetail(item.productId)">进店逛逛</text>
 				</view>
 			</view>
 		</view>
@@ -99,6 +99,11 @@ export default {
 					this.productList = [];
 					this.queryCollectionList(this.userId, this.pages, 10);
 				}
+			});
+		},
+		gotoDetail(id){
+			uni.navigateTo({
+				url: '/pages/product_detaill/product_detaill?id=' + id
 			});
 		},
 		sellAll() {

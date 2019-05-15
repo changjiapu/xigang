@@ -1,6 +1,1 @@
-<import src="/common/slots.wxml" />
-<import src="/components/EmptyData.vue.wxml" />
-<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
-<import src="/components/uni-rate.vue.wxml" />
-<import src="/components/uni-icon.vue.wxml" />
 

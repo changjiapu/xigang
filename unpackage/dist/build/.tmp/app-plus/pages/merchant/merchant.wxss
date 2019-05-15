@@ -1,9 +1,14 @@
-.content.data-v-c09f36de {
+.content.data-v-64678d75 {
   font-size: 30rpx;
   width: 100%;
   padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-.content .item.data-v-c09f36de {
+.content input.data-v-64678d75 {
+  font-size: 24rpx;
+}
+.content .item.data-v-64678d75 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,20 +20,30 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-c09f36de {
+.content .item text.data-v-64678d75 {
   width: 200rpx;
 }
-.content .zhaopian.data-v-c09f36de {
-  margin: 20rpx 0;
+.content .item .title3.data-v-64678d75 {
+  text-align: justify;
+  width: 250rpx;
 }
-.content .zhaopian .img.data-v-c09f36de {
+.content .zhaopian.data-v-64678d75 {
+  margin: 20rpx;
+}
+.content .zhaopian .img.data-v-64678d75 {
+  margin-top: 20rpx;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.content .zhaopian .img .img_item.data-v-c09f36de {
+.content .zhaopian .img .img_item.data-v-64678d75 {
+  margin-left: 20rpx;
   width: 320rpx;
   height: 210rpx;
   display: -webkit-box;
@@ -45,15 +60,18 @@
           justify-content: center;
   border: 1px dashed #dddddd;
 }
-.content .zhaopian .img .img_item image.data-v-c09f36de {
+.content .zhaopian .img .img_item image.data-v-64678d75 {
   height: 75rpx;
   width: 75rpx;
 }
-.content .zhaopian .img .img_1.data-v-c09f36de {
+.content .zhaopian .img .img_1.data-v-64678d75 {
   width: 320rpx;
   height: 210rpx;
 }
-.content .LG .lg_img.data-v-c09f36de {
+.content .LG.data-v-64678d75 {
+  margin-top: 20rpx;
+}
+.content .LG .lg_img.data-v-64678d75 {
   color: #999999;
   margin: 20rpx 0;
   display: block;
@@ -63,12 +81,12 @@
   line-height: 140rpx;
   border: 1px dashed #dddddd;
 }
-.content .LG image.data-v-c09f36de {
+.content .LG image.data-v-64678d75 {
   width: 200rpx;
   height: 140rpx;
   border: 1px dashed #dddddd;
 }
-.content .code .code_list.data-v-c09f36de {
+.content .code .code_list.data-v-64678d75 {
   color: #999999;
   width: 100%;
   display: -webkit-box;
@@ -76,7 +94,7 @@
   display: -ms-flexbox;
   display: flex;
 }
-.content .code .code_list .code_img.data-v-c09f36de {
+.content .code .code_list .code_img.data-v-64678d75 {
   margin: 20rpx 0;
   margin-left: 40rpx;
   display: inline-block;
@@ -86,11 +104,22 @@
   line-height: 140rpx;
   border: 1px dashed #dddddd;
 }
-.content .btn.data-v-c09f36de {
+.content .btn.data-v-64678d75 {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;
   background-color: #6d71d5;
+  margin: auto;
+  margin-top: 30rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  color: #ffffff;
+}
+.content .btn2.data-v-64678d75 {
+  height: 95rpx;
+  line-height: 95rpx;
+  width: 80%;
+  background-color: #cccccc;
   margin: auto;
   margin-top: 30rpx;
   text-align: center;

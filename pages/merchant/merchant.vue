@@ -1,20 +1,20 @@
 <template>
 	<view class="content">
 		<view class="item">
-			<text>手机号</text>
-			<input type="text" v-model="phone" placeholder="请输入注册人电话" />
+			<text class="title3">手&nbsp;&nbsp;机&nbsp;&nbsp;号</text>
+			<input type="number" v-model="phone" maxlength="11" placeholder="请输入注册人电话" />
 		</view>
 		<view class="item">
-			<text>微信号</text>
+			<text class="title3">微&nbsp;&nbsp;信&nbsp;&nbsp;号</text>
 			<input type="text" v-model="weChatId" placeholder="请输入相关微信号" />
 		</view>
 		<view class="item">
-			<text>身份证号</text>
-			<input type="text" v-model="idCard" placeholder="请输入身份证号码" />
+			<text class="title3">身份证号</text>
+			<input type="text" v-model="idCard" maxlength="18" placeholder="请输入身份证号码" />
 		</view>
 		<view class="zhaopian">
 			<text>上传身份证正反照片</text>
-			<text style="display: block; color: #999999;">(第一张为正面,第二张为反面)</text>
+			<text style="display: block; color: #999999;font-size: 20upx;margin-top: 20upx;">(第一张为正面,第二张为反面)</text>
 			<view class="img">
 				<view class="img_item" v-if="img1.length == 0" @click="paizhao1()"><image src="../../static/home/zhengmianzhao_03.png" mode=""></image></view>
 				<image v-else class="img_1" :src="img1[0]" mode=""></image>
@@ -23,15 +23,15 @@
 			</view>
 		</view>
 		<view class="item">
-			<text>店铺名称</text>
+			<text class="title3">店铺名称</text>
 			<input type="text" v-model="shopName" placeholder="请输入店铺名称" />
 		</view>
 		<view class="item">
-			<text>店铺简介</text>
+			<text class="title3">店铺简介</text>
 			<input type="text" v-model="shopDesc" placeholder="请输入店铺描述" />
 		</view>
 		<view class="item">
-			<text>店铺地址</text>
+			<text class="title3">店铺地址</text>
 			<input type="text" v-model="shopAddress" placeholder="请输入店铺描述" />
 		</view>
 		<view class="LG">
@@ -46,7 +46,7 @@
 		</view>
 		<view class="code">
 			<text>上传微信支付宝收款二维码</text>
-			<text style="display: block; color: #999999;">(请第一张上传微信,第二张上传支付宝)</text>
+			<text style="display: block; color: #999999;font-size: 20upx;margin-top: 20upx;">(请第一张上传微信,第二张上传支付宝)</text>
 			<view class="code_list">
 				<text class="code_img" v-if="img4.length == 0" @click="paizhao4">点击上传</text>
 				<image v-else class="code_img" :src="img4[0]" mode=""></image>
@@ -54,7 +54,8 @@
 				<image v-else class="code_img" :src="img5[0]" mode=""></image>
 			</view>
 		</view>
-		<view class="btn" @click="ruzhu">完成</view>
+		<view v-if="ishow" class="btn" @click="ruzhu">完成</view>
+		<view v-else class="btn2">完成</view>
 	</view>
 </template>
 
@@ -65,6 +66,7 @@ import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
+			ishow: true,
 			img1: [], //身份证正面
 			img2: [], //身份证反面
 			img3: [], //店铺logo
@@ -297,6 +299,15 @@ export default {
 				});
 				return;
 			}
+			const reg2 = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+			if (!reg2.test(this.idCard)) {
+				uni.showModal({
+					title: '',
+					content: '身份证号输入有误',
+					showCancel: false
+				});
+				return;
+			}
 			if (this.idFront == '') {
 				uni.showModal({
 					title: '',
@@ -394,7 +405,27 @@ export default {
 				weChatPhoto: this.weChatPhoto, //微信收款二维码
 				aliPayPhoto: this.aliPayPhoto //支付宝收款二维码
 			};
-			addShop(params).then(res => {});
+			this.ishow = false;
+			addShop(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '申请成功',
+						icon: 'none',
+						duration: 1000
+					});
+					setTimeout(res => {
+						uni.navigateBack({
+							data: 1
+						});
+					}, 1500);
+				} else {
+					uni.showToast({
+						title: '申请失败',
+						icon: 'none',
+						duration: 1000
+					});
+				}
+			});
 		}
 	}
 };
@@ -405,21 +436,33 @@ export default {
 	font-size: 30upx;
 	width: 100%;
 	padding: 20upx;
+	box-sizing: border-box;
+	input{
+		font-size: 24upx;
+	}
 	.item {
 		display: flex;
 		height: 95upx;
 		align-items: center;
 		border-bottom: 1px solid #dddddd;
+
 		text {
 			width: 200upx;
 		}
+		.title3 {
+			text-align: justify;
+			width: 250upx;
+		}
 	}
 	.zhaopian {
-		margin: 20upx 0;
+		margin: 20upx;
 		.img {
+			margin-top: 20upx;
 			width: 100%;
 			display: flex;
+			justify-content: center;
 			.img_item {
+				margin-left: 20upx;
 				width: 320upx;
 				height: 210upx;
 				display: flex;
@@ -438,6 +481,7 @@ export default {
 		}
 	}
 	.LG {
+		margin-top: 20upx;
 		.lg_img {
 			color: #999999;
 			margin: 20upx 0;
@@ -459,6 +503,7 @@ export default {
 			color: #999999;
 			width: 100%;
 			display: flex;
+			// justify-content: center;
 			.code_img {
 				margin: 20upx 0;
 				margin-left: 40upx;
@@ -476,6 +521,17 @@ export default {
 		line-height: 95upx;
 		width: 80%;
 		background-color: #6d71d5;
+		margin: auto;
+		margin-top: 30upx;
+		text-align: center;
+		border-radius: 10upx;
+		color: #ffffff;
+	}
+	.btn2 {
+		height: 95upx;
+		line-height: 95upx;
+		width: 80%;
+		background-color: #cccccc;
 		margin: auto;
 		margin-top: 30upx;
 		text-align: center;

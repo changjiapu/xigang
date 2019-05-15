@@ -66,6 +66,7 @@ export default {
 		.h_img {
 			height: 80upx;
 			width: 80upx;
+			border-radius: 100%;
 		}
 		.x_img {
 			margin-left: 10upx;
@@ -73,7 +74,7 @@ export default {
 			width: 30upx;
 		}
 		text {
-			margin-right: 280upx;
+			margin-right: 340upx;
 		}
 	}
 }

@@ -18,7 +18,7 @@
 			</view>
 			<view>
 				<text>服务态度</text>
-				<uni-rate size="25" v-model="rate2"  @change="getrate2($event)"></uni-rate>
+				<uni-rate size="25" v-model="rate2" @change="getrate2($event)"></uni-rate>
 			</view>
 		</view>
 		<view class="btn2" @click="commemt()">立即评价</view>
@@ -36,6 +36,7 @@ export default {
 	},
 	data() {
 		return {
+			imgURl: '',
 			rate: 0,
 			rate2: 0,
 			product: {}
@@ -67,11 +68,16 @@ export default {
 				upvoteNum: this.rate2
 			};
 			addComment(params).then(res => {
-				if(res.data.code==0){
+				if (res.data.code == 0) {
 					uni.showToast({
-						title:'评价成功',
-						duration:1500,
-					})
+						title: '评价成功',
+						duration: 1500
+					});
+					setTimeout(res => {
+						uni.navigateBack({
+							delta: 1
+						});
+					}, 1500);
 				}
 			});
 		}

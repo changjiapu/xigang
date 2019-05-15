@@ -2,7 +2,7 @@
 	<view class="content">
 		<view class="item">
 			<text>手机号</text>
-			<input type="text" value="" placeholder="请输入手机号" v-model="iphone" />
+			<input type="number" value="" placeholder="请输入手机号"  maxlength=11  v-model="iphone" />
 		</view>
 		<!-- 		<view class="item">
 			<text>邮箱</text>
@@ -10,20 +10,20 @@
 		</view> -->
 		<view class="item">
 			<text>设置密码</text>
-			<input type="password" value="" placeholder="请输入6-20位密码" v-model="password" />
+			<input type="password" value="" placeholder="请输入6-20位密码" maxlength=20 v-model="password" />
 		</view>
 		<view class="item">
 			<text>确认密码</text>
 			<input type="password" value="" placeholder="请确认密码" v-model="password2" />
 		</view>
-		<view class="xieyi" @click.stop="tongyixieyi()">
+		<!-- 		<view class="xieyi" @click.stop="tongyixieyi()">
 			<image v-if="!yueduxieyi" src="../../static/home/weixuanzhong_03.png" mode=""></image>
 			<image v-else src="../../static/home/xuanzhong_07.png" mode=""></image>
 			<text>
 				我已阅读本协议，并同意
 				<text style="color: #ED7180;">《西安农贸用户注册协议》</text>
 			</text>
-		</view>
+		</view> -->
 		<view class="btn" @click="addUserBySystem()">提交并注册</view>
 	</view>
 </template>
@@ -61,6 +61,14 @@ export default {
 				});
 				return;
 			}
+			if (this.password.length < 6) {
+				uni.showModal({
+					title: '',
+					content: '密码不能小于6位',
+					showCancel: false
+				});
+				return;
+			}
 			if (this.password != this.password2) {
 				uni.showModal({
 					title: '',
@@ -86,6 +94,12 @@ export default {
 					this.$store.commit('SET_USERID', res.data.data.token);
 					uni.reLaunch({
 						url: '/pages/index/index'
+					});
+				}else {
+					uni.showToast({
+						title: res.data.msg,
+						icon:'none',
+						duration: 2000
 					});
 				}
 			});
@@ -124,6 +138,7 @@ export default {
 		}
 	}
 	.btn {
+		margin-top: 50upx;
 		display: flex;
 		height: 100upx;
 		align-items: center;

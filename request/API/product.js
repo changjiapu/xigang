@@ -20,8 +20,8 @@ export function getShopByCategoryId(categoryId){
 	return getRequest('/category/getShopByCategoryId?categoryId='+categoryId).then(res => res)
 }
 //根据分类id获取店铺商品
-export function getProductByShopId(pageNo,pageSize,shopId,publishStatus,sortWay){
-	return getRequest('/product/getProductByShopId?pageNo='+pageNo+'&pageSize='+pageSize+'&shopId='+shopId+'&publishStatus='+publishStatus+'&sortWay='+sortWay).then(res => res)
+export function getProductByShopId(pageNo,pageSize,shopId,categoryId,publishStatus,sortWay){
+	return getRequest('/product/getProductByShopId?pageNo='+pageNo+'&pageSize='+pageSize+'&shopId='+shopId+'&categoryId='+categoryId+'&publishStatus='+publishStatus+'&sortWay='+sortWay).then(res => res)
 }
 //根据id获取商品详情
 export function getProductById(productId,userId){
@@ -106,4 +106,8 @@ export function addComment(data){
 //查询所有分类及分类下的商品
 export function getProductByCategoryId(){
 	return getRequest('/product/getProductByCategoryId').then(res => res)
+}
+//添加售后信息
+export function addSaleService(data){
+	return postRequest(data,'/saleService/addSaleService').then(res => res)
 }

@@ -1,8 +1,8 @@
-.content.data-v-01a32cc4 {
+.content.data-v-3e889ccf {
   width: 100%;
   font-size: 30rpx;
 }
-.content .item.data-v-01a32cc4 {
+.content .item.data-v-3e889ccf {
   padding: 20rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -19,16 +19,17 @@
   color: #999999;
   border-bottom: 1px solid #eeeeee;
 }
-.content .item .h_img.data-v-01a32cc4 {
+.content .item .h_img.data-v-3e889ccf {
   height: 80rpx;
   width: 80rpx;
+  border-radius: 100%;
 }
-.content .item .x_img.data-v-01a32cc4 {
+.content .item .x_img.data-v-3e889ccf {
   margin-left: 10rpx;
   height: 30rpx;
   width: 30rpx;
 }
-.content .item text.data-v-01a32cc4 {
-  margin-right: 280rpx;
+.content .item text.data-v-3e889ccf {
+  margin-right: 340rpx;
 }
 

@@ -1,11 +1,8 @@
 <template>
 	<view class="content">
 		<text class="title">常见问题</text>
-		<text  @click="gotoDeatail()">商品签收前我应该做哪些检查?</text>
-		<text>能否换货?</text>
-		<text>如何开具发票?</text>
-		<text>我下单之后多久开始发货?</text>
-		<text>超时未收到该怎么办?</text>
+		<text v-for="(item,index) in helpList" :key='index'  @click="gotoDeatail(item.helpTitle,item.helpInstructions)">{{item.helpTitle}}</text>
+
 		<view class="btn" @click="callUp()">
 			<image src="../../static/home/dianhua_07.png" mode=""></image>
 			<text>客服热线：029-2678386</text>
@@ -14,23 +11,33 @@
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { getSysHelpList } from '@/request/API/index.js';
 export default {
 	data() {
 		return {
-			title: 'Hello'
+			pageNo:1,
+			helpList:[]
 		};
 	},
-	onLoad() {},
+	onLoad() {
+		this.getSysHelpList(this.pageNo,10)
+	},
 	methods: {
+		getSysHelpList(pageNo,pageSize){
+			getSysHelpList(pageNo,pageSize).then(res=>{
+				if(res.data.code==0){
+					this.helpList=res.data.data.list
+				}
+			})
+		},
 		callUp() {
 			uni.makePhoneCall({
 				phoneNumber: '029-2678386'
 			});
 		},
-		gotoDeatail(){
+		gotoDeatail(helpTitle,helpInstructions){
 			uni.navigateTo({
-				url:'/pages/helpDetail/helpDetail'
+				url:'/pages/helpDetail/helpDetail?helpTitle='+helpTitle+'&helpInstructions='+helpInstructions
 			})
 		}
 	}
@@ -42,6 +49,7 @@ export default {
 	width: 100%;
 	padding: 20upx;
 	display: flex;
+	overflow-x: hidden;
 	flex-direction: column;
 	text {
 		height: 90upx;

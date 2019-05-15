@@ -85,12 +85,6 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
-.addAddress .line .title {
-  height: 80rpx;
-  line-height: 80rpx;
-  font-size: 26rpx;
-  padding: 0 15px;
-}
 .addAddress .line .title + view {
   padding: 0 15px;
   background-color: white;
@@ -123,8 +117,8 @@
   width: 100%;
 }
 .addAddress .line .title + view > view > text {
-  font-size: 26rpx;
-  width: 120rpx;
+  font-size: 30rpx;
+  width: 160rpx;
   text-align: justify;
   -moz-text-align-last: justify;
        text-align-last: justify;
@@ -136,18 +130,18 @@
       -ms-flex: 1;
           flex: 1;
   padding: 5rpx 0;
-  font-size: 26rpx;
+  font-size: 30rpx;
   color: #999;
 }
 .addAddress .line .title + view > view > input {
-  font-size: 26rpx;
+  font-size: 30rpx;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 .addAddress .line .title + view > view > picker {
-  font-size: 26rpx;
+  font-size: 30rpx;
 }
 .addAddress .set > view {
   display: -webkit-box;
@@ -163,7 +157,7 @@
   padding: 20rpx 15px;
 }
 .addAddress .set > view > view {
-  font-size: 26rpx;
+  font-size: 30rpx;
 }
 .addAddress .set > view > view:last-of-type > view {
   width: 35rpx;
@@ -195,5 +189,6 @@
 }
 .addAddress .btn {
   margin: 60rpx 15px;
+  background-color: #6d71d5;
 }
 

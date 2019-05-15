@@ -1,9 +1,13 @@
-const baseUrl = 'http://192.168.1.125:8088/web'
+// const baseUrl = 'http://192.168.1.125:8028/web'
+const baseUrl = 'http://114.115.211.170:8028/web'
 import store from '../common/store/index.js'
 export function postRequest(data, url) {
 	console.log(store.state)
 	return new Promise((resolve, reject) => {
 		uni.showLoading()
+		setTimeout(res => {
+			uni.hideLoading()
+		}, 5000)
 		uni.request({
 			url: baseUrl + url,
 			method: 'post',
@@ -16,6 +20,21 @@ export function postRequest(data, url) {
 			},
 			success: (res) => {
 				uni.hideLoading()
+				if (res.data.code == -30) {
+					uni.showModal({
+						title: '',
+						content: '登录失效是否从新登录？',
+						success: res => {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/logn/logn'
+								});
+							} else if (res.cancel) {
+								console.log('用户点击取消');
+							}
+						}
+					});
+				}
 				resolve(res)
 			}
 		});
@@ -25,6 +44,9 @@ export function deleteGetRequest(url) {
 	console.log(store.state)
 	return new Promise((resolve, reject) => {
 		uni.showLoading()
+		setTimeout(res => {
+			uni.hideLoading()
+		}, 5000)
 		uni.request({
 			url: baseUrl + url,
 			method: 'DELETE',
@@ -34,11 +56,21 @@ export function deleteGetRequest(url) {
 			},
 			success: (res) => {
 				uni.hideLoading()
-				// if (res.data.code == -14) {
-				// 	uni.reLaunch({
-				// 		url: '/pages/logn/logn'
-				// 	})
-				// }
+				if (res.data.code == -30) {
+					uni.showModal({
+						title: '',
+						content: '登录失效是否从新登录？',
+						success: res => {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/logn/logn'
+								});
+							} else if (res.cancel) {
+								console.log('用户点击取消');
+							}
+						}
+					});
+				}
 				resolve(res)
 			}
 		});
@@ -48,6 +80,9 @@ export function deleteRequest(data, url) {
 	console.log(store.state)
 	return new Promise((resolve, reject) => {
 		uni.showLoading()
+		setTimeout(res => {
+			uni.hideLoading()
+		}, 5000)
 		uni.request({
 			url: baseUrl + url,
 			method: 'DELETE',
@@ -60,11 +95,21 @@ export function deleteRequest(data, url) {
 			},
 			success: (res) => {
 				uni.hideLoading()
-				// if (res.data.code == -14) {
-				// 	uni.reLaunch({
-				// 		url: '/pages/logn/logn'
-				// 	})
-				// }
+				if (res.data.code == -30) {
+					uni.showModal({
+						title: '',
+						content: '登录失效是否从新登录？',
+						success: res => {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/logn/logn'
+								});
+							} else if (res.cancel) {
+								console.log('用户点击取消');
+							}
+						}
+					});
+				}
 				resolve(res)
 			}
 		});
@@ -73,6 +118,9 @@ export function deleteRequest(data, url) {
 export function postGetRequest(url) {
 	return new Promise((resolve, reject) => {
 		uni.showLoading()
+		setTimeout(res => {
+			uni.hideLoading()
+		}, 5000)
 		uni.request({
 			url: baseUrl + url,
 			method: 'post',
@@ -82,6 +130,21 @@ export function postGetRequest(url) {
 			},
 			success: (res) => {
 				uni.hideLoading()
+				if (res.data.code == -30) {
+					uni.showModal({
+						title: '',
+						content: '登录失效是否从新登录？',
+						success: res => {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/logn/logn'
+								});
+							} else if (res.cancel) {
+								console.log('用户点击取消');
+							}
+						}
+					});
+				}
 				resolve(res)
 			}
 		});
@@ -91,6 +154,9 @@ export function getRequest(url) {
 	console.log(store.state)
 	return new Promise((resolve, reject) => {
 		uni.showLoading()
+		setTimeout(res => {
+			uni.hideLoading()
+		}, 5000)
 		uni.request({
 			url: baseUrl + url,
 			method: 'get',
@@ -100,6 +166,21 @@ export function getRequest(url) {
 			},
 			success: (res) => {
 				uni.hideLoading()
+				if (res.data.code == -30) {
+					uni.showModal({
+						title: '',
+						content: '登录失效是否从新登录？',
+						success: res => {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/logn/logn'
+								});
+							} else if (res.cancel) {
+								console.log('用户点击取消');
+							}
+						}
+					});
+				}
 				resolve(res)
 			}
 		});

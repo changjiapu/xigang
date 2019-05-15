@@ -57,12 +57,23 @@ export default {
 				mContent: this.mContent, //内容
 				mPhone: this.mPhone, //手机号
 				mName: this.mName, //姓名
-				mType: 0 // 0 投诉与建议 1意见反馈
+				mType: 1// 0 投诉与建议 1意见反馈
 			};
 			customerFeedback(params).then(res => {
 				if (res.data.code == 0) {
 					uni.showToast({
-						title: '投诉建议成功',
+						title: '意见反馈成功',
+						icon: 'none',
+						duration: 1000
+					});
+					setTimeout(res => {
+						uni.navigateBack({
+							data: 1
+						});
+					}, 1500);
+				} else {
+					uni.showToast({
+						title: res.data.msg,
 						icon: 'none',
 						duration: 1000
 					});
@@ -76,8 +87,10 @@ export default {
 <style lang="less" scoped>
 .content {
 	width: 100%;
+	box-sizing: border-box;
 	padding: 20upx;
-	font-size: 20upx;
+	font-size: 30upx;
+	overflow-x: hidden;
 	.item {
 		display: flex;
 		height: 95upx;

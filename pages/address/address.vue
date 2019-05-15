@@ -1,27 +1,27 @@
 <template>
 	<view class="addAddress">
 		<view class="line">
-			<view class="title">信息</view>
+			<view class="title"></view>
 			<view>
 				<view>
-					<text>姓名</text>
+					<text>收货人:</text>
 					<input type="text" v-model="params.userName" placeholder="请填写收货人的姓名" />
 				</view>
 				<view>
-					<text>手机号码</text>
-					<input type="text" v-model="params.userPhone" placeholder="请填写收货人的手机号码" />
+					<text>手机号码:</text>
+					<input type="number" v-model="params.userPhone"  maxlength=11  placeholder="请填写收货人的手机号码" />
 				</view>
 			</view>
 		</view>
 		<view class="line">
-			<view class="title">地址</view>
+			<view class="title"></view>
 			<view>
 				<view>
-					<text>所在地区</text>
+					<text>选择省市区:</text>
 					<view @click="showMulLinkageThreePicker">{{ params.location_a ? params.location_a + '-' + params.location_b + '-' + params.location_c : '请选择地址' }}</view>
 				</view>
 				<view>
-					<text>详细地址</text>
+					<text>详细地址:</text>
 					<input type="text" v-model="params.addressLine1" placeholder="请填写收货人的详细地址" />
 				</view>
 			</view>
@@ -98,6 +98,15 @@ export default {
 				});
 				return;
 			}
+			const reg = /^[1][3,4,5,7,8][0-9]{9}$/;
+			if (!reg.test(this.params.userPhone)) {
+				uni.showModal({
+					title: '',
+					content: '请输入正确的手机号码',
+					showCancel: false
+				});
+				return;
+			}
 			if (this.params.addressLine1 == '') {
 				uni.showModal({
 					title: '',
@@ -131,9 +140,12 @@ export default {
 						duration: 2000
 					});
 					setTimeout(() => {
-						uni.navigateBack({
-							data: 1
-						},2000);
+						uni.navigateBack(
+							{
+								data: 1
+							},
+							2000
+						);
 					});
 				}
 			});
@@ -190,9 +202,12 @@ export default {
 						duration: 2000
 					});
 					setTimeout(() => {
-						uni.navigateBack({
-							data: 1
-						},2000);
+						uni.navigateBack(
+							{
+								data: 1
+							},
+							2000
+						);
 					});
 				}
 			});
@@ -216,10 +231,10 @@ export default {
 .addAddress {
 	.line {
 		.title {
-			height: 80upx;
-			line-height: 80upx;
-			font-size: 26upx;
-			padding: 0 15px;
+			// height: 80upx;
+			// line-height: 80upx;
+			// font-size: 30upx;
+			// padding: 0 15px;
 			& + view {
 				padding: 0 15px;
 				background-color: white;
@@ -243,8 +258,8 @@ export default {
 						width: 100%;
 					}
 					& > text {
-						font-size: 26upx;
-						width: 120upx;
+						font-size: 30upx;
+						width: 160upx;
 						text-align: justify;
 						text-align-last: justify;
 						padding-right: 30upx;
@@ -252,15 +267,15 @@ export default {
 					& > view {
 						flex: 1;
 						padding: 5upx 0;
-						font-size: 26upx;
+								font-size: 30upx;
 						color: #999;
 					}
 					& > input {
-						font-size: 26upx;
+								font-size: 30upx;
 						flex: 1;
 					}
 					& > picker {
-						font-size: 26upx;
+								font-size: 30upx;
 					}
 				}
 			}
@@ -274,7 +289,7 @@ export default {
 			background: white;
 			padding: 20upx 15px;
 			& > view {
-				font-size: 26upx;
+						font-size: 30upx;
 				&:last-of-type {
 					& > view {
 						width: 35upx;
@@ -307,6 +322,7 @@ export default {
 	}
 	.btn {
 		margin: 60upx 15px;
+		background-color: #6d71d5;
 	}
 }
 </style>

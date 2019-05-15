@@ -80,3 +80,11 @@ export function getShopStatusByUserId(userId){
 export function customerFeedback(data){
 	return postRequest(data,'/user/customerFeedback').then(res => res)
 }
+//修改个人信息
+export function updateUserInfo(data){
+	return postRequest(data,'/user/updateUserInfo').then(res => res)
+}
+//获取帮助信息
+export function getSysHelpList(pageNo,pageSize){
+	return getRequest('/help/getSysHelpList?pageNo='+pageNo+'&pageSize='+pageSize).then(res => res)
+}

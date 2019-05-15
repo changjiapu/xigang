@@ -1,11 +1,16 @@
 <template>
 	<view class="content">
 		<!-- 头部 -->
+		<view class="liubai"></view>
 		<view class="head">
-			<view class="left" @click="gotoBack()"><image src="../../static/home/xiangzuofanhui_03.png" mode=""></image></view>
+			<image class="back" src="../../static/home/zuojiantou.png" mode="" @click="gotoBack()"></image>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
 				<input type="text" v-model="search" placeholder="请输入要搜索的商品" @confirm="searchProduct()" />
+			</view>
+			<view class="ditu" @click="ditudakai()">
+				<image src="../../static/home/ziyuan.png" mode=""></image>
+				<text>导航</text>
 			</view>
 		</view>
 		<view class="title">
@@ -22,7 +27,7 @@
 				<view class="list_msg">
 					<text>{{ item.productName }}</text>
 					<text>{{ item.descript }}</text>
-					<text>￥{{ item.price }}元/斤</text>
+					<text>￥{{ item.price }}元/{{ item.specUnit }}</text>
 					<image class="cart" src="../../static/home/gouwuche_44.png" mode=""></image>
 				</view>
 			</view>
@@ -42,25 +47,50 @@ export default {
 			productList: [],
 			imgURl: '',
 			sortWay: 0, //排序方式
-			productId: ''
+			productId: '',
+			categoryId: '',
+			addressName: '',
+			location:'',
 		};
 	},
 	onLoad(options) {
+		if (options.location) {
+			this.location = options.location;
+		}
+		if (options.shopAddress) {
+			this.shopAddress = options.shopAddress;
+		}
+		this.categoryId = options.categoryId;
 		this.productId = options.id;
 		this.imgURl = imgURl;
-		this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+		this.getProductByShopId(this.pageNo, 10, this.productId, this.categoryId, 1, this.sortWay);
 	},
 	//上拉加载
 	onReachBottom() {
 		if (this.search == '') {
 			this.pageNo++;
-			this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+			this.getProductByShopId(this.pageNo, 10, this.productId, this.categoryId, 1, this.sortWay);
 		}
 	},
 	methods: {
+		ditudakai() {
+			let list=this.location.split(',')
+			console.log(list)
+			const a = Number(list[0]);
+			const b = Number(list[1]);
+			uni.openLocation({
+				latitude: b,
+				longitude: a,
+				// scale: 18,
+				name: this.shopAddress,
+				// address: ''
+				// name: app.globalData.location.location_city,
+				// address: this.data.shop_detail.address
+			});
+		},
 		//获取商品列表
-		getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay) {
-			getProductByShopId(pageNo, pageSize, shopId, publishStatus, sortWay).then(res => {
+		getProductByShopId(pageNo, pageSize, shopId, categoryId, publishStatus, sortWay) {
+			getProductByShopId(pageNo, pageSize, shopId, categoryId, publishStatus, sortWay).then(res => {
 				if (res.data.code == 0) {
 					if (res.data.data.list.length == 0) {
 						uni.showToast({
@@ -75,12 +105,14 @@ export default {
 		},
 		isShangChange() {
 			this.isShang = !this.isShang;
+			this.productList = [];
+			this.pageNo=1;
 			if (this.sortWay == 0) {
 				this.sortWay = 1;
 			} else {
 				this.sortWay = 0;
 			}
-			this.getProductByShopId(this.pageNo, 10, this.productId, 1, this.sortWay);
+			this.getProductByShopId(this.pageNo, 10, this.productId, this.categoryId, 1, this.sortWay);
 		},
 		gotoBack() {
 			uni.navigateBack({
@@ -112,36 +144,44 @@ export default {
 .content {
 	font-size: 22upx;
 	width: 100%;
-	background-color: #f7f7f7;
-	.head {
-		z-index: 999;
-		background-color: #ffffff;
+	// background-color: #f7f7f7;
+	.liubai {
 		position: fixed;
 		top: 0;
+		height: 60upx;
+		z-index: 999999;
 		width: 100%;
-		padding-top: 30upx;
-		height: 150upx;
+		background-color: #ffffff;
+	}
+	.head {
+		position: fixed;
+		z-index: 999;
+		top: 60upx;
+		width: 100%;
+		background-color: #ffffff;
+		// height: 150upx;
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		font-size: 30upx;
-		color: rgb(153, 153, 153);
-		.left {
-			position: absolute;
-			left: 30upx;
-			height: 80upx;
-			width: 80upx;
+		justify-content: space-around;
+
+		.back {
+			height: 45upx;
+			width: 45upx;
+		}
+		.ditu {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			color: #999999;
+			font-size: 30upx;
 			image {
-				height: 30upx;
-				width: 30upx;
+				height: 38upx;
+				width: 36upx;
 			}
 		}
 		.input {
-			height: 80upx;
-			width: 50%;
+			height: 65upx;
+			width: 60%;
 			font-size: 22upx;
 			display: flex;
 			align-items: center;
@@ -156,19 +196,63 @@ export default {
 				width: 30upx;
 			}
 		}
-		.img {
-			height: 80upx;
-			display: flex;
-			align-items: center;
-			image {
-				height: 50upx;
-				width: 50upx;
-			}
-		}
 	}
+	// .head {
+	// 	z-index: 999;
+	// 	background-color: #ffffff;
+	// 	position: fixed;
+	// 	top: 0;
+	// 	width: 100%;
+	// 	padding-top: 30upx;
+	// 	height: 150upx;
+	// 	display: flex;
+	// 	align-items: center;
+	// 	justify-content: center;
+	// 	font-size: 30upx;
+	// 	color: rgb(153, 153, 153);
+	// 	.left {
+	// 		position: absolute;
+	// 		left: 30upx;
+	// 		height: 80upx;
+	// 		width: 80upx;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 		image {
+	// 			height: 30upx;
+	// 			width: 30upx;
+	// 		}
+	// 	}
+	// 	.input {
+	// 		height: 80upx;
+	// 		width: 50%;
+	// 		font-size: 22upx;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		background-color: rgb(235, 235, 235);
+	// 		padding: 0 20upx;
+	// 		border-radius: 10upx;
+	// 		input {
+	// 			width: 100%;
+	// 		}
+	// 		image {
+	// 			height: 30upx;
+	// 			width: 30upx;
+	// 		}
+	// 	}
+	// 	.img {
+	// 		height: 80upx;
+	// 		display: flex;
+	// 		align-items: center;
+	// 		image {
+	// 			height: 50upx;
+	// 			width: 50upx;
+	// 		}
+	// 	}
+	// }
 	.title {
 		position: fixed;
-		top: 160upx;
+		top: 125upx;
 		z-index: 999;
 		height: upx;
 		display: flex;
@@ -193,7 +277,7 @@ export default {
 		}
 	}
 	.scroll-view {
-		margin-top: 270upx;
+		margin-top: 200upx;
 		width: 100%;
 		.list-item {
 			margin-top: 25upx;

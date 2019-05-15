@@ -12,7 +12,7 @@
 			<text>帮助</text>
 			<image src="../../static/home/gengduo_41.png" mode=""></image>
 		</navigator>
-		<view class="btn">退出登录</view>
+		<view class="btn" @click="tuichu()">退出登录</view>
 	</view>
 </template>
 
@@ -26,6 +26,26 @@ export default {
 	},
 	onLoad() {},
 	methods: {
+		//退出登录
+		tuichu() {
+			uni.showModal({
+				title: '',
+				content: '是否确认退出',
+				success: res => {
+					if (res.confirm) {
+						this.$store.commit('SET_SHOPID', '');
+						this.$store.commit('SET_USERID', '');
+						uni.setStorageSync('userId', '');
+						uni.setStorageSync('shopId', '');
+						uni.reLaunch({
+							url: '/pages/logn/logn'
+						});
+					} else if (res.cancel) {
+						console.log('用户点击取消');
+					}
+				}
+			});
+		},
 		callUp() {
 			uni.makePhoneCall({
 				phoneNumber: '029-2678386'

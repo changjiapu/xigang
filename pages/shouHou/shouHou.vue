@@ -1,45 +1,92 @@
 <template>
 	<view class="content">
 		<view class="head">
-			<image src="../../static/home/dianpupaihangmangguo_05.png" mode=""></image>
+			<image :src="imgURl + orderDetail.img" mode=""></image>
 			<view class="msg">
-				<text class="title">西红柿</text>
-				<text>订单号 27389988888888</text>
+				<text class="title">{{ orderDetail.productName }}</text>
+				<text>订单号:{{ orderDetail.orderSn }}</text>
 				<view>
-					<text>2018-06-30</text>
-					<text>12.5x1</text>
+					<text>{{ orderDetail.updatedTime }}</text>
+					<text>{{ orderDetail.productPrice }}x{{ orderDetail.productCount }}</text>
 				</view>
 			</view>
 		</view>
 		<view class="cantainer">
 			<text class="title">提交凭证</text>
-			<textarea class="input" value="" placeholder="请描述你的详细问题" />
+			<textarea class="input" v-model="descContent" placeholder="请描述你的详细问题" />
 			<text class="title">上传凭证</text>
 			<image src="../../static/home/xiangji_03.jpg" mode="" @click="paizhao()"></image>
-			<view class="img_list" v-if="img_list!=0"><image v-for="(item,index) in img_list" :key='index' :src="item" mode="" @click="paizhao()"></image></view>
+			<view class="img_list" v-if="img_list != 0"><image v-for="(item, index) in img_list" :key="index" :src="item" mode="" @click="paizhao()"></image></view>
 			<text class="title2">为了我们更好的帮你解决问题,请上传相关照片</text>
 		</view>
-		<view class="btn"><text>提交</text></view>
+		<view class="btn" @click="addSaleService()"><text>提交</text></view>
 	</view>
 </template>
 
 <script>
-import { getUserInfo } from '@/request/API/index.js';
+import { mapState } from 'vuex';
+import { baseURL, imgURl } from '../../common/config/index.js';
+import { addSaleService } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
-			img_list:[],
+			img_list: [],
+			img_list2: [],
+			orderDetail: {},
+			imgURl: '',
+			descContent: ''
 		};
 	},
-	onLoad() {},
+	onLoad(options) {
+		this.imgURl = imgURl;
+		this.orderDetail = JSON.parse(options.params);
+	},
+	computed: {
+		...mapState(['userId'])
+	},
 	methods: {
 		paizhao() {
 			uni.chooseImage({
-				count: 6, //默认9
+				count: 1, //默认9
 				sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
 				sourceType: ['album', 'camera'], //从相册选择
-				success: (res)=> {
-					this.img_list=[...this.img_list,...res.tempFilePaths];
+				success: res => {
+					this.img_list = [...this.img_list, ...res.tempFilePaths];
+					uni.uploadFile({
+						url: baseURL + '/file/upload', //仅为示例，非真实的接口地址
+						filePath: res.tempFilePaths[0],
+						name: 'file',
+						formData: {
+							user: 'test',
+							file: res.tempFilePaths[0]
+						},
+						success: uploadFileRes => {
+							let aaa = JSON.parse(uploadFileRes.data);
+							this.img_list2.push(aaa.data);
+						}
+					});
+				}
+			});
+		},
+		addSaleService() {
+			let params = {
+				userId: this.userId,
+				orderId: this.orderDetail.orderId,
+				descContent: this.descContent,
+				productImage: this.img_list2.join(',')
+			};
+			addSaleService(params).then(res => {
+				if (res.data.code == 0) {
+					uni.showToast({
+						title: '申请售后成功',
+						icon: 'none',
+						duration: 1500
+					});
+					setTimeout(res => {
+						uni.switchTab({
+							url: '/pages/order/order'
+						});
+					}, 2000);
 				}
 			});
 		}

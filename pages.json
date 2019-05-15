@@ -4,6 +4,7 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationStyle": "custom",
+				// "enablePullDownRefresh": true,
 				"app-plus": {
 					"titleNView": false //禁用原生导航栏
 				}
@@ -42,7 +43,7 @@
 		{
 			"path": "pages/suiguo_shop/suiguo_shop",
 			"style": {
-				"navigationBarTitleText": "水果店铺"
+				"navigationBarTitleText": "店铺列表"
 			}
 
 		},
@@ -50,9 +51,13 @@
 			"path": "pages/suiguo_list/suiguo_list",
 			"style": {
 				"navigationStyle": "custom",
+				// "enablePullDownRefresh": true,
 				"app-plus": {
 					"titleNView": false //禁用原生导航栏
 				}
+			},
+			"globalStyle": {
+				"navigationBarBackgroundColor": "#ffffff"
 			}
 		},
 		{
@@ -208,8 +213,8 @@
 		{
 			"path": "pages/fenlei/fenlei",
 			"style": {
-				"navigationBarBackgroundColor":"#ffffff",
-				"navigationBarTextStyle":"black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
 				"navigationBarTitleText": "分类"
 			}
 		}

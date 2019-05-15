@@ -13,10 +13,11 @@
 			<navigator class="img" url="/pages/fenlei/fenlei"><image src="../../static/home/fenlei_06.png" mode=""></image></navigator>
 		</view>
 		<swiper class="swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
-			<swiper-item v-for="(item, index) in bannerList" :key="index"><image :src="imgURl + item.productImage" mode=""></image></swiper-item>
+			<swiper-item v-for="(item, index) in bannerList" :key="index" @click="gotoDetail2(item.productId)">
+				<image :src="imgURl + item.productImage" mode=""></image>
+			</swiper-item>
 		</swiper>
-		<!-- 公告 -->
-		<swiper class="gonggao" :indicator-dots="false" :autoplay="true" :interval="3000" :duration="1000" vertical="true">
+		<swiper class="gonggao" :indicator-dots="false" :autoplay="true" :interval="3000" :duration="1000" vertical="true" v-if="gonggaoList.length != 0">
 			<swiper-item v-for="(item, index) in gonggaoList" :key="index" @click="gotoDetail(item.id)">
 				<view class="msg">
 					<text class="title">最新公告 {{ item.title }}</text>
@@ -25,15 +26,13 @@
 				</view>
 			</swiper-item>
 		</swiper>
-
-		<!-- 分类 -->
 		<view class="fenlei">
 			<view class="item" v-for="(item, index) in classify" :key="index" @click="gotoShopList(item.categoryId)">
 				<image :src="imgURl + item.categoryIcon" mode=""></image>
 				<text>{{ item.categoryName }}</text>
 			</view>
 		</view>
-		<!-- 		<view class="product_title">
+		<!-- 				<view class="product_title">
 			<text>热卖商品</text>
 			<text>更多 ></text>
 		</view>
@@ -48,9 +47,8 @@
 				</view>
 			</view>
 		</scroll-view>
-		<view class="liubai"></view> -->
-		<!-- 滚动公告 -->
-		<!-- 		<view class="gonggao_2">
+		<view class="liubai"></view>
+				<view class="gonggao_2">
 			<view class="title">
 				<image src="../../static/home/gonggaozhanshi_38.png" mode=""></image>
 				<text>近期公告展示</text>
@@ -60,13 +58,12 @@
 				<swiper-item><image src="../../static/home/ganhuo_26.png" mode=""></image></swiper-item>
 				<swiper-item><image src="../../static/home/gonggaozhanshi_38.png" mode=""></image></swiper-item>
 			</swiper>
-		</view> -->
-		<!-- 新品推荐 -->
-		<!-- 		<view class="product_title">
+		</view>
+				<view class="product_title">
 			<text>新品推荐</text>
 			<text>更多 ></text>
-		</view> -->
-		<!-- 		<view class="product_list">
+		</view>
+				<view class="product_list">
 			<view class="list_item" v-for="(item, index) in 6" :key="index">
 				<image src="../../static/home/roushi_27.png" mode=""></image>
 				<text>以纯</text>
@@ -123,9 +120,6 @@ export default {
 			});
 		}
 		this.imgURl = imgURl;
-		this.getProductSlidesList();
-		this.getNoticeList();
-		this.getProductCategory();
 		let _this = this;
 		//#ifdef APP-PLUS
 		plus.geolocation.getCurrentPosition(function(position) {
@@ -134,7 +128,17 @@ export default {
 		});
 		//#endif
 	},
+	onShow() {
+		this.getProductSlidesList();
+		this.getNoticeList();
+		this.getProductCategory();
+	},
 	methods: {
+		gotoDetail2(id) {
+			uni.navigateTo({
+				url: '/pages/product_detaill/product_detaill?id=' + id
+			});
+		},
 		//轮播图
 		getProductSlidesList() {
 			getProductSlidesList().then(res => {
@@ -160,7 +164,7 @@ export default {
 		//去公告详情
 		gotoDetail(id) {
 			uni.navigateTo({
-				url: '/pages/ggDetail/ggDetail?id=' + id
+				url: '/pages/ggList/ggList'
 			});
 		},
 		gotoShopList(id) {
@@ -181,8 +185,9 @@ export default {
 .content {
 	font-size: 22upx;
 	.head {
+		color: #999999;
 		z-index: 999;
-		background-color: #6d71d5;
+		background-color: #ffffff;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -192,7 +197,6 @@ export default {
 		// align-items: center;
 		justify-content: space-around;
 		font-size: 30upx;
-		color: #ffffff;
 		.left {
 			margin-top: 35upx;
 			height: 80upx;
@@ -200,19 +204,19 @@ export default {
 			align-items: center;
 			justify-content: center;
 			image {
-				height: 30upx;
-				width: 30upx;
+				height: 40upx;
+				width: 40upx;
 			}
 		}
 		.input {
 			color: #000000;
 			margin-top: 35upx;
-			height: 80upx;
+			height: 70upx;
 			width: 50%;
 			font-size: 22upx;
 			display: flex;
 			align-items: center;
-			background-color: #ffffff;
+			background-color: #f7f7f7;
 			padding: 0 20upx;
 			border-radius: 10upx;
 			input {
@@ -229,8 +233,8 @@ export default {
 			display: flex;
 			align-items: center;
 			image {
-				height: 50upx;
-				width: 50upx;
+				height: 45upx;
+				width: 45upx;
 			}
 		}
 	}
@@ -244,7 +248,9 @@ export default {
 		}
 	}
 	.gonggao {
-		margin: 0 auto;
+		position: absolute;
+		top:470upx;
+		left: 25upx;
 		height: 140upx;
 		width: 95%;
 		background-image: url('../../static/home/tongzhi_03.png');
@@ -263,7 +269,7 @@ export default {
 			}
 		}
 		.msg {
-			margin-top: 8upx;
+			margin-top: 12upx;
 			margin-left: 150upx;
 			background-color: #ffffff;
 			position: relative;
@@ -297,17 +303,19 @@ export default {
 		}
 	}
 	.fenlei {
-		margin: 20upx 0;
+		margin: 80upx 0;
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		.item {
+			color: #333333;
 			display: flex;
 			flex-direction: column;
-			width: 100upx;
+			align-items: center;
+			width: 120upx;
 			font-size: 28upx;
 			text-align: center;
-			margin-left: 70upx;
+			margin-left: 52upx;
 			margin-top: 20upx;
 			image {
 				margin-bottom: 10upx;

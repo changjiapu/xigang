@@ -23,6 +23,15 @@ uni-page-body,
 page {
 	font-size: 30rpx;
 }
+input{
+	font-size: 26rpx;
+}
+textarea{
+	padding: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 26rpx;
+}
 
 .empty {
   position: absolute;

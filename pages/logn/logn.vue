@@ -3,7 +3,7 @@
 		<image class="logo" src="../../static/home/logo_03.png" mode=""></image>
 		<view class="input">
 			<image src="../../static/home/wodedenglu_07.png" mode=""></image>
-			<input type="text" placeholder="请输入手机号" v-model="phone" />
+			<input type="number" placeholder="请输入手机号" maxlength="11" v-model="phone" />
 		</view>
 		<view class="input">
 			<image src="../../static/home/shurumima_10.png" mode=""></image>
@@ -50,12 +50,11 @@ export default {
 			let params = {
 				phone: this.phone,
 				password: this.password,
-				userType:0,
-				
+				userType: 0
 			};
 			login(params).then(res => {
 				if (res.data.code == 0) {
-					console.log(res.data.data.token)
+					console.log(res.data.data.token);
 					uni.setStorageSync('token', res.data.data.token);
 					uni.setStorageSync('userId', res.data.data.userId);
 					this.$store.commit('SET_TOKEN', res.data.data.token);
@@ -93,14 +92,18 @@ export default {
 	flex-direction: column;
 	align-items: center;
 	font-size: 30upx;
+	input {
+		font-size: 24upx;
+	}
 	.logo {
 		margin-top: 100upx;
 		width: 235upx;
 		height: 280upx;
+		margin-bottom: 50upx;
 	}
 	.input {
 		margin-top: 30upx;
-		height: 100upx;
+		height: 90upx;
 		width: 620upx;
 		display: flex;
 		align-items: center;
@@ -111,22 +114,22 @@ export default {
 			height: 35upx;
 			width: 35upx;
 		}
-		input{
+		input {
 			margin-left: 20upx;
 		}
 	}
 	.btn {
-		margin-top: 30upx;
+		margin-top: 100upx;
 		height: 100upx;
 		line-height: 100upx;
 		width: 620upx;
-		border: 1px solid #cccccc;
 		border-radius: 10upx;
-		background-color: #00a4e2;
+		background-color: #6d71d5;
 		color: #ffffff;
 		text-align: center;
 	}
 	.logn {
+		font-size: 26upx;
 		margin-top: 20upx;
 		padding: 0 40upx;
 		box-sizing: border-box;

@@ -2,7 +2,7 @@
 	<view class="content">
 		<view class="item">
 			<text>手机号</text>
-			<input type="text" value="" placeholder="请输入手机号" v-model="iphone" />
+			<input type="text" value="" placeholder="请输入手机号" maxlength="11" v-model="iphone" />
 		</view>
 
 		<view class="item">
@@ -50,6 +50,14 @@ export default {
 				});
 				return;
 			}
+			if (this.password.length < 6) {
+				uni.showModal({
+					title: '',
+					content: '密码不能小于6位',
+					showCancel: false
+				});
+				return;
+			}
 			if (this.password != this.password2) {
 				uni.showModal({
 					title: '',
@@ -73,6 +81,11 @@ export default {
 							delta: 1
 						});
 					}, 2000);
+				} else {
+					uni.showToast({
+						title: res.data.msg,
+						duration: 2000
+					});
 				}
 			});
 		},

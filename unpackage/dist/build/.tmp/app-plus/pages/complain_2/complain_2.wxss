@@ -1,9 +1,12 @@
-.content.data-v-c6e8bb82 {
+.content.data-v-4f1ed0f8 {
   width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 20rpx;
-  font-size: 20rpx;
+  font-size: 30rpx;
+  overflow-x: hidden;
 }
-.content .item.data-v-c6e8bb82 {
+.content .item.data-v-4f1ed0f8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -15,10 +18,10 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-c6e8bb82 {
+.content .item text.data-v-4f1ed0f8 {
   width: 150rpx;
 }
-.content .btn.data-v-c6e8bb82 {
+.content .btn.data-v-4f1ed0f8 {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

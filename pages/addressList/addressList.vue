@@ -2,9 +2,9 @@
 	<view class="content">
 		<view class="address_list" v-for="(item, index) in addressList" :key="index">
 			<view class="head" @click="gotoBack(item)">
-				<image src="../../static/home/xiaodizhi_44.png" mode=""></image>
+				<image src="../../static/home/dizhi3.png" mode=""></image>
 				<view class="info">
-					<text>收货人:&nbsp;{{ item.userName }}&nbsp;{{ item.userPhone }}</text>
+					<text>收货人:&nbsp;{{ item.userName }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ item.userPhone }}</text>
 					<text>收货地址:&nbsp;{{ item.province }}-{{ item.city }}-{{ item.area }}{{ item.addressLine1 }}</text>
 				</view>
 			</view>
@@ -14,7 +14,7 @@
 				<text @click="isDefault(item)">{{ item.isDefault ? '默认地址' : '设为默认' }}</text>
 				<image class="img_2" src="../../static/home/bianji_09.png" mode=""></image>
 				<text @click="edit(item)">编辑</text>
-				<image class="img_3" src="../../static/home/bianji_09.png" mode=""></image>
+				<image class="img_3" src="../../static/home/shanchu_07.png" mode=""></image>
 				<text @click="Delete(item.addressId)">删除</text>
 			</view>
 		</view>
@@ -132,8 +132,8 @@ export default {
 			align-items: center;
 			border-bottom: 1px solid #dddddd;
 			image {
-				height: 35upx;
-				width: 35upx;
+				height: 50upx;
+				width: 50upx;
 			}
 			.info {
 				width: 85%;
@@ -156,14 +156,14 @@ export default {
 			.img_2 {
 				margin-left: 210upx;
 				margin-right: 10upx;
-				height: 45upx;
-				width: 45upx;
+				height: 35upx;
+				width: 35upx;
 			}
 			.img_3 {
 				margin-left: 30upx;
 				margin-right: 10upx;
-				height: 45upx;
-				width: 45upx;
+				height: 35upx;
+				width: 35upx;
 			}
 		}
 	}

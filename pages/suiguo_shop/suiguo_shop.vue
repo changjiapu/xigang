@@ -1,6 +1,6 @@
 <template>
 	<view class="suiguo_shop">
-		<view class="shop_list" v-for="(item, index) in shopList" :key="index" @click="gotoDetaill(item.shopId)">
+		<view class="shop_list" v-for="(item, index) in shopList" :key="index" @click="gotoDetaill(item.shopId,item.location,item.shopAddress)">
 			<image :src="imgURl+item.shopLogo"></image>
 			<view class="shop_msg">
 				<text>{{item.shopName}}</text>
@@ -17,6 +17,7 @@ export default {
 	name: 'suiguo_shop',
 	data() {
 		return {
+			categoryId:'',
 			shopList:[],
 			imgURl:''
 		};
@@ -25,6 +26,7 @@ export default {
 		this.imgURl=imgURl
 		//分类页面进来
 		if(options.id){
+			this.categoryId=options.id
 			this.getShopByCategoryId(options.id);
 		}
 		//搜索页进来
@@ -50,9 +52,9 @@ export default {
 				}
 			});
 		},
-		gotoDetaill(id) {
+		gotoDetaill(id,location,shopAddress) {
 			uni.navigateTo({
-				url: '/pages/suiguo_list/suiguo_list?id='+id
+				url: '/pages/suiguo_list/suiguo_list?id='+id+'&categoryId='+this.categoryId+'&location='+location+'&shopAddress='+shopAddress
 			});
 		}
 	}

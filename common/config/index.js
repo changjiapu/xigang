@@ -1,4 +1,4 @@
 
-const baseURL = 'http://192.168.1.125:8088/web'  // 
-const imgURl='http://192.168.1.125:8088/web/file/showPicture?imageId='
+const baseURL = 'http://114.115.211.170:8028/web'  // 
+const imgURl='http://114.115.211.170:8028/web/file/showPicture?imageId='
 export {baseURL,imgURl}

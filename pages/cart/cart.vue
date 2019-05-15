@@ -1,8 +1,8 @@
 <template>
-	<view>
-		<view class="title1" @click="editorChange()">
+	<view class="content">
+		<view class="title1">
 			<text>购物车共有{{ productList.length }}个商品</text>
-			<text>{{ editor ? '完成' : '编辑' }}</text>
+			<text @click="editorChange()" style="color:#c30">{{ editor ? '完成' : '编辑' }}</text>
 		</view>
 		<view class="list" v-if="productList.length">
 			<view class="list-item" v-for="(item, index) in productList" :key="index">
@@ -17,20 +17,20 @@
 				<view class="msg-detail">
 					<view class="product-name">{{ item.product.productName }}</view>
 					<view class="guige">{{ item.productSpec.productSpecs }}</view>
-					<view class="price">
+					<view class="price" style="font-size: 28upx;">
 						<text>￥</text>
 						{{ item.productSpec.price }}元/{{ item.productSpec.specUnit }}
 					</view>
 				</view>
 				<view class="count">
 					<text @click="sub(index)">-</text>
-					<text class="input">{{item.productNum}}</text>
+					<text class="input">{{ item.productNum }}</text>
 					<text @click="add(index)">+</text>
 				</view>
 			</view>
 		</view>
 		<empty-data v-if="productList.length == 0"></empty-data>
-		<view class="empty" style="width:100%;height:114upx;"></view>
+<!-- 		<view class="empty" style="width:100%;height:114upx;"></view> -->
 		<view class="buy-btn">
 			<view class="left" @click="selectAll">
 				<image v-if="isShow" src="../../static/home/weixuanzhong_03.png" mode=""></image>
@@ -51,7 +51,7 @@
 <script>
 import { mapState } from 'vuex';
 import { baseURL, imgURl } from '../../common/config/index.js';
-import { getShopCartList,delShopCart,addOrder} from '@/request/API/product.js';
+import { getShopCartList, delShopCart, addOrder } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
@@ -69,9 +69,11 @@ export default {
 	computed: {
 		...mapState(['userId'])
 	},
-	onLoad() {
+	onShow() {
+		this.totalPrices = 0;
 		this.imgURL = imgURl;
-		this.getShopCartList(this.userId, this.pageNo, 10);
+		this.productList = [];
+		(this.isShow = true), this.getShopCartList(this.userId, this.pageNo, 10);
 	},
 	//上拉加载
 	onReachBottom() {
@@ -184,7 +186,7 @@ export default {
 						productPrice: item.productSpec.price,
 						productCount: item.productNum,
 						prescriptionPrice: item.productSpec.price * item.productNum,
-						addressId: item.addressId,
+						addressId: item.addressId
 					};
 					paramsList.push(params);
 				}
@@ -197,7 +199,7 @@ export default {
 				});
 				return;
 			}
-			let productList2=[]
+			let productList2 = [];
 			for (let item of paramsList) {
 				let product = {
 					expressId: item.expressId,
@@ -220,7 +222,7 @@ export default {
 			addOrder(params2).then(res => {
 				if (res.data.code == 0) {
 					uni.navigateTo({
-						url: '/pages/confirmOrder/confirmOrder?paramsList=' + JSON.stringify(paramsList)+'&orderList='+res.data.data.orderIdList.join(',')
+						url: '/pages/confirmOrder/confirmOrder?paramsList=' + JSON.stringify(paramsList) + '&orderList=' + res.data.data.orderIdList.join(',')
 					});
 				} else {
 					uni.showToast({
@@ -230,7 +232,6 @@ export default {
 					});
 				}
 			});
-			
 		}
 	}
 };
@@ -339,7 +340,7 @@ export default {
 	height: 50upx;
 	font-size: 26upx;
 	border-radius: 3px;
-	color: #555;
+	color: #999999;
 	border: 1px solid #ddd;
 	display: flex;
 }
@@ -404,6 +405,7 @@ export default {
 }
 
 .buy-btn .right view text {
+	margin-right: 50upx;
 	font-size: 34upx;
 	color: #c30;
 	font-weight: bold;
@@ -411,10 +413,11 @@ export default {
 
 .buy-btn .right view:nth-child(2) {
 	width: 220upx;
-	height: 112upx;
-	line-height: 112upx;
+	height: 90upx;
+	line-height: 90upx;
 	text-align: center;
 	color: #fff;
+	border-radius: 20upx;
 	background-color: #6d71d5;
 	font-size: 34upx;
 	margin-left: 5px;

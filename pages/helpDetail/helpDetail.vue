@@ -1,14 +1,11 @@
 <template>
 	<view class="content">
-		<text class="title">Q:如何申请退货?</text>
+		<text class="title">Q:{{helpTitle}}</text>
 		<view class="msg">
 			<text class="left">A:</text>
 			<view class="msg_list">
-				<text>1:进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺</text>
-				<text>2:进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺</text>
-				<text>3:进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺</text>
-				<text>4:进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺</text>
-				<text>5:进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺进入店铺</text>
+				<text>{{helpInstructions}}</text>
+
 			</view>
 		</view>
 		<view class="btn" @click="callUp()">
@@ -23,10 +20,14 @@ import { getUserInfo } from '@/request/API/index.js';
 export default {
 	data() {
 		return {
-			title: 'Hello'
+			helpTitle:'',
+			helpInstructions:'',
 		};
 	},
-	onLoad() {},
+	onLoad(options) {
+		this.helpTitle=options.helpTitle
+		this.helpInstructions=options.helpInstructions
+	},
 	methods: {
 		callUp() {
 			uni.makePhoneCall({

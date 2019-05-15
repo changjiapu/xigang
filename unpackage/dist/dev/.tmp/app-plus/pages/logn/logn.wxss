@@ -15,14 +15,18 @@
           align-items: center;
   font-size: 30rpx;
 }
+.content input.data-v-584fb410 {
+  font-size: 24rpx;
+}
 .content .logo.data-v-584fb410 {
   margin-top: 100rpx;
   width: 235rpx;
   height: 280rpx;
+  margin-bottom: 50rpx;
 }
 .content .input.data-v-584fb410 {
   margin-top: 30rpx;
-  height: 100rpx;
+  height: 90rpx;
   width: 620rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,17 +48,17 @@
   margin-left: 20rpx;
 }
 .content .btn.data-v-584fb410 {
-  margin-top: 30rpx;
+  margin-top: 100rpx;
   height: 100rpx;
   line-height: 100rpx;
   width: 620rpx;
-  border: 1px solid #cccccc;
   border-radius: 10rpx;
-  background-color: #00a4e2;
+  background-color: #6d71d5;
   color: #ffffff;
   text-align: center;
 }
 .content .logn.data-v-584fb410 {
+  font-size: 26rpx;
   margin-top: 20rpx;
   padding: 0 40rpx;
   -webkit-box-sizing: border-box;

@@ -2,11 +2,11 @@
 	<view class="content">
 		<view class="item">
 			<text>旧密码</text>
-			<input type="password" v-model="password1" placeholder="请输入旧支付密码" />
+			<input type="password" v-model="password1" placeholder="请输入旧密码" />
 		</view>
 		<view class="item">
 			<text>新密码</text>
-			<input type="password" v-model="password2" placeholder="请输入新支付密码" />
+			<input type="password" v-model="password2" placeholder="请输入新密码" />
 		</view>
 		<view class="item">
 			<text>确认密码</text>
@@ -74,6 +74,11 @@ export default {
 						mask: false,
 						duration: 1500
 					});
+					setTimeout(res => {
+						uni.navigateTo({
+							url: '/pages/logn/logn'
+						});
+					}, 1500);
 				} else {
 					uni.showModal({
 						title: '',

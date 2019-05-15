@@ -1,8 +1,8 @@
-.content.data-v-6a2cb170 {
+.content.data-v-a00cb444 {
   width: 100%;
   font-size: 30rpx;
 }
-.content .head.data-v-6a2cb170 {
+.content .head.data-v-a00cb444 {
   padding: 20rpx;
   color: #999999;
   display: -webkit-box;
@@ -15,18 +15,18 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content .head text.data-v-6a2cb170 {
+.content .head text.data-v-a00cb444 {
   margin-top: 10rpx;
 }
-.content .liubai.data-v-6a2cb170 {
+.content .liubai.data-v-a00cb444 {
   height: 20rpx;
   width: 100%;
   background-color: #f7f7f7;
 }
-.content .mingzi.data-v-6a2cb170 {
+.content .mingzi.data-v-a00cb444 {
   padding: 20rpx;
 }
-.content .center.data-v-6a2cb170 {
+.content .center.data-v-a00cb444 {
   padding: 20rpx;
   color: #999999;
   display: -webkit-box;
@@ -39,25 +39,25 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content .center .title.data-v-6a2cb170 {
+.content .center .title.data-v-a00cb444 {
   color: #000000;
   border-bottom: 1px solid #999999;
 }
-.content .center text.data-v-6a2cb170 {
+.content .center text.data-v-a00cb444 {
   margin-top: 20rpx;
 }
-.content .footer.data-v-6a2cb170 {
+.content .footer.data-v-a00cb444 {
   padding: 20rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-.content .footer image.data-v-6a2cb170 {
+.content .footer image.data-v-a00cb444 {
   width: 200rpx;
   height: 150rpx;
 }
-.content .footer .msg.data-v-6a2cb170 {
+.content .footer .msg.data-v-a00cb444 {
   margin-left: 10rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -70,10 +70,10 @@
           flex-direction: column;
   position: relative;
 }
-.content .footer .msg text.data-v-6a2cb170 {
+.content .footer .msg text.data-v-a00cb444 {
   margin-top: 10rpx;
 }
-.content .footer .msg .price.data-v-6a2cb170 {
+.content .footer .msg .price.data-v-a00cb444 {
   position: absolute;
   right: 20rpx;
   bottom: 5rpx;

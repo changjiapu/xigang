@@ -3,15 +3,15 @@
 		<view class="seach">
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
-				<input type="text" v-model="search" placeholder="请输入要搜索的店铺" @confirm="searchShop"  @focus='gotoDetaill'/>
+				<input type="text" v-model="search" placeholder="请输入要搜索的商品" @confirm="searchShop" @focus="gotoDetaill" />
 			</view>
 		</view>
 		<view class="liubai"></view>
-		<view class="container">
-			<view class="left">
+		<view class="container" :style="{height:wHeight+150+'px'}">
+			<view class="left" :style="{height:wHeight+150+'px'}">
 				<text :class="{ active: tabs == index }" v-for="(item, index) in fenleiList" :key="index" @click="currentTabs(index)">{{ item.categoryName }}</text>
 			</view>
-			<view class="fenlei">
+			<view class="fenlei" :style="{height:wHeight+150+'px'}">
 				<view class="item" v-for="(item, index) in productList" :key="index" @click="gotoShopList(item.productId)">
 					<image :src="imgURl + item.imgList[0]" mode=""></image>
 					<text>{{ item.productName }}</text>
@@ -27,6 +27,8 @@ import { getProductByCategoryId } from '@/request/API/product.js';
 export default {
 	data() {
 		return {
+			search: '',
+			wHeight: '',
 			tabs: 0,
 			fenleiList: [],
 			productList: [],
@@ -36,12 +38,15 @@ export default {
 	onLoad() {
 		this.imgURl = imgURl;
 		this.getProductByCategoryId();
+		var res = uni.getSystemInfoSync();
+		this.wHeight =res.windowWidth;
 	},
 	methods: {
 		getProductByCategoryId() {
 			getProductByCategoryId().then(res => {
 				if (res.data.code == 0) {
-					(this.fenleiList = res.data.data), (this.productList = this.fenleiList[0].productList);
+					this.fenleiList = res.data.data;
+					this.productList = this.fenleiList[0].productList;
 				}
 			});
 		},
@@ -68,12 +73,11 @@ export default {
 	display: flex;
 	flex-direction: column;
 	.seach {
-		width: 100%;
 		.input {
 			margin: 0 auto;
 			color: #000000;
 			height: 80upx;
-			width: 50%;
+			width: 70%;
 			font-size: 22upx;
 			display: flex;
 			align-items: center;
@@ -96,15 +100,15 @@ export default {
 		background-color: #f7f7f7;
 	}
 	.container {
-		flex: 1;
 		width: 100%;
 		display: flex;
 		.left {
+			overflow-y:scroll;
 			background-color: #f7f7f7;
 			display: flex;
 			flex-direction: column;
 			// align-items: center;
-			width: 210upx;
+			width: 25%;
 			text {
 				text-align: center;
 				width: 100%;
@@ -117,17 +121,18 @@ export default {
 			}
 		}
 		.fenlei {
-			margin: 20upx 0;
-			width: 100%;
+			width: 80%;
 			display: flex;
 			flex-wrap: wrap;
+			overflow-y:scroll;
 			.item {
 				display: flex;
 				flex-direction: column;
-				width: 100upx;
+				align-items: center;
+				width: 180upx;
+				height: 140upx;
 				font-size: 28upx;
-				text-align: center;
-				margin-left: 70upx;
+				// margin-left: 70upx;
 				margin-top: 20upx;
 				image {
 					margin-bottom: 10upx;

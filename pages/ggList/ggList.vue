@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		<view class="fb"></view>
+<!-- 		<view class="fb"></view> -->
 		<view class="list" v-for="(item, index) in ggList" :key="index" @click="gotoDetail(item.id)">
 			<image :src="imgURl + item.imageId" mode=""></image>
 			<view class="msg">

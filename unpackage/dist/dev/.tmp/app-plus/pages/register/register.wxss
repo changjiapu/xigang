@@ -38,6 +38,7 @@
   width: 30rpx;
 }
 .content .btn.data-v-53889ad0 {
+  margin-top: 50rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
