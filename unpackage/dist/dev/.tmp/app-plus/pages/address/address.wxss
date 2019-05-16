@@ -189,6 +189,9 @@
 }
 .addAddress .btn {
   margin: 60rpx 15px;
+}
+.addAddress .btn button {
+  color: #ffffff;
   background-color: #6d71d5;
 }
 

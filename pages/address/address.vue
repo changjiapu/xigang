@@ -9,7 +9,7 @@
 				</view>
 				<view>
 					<text>手机号码:</text>
-					<input type="number" v-model="params.userPhone"  maxlength=11  placeholder="请填写收货人的手机号码" />
+					<input type="number" v-model="params.userPhone" maxlength="11" placeholder="请填写收货人的手机号码" />
 				</view>
 			</view>
 		</view>
@@ -32,8 +32,8 @@
 				<view @click="is_default ? (is_default = 0) : (is_default = 1)"><view :class="{ act: is_default }"></view></view>
 			</view>
 		</view>
-		<view class="btn" v-if="!params.addressId"><button type="primary" @click="Addaddress">提交</button></view>
-		<view class="btn" v-else><button type="primary" @click="Addaddress2">修改</button></view>
+		<view class="btn" v-if="!params.addressId"><button @click="Addaddress">提交</button></view>
+		<view class="btn" v-else><button @click="Addaddress2">修改</button></view>
 		<mpvue-city-picker
 			:themeColor="themeColor"
 			ref="mpvueCityPicker"
@@ -267,15 +267,15 @@ export default {
 					& > view {
 						flex: 1;
 						padding: 5upx 0;
-								font-size: 30upx;
+						font-size: 30upx;
 						color: #999;
 					}
 					& > input {
-								font-size: 30upx;
+						font-size: 30upx;
 						flex: 1;
 					}
 					& > picker {
-								font-size: 30upx;
+						font-size: 30upx;
 					}
 				}
 			}
@@ -289,7 +289,7 @@ export default {
 			background: white;
 			padding: 20upx 15px;
 			& > view {
-						font-size: 30upx;
+				font-size: 30upx;
 				&:last-of-type {
 					& > view {
 						width: 35upx;
@@ -322,7 +322,11 @@ export default {
 	}
 	.btn {
 		margin: 60upx 15px;
-		background-color: #6d71d5;
+
+		button {
+			color: #ffffff;
+			background-color: #6d71d5;
+		}
 	}
 }
 </style>

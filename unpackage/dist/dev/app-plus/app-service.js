@@ -1689,19 +1689,30 @@ __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./components/EmptyData.vue.wxml','/common/slots.wxml','./components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./components/uni-icon.vue.wxml','./components/uni-rate.vue.wxml','/components/uni-icon.vue.wxml','./pages/About_Us/About_Us.vue.wxml','./pages/About_Us/About_Us.wxml','./About_Us.vue.wxml','./pages/Account_center/Account_center.vue.wxml','./pages/Account_center/Account_center.wxml','./Account_center.vue.wxml','./pages/address/address.vue.wxml','/components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./pages/address/address.wxml','./address.vue.wxml','./pages/addressList/addressList.vue.wxml','./pages/addressList/addressList.wxml','./addressList.vue.wxml','./pages/callCenter/callCenter.vue.wxml','./pages/callCenter/callCenter.wxml','./callCenter.vue.wxml','./pages/cart/cart.vue.wxml','/components/EmptyData.vue.wxml','./pages/cart/cart.wxml','./cart.vue.wxml','./pages/collect/collect.vue.wxml','./pages/collect/collect.wxml','./collect.vue.wxml','./pages/comment/comment.vue.wxml','/components/uni-rate.vue.wxml','./pages/comment/comment.wxml','./comment.vue.wxml','./pages/commentList/commentList.vue.wxml','./pages/commentList/commentList.wxml','./commentList.vue.wxml','./pages/complain/complain.vue.wxml','./pages/complain/complain.wxml','./complain.vue.wxml','./pages/complain_2/complain_2.vue.wxml','./pages/complain_2/complain_2.wxml','./complain_2.vue.wxml','./pages/confirmOrder/confirmOrder.vue.wxml','./pages/confirmOrder/confirmOrder.wxml','./confirmOrder.vue.wxml','./pages/cz_psssword/cz_psssword.vue.wxml','./pages/cz_psssword/cz_psssword.wxml','./cz_psssword.vue.wxml','./pages/fenlei/fenlei.vue.wxml','./pages/fenlei/fenlei.wxml','./fenlei.vue.wxml','./pages/ggDetail/ggDetail.vue.wxml','./pages/ggDetail/ggDetail.wxml','./ggDetail.vue.wxml','./pages/ggList/ggList.vue.wxml','./pages/ggList/ggList.wxml','./ggList.vue.wxml','./pages/help/help.vue.wxml','./pages/help/help.wxml','./help.vue.wxml','./pages/helpDetail/helpDetail.vue.wxml','./pages/helpDetail/helpDetail.wxml','./helpDetail.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/logn/logn.vue.wxml','./pages/logn/logn.wxml','./logn.vue.wxml','./pages/merchant/merchant.vue.wxml','./pages/merchant/merchant.wxml','./merchant.vue.wxml','./pages/order/order.vue.wxml','./pages/order/order.wxml','./order.vue.wxml','./pages/orderDetail/orderDetail.vue.wxml','./pages/orderDetail/orderDetail.wxml','./orderDetail.vue.wxml','./pages/product_detaill/product_detaill.vue.wxml','./pages/product_detaill/product_detaill.wxml','./product_detaill.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/shouHou/shouHou.vue.wxml','./pages/shouHou/shouHou.wxml','./shouHou.vue.wxml','./pages/suiguo_list/suiguo_list.vue.wxml','./pages/suiguo_list/suiguo_list.wxml','./suiguo_list.vue.wxml','./pages/suiguo_shop/suiguo_shop.vue.wxml','./pages/suiguo_shop/suiguo_shop.wxml','./suiguo_shop.vue.wxml','./pages/system_setup/system_setup.vue.wxml','./pages/system_setup/system_setup.wxml','./system_setup.vue.wxml','./pages/userCenter/userCenter.vue.wxml','./pages/userCenter/userCenter.wxml','./userCenter.vue.wxml','./pages/userMsg/userMsg.vue.wxml','./pages/userMsg/userMsg.wxml','./userMsg.vue.wxml','./pages/wjPassword/wjPassword.vue.wxml','./pages/wjPassword/wjPassword.wxml','./wjPassword.vue.wxml','./pages/zhuji/zhuji.vue.wxml','./pages/zhuji/zhuji.wxml','./zhuji.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/common/slots.wxml','/components/EmptyData.vue.wxml','/components/mpvue-citypicker/mpvueCityPicker.vue.wxml','/components/uni-rate.vue.wxml','/components/uni-icon.vue.wxml','./components/EmptyData.vue.wxml','./components/mpvue-citypicker/mpvueCityPicker.vue.wxml','./components/uni-icon.vue.wxml','./components/uni-rate.vue.wxml','./pages/About_Us/About_Us.vue.wxml','./pages/About_Us/About_Us.wxml','./About_Us.vue.wxml','./pages/Account_center/Account_center.vue.wxml','./pages/Account_center/Account_center.wxml','./Account_center.vue.wxml','./pages/address/address.vue.wxml','./pages/address/address.wxml','./address.vue.wxml','./pages/addressList/addressList.vue.wxml','./pages/addressList/addressList.wxml','./addressList.vue.wxml','./pages/callCenter/callCenter.vue.wxml','./pages/callCenter/callCenter.wxml','./callCenter.vue.wxml','./pages/cart/cart.vue.wxml','./pages/cart/cart.wxml','./cart.vue.wxml','./pages/collect/collect.vue.wxml','./pages/collect/collect.wxml','./collect.vue.wxml','./pages/comment/comment.vue.wxml','./pages/comment/comment.wxml','./comment.vue.wxml','./pages/commentList/commentList.vue.wxml','./pages/commentList/commentList.wxml','./commentList.vue.wxml','./pages/complain/complain.vue.wxml','./pages/complain/complain.wxml','./complain.vue.wxml','./pages/complain_2/complain_2.vue.wxml','./pages/complain_2/complain_2.wxml','./complain_2.vue.wxml','./pages/confirmOrder/confirmOrder.vue.wxml','./pages/confirmOrder/confirmOrder.wxml','./confirmOrder.vue.wxml','./pages/cz_psssword/cz_psssword.vue.wxml','./pages/cz_psssword/cz_psssword.wxml','./cz_psssword.vue.wxml','./pages/fenlei/fenlei.vue.wxml','./pages/fenlei/fenlei.wxml','./fenlei.vue.wxml','./pages/ggDetail/ggDetail.vue.wxml','./pages/ggDetail/ggDetail.wxml','./ggDetail.vue.wxml','./pages/ggList/ggList.vue.wxml','./pages/ggList/ggList.wxml','./ggList.vue.wxml','./pages/help/help.vue.wxml','./pages/help/help.wxml','./help.vue.wxml','./pages/helpDetail/helpDetail.vue.wxml','./pages/helpDetail/helpDetail.wxml','./helpDetail.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./index.vue.wxml','./pages/logn/logn.vue.wxml','./pages/logn/logn.wxml','./logn.vue.wxml','./pages/merchant/merchant.vue.wxml','./pages/merchant/merchant.wxml','./merchant.vue.wxml','./pages/order/order.vue.wxml','./pages/order/order.wxml','./order.vue.wxml','./pages/orderDetail/orderDetail.vue.wxml','./pages/orderDetail/orderDetail.wxml','./orderDetail.vue.wxml','./pages/product_detaill/product_detaill.vue.wxml','./pages/product_detaill/product_detaill.wxml','./product_detaill.vue.wxml','./pages/register/register.vue.wxml','./pages/register/register.wxml','./register.vue.wxml','./pages/shouHou/shouHou.vue.wxml','./pages/shouHou/shouHou.wxml','./shouHou.vue.wxml','./pages/suiguo_list/suiguo_list.vue.wxml','./pages/suiguo_list/suiguo_list.wxml','./suiguo_list.vue.wxml','./pages/suiguo_shop/suiguo_shop.vue.wxml','./pages/suiguo_shop/suiguo_shop.wxml','./suiguo_shop.vue.wxml','./pages/system_setup/system_setup.vue.wxml','./pages/system_setup/system_setup.wxml','./system_setup.vue.wxml','./pages/userCenter/userCenter.vue.wxml','./pages/userCenter/userCenter.wxml','./userCenter.vue.wxml','./pages/userMsg/userMsg.vue.wxml','./pages/userMsg/userMsg.wxml','./userMsg.vue.wxml','./pages/wjPassword/wjPassword.vue.wxml','./pages/wjPassword/wjPassword.wxml','./wjPassword.vue.wxml','./pages/zhuji/zhuji.vue.wxml','./pages/zhuji/zhuji.wxml','./zhuji.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
+var oB=e_[x[0]].i
+_ai(oB,x[1],e_,x[0],1,1)
+_ai(oB,x[2],e_,x[0],2,2)
+_ai(oB,x[3],e_,x[0],3,2)
+_ai(oB,x[4],e_,x[0],4,2)
+_ai(oB,x[5],e_,x[0],5,2)
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
-d_[x[1]]={}
-d_[x[1]]["e2419220"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5]],ic:[]}
+d_[x[6]]={}
+d_[x[6]]["e2419220"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':e2419220'
+var b=x[6]+':e2419220'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/EmptyData.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[1]);return}
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 cs.push("./components/EmptyData.vue.wxml:view:1:62")
@@ -1711,7 +1722,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./components/EmptyData.vue.wxml:template:1:281")
 var oD=_oz(z,4,e,s,gg)
-var fE=_gd(x[1],oD,e_,d_)
+var fE=_gd(x[6],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1719,7 +1730,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[1],1,339)
+else _w(oD,x[6],1,339)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1730,12 +1741,12 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[1]]["default"]=function(e,s,r,gg){
+d_[x[6]]["default"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':default'
+var b=x[6]+':default'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/EmptyData.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[1]);return}
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1747,19 +1758,19 @@ return r
 }
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var xC=e_[x[1]].i
-_ai(xC,x[2],e_,x[1],1,1)
-xC.pop()
+var oD=e_[x[6]].i
+_ai(oD,x[1],e_,x[6],1,1)
+oD.pop()
 return r
 }
-e_[x[1]]={f:m1,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["a6172d52"]=function(e,s,r,gg){
+e_[x[6]]={f:m1,j:[],i:[],ti:[x[1]],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["a6172d52"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[3]+':a6172d52'
+var b=x[7]+':a6172d52'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/mpvue-citypicker/mpvueCityPicker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1773,14 +1784,14 @@ var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 return r
 }
-e_[x[3]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
-d_[x[4]]["5534c0c6"]=function(e,s,r,gg){
+e_[x[7]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["5534c0c6"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[4]+':5534c0c6'
+var b=x[8]+':5534c0c6'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-icon.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[4]);return}
+if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1794,14 +1805,14 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[4]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["552c9ff8"]=function(e,s,r,gg){
+e_[x[8]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["552c9ff8"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[5]+':552c9ff8'
+var b=x[9]+':552c9ff8'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/uni-rate.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1814,7 +1825,7 @@ var cI=_v()
 _(oH,cI)
 cs.push("./components/uni-rate.vue.wxml:template:1:380")
 var oJ=_oz(z,12,fE,oD,gg)
-var lK=_gd(x[5],oJ,e_,d_)
+var lK=_gd(x[9],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,fE,oD,gg) || {}
 var cur_globalf=gg.f
@@ -1822,13 +1833,13 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[5],1,458)
+else _w(oJ,x[9],1,458)
 cs.pop()
 var tM=_v()
 _(oH,tM)
 cs.push("./components/uni-rate.vue.wxml:template:1:576")
 var eN=_oz(z,14,fE,oD,gg)
-var bO=_gd(x[5],eN,e_,d_)
+var bO=_gd(x[9],eN,e_,d_)
 if(bO){
 var oP=_1z(z,13,fE,oD,gg) || {}
 var cur_globalf=gg.f
@@ -1836,7 +1847,7 @@ tM.wxXCkey=3
 bO(oP,oP,tM,gg)
 gg.f=cur_globalf
 }
-else _w(eN,x[5],1,673)
+else _w(eN,x[9],1,673)
 cs.pop()
 cs.pop()
 _(cF,oH)
@@ -1854,19 +1865,19 @@ return r
 }
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var hG=e_[x[5]].i
-_ai(hG,x[6],e_,x[5],1,1)
-hG.pop()
+var oH=e_[x[9]].i
+_ai(oH,x[5],e_,x[9],1,1)
+oH.pop()
 return r
 }
-e_[x[5]]={f:m4,j:[],i:[],ti:[x[6]],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["542a4f9c"]=function(e,s,r,gg){
+e_[x[9]]={f:m4,j:[],i:[],ti:[x[5]],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["542a4f9c"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[7]+':542a4f9c'
+var b=x[10]+':542a4f9c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/About_Us/About_Us.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1880,37 +1891,37 @@ var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 return r
 }
-e_[x[7]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
+e_[x[10]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oJ=e_[x[8]].i
-_ai(oJ,x[9],e_,x[8],1,1)
-var lK=_v()
-_(r,lK)
+var lK=e_[x[11]].i
+_ai(lK,x[12],e_,x[11],1,1)
+var aL=_v()
+_(r,aL)
 cs.push("./pages/About_Us/About_Us.wxml:template:2:6")
-var aL=_oz(z,1,e,s,gg)
-var tM=_gd(x[8],aL,e_,d_)
-if(tM){
-var eN=_1z(z,0,e,s,gg) || {}
+var tM=_oz(z,1,e,s,gg)
+var eN=_gd(x[11],tM,e_,d_)
+if(eN){
+var bO=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lK.wxXCkey=3
-tM(eN,eN,lK,gg)
+aL.wxXCkey=3
+eN(bO,bO,aL,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[8],2,18)
+else _w(tM,x[11],2,18)
 cs.pop()
-oJ.pop()
+lK.pop()
 return r
 }
-e_[x[8]]={f:m6,j:[],i:[],ti:[x[9]],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["10015b92"]=function(e,s,r,gg){
+e_[x[11]]={f:m6,j:[],i:[],ti:[x[12]],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["10015b92"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[10]+':10015b92'
+var b=x[13]+':10015b92'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/Account_center/Account_center.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1924,44 +1935,44 @@ var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
 return r
 }
-e_[x[10]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
+e_[x[13]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var xQ=e_[x[11]].i
-_ai(xQ,x[12],e_,x[11],1,1)
-var oR=_v()
-_(r,oR)
+var oR=e_[x[14]].i
+_ai(oR,x[15],e_,x[14],1,1)
+var fS=_v()
+_(r,fS)
 cs.push("./pages/Account_center/Account_center.wxml:template:2:6")
-var fS=_oz(z,1,e,s,gg)
-var cT=_gd(x[11],fS,e_,d_)
-if(cT){
-var hU=_1z(z,0,e,s,gg) || {}
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[14],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oR.wxXCkey=3
-cT(hU,hU,oR,gg)
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
 gg.f=cur_globalf
 }
-else _w(fS,x[11],2,18)
+else _w(cT,x[14],2,18)
 cs.pop()
-xQ.pop()
+oR.pop()
 return r
 }
-e_[x[11]]={f:m8,j:[],i:[],ti:[x[12]],ic:[]}
-d_[x[13]]={}
-d_[x[13]]["21979ac8"]=function(e,s,r,gg){
+e_[x[14]]={f:m8,j:[],i:[],ti:[x[15]],ic:[]}
+d_[x[16]]={}
+d_[x[16]]["21979ac8"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[13]+':21979ac8'
+var b=x[16]+':21979ac8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/address/address.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[13]);return}
+if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
-cs.push("./pages/address/address.vue.wxml:template:1:2252")
+cs.push("./pages/address/address.vue.wxml:template:1:2222")
 var xC=_oz(z,6,e,s,gg)
-var oD=_gd(x[13],xC,e_,d_)
+var oD=_gd(x[16],xC,e_,d_)
 if(oD){
 var fE=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1969,7 +1980,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[13],1,2453)
+else _w(xC,x[16],1,2423)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -1980,42 +1991,42 @@ return r
 }
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var cW=e_[x[13]].i
-_ai(cW,x[14],e_,x[13],1,1)
-cW.pop()
+var oX=e_[x[16]].i
+_ai(oX,x[3],e_,x[16],1,1)
+oX.pop()
 return r
 }
-e_[x[13]]={f:m9,j:[],i:[],ti:[x[14]],ic:[]}
-d_[x[15]]={}
+e_[x[16]]={f:m9,j:[],i:[],ti:[x[3]],ic:[]}
+d_[x[17]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var lY=e_[x[15]].i
-_ai(lY,x[16],e_,x[15],1,1)
-var aZ=_v()
-_(r,aZ)
+var aZ=e_[x[17]].i
+_ai(aZ,x[18],e_,x[17],1,1)
+var t1=_v()
+_(r,t1)
 cs.push("./pages/address/address.wxml:template:2:6")
-var t1=_oz(z,1,e,s,gg)
-var e2=_gd(x[15],t1,e_,d_)
-if(e2){
-var b3=_1z(z,0,e,s,gg) || {}
+var e2=_oz(z,1,e,s,gg)
+var b3=_gd(x[17],e2,e_,d_)
+if(b3){
+var o4=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aZ.wxXCkey=3
-e2(b3,b3,aZ,gg)
+t1.wxXCkey=3
+b3(o4,o4,t1,gg)
 gg.f=cur_globalf
 }
-else _w(t1,x[15],2,18)
+else _w(e2,x[17],2,18)
 cs.pop()
-lY.pop()
+aZ.pop()
 return r
 }
-e_[x[15]]={f:m10,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
-d_[x[17]]["4796ad98"]=function(e,s,r,gg){
+e_[x[17]]={f:m10,j:[],i:[],ti:[x[18]],ic:[]}
+d_[x[19]]={}
+d_[x[19]]["4796ad98"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[17]+':4796ad98'
+var b=x[19]+':4796ad98'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/addressList/addressList.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[17]);return}
+if(p_[b]){_wl(b,x[19]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2029,37 +2040,37 @@ var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
 return r
 }
-e_[x[17]]={f:m11,j:[],i:[],ti:[],ic:[]}
-d_[x[18]]={}
+e_[x[19]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[20]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var o6=e_[x[18]].i
-_ai(o6,x[19],e_,x[18],1,1)
-var f7=_v()
-_(r,f7)
+var f7=e_[x[20]].i
+_ai(f7,x[21],e_,x[20],1,1)
+var c8=_v()
+_(r,c8)
 cs.push("./pages/addressList/addressList.wxml:template:2:6")
-var c8=_oz(z,1,e,s,gg)
-var h9=_gd(x[18],c8,e_,d_)
-if(h9){
-var o0=_1z(z,0,e,s,gg) || {}
+var h9=_oz(z,1,e,s,gg)
+var o0=_gd(x[20],h9,e_,d_)
+if(o0){
+var cAB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-f7.wxXCkey=3
-h9(o0,o0,f7,gg)
+c8.wxXCkey=3
+o0(cAB,cAB,c8,gg)
 gg.f=cur_globalf
 }
-else _w(c8,x[18],2,18)
+else _w(h9,x[20],2,18)
 cs.pop()
-o6.pop()
+f7.pop()
 return r
 }
-e_[x[18]]={f:m12,j:[],i:[],ti:[x[19]],ic:[]}
-d_[x[20]]={}
-d_[x[20]]["12ea4312"]=function(e,s,r,gg){
+e_[x[20]]={f:m12,j:[],i:[],ti:[x[21]],ic:[]}
+d_[x[22]]={}
+d_[x[22]]["12ea4312"]=function(e,s,r,gg){
 var z=gz$gwx_14()
-var b=x[20]+':12ea4312'
+var b=x[22]+':12ea4312'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/callCenter/callCenter.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[20]);return}
+if(p_[b]){_wl(b,x[22]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2073,37 +2084,37 @@ var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
 return r
 }
-e_[x[20]]={f:m13,j:[],i:[],ti:[],ic:[]}
-d_[x[21]]={}
+e_[x[22]]={f:m13,j:[],i:[],ti:[],ic:[]}
+d_[x[23]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var lCB=e_[x[21]].i
-_ai(lCB,x[22],e_,x[21],1,1)
-var aDB=_v()
-_(r,aDB)
+var aDB=e_[x[23]].i
+_ai(aDB,x[24],e_,x[23],1,1)
+var tEB=_v()
+_(r,tEB)
 cs.push("./pages/callCenter/callCenter.wxml:template:2:6")
-var tEB=_oz(z,1,e,s,gg)
-var eFB=_gd(x[21],tEB,e_,d_)
-if(eFB){
-var bGB=_1z(z,0,e,s,gg) || {}
+var eFB=_oz(z,1,e,s,gg)
+var bGB=_gd(x[23],eFB,e_,d_)
+if(bGB){
+var oHB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aDB.wxXCkey=3
-eFB(bGB,bGB,aDB,gg)
+tEB.wxXCkey=3
+bGB(oHB,oHB,tEB,gg)
 gg.f=cur_globalf
 }
-else _w(tEB,x[21],2,18)
+else _w(eFB,x[23],2,18)
 cs.pop()
-lCB.pop()
+aDB.pop()
 return r
 }
-e_[x[21]]={f:m14,j:[],i:[],ti:[x[22]],ic:[]}
-d_[x[23]]={}
-d_[x[23]]["747af69c"]=function(e,s,r,gg){
+e_[x[23]]={f:m14,j:[],i:[],ti:[x[24]],ic:[]}
+d_[x[25]]={}
+d_[x[25]]["747af69c"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[23]+':747af69c'
+var b=x[25]+':747af69c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/cart/cart.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[23]);return}
+if(p_[b]){_wl(b,x[25]);return}
 p_[b]=true
 try{
 cs.push("./pages/cart/cart.vue.wxml:view:1:74")
@@ -2151,7 +2162,7 @@ var eN=_v()
 _(oD,eN)
 cs.push("./pages/cart/cart.vue.wxml:template:1:2195")
 var bO=_oz(z,12,e,s,gg)
-var oP=_gd(x[23],bO,e_,d_)
+var oP=_gd(x[25],bO,e_,d_)
 if(oP){
 var xQ=_1z(z,11,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2159,7 +2170,7 @@ eN.wxXCkey=3
 oP(xQ,xQ,eN,gg)
 gg.f=cur_globalf
 }
-else _w(bO,x[23],1,2302)
+else _w(bO,x[25],1,2302)
 cs.pop()
 cs.pop()
 }
@@ -2176,42 +2187,42 @@ return r
 }
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-var xIB=e_[x[23]].i
-_ai(xIB,x[24],e_,x[23],1,1)
-xIB.pop()
+var oJB=e_[x[25]].i
+_ai(oJB,x[2],e_,x[25],1,1)
+oJB.pop()
 return r
 }
-e_[x[23]]={f:m15,j:[],i:[],ti:[x[24]],ic:[]}
-d_[x[25]]={}
+e_[x[25]]={f:m15,j:[],i:[],ti:[x[2]],ic:[]}
+d_[x[26]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var fKB=e_[x[25]].i
-_ai(fKB,x[26],e_,x[25],1,1)
-var cLB=_v()
-_(r,cLB)
+var cLB=e_[x[26]].i
+_ai(cLB,x[27],e_,x[26],1,1)
+var hMB=_v()
+_(r,hMB)
 cs.push("./pages/cart/cart.wxml:template:2:6")
-var hMB=_oz(z,1,e,s,gg)
-var oNB=_gd(x[25],hMB,e_,d_)
-if(oNB){
-var cOB=_1z(z,0,e,s,gg) || {}
+var oNB=_oz(z,1,e,s,gg)
+var cOB=_gd(x[26],oNB,e_,d_)
+if(cOB){
+var oPB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cLB.wxXCkey=3
-oNB(cOB,cOB,cLB,gg)
+hMB.wxXCkey=3
+cOB(oPB,oPB,hMB,gg)
 gg.f=cur_globalf
 }
-else _w(hMB,x[25],2,18)
+else _w(oNB,x[26],2,18)
 cs.pop()
-fKB.pop()
+cLB.pop()
 return r
 }
-e_[x[25]]={f:m16,j:[],i:[],ti:[x[26]],ic:[]}
-d_[x[27]]={}
-d_[x[27]]["6a0e2708"]=function(e,s,r,gg){
+e_[x[26]]={f:m16,j:[],i:[],ti:[x[27]],ic:[]}
+d_[x[28]]={}
+d_[x[28]]["6a0e2708"]=function(e,s,r,gg){
 var z=gz$gwx_18()
-var b=x[27]+':6a0e2708'
+var b=x[28]+':6a0e2708'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/collect/collect.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[27]);return}
+if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
 cs.push("./pages/collect/collect.vue.wxml:view:1:74")
@@ -2259,7 +2270,7 @@ var bO=_v()
 _(xC,bO)
 cs.push("./pages/collect/collect.vue.wxml:template:1:1666")
 var oP=_oz(z,13,e,s,gg)
-var xQ=_gd(x[27],oP,e_,d_)
+var xQ=_gd(x[28],oP,e_,d_)
 if(xQ){
 var oR=_1z(z,12,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2267,7 +2278,7 @@ bO.wxXCkey=3
 xQ(oR,oR,bO,gg)
 gg.f=cur_globalf
 }
-else _w(oP,x[27],1,1773)
+else _w(oP,x[28],1,1773)
 cs.pop()
 cs.pop()
 }
@@ -2290,42 +2301,42 @@ return r
 }
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var lQB=e_[x[27]].i
-_ai(lQB,x[24],e_,x[27],1,1)
-lQB.pop()
+var aRB=e_[x[28]].i
+_ai(aRB,x[2],e_,x[28],1,1)
+aRB.pop()
 return r
 }
-e_[x[27]]={f:m17,j:[],i:[],ti:[x[24]],ic:[]}
-d_[x[28]]={}
+e_[x[28]]={f:m17,j:[],i:[],ti:[x[2]],ic:[]}
+d_[x[29]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var tSB=e_[x[28]].i
-_ai(tSB,x[29],e_,x[28],1,1)
-var eTB=_v()
-_(r,eTB)
+var eTB=e_[x[29]].i
+_ai(eTB,x[30],e_,x[29],1,1)
+var bUB=_v()
+_(r,bUB)
 cs.push("./pages/collect/collect.wxml:template:2:6")
-var bUB=_oz(z,1,e,s,gg)
-var oVB=_gd(x[28],bUB,e_,d_)
-if(oVB){
-var xWB=_1z(z,0,e,s,gg) || {}
+var oVB=_oz(z,1,e,s,gg)
+var xWB=_gd(x[29],oVB,e_,d_)
+if(xWB){
+var oXB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eTB.wxXCkey=3
-oVB(xWB,xWB,eTB,gg)
+bUB.wxXCkey=3
+xWB(oXB,oXB,bUB,gg)
 gg.f=cur_globalf
 }
-else _w(bUB,x[28],2,18)
+else _w(oVB,x[29],2,18)
 cs.pop()
-tSB.pop()
+eTB.pop()
 return r
 }
-e_[x[28]]={f:m18,j:[],i:[],ti:[x[29]],ic:[]}
-d_[x[30]]={}
-d_[x[30]]["410d871c"]=function(e,s,r,gg){
+e_[x[29]]={f:m18,j:[],i:[],ti:[x[30]],ic:[]}
+d_[x[31]]={}
+d_[x[31]]["410d871c"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[30]+':410d871c'
+var b=x[31]+':410d871c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/comment/comment.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[30]);return}
+if(p_[b]){_wl(b,x[31]);return}
 p_[b]=true
 try{
 cs.push("./pages/comment/comment.vue.wxml:view:1:627")
@@ -2335,7 +2346,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/comment/comment.vue.wxml:template:1:759")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[30],oD,e_,d_)
+var fE=_gd(x[31],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2343,13 +2354,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[30],1,935)
+else _w(oD,x[31],1,935)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/comment/comment.vue.wxml:template:1:1056")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[30],oH,e_,d_)
+var cI=_gd(x[31],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2357,7 +2368,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[30],1,1233)
+else _w(oH,x[31],1,1233)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2370,32 +2381,32 @@ return r
 }
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var fYB=e_[x[30]].i
-_ai(fYB,x[31],e_,x[30],1,1)
-fYB.pop()
+var cZB=e_[x[31]].i
+_ai(cZB,x[4],e_,x[31],1,1)
+cZB.pop()
 return r
 }
-e_[x[30]]={f:m19,j:[],i:[],ti:[x[31]],ic:[]}
+e_[x[31]]={f:m19,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[32]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var h1B=e_[x[32]].i
-_ai(h1B,x[33],e_,x[32],1,1)
-var o2B=_v()
-_(r,o2B)
+var o2B=e_[x[32]].i
+_ai(o2B,x[33],e_,x[32],1,1)
+var c3B=_v()
+_(r,c3B)
 cs.push("./pages/comment/comment.wxml:template:2:6")
-var c3B=_oz(z,1,e,s,gg)
-var o4B=_gd(x[32],c3B,e_,d_)
-if(o4B){
-var l5B=_1z(z,0,e,s,gg) || {}
+var o4B=_oz(z,1,e,s,gg)
+var l5B=_gd(x[32],o4B,e_,d_)
+if(l5B){
+var a6B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o2B.wxXCkey=3
-o4B(l5B,l5B,o2B,gg)
+c3B.wxXCkey=3
+l5B(a6B,a6B,c3B,gg)
 gg.f=cur_globalf
 }
-else _w(c3B,x[32],2,18)
+else _w(o4B,x[32],2,18)
 cs.pop()
-h1B.pop()
+o2B.pop()
 return r
 }
 e_[x[32]]={f:m20,j:[],i:[],ti:[x[33]],ic:[]}
@@ -2423,23 +2434,23 @@ e_[x[34]]={f:m21,j:[],i:[],ti:[],ic:[]}
 d_[x[35]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var e8B=e_[x[35]].i
-_ai(e8B,x[36],e_,x[35],1,1)
-var b9B=_v()
-_(r,b9B)
+var b9B=e_[x[35]].i
+_ai(b9B,x[36],e_,x[35],1,1)
+var o0B=_v()
+_(r,o0B)
 cs.push("./pages/commentList/commentList.wxml:template:2:6")
-var o0B=_oz(z,1,e,s,gg)
-var xAC=_gd(x[35],o0B,e_,d_)
-if(xAC){
-var oBC=_1z(z,0,e,s,gg) || {}
+var xAC=_oz(z,1,e,s,gg)
+var oBC=_gd(x[35],xAC,e_,d_)
+if(oBC){
+var fCC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b9B.wxXCkey=3
-xAC(oBC,oBC,b9B,gg)
+o0B.wxXCkey=3
+oBC(fCC,fCC,o0B,gg)
 gg.f=cur_globalf
 }
-else _w(o0B,x[35],2,18)
+else _w(xAC,x[35],2,18)
 cs.pop()
-e8B.pop()
+b9B.pop()
 return r
 }
 e_[x[35]]={f:m22,j:[],i:[],ti:[x[36]],ic:[]}
@@ -2467,23 +2478,23 @@ e_[x[37]]={f:m23,j:[],i:[],ti:[],ic:[]}
 d_[x[38]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var hEC=e_[x[38]].i
-_ai(hEC,x[39],e_,x[38],1,1)
-var oFC=_v()
-_(r,oFC)
+var oFC=e_[x[38]].i
+_ai(oFC,x[39],e_,x[38],1,1)
+var cGC=_v()
+_(r,cGC)
 cs.push("./pages/complain/complain.wxml:template:2:6")
-var cGC=_oz(z,1,e,s,gg)
-var oHC=_gd(x[38],cGC,e_,d_)
-if(oHC){
-var lIC=_1z(z,0,e,s,gg) || {}
+var oHC=_oz(z,1,e,s,gg)
+var lIC=_gd(x[38],oHC,e_,d_)
+if(lIC){
+var aJC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oFC.wxXCkey=3
-oHC(lIC,lIC,oFC,gg)
+cGC.wxXCkey=3
+lIC(aJC,aJC,cGC,gg)
 gg.f=cur_globalf
 }
-else _w(cGC,x[38],2,18)
+else _w(oHC,x[38],2,18)
 cs.pop()
-hEC.pop()
+oFC.pop()
 return r
 }
 e_[x[38]]={f:m24,j:[],i:[],ti:[x[39]],ic:[]}
@@ -2511,23 +2522,23 @@ e_[x[40]]={f:m25,j:[],i:[],ti:[],ic:[]}
 d_[x[41]]={}
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
-var eLC=e_[x[41]].i
-_ai(eLC,x[42],e_,x[41],1,1)
-var bMC=_v()
-_(r,bMC)
+var bMC=e_[x[41]].i
+_ai(bMC,x[42],e_,x[41],1,1)
+var oNC=_v()
+_(r,oNC)
 cs.push("./pages/complain_2/complain_2.wxml:template:2:6")
-var oNC=_oz(z,1,e,s,gg)
-var xOC=_gd(x[41],oNC,e_,d_)
-if(xOC){
-var oPC=_1z(z,0,e,s,gg) || {}
+var xOC=_oz(z,1,e,s,gg)
+var oPC=_gd(x[41],xOC,e_,d_)
+if(oPC){
+var fQC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bMC.wxXCkey=3
-xOC(oPC,oPC,bMC,gg)
+oNC.wxXCkey=3
+oPC(fQC,fQC,oNC,gg)
 gg.f=cur_globalf
 }
-else _w(oNC,x[41],2,18)
+else _w(xOC,x[41],2,18)
 cs.pop()
-eLC.pop()
+bMC.pop()
 return r
 }
 e_[x[41]]={f:m26,j:[],i:[],ti:[x[42]],ic:[]}
@@ -2555,23 +2566,23 @@ e_[x[43]]={f:m27,j:[],i:[],ti:[],ic:[]}
 d_[x[44]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var hSC=e_[x[44]].i
-_ai(hSC,x[45],e_,x[44],1,1)
-var oTC=_v()
-_(r,oTC)
+var oTC=e_[x[44]].i
+_ai(oTC,x[45],e_,x[44],1,1)
+var cUC=_v()
+_(r,cUC)
 cs.push("./pages/confirmOrder/confirmOrder.wxml:template:2:6")
-var cUC=_oz(z,1,e,s,gg)
-var oVC=_gd(x[44],cUC,e_,d_)
-if(oVC){
-var lWC=_1z(z,0,e,s,gg) || {}
+var oVC=_oz(z,1,e,s,gg)
+var lWC=_gd(x[44],oVC,e_,d_)
+if(lWC){
+var aXC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oTC.wxXCkey=3
-oVC(lWC,lWC,oTC,gg)
+cUC.wxXCkey=3
+lWC(aXC,aXC,cUC,gg)
 gg.f=cur_globalf
 }
-else _w(cUC,x[44],2,18)
+else _w(oVC,x[44],2,18)
 cs.pop()
-hSC.pop()
+oTC.pop()
 return r
 }
 e_[x[44]]={f:m28,j:[],i:[],ti:[x[45]],ic:[]}
@@ -2599,23 +2610,23 @@ e_[x[46]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[47]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var eZC=e_[x[47]].i
-_ai(eZC,x[48],e_,x[47],1,1)
-var b1C=_v()
-_(r,b1C)
+var b1C=e_[x[47]].i
+_ai(b1C,x[48],e_,x[47],1,1)
+var o2C=_v()
+_(r,o2C)
 cs.push("./pages/cz_psssword/cz_psssword.wxml:template:2:6")
-var o2C=_oz(z,1,e,s,gg)
-var x3C=_gd(x[47],o2C,e_,d_)
-if(x3C){
-var o4C=_1z(z,0,e,s,gg) || {}
+var x3C=_oz(z,1,e,s,gg)
+var o4C=_gd(x[47],x3C,e_,d_)
+if(o4C){
+var f5C=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b1C.wxXCkey=3
-x3C(o4C,o4C,b1C,gg)
+o2C.wxXCkey=3
+o4C(f5C,f5C,o2C,gg)
 gg.f=cur_globalf
 }
-else _w(o2C,x[47],2,18)
+else _w(x3C,x[47],2,18)
 cs.pop()
-eZC.pop()
+b1C.pop()
 return r
 }
 e_[x[47]]={f:m30,j:[],i:[],ti:[x[48]],ic:[]}
@@ -2643,23 +2654,23 @@ e_[x[49]]={f:m31,j:[],i:[],ti:[],ic:[]}
 d_[x[50]]={}
 var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
-var h7C=e_[x[50]].i
-_ai(h7C,x[51],e_,x[50],1,1)
-var o8C=_v()
-_(r,o8C)
+var o8C=e_[x[50]].i
+_ai(o8C,x[51],e_,x[50],1,1)
+var c9C=_v()
+_(r,c9C)
 cs.push("./pages/fenlei/fenlei.wxml:template:2:6")
-var c9C=_oz(z,1,e,s,gg)
-var o0C=_gd(x[50],c9C,e_,d_)
-if(o0C){
-var lAD=_1z(z,0,e,s,gg) || {}
+var o0C=_oz(z,1,e,s,gg)
+var lAD=_gd(x[50],o0C,e_,d_)
+if(lAD){
+var aBD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8C.wxXCkey=3
-o0C(lAD,lAD,o8C,gg)
+c9C.wxXCkey=3
+lAD(aBD,aBD,c9C,gg)
 gg.f=cur_globalf
 }
-else _w(c9C,x[50],2,18)
+else _w(o0C,x[50],2,18)
 cs.pop()
-h7C.pop()
+o8C.pop()
 return r
 }
 e_[x[50]]={f:m32,j:[],i:[],ti:[x[51]],ic:[]}
@@ -2687,23 +2698,23 @@ e_[x[52]]={f:m33,j:[],i:[],ti:[],ic:[]}
 d_[x[53]]={}
 var m34=function(e,s,r,gg){
 var z=gz$gwx_35()
-var eDD=e_[x[53]].i
-_ai(eDD,x[54],e_,x[53],1,1)
-var bED=_v()
-_(r,bED)
+var bED=e_[x[53]].i
+_ai(bED,x[54],e_,x[53],1,1)
+var oFD=_v()
+_(r,oFD)
 cs.push("./pages/ggDetail/ggDetail.wxml:template:2:6")
-var oFD=_oz(z,1,e,s,gg)
-var xGD=_gd(x[53],oFD,e_,d_)
-if(xGD){
-var oHD=_1z(z,0,e,s,gg) || {}
+var xGD=_oz(z,1,e,s,gg)
+var oHD=_gd(x[53],xGD,e_,d_)
+if(oHD){
+var fID=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bED.wxXCkey=3
-xGD(oHD,oHD,bED,gg)
+oFD.wxXCkey=3
+oHD(fID,fID,oFD,gg)
 gg.f=cur_globalf
 }
-else _w(oFD,x[53],2,18)
+else _w(xGD,x[53],2,18)
 cs.pop()
-eDD.pop()
+bED.pop()
 return r
 }
 e_[x[53]]={f:m34,j:[],i:[],ti:[x[54]],ic:[]}
@@ -2731,23 +2742,23 @@ e_[x[55]]={f:m35,j:[],i:[],ti:[],ic:[]}
 d_[x[56]]={}
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
-var hKD=e_[x[56]].i
-_ai(hKD,x[57],e_,x[56],1,1)
-var oLD=_v()
-_(r,oLD)
+var oLD=e_[x[56]].i
+_ai(oLD,x[57],e_,x[56],1,1)
+var cMD=_v()
+_(r,cMD)
 cs.push("./pages/ggList/ggList.wxml:template:2:6")
-var cMD=_oz(z,1,e,s,gg)
-var oND=_gd(x[56],cMD,e_,d_)
-if(oND){
-var lOD=_1z(z,0,e,s,gg) || {}
+var oND=_oz(z,1,e,s,gg)
+var lOD=_gd(x[56],oND,e_,d_)
+if(lOD){
+var aPD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oLD.wxXCkey=3
-oND(lOD,lOD,oLD,gg)
+cMD.wxXCkey=3
+lOD(aPD,aPD,cMD,gg)
 gg.f=cur_globalf
 }
-else _w(cMD,x[56],2,18)
+else _w(oND,x[56],2,18)
 cs.pop()
-hKD.pop()
+oLD.pop()
 return r
 }
 e_[x[56]]={f:m36,j:[],i:[],ti:[x[57]],ic:[]}
@@ -2775,23 +2786,23 @@ e_[x[58]]={f:m37,j:[],i:[],ti:[],ic:[]}
 d_[x[59]]={}
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
-var eRD=e_[x[59]].i
-_ai(eRD,x[60],e_,x[59],1,1)
-var bSD=_v()
-_(r,bSD)
+var bSD=e_[x[59]].i
+_ai(bSD,x[60],e_,x[59],1,1)
+var oTD=_v()
+_(r,oTD)
 cs.push("./pages/help/help.wxml:template:2:6")
-var oTD=_oz(z,1,e,s,gg)
-var xUD=_gd(x[59],oTD,e_,d_)
-if(xUD){
-var oVD=_1z(z,0,e,s,gg) || {}
+var xUD=_oz(z,1,e,s,gg)
+var oVD=_gd(x[59],xUD,e_,d_)
+if(oVD){
+var fWD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bSD.wxXCkey=3
-xUD(oVD,oVD,bSD,gg)
+oTD.wxXCkey=3
+oVD(fWD,fWD,oTD,gg)
 gg.f=cur_globalf
 }
-else _w(oTD,x[59],2,18)
+else _w(xUD,x[59],2,18)
 cs.pop()
-eRD.pop()
+bSD.pop()
 return r
 }
 e_[x[59]]={f:m38,j:[],i:[],ti:[x[60]],ic:[]}
@@ -2819,23 +2830,23 @@ e_[x[61]]={f:m39,j:[],i:[],ti:[],ic:[]}
 d_[x[62]]={}
 var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
-var hYD=e_[x[62]].i
-_ai(hYD,x[63],e_,x[62],1,1)
-var oZD=_v()
-_(r,oZD)
+var oZD=e_[x[62]].i
+_ai(oZD,x[63],e_,x[62],1,1)
+var c1D=_v()
+_(r,c1D)
 cs.push("./pages/helpDetail/helpDetail.wxml:template:2:6")
-var c1D=_oz(z,1,e,s,gg)
-var o2D=_gd(x[62],c1D,e_,d_)
-if(o2D){
-var l3D=_1z(z,0,e,s,gg) || {}
+var o2D=_oz(z,1,e,s,gg)
+var l3D=_gd(x[62],o2D,e_,d_)
+if(l3D){
+var a4D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oZD.wxXCkey=3
-o2D(l3D,l3D,oZD,gg)
+c1D.wxXCkey=3
+l3D(a4D,a4D,c1D,gg)
 gg.f=cur_globalf
 }
-else _w(c1D,x[62],2,18)
+else _w(o2D,x[62],2,18)
 cs.pop()
-hYD.pop()
+oZD.pop()
 return r
 }
 e_[x[62]]={f:m40,j:[],i:[],ti:[x[63]],ic:[]}
@@ -2870,23 +2881,23 @@ e_[x[64]]={f:m41,j:[],i:[],ti:[],ic:[]}
 d_[x[65]]={}
 var m42=function(e,s,r,gg){
 var z=gz$gwx_43()
-var e6D=e_[x[65]].i
-_ai(e6D,x[66],e_,x[65],1,1)
-var b7D=_v()
-_(r,b7D)
+var b7D=e_[x[65]].i
+_ai(b7D,x[66],e_,x[65],1,1)
+var o8D=_v()
+_(r,o8D)
 cs.push("./pages/index/index.wxml:template:2:6")
-var o8D=_oz(z,1,e,s,gg)
-var x9D=_gd(x[65],o8D,e_,d_)
-if(x9D){
-var o0D=_1z(z,0,e,s,gg) || {}
+var x9D=_oz(z,1,e,s,gg)
+var o0D=_gd(x[65],x9D,e_,d_)
+if(o0D){
+var fAE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b7D.wxXCkey=3
-x9D(o0D,o0D,b7D,gg)
+o8D.wxXCkey=3
+o0D(fAE,fAE,o8D,gg)
 gg.f=cur_globalf
 }
-else _w(o8D,x[65],2,18)
+else _w(x9D,x[65],2,18)
 cs.pop()
-e6D.pop()
+b7D.pop()
 return r
 }
 e_[x[65]]={f:m42,j:[],i:[],ti:[x[66]],ic:[]}
@@ -2914,23 +2925,23 @@ e_[x[67]]={f:m43,j:[],i:[],ti:[],ic:[]}
 d_[x[68]]={}
 var m44=function(e,s,r,gg){
 var z=gz$gwx_45()
-var hCE=e_[x[68]].i
-_ai(hCE,x[69],e_,x[68],1,1)
-var oDE=_v()
-_(r,oDE)
+var oDE=e_[x[68]].i
+_ai(oDE,x[69],e_,x[68],1,1)
+var cEE=_v()
+_(r,cEE)
 cs.push("./pages/logn/logn.wxml:template:2:6")
-var cEE=_oz(z,1,e,s,gg)
-var oFE=_gd(x[68],cEE,e_,d_)
-if(oFE){
-var lGE=_1z(z,0,e,s,gg) || {}
+var oFE=_oz(z,1,e,s,gg)
+var lGE=_gd(x[68],oFE,e_,d_)
+if(lGE){
+var aHE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oDE.wxXCkey=3
-oFE(lGE,lGE,oDE,gg)
+cEE.wxXCkey=3
+lGE(aHE,aHE,cEE,gg)
 gg.f=cur_globalf
 }
-else _w(cEE,x[68],2,18)
+else _w(oFE,x[68],2,18)
 cs.pop()
-hCE.pop()
+oDE.pop()
 return r
 }
 e_[x[68]]={f:m44,j:[],i:[],ti:[x[69]],ic:[]}
@@ -2958,23 +2969,23 @@ e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
 d_[x[71]]={}
 var m46=function(e,s,r,gg){
 var z=gz$gwx_47()
-var eJE=e_[x[71]].i
-_ai(eJE,x[72],e_,x[71],1,1)
-var bKE=_v()
-_(r,bKE)
+var bKE=e_[x[71]].i
+_ai(bKE,x[72],e_,x[71],1,1)
+var oLE=_v()
+_(r,oLE)
 cs.push("./pages/merchant/merchant.wxml:template:2:6")
-var oLE=_oz(z,1,e,s,gg)
-var xME=_gd(x[71],oLE,e_,d_)
-if(xME){
-var oNE=_1z(z,0,e,s,gg) || {}
+var xME=_oz(z,1,e,s,gg)
+var oNE=_gd(x[71],xME,e_,d_)
+if(oNE){
+var fOE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bKE.wxXCkey=3
-xME(oNE,oNE,bKE,gg)
+oLE.wxXCkey=3
+oNE(fOE,fOE,oLE,gg)
 gg.f=cur_globalf
 }
-else _w(oLE,x[71],2,18)
+else _w(xME,x[71],2,18)
 cs.pop()
-eJE.pop()
+bKE.pop()
 return r
 }
 e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
@@ -3065,23 +3076,23 @@ e_[x[73]]={f:m47,j:[],i:[],ti:[],ic:[]}
 d_[x[74]]={}
 var m48=function(e,s,r,gg){
 var z=gz$gwx_49()
-var hQE=e_[x[74]].i
-_ai(hQE,x[75],e_,x[74],1,1)
-var oRE=_v()
-_(r,oRE)
+var oRE=e_[x[74]].i
+_ai(oRE,x[75],e_,x[74],1,1)
+var cSE=_v()
+_(r,cSE)
 cs.push("./pages/order/order.wxml:template:2:6")
-var cSE=_oz(z,1,e,s,gg)
-var oTE=_gd(x[74],cSE,e_,d_)
-if(oTE){
-var lUE=_1z(z,0,e,s,gg) || {}
+var oTE=_oz(z,1,e,s,gg)
+var lUE=_gd(x[74],oTE,e_,d_)
+if(lUE){
+var aVE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oRE.wxXCkey=3
-oTE(lUE,lUE,oRE,gg)
+cSE.wxXCkey=3
+lUE(aVE,aVE,cSE,gg)
 gg.f=cur_globalf
 }
-else _w(cSE,x[74],2,18)
+else _w(oTE,x[74],2,18)
 cs.pop()
-hQE.pop()
+oRE.pop()
 return r
 }
 e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
@@ -3109,23 +3120,23 @@ e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
 d_[x[77]]={}
 var m50=function(e,s,r,gg){
 var z=gz$gwx_51()
-var eXE=e_[x[77]].i
-_ai(eXE,x[78],e_,x[77],1,1)
-var bYE=_v()
-_(r,bYE)
+var bYE=e_[x[77]].i
+_ai(bYE,x[78],e_,x[77],1,1)
+var oZE=_v()
+_(r,oZE)
 cs.push("./pages/orderDetail/orderDetail.wxml:template:2:6")
-var oZE=_oz(z,1,e,s,gg)
-var x1E=_gd(x[77],oZE,e_,d_)
-if(x1E){
-var o2E=_1z(z,0,e,s,gg) || {}
+var x1E=_oz(z,1,e,s,gg)
+var o2E=_gd(x[77],x1E,e_,d_)
+if(o2E){
+var f3E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bYE.wxXCkey=3
-x1E(o2E,o2E,bYE,gg)
+oZE.wxXCkey=3
+o2E(f3E,f3E,oZE,gg)
 gg.f=cur_globalf
 }
-else _w(oZE,x[77],2,18)
+else _w(x1E,x[77],2,18)
 cs.pop()
-eXE.pop()
+bYE.pop()
 return r
 }
 e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
@@ -3172,23 +3183,23 @@ e_[x[79]]={f:m51,j:[],i:[],ti:[],ic:[]}
 d_[x[80]]={}
 var m52=function(e,s,r,gg){
 var z=gz$gwx_53()
-var h5E=e_[x[80]].i
-_ai(h5E,x[81],e_,x[80],1,1)
-var o6E=_v()
-_(r,o6E)
+var o6E=e_[x[80]].i
+_ai(o6E,x[81],e_,x[80],1,1)
+var c7E=_v()
+_(r,c7E)
 cs.push("./pages/product_detaill/product_detaill.wxml:template:2:6")
-var c7E=_oz(z,1,e,s,gg)
-var o8E=_gd(x[80],c7E,e_,d_)
-if(o8E){
-var l9E=_1z(z,0,e,s,gg) || {}
+var o8E=_oz(z,1,e,s,gg)
+var l9E=_gd(x[80],o8E,e_,d_)
+if(l9E){
+var a0E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o6E.wxXCkey=3
-o8E(l9E,l9E,o6E,gg)
+c7E.wxXCkey=3
+l9E(a0E,a0E,c7E,gg)
 gg.f=cur_globalf
 }
-else _w(c7E,x[80],2,18)
+else _w(o8E,x[80],2,18)
 cs.pop()
-h5E.pop()
+o6E.pop()
 return r
 }
 e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
@@ -3216,23 +3227,23 @@ e_[x[82]]={f:m53,j:[],i:[],ti:[],ic:[]}
 d_[x[83]]={}
 var m54=function(e,s,r,gg){
 var z=gz$gwx_55()
-var eBF=e_[x[83]].i
-_ai(eBF,x[84],e_,x[83],1,1)
-var bCF=_v()
-_(r,bCF)
+var bCF=e_[x[83]].i
+_ai(bCF,x[84],e_,x[83],1,1)
+var oDF=_v()
+_(r,oDF)
 cs.push("./pages/register/register.wxml:template:2:6")
-var oDF=_oz(z,1,e,s,gg)
-var xEF=_gd(x[83],oDF,e_,d_)
-if(xEF){
-var oFF=_1z(z,0,e,s,gg) || {}
+var xEF=_oz(z,1,e,s,gg)
+var oFF=_gd(x[83],xEF,e_,d_)
+if(oFF){
+var fGF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bCF.wxXCkey=3
-xEF(oFF,oFF,bCF,gg)
+oDF.wxXCkey=3
+oFF(fGF,fGF,oDF,gg)
 gg.f=cur_globalf
 }
-else _w(oDF,x[83],2,18)
+else _w(xEF,x[83],2,18)
 cs.pop()
-eBF.pop()
+bCF.pop()
 return r
 }
 e_[x[83]]={f:m54,j:[],i:[],ti:[x[84]],ic:[]}
@@ -3267,23 +3278,23 @@ e_[x[85]]={f:m55,j:[],i:[],ti:[],ic:[]}
 d_[x[86]]={}
 var m56=function(e,s,r,gg){
 var z=gz$gwx_57()
-var hIF=e_[x[86]].i
-_ai(hIF,x[87],e_,x[86],1,1)
-var oJF=_v()
-_(r,oJF)
+var oJF=e_[x[86]].i
+_ai(oJF,x[87],e_,x[86],1,1)
+var cKF=_v()
+_(r,cKF)
 cs.push("./pages/shouHou/shouHou.wxml:template:2:6")
-var cKF=_oz(z,1,e,s,gg)
-var oLF=_gd(x[86],cKF,e_,d_)
-if(oLF){
-var lMF=_1z(z,0,e,s,gg) || {}
+var oLF=_oz(z,1,e,s,gg)
+var lMF=_gd(x[86],oLF,e_,d_)
+if(lMF){
+var aNF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oJF.wxXCkey=3
-oLF(lMF,lMF,oJF,gg)
+cKF.wxXCkey=3
+lMF(aNF,aNF,cKF,gg)
 gg.f=cur_globalf
 }
-else _w(cKF,x[86],2,18)
+else _w(oLF,x[86],2,18)
 cs.pop()
-hIF.pop()
+oJF.pop()
 return r
 }
 e_[x[86]]={f:m56,j:[],i:[],ti:[x[87]],ic:[]}
@@ -3311,23 +3322,23 @@ e_[x[88]]={f:m57,j:[],i:[],ti:[],ic:[]}
 d_[x[89]]={}
 var m58=function(e,s,r,gg){
 var z=gz$gwx_59()
-var ePF=e_[x[89]].i
-_ai(ePF,x[90],e_,x[89],1,1)
-var bQF=_v()
-_(r,bQF)
+var bQF=e_[x[89]].i
+_ai(bQF,x[90],e_,x[89],1,1)
+var oRF=_v()
+_(r,oRF)
 cs.push("./pages/suiguo_list/suiguo_list.wxml:template:2:6")
-var oRF=_oz(z,1,e,s,gg)
-var xSF=_gd(x[89],oRF,e_,d_)
-if(xSF){
-var oTF=_1z(z,0,e,s,gg) || {}
+var xSF=_oz(z,1,e,s,gg)
+var oTF=_gd(x[89],xSF,e_,d_)
+if(oTF){
+var fUF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bQF.wxXCkey=3
-xSF(oTF,oTF,bQF,gg)
+oRF.wxXCkey=3
+oTF(fUF,fUF,oRF,gg)
 gg.f=cur_globalf
 }
-else _w(oRF,x[89],2,18)
+else _w(xSF,x[89],2,18)
 cs.pop()
-ePF.pop()
+bQF.pop()
 return r
 }
 e_[x[89]]={f:m58,j:[],i:[],ti:[x[90]],ic:[]}
@@ -3355,23 +3366,23 @@ e_[x[91]]={f:m59,j:[],i:[],ti:[],ic:[]}
 d_[x[92]]={}
 var m60=function(e,s,r,gg){
 var z=gz$gwx_61()
-var hWF=e_[x[92]].i
-_ai(hWF,x[93],e_,x[92],1,1)
-var oXF=_v()
-_(r,oXF)
+var oXF=e_[x[92]].i
+_ai(oXF,x[93],e_,x[92],1,1)
+var cYF=_v()
+_(r,cYF)
 cs.push("./pages/suiguo_shop/suiguo_shop.wxml:template:2:6")
-var cYF=_oz(z,1,e,s,gg)
-var oZF=_gd(x[92],cYF,e_,d_)
-if(oZF){
-var l1F=_1z(z,0,e,s,gg) || {}
+var oZF=_oz(z,1,e,s,gg)
+var l1F=_gd(x[92],oZF,e_,d_)
+if(l1F){
+var a2F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oXF.wxXCkey=3
-oZF(l1F,l1F,oXF,gg)
+cYF.wxXCkey=3
+l1F(a2F,a2F,cYF,gg)
 gg.f=cur_globalf
 }
-else _w(cYF,x[92],2,18)
+else _w(oZF,x[92],2,18)
 cs.pop()
-hWF.pop()
+oXF.pop()
 return r
 }
 e_[x[92]]={f:m60,j:[],i:[],ti:[x[93]],ic:[]}
@@ -3399,23 +3410,23 @@ e_[x[94]]={f:m61,j:[],i:[],ti:[],ic:[]}
 d_[x[95]]={}
 var m62=function(e,s,r,gg){
 var z=gz$gwx_63()
-var e4F=e_[x[95]].i
-_ai(e4F,x[96],e_,x[95],1,1)
-var b5F=_v()
-_(r,b5F)
+var b5F=e_[x[95]].i
+_ai(b5F,x[96],e_,x[95],1,1)
+var o6F=_v()
+_(r,o6F)
 cs.push("./pages/system_setup/system_setup.wxml:template:2:6")
-var o6F=_oz(z,1,e,s,gg)
-var x7F=_gd(x[95],o6F,e_,d_)
-if(x7F){
-var o8F=_1z(z,0,e,s,gg) || {}
+var x7F=_oz(z,1,e,s,gg)
+var o8F=_gd(x[95],x7F,e_,d_)
+if(o8F){
+var f9F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b5F.wxXCkey=3
-x7F(o8F,o8F,b5F,gg)
+o6F.wxXCkey=3
+o8F(f9F,f9F,o6F,gg)
 gg.f=cur_globalf
 }
-else _w(o6F,x[95],2,18)
+else _w(x7F,x[95],2,18)
 cs.pop()
-e4F.pop()
+b5F.pop()
 return r
 }
 e_[x[95]]={f:m62,j:[],i:[],ti:[x[96]],ic:[]}
@@ -3450,23 +3461,23 @@ e_[x[97]]={f:m63,j:[],i:[],ti:[],ic:[]}
 d_[x[98]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
-var hAG=e_[x[98]].i
-_ai(hAG,x[99],e_,x[98],1,1)
-var oBG=_v()
-_(r,oBG)
+var oBG=e_[x[98]].i
+_ai(oBG,x[99],e_,x[98],1,1)
+var cCG=_v()
+_(r,cCG)
 cs.push("./pages/userCenter/userCenter.wxml:template:2:6")
-var cCG=_oz(z,1,e,s,gg)
-var oDG=_gd(x[98],cCG,e_,d_)
-if(oDG){
-var lEG=_1z(z,0,e,s,gg) || {}
+var oDG=_oz(z,1,e,s,gg)
+var lEG=_gd(x[98],oDG,e_,d_)
+if(lEG){
+var aFG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oBG.wxXCkey=3
-oDG(lEG,lEG,oBG,gg)
+cCG.wxXCkey=3
+lEG(aFG,aFG,cCG,gg)
 gg.f=cur_globalf
 }
-else _w(cCG,x[98],2,18)
+else _w(oDG,x[98],2,18)
 cs.pop()
-hAG.pop()
+oBG.pop()
 return r
 }
 e_[x[98]]={f:m64,j:[],i:[],ti:[x[99]],ic:[]}
@@ -3494,23 +3505,23 @@ e_[x[100]]={f:m65,j:[],i:[],ti:[],ic:[]}
 d_[x[101]]={}
 var m66=function(e,s,r,gg){
 var z=gz$gwx_67()
-var eHG=e_[x[101]].i
-_ai(eHG,x[102],e_,x[101],1,1)
-var bIG=_v()
-_(r,bIG)
+var bIG=e_[x[101]].i
+_ai(bIG,x[102],e_,x[101],1,1)
+var oJG=_v()
+_(r,oJG)
 cs.push("./pages/userMsg/userMsg.wxml:template:2:6")
-var oJG=_oz(z,1,e,s,gg)
-var xKG=_gd(x[101],oJG,e_,d_)
-if(xKG){
-var oLG=_1z(z,0,e,s,gg) || {}
+var xKG=_oz(z,1,e,s,gg)
+var oLG=_gd(x[101],xKG,e_,d_)
+if(oLG){
+var fMG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bIG.wxXCkey=3
-xKG(oLG,oLG,bIG,gg)
+oJG.wxXCkey=3
+oLG(fMG,fMG,oJG,gg)
 gg.f=cur_globalf
 }
-else _w(oJG,x[101],2,18)
+else _w(xKG,x[101],2,18)
 cs.pop()
-eHG.pop()
+bIG.pop()
 return r
 }
 e_[x[101]]={f:m66,j:[],i:[],ti:[x[102]],ic:[]}
@@ -3538,23 +3549,23 @@ e_[x[103]]={f:m67,j:[],i:[],ti:[],ic:[]}
 d_[x[104]]={}
 var m68=function(e,s,r,gg){
 var z=gz$gwx_69()
-var hOG=e_[x[104]].i
-_ai(hOG,x[105],e_,x[104],1,1)
-var oPG=_v()
-_(r,oPG)
+var oPG=e_[x[104]].i
+_ai(oPG,x[105],e_,x[104],1,1)
+var cQG=_v()
+_(r,cQG)
 cs.push("./pages/wjPassword/wjPassword.wxml:template:2:6")
-var cQG=_oz(z,1,e,s,gg)
-var oRG=_gd(x[104],cQG,e_,d_)
-if(oRG){
-var lSG=_1z(z,0,e,s,gg) || {}
+var oRG=_oz(z,1,e,s,gg)
+var lSG=_gd(x[104],oRG,e_,d_)
+if(lSG){
+var aTG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oPG.wxXCkey=3
-oRG(lSG,lSG,oPG,gg)
+cQG.wxXCkey=3
+lSG(aTG,aTG,cQG,gg)
 gg.f=cur_globalf
 }
-else _w(cQG,x[104],2,18)
+else _w(oRG,x[104],2,18)
 cs.pop()
-hOG.pop()
+oPG.pop()
 return r
 }
 e_[x[104]]={f:m68,j:[],i:[],ti:[x[105]],ic:[]}
@@ -3643,32 +3654,32 @@ return r
 }
 var m69=function(e,s,r,gg){
 var z=gz$gwx_70()
-var tUG=e_[x[106]].i
-_ai(tUG,x[24],e_,x[106],1,1)
-tUG.pop()
+var eVG=e_[x[106]].i
+_ai(eVG,x[2],e_,x[106],1,1)
+eVG.pop()
 return r
 }
-e_[x[106]]={f:m69,j:[],i:[],ti:[x[24]],ic:[]}
+e_[x[106]]={f:m69,j:[],i:[],ti:[x[2]],ic:[]}
 d_[x[107]]={}
 var m70=function(e,s,r,gg){
 var z=gz$gwx_71()
-var bWG=e_[x[107]].i
-_ai(bWG,x[108],e_,x[107],1,1)
-var oXG=_v()
-_(r,oXG)
+var oXG=e_[x[107]].i
+_ai(oXG,x[108],e_,x[107],1,1)
+var xYG=_v()
+_(r,xYG)
 cs.push("./pages/zhuji/zhuji.wxml:template:2:6")
-var xYG=_oz(z,1,e,s,gg)
-var oZG=_gd(x[107],xYG,e_,d_)
-if(oZG){
-var f1G=_1z(z,0,e,s,gg) || {}
+var oZG=_oz(z,1,e,s,gg)
+var f1G=_gd(x[107],oZG,e_,d_)
+if(f1G){
+var c2G=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oXG.wxXCkey=3
-oZG(f1G,f1G,oXG,gg)
+xYG.wxXCkey=3
+f1G(c2G,c2G,xYG,gg)
 gg.f=cur_globalf
 }
-else _w(xYG,x[107],2,18)
+else _w(oZG,x[107],2,18)
 cs.pop()
-bWG.pop()
+oXG.pop()
 return r
 }
 e_[x[107]]={f:m70,j:[],i:[],ti:[x[108]],ic:[]}
@@ -3807,7 +3818,7 @@ define('common/main.js',function(require, module, exports, window, document, fra
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    }\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?49d6");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  data: function data() {\n    return {\n      version: '' };\n\n  },\n  onLaunch: function onLaunch() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    }\n  },\n  methods: {},\n\n\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?49d6");
 
 /***/ }),
 
@@ -4279,7 +4290,7 @@ define('pages/index/index.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      search: '',\n      imgURl: '',\n      bannerList: [], //轮播图\n      gonggaoList: [], //公告列表\n      classify: [], //分类列表\n      city: '西安' };\n\n  },\n  onLoad: function onLoad() {\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    } else {\n      uni.reLaunch({\n        url: '/pages/logn/logn' });\n\n    }\n    this.imgURl = _index.imgURl;\n    var _this = this;\n\n    plus.geolocation.getCurrentPosition(function (position) {\n      console.log(JSON.stringify(position));\n      _this.city = position.address.city;\n    });\n\n  },\n  onShow: function onShow() {\n    this.getProductSlidesList();\n    this.getNoticeList();\n    this.getProductCategory();\n  },\n  methods: {\n    gotoDetail2: function gotoDetail2(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    },\n    //轮播图\n    getProductSlidesList: function getProductSlidesList() {var _this2 = this;\n      (0, _product.getProductSlidesList)().then(function (res) {\n        if (res.data.code == 0) {\n          _this2.bannerList = res.data.data;\n        }\n      });\n    },\n    //公告列表\n    getNoticeList: function getNoticeList() {var _this3 = this;\n      (0, _product.getNoticeList)(1, 10).then(function (res) {\n        if (res.data.code == 0) {\n          _this3.gonggaoList = res.data.data.list;\n        }\n      });\n    },\n    //分类列表\n    getProductCategory: function getProductCategory() {var _this4 = this;\n      (0, _product.getProductCategory)(1, 1).then(function (res) {\n        _this4.classify = res.data.data.cateGories;\n      });\n    },\n    //去公告详情\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/ggList/ggList' });\n\n    },\n    gotoShopList: function gotoShopList(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?id=' + id });\n\n    },\n    searchShop: function searchShop() {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?search=' + this.search });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?7423");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");var _default =\n{\n  data: function data() {\n    return {\n      version: '',\n      search: '',\n      imgURl: '',\n      bannerList: [], //轮播图\n      gonggaoList: [], //公告列表\n      classify: [], //分类列表\n      city: '西安' };\n\n  },\n  onLoad: function onLoad() {var _this2 = this;\n    var userId = uni.getStorageSync('userId');\n    var token = uni.getStorageSync('token');\n    if (userId) {\n      this.$store.commit('SET_USERID', userId);\n      this.$store.commit('SET_TOKEN', token);\n    } else {\n      uni.reLaunch({\n        url: '/pages/logn/logn' });\n\n    }\n    this.imgURl = _index.imgURl;\n    var _this = this;\n\n    plus.geolocation.getCurrentPosition(function (position) {\n      console.log(JSON.stringify(position));\n      _this.city = position.address.city;\n    });\n\n    this.version = plus.runtime.version;\n    uni.getSystemInfo({\n      success: function success(res) {\n        console.log(res.platform);\n        //检测当前平台，如果是安卓则启动安卓更新\n        if (res.platform == 'android') {\n          _this2.AndroidCheckUpdate();\n        }\n      } });\n\n  },\n  onShow: function onShow() {\n    this.getProductSlidesList();\n    this.getNoticeList();\n    this.getProductCategory();\n  },\n  methods: {\n    //检查版本更新\n    AndroidCheckUpdate: function AndroidCheckUpdate() {var _this3 = this;\n      uni.request({\n        url: 'http://114.115.211.170:8018/system/version/getNewVersionNumber?type=1',\n        method: 'GET',\n        data: {},\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n          if (res.data.data > _this3.version) {\n            if (plus.networkinfo.getCurrentType() != 3) {\n              uni.showToast({\n                title: '有新的版本发布，检测到您目前非Wifi连接，为节约您的流量，程序已停止自动更新，将在您连接WIFI之后重新检测更新。',\n                mask: false,\n                duration: 7000,\n                icon: 'none' });\n\n              return;\n            }\n            uni.showToast({\n              title: '有新的版本发布，检测到您目前为Wifi连接，程序已启动自动更新。新版本下载完成后将自动弹出安装程序。',\n              mask: false,\n              duration: 7000,\n              icon: 'none' });\n\n            var dtask = plus.downloader.createDownload('http://114.115.211.170:8008/app/yonghu.apk', {}, function (d, status) {\n              // 下载完成\n              if (status == 200) {\n                plus.runtime.install(plus.io.convertLocalFileSystemURL(d.filename), {}, {}, function (error) {\n                  uni.showToast({\n                    title: '安装失败',\n                    mask: false,\n                    icon: 'none',\n                    duration: 1500 });\n\n                });\n              } else {\n                uni.showToast({\n                  title: '更新失败',\n                  mask: false,\n                  icon: 'none',\n                  duration: 1500 });\n\n              }\n            });\n            dtask.start();\n          }\n        },\n        fail: function fail() {},\n        complete: function complete() {} });\n\n    },\n    gotoDetail2: function gotoDetail2(id) {\n      uni.navigateTo({\n        url: '/pages/product_detaill/product_detaill?id=' + id });\n\n    },\n    //轮播图\n    getProductSlidesList: function getProductSlidesList() {var _this4 = this;\n      (0, _product.getProductSlidesList)().then(function (res) {\n        if (res.data.code == 0) {\n          _this4.bannerList = res.data.data;\n        }\n      });\n    },\n    //公告列表\n    getNoticeList: function getNoticeList() {var _this5 = this;\n      (0, _product.getNoticeList)(1, 10).then(function (res) {\n        if (res.data.code == 0) {\n          _this5.gonggaoList = res.data.data.list;\n        }\n      });\n    },\n    //分类列表\n    getProductCategory: function getProductCategory() {var _this6 = this;\n      (0, _product.getProductCategory)(1, 1).then(function (res) {\n        _this6.classify = res.data.data.cateGories;\n      });\n    },\n    //去公告详情\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/ggList/ggList' });\n\n    },\n    gotoShopList: function gotoShopList(id) {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?id=' + id });\n\n    },\n    searchShop: function searchShop() {\n      uni.navigateTo({\n        url: '/pages/suiguo_shop/suiguo_shop?search=' + this.search });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?7423");
 
 /***/ }),
 
@@ -4691,7 +4702,7 @@ define('pages/order/order.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      currentTab: 0,\n      imgURl: '',\n      orderList: [],\n      state: '', //\n      pageNo: 1 //页码\n    };\n  },\n  onShow: function onShow() {\n    this.orderList = [],\n    this.imgURl = _index.imgURl;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    //获取订单列表\n    queryOrderList: function queryOrderList(userId, state, pageNo, pageSize) {var _this = this;\n      (0, _product.queryOrderList)(userId, state, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }\n          _this.orderList = [].concat(_toConsumableArray(_this.orderList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    tabs: function tabs(tab, state) {\n      this.currentTab = tab;\n      this.state = state;\n      this.orderList = [];\n      this.pageNo = 1;\n      this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n    },\n    //取消订单\n    cancelOrder: function cancelOrder(id) {var _this2 = this;\n      (0, _product.cancelOrder)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.orderList = [];\n          _this2.pageNo = 1;\n          _this2.queryOrderList(_this2.userId, _this2.state, _this2.pageNo, 10);\n        }\n      });\n    },\n    //确认订单\n    ConfirmOrder: function ConfirmOrder(id) {var _this3 = this;\n      //订单状态修改 1-用户确认订单（待收货）3-用户确认收货\n      (0, _product.ConfirmOrder)(id, 1).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '订单已确认',\n            icon: 'none',\n            duration: 1500 });\n\n          _this3.orderList = [];\n          _this3.pageNo = 1;\n          _this3.queryOrderList(_this3.userId, _this3.state, _this3.pageNo, 10);\n        }\n      });\n    },\n    //确认收货\n    qRshouhuo: function qRshouhuo(id, orderStatus) {var _this4 = this;\n      console.log(22222);\n      if (orderStatus == 2) {\n        (0, _product.ConfirmOrder)(id, 3).then(function (res) {\n          if (res.data.code == 0) {\n            uni.showToast({\n              title: '订单已确认',\n              icon: 'none',\n              duration: 1500 });\n\n            _this4.orderList = [];\n            _this4.pageNo = 1;\n            _this4.queryOrderList(_this4.userId, _this4.state, _this4.pageNo, 10);\n          }\n        });\n      } else {\n        uni.showToast({\n          title: '等待商家确认',\n          icon: 'none',\n          duration: 1500 });\n\n      }\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/orderDetail/orderDetail?id=' + id });\n\n    },\n    gotoComment: function gotoComment(item) {\n      var params = {\n        orderId: item.orderId,\n        productId: item.product.productId,\n        productName: item.product.productName,\n        descript: item.product.descript,\n        img: item.product.imgList[0] };\n\n      uni.navigateTo({\n        url: '/pages/comment/comment?params=' + JSON.stringify(params) });\n\n    },\n    shouHou: function shouHou(item) {\n      //saleService 为0可以申请 为1是商家处理中\n      if (!item.order.saleService) {\n        var params = {\n          updatedTime: item.updatedTime,\n          orderId: item.orderId,\n          orderSn: item.order.orderSn,\n          productName: item.productName,\n          productPrice: item.productPrice,\n          productCount: item.productCount,\n          img: item.product.imgList[0] };\n\n        uni.navigateTo({\n          url: '/pages/shouHou/shouHou?params=' + JSON.stringify(params) });\n\n      } else {\n        uni.showToast({\n          title: '等待商家处理',\n          icon: 'none',\n          duration: 1500 });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/order/order.vue?vue&type=script&lang=js&?40ea");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\nvar _index = __webpack_require__(/*! ../../common/config/index.js */ \"D:\\\\西港项目\\\\xigang\\\\common\\\\config\\\\index.js\");\nvar _product = __webpack_require__(/*! @/request/API/product.js */ \"D:\\\\西港项目\\\\xigang\\\\request\\\\API\\\\product.js\");function _toConsumableArray(arr) {return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();}function _nonIterableSpread() {throw new TypeError(\"Invalid attempt to spread non-iterable instance\");}function _iterableToArray(iter) {if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter);}function _arrayWithoutHoles(arr) {if (Array.isArray(arr)) {for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {arr2[i] = arr[i];}return arr2;}}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  data: function data() {\n    return {\n      currentTab: 0,\n      imgURl: '',\n      orderList: [],\n      state: '', //\n      pageNo: 1 //页码\n    };\n  },\n  onShow: function onShow() {\n    this.pageNo = 1;\n    this.orderList = [],\n    this.imgURl = _index.imgURl;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  //上拉加载\n  onReachBottom: function onReachBottom() {\n    this.pageNo++;\n    this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n  },\n  computed: _objectSpread({},\n  (0, _vuex.mapState)(['userId'])),\n\n  methods: {\n    //获取订单列表\n    queryOrderList: function queryOrderList(userId, state, pageNo, pageSize) {var _this = this;\n      (0, _product.queryOrderList)(userId, state, pageNo, pageSize).then(function (res) {\n        if (res.data.code == 0) {\n          if (res.data.data.list.length == 0) {\n            uni.showToast({\n              title: '没有更多数据了',\n              icon: 'none',\n              duration: 1000 });\n\n          }\n          _this.orderList = [].concat(_toConsumableArray(_this.orderList), _toConsumableArray(res.data.data.list));\n        }\n      });\n    },\n    tabs: function tabs(tab, state) {\n      this.currentTab = tab;\n      this.state = state;\n      this.orderList = [];\n      this.pageNo = 1;\n      this.queryOrderList(this.userId, this.state, this.pageNo, 10);\n    },\n    //取消订单\n    cancelOrder: function cancelOrder(id) {var _this2 = this;\n      (0, _product.cancelOrder)(id).then(function (res) {\n        if (res.data.code == 0) {\n          _this2.orderList = [];\n          _this2.pageNo = 1;\n          _this2.queryOrderList(_this2.userId, _this2.state, _this2.pageNo, 10);\n        }\n      });\n    },\n    //确认订单\n    ConfirmOrder: function ConfirmOrder(id) {var _this3 = this;\n      //订单状态修改 1-用户确认订单（待收货）3-用户确认收货\n      (0, _product.ConfirmOrder)(id, 1).then(function (res) {\n        if (res.data.code == 0) {\n          uni.showToast({\n            title: '订单已确认',\n            icon: 'none',\n            duration: 1500 });\n\n          _this3.orderList = [];\n          _this3.pageNo = 1;\n          _this3.queryOrderList(_this3.userId, _this3.state, _this3.pageNo, 10);\n        }\n      });\n    },\n    //确认收货\n    qRshouhuo: function qRshouhuo(id, orderStatus) {var _this4 = this;\n      console.log(22222);\n      if (orderStatus == 2) {\n        (0, _product.ConfirmOrder)(id, 3).then(function (res) {\n          if (res.data.code == 0) {\n            uni.showToast({\n              title: '订单已确认',\n              icon: 'none',\n              duration: 1500 });\n\n            _this4.orderList = [];\n            _this4.pageNo = 1;\n            _this4.queryOrderList(_this4.userId, _this4.state, _this4.pageNo, 10);\n          }\n        });\n      } else {\n        uni.showToast({\n          title: '等待商家确认',\n          icon: 'none',\n          duration: 1500 });\n\n      }\n    },\n    gotoDetail: function gotoDetail(id) {\n      uni.navigateTo({\n        url: '/pages/orderDetail/orderDetail?id=' + id });\n\n    },\n    gotoComment: function gotoComment(item) {\n      var params = {\n        orderId: item.orderId,\n        productId: item.product.productId,\n        productName: item.product.productName,\n        descript: item.product.descript,\n        img: item.product.imgList[0] };\n\n      uni.navigateTo({\n        url: '/pages/comment/comment?params=' + JSON.stringify(params) });\n\n    },\n    shouHou: function shouHou(item) {\n      //saleService 为0可以申请 为1是商家处理中\n      if (!item.order.saleService) {\n        var params = {\n          updatedTime: item.updatedTime,\n          orderId: item.orderId,\n          orderSn: item.order.orderSn,\n          productName: item.productName,\n          productPrice: item.productPrice,\n          productCount: item.productCount,\n          img: item.product.imgList[0] };\n\n        uni.navigateTo({\n          url: '/pages/shouHou/shouHou?params=' + JSON.stringify(params) });\n\n      } else {\n        uni.showToast({\n          title: '等待商家处理',\n          icon: 'none',\n          duration: 1500 });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/order/order.vue?vue&type=script&lang=js&?40ea");
 
 /***/ }),
 
@@ -6088,7 +6099,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"addAddress\" },\n    [\n      _c(\"view\", { staticClass: \"line\" }, [\n        _c(\"view\", { staticClass: \"title\" }),\n        _c(\"view\", [\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"收货人:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.userName,\n                  expression: \"params.userName\"\n                }\n              ],\n              attrs: {\n                type: \"text\",\n                placeholder: \"请填写收货人的姓名\",\n                eventid: \"21979ac8-0\"\n              },\n              domProps: { value: _vm.params.userName },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.userName = $event.target.value\n                }\n              }\n            })\n          ]),\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"手机号码:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.userPhone,\n                  expression: \"params.userPhone\"\n                }\n              ],\n              attrs: {\n                type: \"number\",\n                maxlength: \"11\",\n                placeholder: \"请填写收货人的手机号码\",\n                eventid: \"21979ac8-1\"\n              },\n              domProps: { value: _vm.params.userPhone },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.userPhone = $event.target.value\n                }\n              }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"line\" }, [\n        _c(\"view\", { staticClass: \"title\" }),\n        _c(\"view\", [\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"选择省市区:\")]),\n            _c(\n              \"view\",\n              {\n                attrs: { eventid: \"21979ac8-2\" },\n                on: { click: _vm.showMulLinkageThreePicker }\n              },\n              [\n                _vm._v(\n                  _vm._s(\n                    _vm.params.location_a\n                      ? _vm.params.location_a +\n                          \"-\" +\n                          _vm.params.location_b +\n                          \"-\" +\n                          _vm.params.location_c\n                      : \"请选择地址\"\n                  )\n                )\n              ]\n            )\n          ]),\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"详细地址:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.addressLine1,\n                  expression: \"params.addressLine1\"\n                }\n              ],\n              attrs: {\n                type: \"text\",\n                placeholder: \"请填写收货人的详细地址\",\n                eventid: \"21979ac8-3\"\n              },\n              domProps: { value: _vm.params.addressLine1 },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.addressLine1 = $event.target.value\n                }\n              }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"set\" }, [\n        _c(\"view\", [\n          _c(\"view\", [_vm._v(\"设置默认地址\")]),\n          _c(\n            \"view\",\n            {\n              attrs: { eventid: \"21979ac8-4\" },\n              on: {\n                click: function($event) {\n                  _vm.is_default ? (_vm.is_default = 0) : (_vm.is_default = 1)\n                }\n              }\n            },\n            [_c(\"view\", { class: { act: _vm.is_default } })]\n          )\n        ])\n      ]),\n      !_vm.params.addressId\n        ? _c(\n            \"view\",\n            { staticClass: \"btn\" },\n            [\n              _c(\n                \"button\",\n                {\n                  attrs: { type: \"primary\", eventid: \"21979ac8-5\" },\n                  on: { click: _vm.Addaddress }\n                },\n                [_vm._v(\"提交\")]\n              )\n            ],\n            1\n          )\n        : _c(\n            \"view\",\n            { staticClass: \"btn\" },\n            [\n              _c(\n                \"button\",\n                {\n                  attrs: { type: \"primary\", eventid: \"21979ac8-6\" },\n                  on: { click: _vm.Addaddress2 }\n                },\n                [_vm._v(\"修改\")]\n              )\n            ],\n            1\n          ),\n      _c(\"mpvue-city-picker\", {\n        ref: \"mpvueCityPicker\",\n        attrs: {\n          themeColor: _vm.themeColor,\n          pickerValueDefault: _vm.cityPickerValueDefault,\n          eventid: \"21979ac8-7\",\n          mpcomid: \"21979ac8-0\"\n        },\n        on: { onCancel: _vm.onCancel, onConfirm: _vm.onConfirm }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/address/address.vue?vue&type=template&id=a478c3bc&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"addAddress\" },\n    [\n      _c(\"view\", { staticClass: \"line\" }, [\n        _c(\"view\", { staticClass: \"title\" }),\n        _c(\"view\", [\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"收货人:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.userName,\n                  expression: \"params.userName\"\n                }\n              ],\n              attrs: {\n                type: \"text\",\n                placeholder: \"请填写收货人的姓名\",\n                eventid: \"21979ac8-0\"\n              },\n              domProps: { value: _vm.params.userName },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.userName = $event.target.value\n                }\n              }\n            })\n          ]),\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"手机号码:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.userPhone,\n                  expression: \"params.userPhone\"\n                }\n              ],\n              attrs: {\n                type: \"number\",\n                maxlength: \"11\",\n                placeholder: \"请填写收货人的手机号码\",\n                eventid: \"21979ac8-1\"\n              },\n              domProps: { value: _vm.params.userPhone },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.userPhone = $event.target.value\n                }\n              }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"line\" }, [\n        _c(\"view\", { staticClass: \"title\" }),\n        _c(\"view\", [\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"选择省市区:\")]),\n            _c(\n              \"view\",\n              {\n                attrs: { eventid: \"21979ac8-2\" },\n                on: { click: _vm.showMulLinkageThreePicker }\n              },\n              [\n                _vm._v(\n                  _vm._s(\n                    _vm.params.location_a\n                      ? _vm.params.location_a +\n                          \"-\" +\n                          _vm.params.location_b +\n                          \"-\" +\n                          _vm.params.location_c\n                      : \"请选择地址\"\n                  )\n                )\n              ]\n            )\n          ]),\n          _c(\"view\", [\n            _c(\"text\", [_vm._v(\"详细地址:\")]),\n            _c(\"input\", {\n              directives: [\n                {\n                  name: \"model\",\n                  rawName: \"v-model\",\n                  value: _vm.params.addressLine1,\n                  expression: \"params.addressLine1\"\n                }\n              ],\n              attrs: {\n                type: \"text\",\n                placeholder: \"请填写收货人的详细地址\",\n                eventid: \"21979ac8-3\"\n              },\n              domProps: { value: _vm.params.addressLine1 },\n              on: {\n                input: function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.params.addressLine1 = $event.target.value\n                }\n              }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"set\" }, [\n        _c(\"view\", [\n          _c(\"view\", [_vm._v(\"设置默认地址\")]),\n          _c(\n            \"view\",\n            {\n              attrs: { eventid: \"21979ac8-4\" },\n              on: {\n                click: function($event) {\n                  _vm.is_default ? (_vm.is_default = 0) : (_vm.is_default = 1)\n                }\n              }\n            },\n            [_c(\"view\", { class: { act: _vm.is_default } })]\n          )\n        ])\n      ]),\n      !_vm.params.addressId\n        ? _c(\n            \"view\",\n            { staticClass: \"btn\" },\n            [\n              _c(\n                \"button\",\n                {\n                  attrs: { eventid: \"21979ac8-5\" },\n                  on: { click: _vm.Addaddress }\n                },\n                [_vm._v(\"提交\")]\n              )\n            ],\n            1\n          )\n        : _c(\n            \"view\",\n            { staticClass: \"btn\" },\n            [\n              _c(\n                \"button\",\n                {\n                  attrs: { eventid: \"21979ac8-6\" },\n                  on: { click: _vm.Addaddress2 }\n                },\n                [_vm._v(\"修改\")]\n              )\n            ],\n            1\n          ),\n      _c(\"mpvue-city-picker\", {\n        ref: \"mpvueCityPicker\",\n        attrs: {\n          themeColor: _vm.themeColor,\n          pickerValueDefault: _vm.cityPickerValueDefault,\n          eventid: \"21979ac8-7\",\n          mpcomid: \"21979ac8-0\"\n        },\n        on: { onCancel: _vm.onCancel, onConfirm: _vm.onConfirm }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=D:/%E8%A5%BF%E6%B8%AF%E9%A1%B9%E7%9B%AE/xigang/pages/address/address.vue?vue&type=template&id=a478c3bc&");
 
 /***/ }),
 
