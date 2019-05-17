@@ -1,4 +1,4 @@
-.content.data-v-2f1ba753 {
+.content.data-v-8f5fa6f0 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10,7 +10,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.content .seach .input.data-v-2f1ba753 {
+.content .seach .input.data-v-8f5fa6f0 {
   margin: 0 auto;
   color: #000000;
   height: 80rpx;
@@ -28,27 +28,27 @@
   padding: 0 20rpx;
   border-radius: 10rpx;
 }
-.content .seach .input input.data-v-2f1ba753 {
+.content .seach .input input.data-v-8f5fa6f0 {
   width: 100%;
 }
-.content .seach .input image.data-v-2f1ba753 {
+.content .seach .input image.data-v-8f5fa6f0 {
   height: 35rpx;
   width: 35rpx;
 }
-.content .liubai.data-v-2f1ba753 {
+.content .liubai.data-v-8f5fa6f0 {
   margin: 10rpx 0;
   height: 10rpx;
   width: 100%;
   background-color: #f7f7f7;
 }
-.content .container.data-v-2f1ba753 {
+.content .container.data-v-8f5fa6f0 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
-.content .container .left.data-v-2f1ba753 {
+.content .container .left.data-v-8f5fa6f0 {
   overflow-y: scroll;
   background-color: #f7f7f7;
   display: -webkit-box;
@@ -62,18 +62,22 @@
           flex-direction: column;
   width: 25%;
 }
-.content .container .left text.data-v-2f1ba753 {
+.content .container .left text.data-v-8f5fa6f0 {
   text-align: center;
   width: 100%;
   height: 90rpx;
   line-height: 90rpx;
 }
-.content .container .left text.active.data-v-2f1ba753 {
+.content .container .left text.active.data-v-8f5fa6f0 {
   background-color: #ffffff;
   color: red;
 }
-.content .container .fenlei.data-v-2f1ba753 {
+.content .container .fenlei2.data-v-8f5fa6f0 {
   width: 80%;
+  height: 100%;
+}
+.content .container .fenlei2 .fenlei.data-v-8f5fa6f0 {
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -83,7 +87,7 @@
           flex-wrap: wrap;
   overflow-y: scroll;
 }
-.content .container .fenlei .item.data-v-2f1ba753 {
+.content .container .fenlei2 .fenlei .item.data-v-8f5fa6f0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,7 +106,7 @@
   font-size: 28rpx;
   margin-top: 20rpx;
 }
-.content .container .fenlei .item image.data-v-2f1ba753 {
+.content .container .fenlei2 .fenlei .item image.data-v-8f5fa6f0 {
   margin-bottom: 10rpx;
   height: 90rpx;
   width: 90rpx;

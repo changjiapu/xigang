@@ -7,14 +7,16 @@
 			</view>
 		</view>
 		<view class="liubai"></view>
-		<view class="container" :style="{height:wHeight+150+'px'}">
-			<view class="left" :style="{height:wHeight+150+'px'}">
+		<view class="container" :style="{ height: wHeight - 60 + 'px' }">
+			<view class="left" :style="{ height: wHeight - 60 + 'px' }">
 				<text :class="{ active: tabs == index }" v-for="(item, index) in fenleiList" :key="index" @click="currentTabs(index)">{{ item.categoryName }}</text>
 			</view>
-			<view class="fenlei" :style="{height:wHeight+150+'px'}">
-				<view class="item" v-for="(item, index) in productList" :key="index" @click="gotoShopList(item.productId)">
-					<image :src="imgURl + item.imgList[0]" mode=""></image>
-					<text>{{ item.productName }}</text>
+			<view class="fenlei2">
+				<view class="fenlei">
+					<view class="item" v-for="(item, index) in productList" :key="index" @click="gotoShopList(item.productId)">
+						<image :src="imgURl + item.imgList[0]" mode=""></image>
+						<text>{{ item.productName }}</text>
+					</view>
 				</view>
 			</view>
 		</view>
@@ -39,7 +41,7 @@ export default {
 		this.imgURl = imgURl;
 		this.getProductByCategoryId();
 		var res = uni.getSystemInfoSync();
-		this.wHeight =res.windowWidth;
+		this.wHeight = res.windowHeight;
 	},
 	methods: {
 		getProductByCategoryId() {
@@ -103,7 +105,7 @@ export default {
 		width: 100%;
 		display: flex;
 		.left {
-			overflow-y:scroll;
+			overflow-y: scroll;
 			background-color: #f7f7f7;
 			display: flex;
 			flex-direction: column;
@@ -120,25 +122,29 @@ export default {
 				}
 			}
 		}
-		.fenlei {
+		.fenlei2 {
 			width: 80%;
-			display: flex;
-			flex-wrap: wrap;
-			overflow-y:scroll;
-			.item {
+			height: 100%;
+			.fenlei {
+				width: 100%;
 				display: flex;
-				flex-direction: column;
-				align-items: center;
-				width: 180upx;
-				height: 140upx;
-				font-size: 28upx;
-				// margin-left: 70upx;
-				margin-top: 20upx;
-				image {
-					margin-bottom: 10upx;
-					height: 90upx;
-					width: 90upx;
-					border-radius: 100%;
+				flex-wrap: wrap;
+				overflow-y: scroll;
+				.item {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width: 180upx;
+					height: 140upx;
+					font-size: 28upx;
+					// margin-left: 70upx;
+					margin-top: 20upx;
+					image {
+						margin-bottom: 10upx;
+						height: 90upx;
+						width: 90upx;
+						border-radius: 100%;
+					}
 				}
 			}
 		}

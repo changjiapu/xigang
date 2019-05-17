@@ -13,7 +13,7 @@
 		{
 			"path": "pages/logn/logn",
 			"style": {
-				"navigationBarTitleText": "登录"
+				"navigationBarTitleText": "用户端登录"
 			}
 		},
 		{

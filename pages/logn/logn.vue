@@ -1,6 +1,7 @@
 <template>
 	<view class="content">
-		<image class="logo" src="../../static/home/logo_03.png" mode=""></image>
+		<image class="logo_2" src="../../static/home/logo_03.png" mode=""></image>
+		<image class="logo" src="../../static/home/logo_3.png" mode=""></image>
 		<view class="input">
 			<image src="../../static/home/wodedenglu_07.png" mode=""></image>
 			<input type="number" placeholder="请输入手机号" maxlength="11" v-model="phone" />
@@ -96,10 +97,19 @@ export default {
 		font-size: 24upx;
 	}
 	.logo {
+		border-radius: 10upx;
+		border: 1px solid #cccccc;
 		margin-top: 100upx;
-		width: 235upx;
+		width: 280upx;
 		height: 280upx;
 		margin-bottom: 50upx;
+	}
+	.logo_2 {
+		position: fixed;
+		top: 30upx;
+		left: 30upx;
+		width: 80upx;
+		height: 80upx;
 	}
 	.input {
 		margin-top: 30upx;
@@ -119,7 +129,7 @@ export default {
 		}
 	}
 	.btn {
-		margin-top: 100upx;
+		margin-top: 50upx;
 		height: 100upx;
 		line-height: 100upx;
 		width: 620upx;
