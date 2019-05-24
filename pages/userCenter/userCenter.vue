@@ -3,7 +3,7 @@
 		<view class="head">
 			<!-- 		<image class="img_1" :src="imgURl+imglist" mode=""></image> -->
 			<image v-if="imglist" class="img_1" :src="imgURl + imglist" mode=""></image>
-			<image v-else class="img_1" src="../../static/home/touxiang_03.png" mode=""></image>
+			<image v-else class="img_1" :src="imglist2" mode=""></image>
 			<view class="msg">
 				<text>{{ nickName ? nickName : '未填写' }}</text>
 				<text>{{ spec_name ? spec_name : '未填写' }}</text>
@@ -40,6 +40,11 @@
 				<text>投诉建议</text>
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
 			</navigator>
+			<navigator class="list_item" url="/pages/shiwuzhaoling/shiwuzhaoling">
+				<image src="../../static/home/shiwuzhaoling.png" mode=""></image>
+				<text>失物招领</text>
+				<image src="../../static/home/gengduo_41.png" mode=""></image>
+			</navigator>
 			<navigator class="list_item" url="/pages/callCenter/callCenter">
 				<image src="../../static/home/kefuzhongxin_33.png" mode=""></image>
 				<text>客服中心</text>
@@ -63,7 +68,7 @@
 					<image class="close2" src="../../static/home/tuichu_07.png" mode=""></image>
 				</view>
 				<view class="share">
-					<view class="btn" @click="shareFriend">	
+					<view class="btn" @click="shareFriend">
 						<view><image src="../../static/home/weixin_03.png"></image></view>
 						<text>分享给朋友</text>
 					</view>
@@ -86,6 +91,7 @@ export default {
 		return {
 			imgURl: '',
 			imglist: '', //用户头像
+			imglist2:'',//微信头像
 			nickName: '', //用户昵称
 			spec_name: '', //用户签名
 			isShow: false,
@@ -101,7 +107,9 @@ export default {
 		//获取用户信息
 		getUserById() {
 			getUserById(this.userId).then(res => {
+				console.log(JSON.stringify(res));
 				this.imglist = res.data.data.userPhoto;
+				this.imglist2 = res.data.data.weChatPhoto;
 				this.spec_name = res.data.data.specName;
 				this.nickName = res.data.data.nickName;
 			});
@@ -154,12 +162,12 @@ export default {
 				summary: '我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！',
 				imageUrl: 'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png',
 				success: function(res) {
-					console.log(111)
+					console.log(111);
 					console.log('success:' + JSON.stringify(res));
 				},
 				fail: function(err) {
 					console.log('fail:' + JSON.stringify(err));
-					console.log(123)
+					console.log(123);
 				}
 			});
 		},
@@ -320,7 +328,7 @@ export default {
 		width: 100%;
 		position: fixed;
 		right: 0;
-		bottom:0upx;
+		bottom: 0upx;
 		animation: fenxiang 0.4s;
 		overflow: hidden;
 	}

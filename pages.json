@@ -211,6 +211,12 @@
 			}
 		},
 		{
+			"path": "pages/shiwuzhaoling/shiwuzhaoling",
+			"style": {
+				"navigationBarTitleText": "失物招领"
+			}
+		},
+		{
 			"path": "pages/fenlei/fenlei",
 			"style": {
 				"navigationBarBackgroundColor": "#ffffff",

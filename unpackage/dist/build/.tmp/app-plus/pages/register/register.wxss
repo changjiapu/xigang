@@ -1,11 +1,11 @@
-.content.data-v-c2084a74 {
+.content.data-v-a63456f8 {
   font-size: 30rpx;
   width: 100%;
   padding: 0 30rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.content .item.data-v-c2084a74 {
+.content .item.data-v-a63456f8 {
   height: 100rpx;
   width: 100%;
   display: -webkit-box;
@@ -18,10 +18,19 @@
           align-items: center;
   border-bottom: 1px solid #dddddd;
 }
-.content .item text.data-v-c2084a74 {
+.content .item text.data-v-a63456f8 {
   width: 30%;
 }
-.content .xieyi.data-v-c2084a74 {
+.content .item .code.data-v-a63456f8 {
+  width: 25%;
+  font-size: 24rpx;
+  padding: 20rpx 10rpx;
+  background-color: #6d71d5;
+  text-align: center;
+  border-radius: 20rpx;
+  color: #ffffff;
+}
+.content .xieyi.data-v-a63456f8 {
   font-size: 22rpx;
   display: -webkit-box;
   display: -webkit-flex;
@@ -33,16 +42,16 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.content .xieyi image.data-v-c2084a74 {
+.content .xieyi image.data-v-a63456f8 {
   height: 30rpx;
   width: 30rpx;
 }
-.content .btn.data-v-c2084a74 {
-  margin-top: 50rpx;
+.content .btn.data-v-a63456f8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50rpx;
   height: 100rpx;
   -webkit-box-align: center;
   -webkit-align-items: center;

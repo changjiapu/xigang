@@ -88,3 +88,15 @@ export function updateUserInfo(data){
 export function getSysHelpList(pageNo,pageSize){
 	return getRequest('/help/getSysHelpList?pageNo='+pageNo+'&pageSize='+pageSize).then(res => res)
 }
+//获取短信验证码
+export function sendSmsCode(userPhone){
+	return getRequest('/user/sendSmsCode?userPhone='+userPhone).then(res => res)
+}
+//发布公告
+export function addNotice(data){
+ return postRequest(data,'/notice/addNotice').then(res => res)
+}
+//微信登录
+export function weChatLogin(data){
+	return postRequest(data,'/user/weChatLogin').then(res => res)
+}

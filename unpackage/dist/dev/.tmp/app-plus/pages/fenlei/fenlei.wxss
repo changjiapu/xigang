@@ -72,8 +72,12 @@
   background-color: #ffffff;
   color: red;
 }
-.content .container .fenlei.data-v-450c9750 {
+.content .container .fenlei2.data-v-450c9750 {
   width: 80%;
+  height: 100%;
+}
+.content .container .fenlei2 .fenlei.data-v-450c9750 {
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -83,7 +87,7 @@
           flex-wrap: wrap;
   overflow-y: scroll;
 }
-.content .container .fenlei .item.data-v-450c9750 {
+.content .container .fenlei2 .fenlei .item.data-v-450c9750 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,7 +106,7 @@
   font-size: 28rpx;
   margin-top: 20rpx;
 }
-.content .container .fenlei .item image.data-v-450c9750 {
+.content .container .fenlei2 .fenlei .item image.data-v-450c9750 {
   margin-bottom: 10rpx;
   height: 90rpx;
   width: 90rpx;

@@ -1,16 +1,16 @@
-.content.data-v-ee7e0d6e {
+.content.data-v-a42a2ccc {
   width: 100%;
 }
-.content input.data-v-ee7e0d6e {
+.content input.data-v-a42a2ccc {
   color: #999999;
 }
-.content textarea.data-v-ee7e0d6e {
+.content textarea.data-v-a42a2ccc {
   color: #999999;
 }
-.content .title3.data-v-ee7e0d6e {
+.content .title3.data-v-a42a2ccc {
   width: 120rpx;
 }
-.content .item.data-v-ee7e0d6e {
+.content .item.data-v-a42a2ccc {
   padding: 20rpx;
   width: 100%;
   height: 100rpx;
@@ -30,17 +30,17 @@
           box-sizing: border-box;
   border-bottom: 1px solid #cccccc;
 }
-.content .item text.data-v-ee7e0d6e {
+.content .item text.data-v-a42a2ccc {
   margin-right: 20rpx;
 }
-.content .item input.data-v-ee7e0d6e {
+.content .item input.data-v-a42a2ccc {
   padding-right: 20rpx;
   text-align: right;
 }
-.content .item2.data-v-ee7e0d6e {
+.content .item2.data-v-a42a2ccc {
   padding: 20rpx;
 }
-.content .item2 .text.data-v-ee7e0d6e {
+.content .item2 .text.data-v-a42a2ccc {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 20rpx;
@@ -48,7 +48,7 @@
   width: 100%;
   border: 1px solid #cccccc;
 }
-.content .item3.data-v-ee7e0d6e {
+.content .item3.data-v-a42a2ccc {
   padding: 20rpx;
   width: 100%;
   height: 100rpx;
@@ -69,14 +69,14 @@
   border-bottom: 1px solid #cccccc;
   position: relative;
 }
-.content .item3 text.data-v-ee7e0d6e {
+.content .item3 text.data-v-a42a2ccc {
   margin-right: 20rpx;
 }
-.content .item3 .sex.data-v-ee7e0d6e {
+.content .item3 .sex.data-v-a42a2ccc {
   position: absolute;
   right: 50rpx;
 }
-.content .item3 .right.data-v-ee7e0d6e {
+.content .item3 .right.data-v-a42a2ccc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -86,16 +86,16 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.content .item3 .right .tx.data-v-ee7e0d6e {
+.content .item3 .right .tx.data-v-a42a2ccc {
   height: 80rpx;
   width: 80rpx;
   border-radius: 100%;
 }
-.content .item3 .right .bq.data-v-ee7e0d6e {
+.content .item3 .right .bq.data-v-a42a2ccc {
   height: 30rpx;
   width: 30rpx;
 }
-.content .btn.data-v-ee7e0d6e {
+.content .btn.data-v-a42a2ccc {
   height: 95rpx;
   line-height: 95rpx;
   width: 80%;

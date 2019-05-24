@@ -133,7 +133,12 @@
       },
       "apple": {},
       "plugins": {
-        "oauth": {},
+        "oauth": {
+          "weixin": {
+            "appid": "wx9aaa561dc5c0f769",
+            "appsecret": "4be7d20b9e440a7ed93ee65e8a6aa989"
+          }
+        },
         "share": {
           "weixin": {
             "appid": "wx9aaa561dc5c0f769",
@@ -161,7 +166,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.4",
+      "compilerVersion": "1.9.9",
       "control": "webview"
     }
   }

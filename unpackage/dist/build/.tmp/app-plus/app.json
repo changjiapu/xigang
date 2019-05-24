@@ -33,6 +33,7 @@
     "pages/comment/comment",
     "pages/wjPassword/wjPassword",
     "pages/userMsg/userMsg",
+    "pages/shiwuzhaoling/shiwuzhaoling",
     "pages/fenlei/fenlei"
   ],
   "subPackages": [],
@@ -80,5 +81,5 @@
     "autoclose": false
   },
   "appname": "西港集贸市场",
-  "compilerVersion": "1.9.4"
+  "compilerVersion": "1.9.9"
 }
