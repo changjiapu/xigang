@@ -4,6 +4,9 @@
 		<text>
 			&nbsp;&nbsp;{{detail.content}}
 		</text>
+		<text class="right" v-if="detail.userName">联系人:{{detail.userName}}</text>
+		<text class="right" v-if="detail.phone">联系电话:{{detail.phone}}</text>
+		<text class="right" v-if="detail.address">联系地址:{{detail.address}}</text>
 	</view>
 </template>
 
@@ -39,15 +42,23 @@ export default {
 .content {
 	font-size: 28upx;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
 	image {
 		height: 333upx;
 		width: 100%;
 	}
 	text {
-		padding: 20upx;
+		box-sizing: border-box;
+		padding: 20upx 10upx;
 		display: inline-block;
 		color: #999999;
 		text-indent: 50upx;
+	}
+	.right{
+		padding-right: 20upx;
+		width: 100%;
+		text-align: right;
 	}
 }
 </style>

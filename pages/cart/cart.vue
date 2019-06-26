@@ -30,7 +30,7 @@
 			</view>
 		</view>
 		<empty-data v-if="productList.length == 0"></empty-data>
-<!-- 		<view class="empty" style="width:100%;height:114upx;"></view> -->
+		<!-- 		<view class="empty" style="width:100%;height:114upx;"></view> -->
 		<view class="buy-btn">
 			<view class="left" @click="selectAll">
 				<image v-if="isShow" src="../../static/home/weixuanzhong_03.png" mode=""></image>
@@ -68,6 +68,9 @@ export default {
 	},
 	computed: {
 		...mapState(['userId'])
+	},
+	onLoad() {
+
 	},
 	onShow() {
 		this.totalPrices = 0;
@@ -114,6 +117,13 @@ export default {
 		},
 		editorChange() {
 			this.editor = !this.editor;
+			if (this.editor) {
+				this.isShow = true;
+				this.totalPrices = 0;
+				for (let item of this.productList) {
+					item.ick = false;
+				}
+			}
 		},
 		statusChange(e) {
 			var index = e;
@@ -173,10 +183,12 @@ export default {
 		},
 		//去下单页面
 		gotoPay() {
+			console.log(this.productList)
 			let paramsList = [];
 			for (let item of this.productList) {
 				if (item.ick) {
 					let params = {
+						img:item.product.imgList[0],
 						expressId: item.product.expressId, //配送方式
 						specUnit: item.productSpec.specUnit, //单位
 						shopId: item.product.shopId,
@@ -202,6 +214,7 @@ export default {
 			let productList2 = [];
 			for (let item of paramsList) {
 				let product = {
+					img:item.img,
 					expressId: item.expressId,
 					shopId: item.shopId,
 					productId: item.productId,
@@ -413,14 +426,15 @@ export default {
 
 .buy-btn .right view:nth-child(2) {
 	width: 220upx;
-	height: 90upx;
-	line-height: 90upx;
+	height: 70upx;
+	line-height: 70upx;
 	text-align: center;
 	color: #fff;
 	border-radius: 20upx;
 	background-color: #6d71d5;
-	font-size: 34upx;
+	font-size: 30upx;
 	margin-left: 5px;
+	margin-right: 20upx;
 }
 
 icon {

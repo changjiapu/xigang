@@ -13,7 +13,7 @@
 			<image src="../../static/home/gengduo_41.png" mode=""></image>
 		</navigator>
 		<view class="product_detail" v-for="(item, index) in productList" :key="index">
-			<image src="../../static/home/dianpupaihangmangguo_05.png" mode=""></image>
+			<image :src="imgURl+item.img" mode=""></image>
 			<text>{{ item.productName }}</text>
 			<text>￥{{ item.productPrice }}元/{{ item.specUnit }}</text>
 			<text class="num">x{{ item.productCount }}</text>
@@ -42,12 +42,14 @@
 </template>
 
 <script>
+	import { baseURL, imgURl } from '../../common/config/index.js';
 import { getUserAddressListByUserId } from '@/request/API/index.js';
 import { confirmOrderByShopCart } from '@/request/API/product.js';
 import { mapState } from 'vuex';
 export default {
 	data() {
 		return {
+			imgURl:'',
 			orderList: '',
 			orderRemark: '', //备注信息
 			address: {},
@@ -59,6 +61,7 @@ export default {
 		...mapState(['userId'])
 	},
 	onLoad(options) {
+			this.imgURl = imgURl;
 		if (options.orderList) {
 			this.orderList = options.orderList;
 			console.log(this.orderList);
@@ -66,6 +69,7 @@ export default {
 		if (options.params) {
 			this.productList.push(JSON.parse(options.params));
 			this.totalPrices = this.productList[0].prescriptionPrice;
+					console.log(this.productList);
 		}
 		if (options.paramsList) {
 			this.productList = JSON.parse(options.paramsList);
@@ -74,8 +78,9 @@ export default {
 				totalPrices = item.prescriptionPrice + totalPrices;
 			}
 			this.totalPrices = totalPrices;
+					console.log(this.productList);
 		}
-		console.log(this.productList);
+
 	},
 	onShow() {
 		this.getUserAddressListByUserId(this.userId);

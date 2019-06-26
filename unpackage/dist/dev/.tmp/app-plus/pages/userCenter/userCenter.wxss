@@ -23,7 +23,8 @@
 .content .head .img_1.data-v-056f0af8 {
   height: 130rpx;
   width: 130rpx;
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
 }
 .content .head .img_2.data-v-056f0af8 {
   height: 25rpx;
@@ -49,7 +50,8 @@
   position: absolute;
   top: 190rpx;
   left: 40rpx;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   padding: 0 20rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -106,7 +108,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #ffffff;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   margin-bottom: 30rpx;
 }
 .content .list .list_item.data-v-056f0af8 {

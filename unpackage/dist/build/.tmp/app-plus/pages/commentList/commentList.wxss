@@ -22,7 +22,8 @@
 .content .item .h_img.data-v-3e889ccf {
   height: 80rpx;
   width: 80rpx;
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
 }
 .content .item .x_img.data-v-3e889ccf {
   margin-left: 10rpx;

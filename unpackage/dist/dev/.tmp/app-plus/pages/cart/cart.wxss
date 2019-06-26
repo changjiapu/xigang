@@ -109,7 +109,8 @@
   width: 170rpx;
   height: 50rpx;
   font-size: 26rpx;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   color: #999999;
   border: 1px solid #ddd;
   display: -webkit-box;
@@ -201,14 +202,16 @@
 }
 .buy-btn .right view.data-v-a6ab8090:nth-child(2) {
   width: 220rpx;
-  height: 90rpx;
-  line-height: 90rpx;
+  height: 70rpx;
+  line-height: 70rpx;
   text-align: center;
   color: #fff;
-  border-radius: 20rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
   background-color: #6d71d5;
-  font-size: 34rpx;
+  font-size: 30rpx;
   margin-left: 5px;
+  margin-right: 20rpx;
 }
 icon.data-v-a6ab8090 {
   display: block;

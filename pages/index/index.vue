@@ -3,8 +3,8 @@
 		<!-- 头部 -->
 		<view class="head">
 			<view class="left">
-				<image src="../../static/home/ziyuan.png"></image>
-				<text>{{ city }}</text>
+				<image src="../../static/home/dizhi4.png"></image>
+				<text>西安</text>
 			</view>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
@@ -116,18 +116,18 @@ export default {
 			this.$store.commit('SET_USERID', userId);
 			this.$store.commit('SET_TOKEN', token);
 		} else {
-			uni.reLaunch({
-				url: '/pages/logn/logn'
-			});
+			// uni.reLaunch({
+			// 	url: '/pages/logn/logn'
+			// });
 		}
 		this.imgURl = imgURl;
 		let _this = this;
-		//#ifdef APP-PLUS
-		plus.geolocation.getCurrentPosition(function(position) {
-			console.log(JSON.stringify(position));
-			_this.city = position.address.city;
-		});
-		//#endif
+		// //#ifdef APP-PLUS
+		// plus.geolocation.getCurrentPosition(function(position) {
+		// 	console.log(JSON.stringify(position));
+		// 	_this.city = position.address.city;
+		// });
+		// //#endif
 		this.version = plus.runtime.version;
 		uni.getSystemInfo({
 			success: res => {
@@ -152,7 +152,8 @@ export default {
 				method: 'GET',
 				data: {},
 				success: res => {
-						console.log(res.data.data,this.version);
+						console.log(this.version)
+						console.log(res.data.data)
 					if (res.data.data > this.version) {
 						if (plus.networkinfo.getCurrentType() != 3) {
 							uni.showToast({
@@ -247,9 +248,10 @@ export default {
 .content {
 	font-size: 22upx;
 	.head {
-		color: #999999;
+		color: #ffffff;
 		z-index: 999;
-		background-color: #ffffff;
+		background-color: #6d71d5;
+		// background: linear-gradient(to right,#16E2D6,#3DADF3);
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -374,15 +376,15 @@ export default {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: 120upx;
-			font-size: 28upx;
+			width: 140upx;
+			font-size: 30upx;
 			text-align: center;
-			margin-left: 52upx;
+			margin-left: 80upx;
 			margin-top: 20upx;
 			image {
 				margin-bottom: 10upx;
-				height: 90upx;
-				width: 90upx;
+				height: 100upx;
+				width: 100upx;
 				border-radius: 100%;
 			}
 		}

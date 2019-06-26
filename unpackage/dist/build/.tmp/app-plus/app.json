@@ -34,6 +34,7 @@
     "pages/wjPassword/wjPassword",
     "pages/userMsg/userMsg",
     "pages/shiwuzhaoling/shiwuzhaoling",
+    "pages/gonggaoFabu/gonggaoFabu",
     "pages/fenlei/fenlei"
   ],
   "subPackages": [],
@@ -76,10 +77,11 @@
       }
     ]
   },
+  "nvueCompiler": "weex",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
   "appname": "西港集贸市场",
-  "compilerVersion": "1.9.9"
+  "compilerVersion": "2.0.1"
 }

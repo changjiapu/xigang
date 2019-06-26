@@ -30,11 +30,16 @@
 		</view>
 		<navigator class="GG" url="/pages/ggList/ggList"><image src="../../static/home/dianpugonggao_03.png" mode=""></image></navigator>
 		<view class="list">
-			<view class="list_item" @click="ruzhu()">
+			<!-- 			<view class="list_item" @click="ruzhu()">
 				<image src="../../static/home/shangjiaruzhu_26.png" mode=""></image>
 				<text>商家入驻</text>
 				<image src="../../static/home/gengduo_41.png" mode=""></image>
-			</view>
+			</view> -->
+			<navigator class="list_item" url="/pages/gonggaoFabu/gonggaoFabu">
+				<image src="../../static/home/fabugonggao_16.png" mode=""></image>
+				<text>发布公告</text>
+				<image src="../../static/home/gengduo_41.png" mode=""></image>
+			</navigator>
 			<navigator class="list_item" url="/pages/complain/complain">
 				<image src="../../static/home/tousujianyi_29.png" mode=""></image>
 				<text>投诉建议</text>
@@ -91,11 +96,12 @@ export default {
 		return {
 			imgURl: '',
 			imglist: '', //用户头像
-			imglist2:'',//微信头像
+			imglist2: '', //微信头像
 			nickName: '', //用户昵称
 			spec_name: '', //用户签名
 			isShow: false,
-			shopStatus: -1 //默认为2未入住 入驻状态 -1:未入驻 0:审核中 1:已入驻 2:审核驳回重新入驻
+			shopStatus: -1, //默认为2未入住 入驻状态 -1:未入驻 0:审核中 1:已入驻 2:审核驳回重新入驻
+			remark: '' //入驻驳回理由
 		};
 	},
 	onShow() {
@@ -119,6 +125,7 @@ export default {
 			getShopStatusByUserId(userId).then(res => {
 				if (res.data.code == 0) {
 					this.shopStatus = res.data.data.shopStatus;
+					this.remark = res.data.data.remark;
 				}
 			});
 		},
@@ -190,8 +197,8 @@ export default {
 			}
 			if (this.shopStatus == 2) {
 				uni.showModal({
-					title: '',
-					content: '入驻失败是否重新入驻',
+					title: '入驻驳回理由',
+					content: this.remark + ',是否重新入驻?',
 					success: res => {
 						if (res.confirm) {
 							uni.navigateTo({

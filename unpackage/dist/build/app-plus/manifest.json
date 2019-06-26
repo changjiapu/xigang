@@ -7,8 +7,8 @@
   "id": "__UNI__75E6FD8",
   "name": "西港集贸市场",
   "version": {
-    "name": "1.0.0",
-    "code": "100"
+    "name": "1.0.4",
+    "code": 103
   },
   "description": "",
   "launch_path": "__uniappservice.html",
@@ -44,6 +44,9 @@
       "style": "light",
       "background": "#6d71d5"
     },
+    "softinput": {
+      "mode": "adjustPan"
+    },
     "distribute": {
       "splashscreen": {
         "ios": {
@@ -71,7 +74,7 @@
       },
       "icons": {
         "ios": {
-          "appstore": "C:/Users/changjiapu/Desktop/f1a0a3d129931c7beb3ec82e90d5140.png",
+          "appstore": "C:/Users/changjiapu/Desktop/8a01040b7e8c77e03f79cb30976ca15.png",
           "ipad": {
             "app": "unpackage/res/icons/76x76.png",
             "app@2x": "unpackage/res/icons/152x152.png",
@@ -131,7 +134,16 @@
           "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
         ]
       },
-      "apple": {},
+      "apple": {
+        "plistcmds": [
+          "Set :NSContactsUsageDescription 西港集贸市场为了方便您拨打店铺电话与商家联系，需要您同意才能获得您的通信录权限，允许吗?",
+          "Set :NSPhotoLibraryUsageDescription 西港集贸市场为了方便您上传图片需要把图片保存到本地。允许吗?",
+          "Set :NSCameraUsageDescription 您是否同意授权“西港集贸市场”获得相机权限，方便您扫描二维码分享，允许吗?",
+          "Set :NSPhotoLibraryAddUsageDescription 您是否同意授权“西港集贸市场”获得相册权限，方便您拍照上传图片，允许吗?",
+          "Set :NSLocationAlwaysUsageDescription 西港集贸市场为了方便您查看与入驻商家的位置需要获取您的地理位置权限，允许吗?",
+          "Set :NSLocationWhenInUseUsageDescription 西港集贸市场为了方便您查看与入驻商家的位置需要获取您的地理位置权限，允许吗?"
+        ]
+      },
       "plugins": {
         "oauth": {
           "weixin": {
@@ -166,8 +178,9 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.9",
-      "control": "webview"
+      "compilerVersion": "2.0.1",
+      "control": "webview",
+      "nvueCompiler": "weex"
     }
   }
 }

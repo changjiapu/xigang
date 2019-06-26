@@ -405,7 +405,8 @@
   background-color: #6d71d5;
   margin: auto;
   text-align: center;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   color: #ffffff;
 }
 

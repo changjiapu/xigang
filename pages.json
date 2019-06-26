@@ -217,6 +217,12 @@
 			}
 		},
 		{
+			"path": "pages/gonggaoFabu/gonggaoFabu",
+			"style": {
+				"navigationBarTitleText": "公告发布"
+			}
+		},
+		{
 			"path": "pages/fenlei/fenlei",
 			"style": {
 				"navigationBarBackgroundColor": "#ffffff",

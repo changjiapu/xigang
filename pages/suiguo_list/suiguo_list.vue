@@ -3,13 +3,13 @@
 		<!-- 头部 -->
 		<view class="liubai"></view>
 		<view class="head">
-			<image class="back" src="../../static/home/zuojiantou.png" mode="" @click="gotoBack()"></image>
+			<image class="back" src="../../static/home/zuojiantou_2.png" mode="" @click="gotoBack()"></image>
 			<view class="input">
 				<image src="../../static/home/sousuo_06.png" mode=""></image>
 				<input type="text" v-model="search" placeholder="请输入要搜索的商品" @confirm="searchProduct()" />
 			</view>
 			<view class="ditu" @click="ditudakai()">
-				<image src="../../static/home/ziyuan.png" mode=""></image>
+				<image src="../../static/home/dizhi4.png" mode=""></image>
 				<text>导航</text>
 			</view>
 		</view>
@@ -50,7 +50,7 @@ export default {
 			productId: '',
 			categoryId: '',
 			addressName: '',
-			location:'',
+			location: ''
 		};
 	},
 	onLoad(options) {
@@ -74,15 +74,15 @@ export default {
 	},
 	methods: {
 		ditudakai() {
-			let list=this.location.split(',')
-			console.log(list)
+			let list = this.location.split(',');
+			console.log(list);
 			const a = Number(list[0]);
 			const b = Number(list[1]);
 			uni.openLocation({
 				latitude: b,
 				longitude: a,
 				// scale: 18,
-				name: this.shopAddress,
+				name: this.shopAddress
 				// address: ''
 				// name: app.globalData.location.location_city,
 				// address: this.data.shop_detail.address
@@ -106,7 +106,7 @@ export default {
 		isShangChange() {
 			this.isShang = !this.isShang;
 			this.productList = [];
-			this.pageNo=1;
+			this.pageNo = 1;
 			if (this.sortWay == 0) {
 				this.sortWay = 1;
 			} else {
@@ -151,14 +151,15 @@ export default {
 		height: 60upx;
 		z-index: 999999;
 		width: 100%;
-		background-color: #ffffff;
+		background-color: #6d71d5;
 	}
 	.head {
 		position: fixed;
 		z-index: 999;
 		top: 60upx;
 		width: 100%;
-		background-color: #ffffff;
+		background-color: #6d71d5;
+		padding-bottom: 20upx;
 		// height: 150upx;
 		display: flex;
 		align-items: center;
@@ -172,7 +173,7 @@ export default {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			color: #999999;
+			color: #ffffff;
 			font-size: 30upx;
 			image {
 				height: 38upx;
@@ -185,7 +186,7 @@ export default {
 			font-size: 22upx;
 			display: flex;
 			align-items: center;
-			background-color: rgb(235, 235, 235);
+			background-color: #ffffff;
 			padding: 0 20upx;
 			border-radius: 10upx;
 			input {
@@ -252,7 +253,7 @@ export default {
 	// }
 	.title {
 		position: fixed;
-		top: 125upx;
+		top: 135upx;
 		z-index: 999;
 		height: upx;
 		display: flex;
@@ -277,19 +278,19 @@ export default {
 		}
 	}
 	.scroll-view {
-		margin-top: 200upx;
+		margin-top: 210upx;
 		width: 100%;
 		.list-item {
 			margin-top: 25upx;
 			display: inline-block;
-			height: 400upx;
+			height: 500upx;
 			width: 320upx;
 			border-radius: 10upx;
 			box-shadow: 8upx 8upx 8upx #f3f3f3;
 			margin-left: 35upx;
 			image {
 				width: 100%;
-				height: 220upx;
+				height: 300upx;
 			}
 			.list_msg {
 				position: relative;
@@ -303,6 +304,9 @@ export default {
 				}
 				text:first-of-type {
 					font-size: 30upx;
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
 				}
 				text:nth-of-type(2) {
 					overflow: hidden;

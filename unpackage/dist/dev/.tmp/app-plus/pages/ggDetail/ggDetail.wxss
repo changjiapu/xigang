@@ -1,15 +1,31 @@
 .content.data-v-38bff658 {
   font-size: 28rpx;
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .content image.data-v-38bff658 {
   height: 333rpx;
   width: 100%;
 }
 .content text.data-v-38bff658 {
-  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20rpx 10rpx;
   display: inline-block;
   color: #999999;
   text-indent: 50rpx;
+}
+.content .right.data-v-38bff658 {
+  padding-right: 20rpx;
+  width: 100%;
+  text-align: right;
 }
 

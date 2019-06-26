@@ -145,6 +145,14 @@ export default {
 						width: 90upx;
 						border-radius: 100%;
 					}
+					text {
+						overflow: hidden;
+						height: 50upx;
+						text-overflow: ellipsis;
+						display: -webkit-box;
+						-webkit-box-orient: vertical;
+						-webkit-line-clamp: 2;
+					}
 				}
 			}
 		}

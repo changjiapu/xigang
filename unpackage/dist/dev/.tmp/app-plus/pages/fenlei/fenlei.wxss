@@ -26,7 +26,8 @@
           align-items: center;
   background-color: #f7f7f7;
   padding: 0 20rpx;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .content .seach .input input.data-v-450c9750 {
   width: 100%;
@@ -110,6 +111,16 @@
   margin-bottom: 10rpx;
   height: 90rpx;
   width: 90rpx;
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+}
+.content .container .fenlei2 .fenlei .item text.data-v-450c9750 {
+  overflow: hidden;
+  height: 50rpx;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 

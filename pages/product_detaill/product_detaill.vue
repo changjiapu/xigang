@@ -309,6 +309,7 @@ export default {
 			}
 			let productList = []; //循环遍历 此处只有一条  为了方便 跟购物车下单统一格式
 			let params = {
+								img:this.productDetail.imgList[0],
 				expressId: this.productDetail.expressId, //配送方式
 				specUnit: this.productDetail.specUnit, //单位
 				shopId: this.productDetail.shopId,
@@ -323,6 +324,7 @@ export default {
 			let productList2 = [];
 			for (let item of productList) {
 				let product = {
+					img:item.img,
 					expressId: item.expressId,
 					shopId: item.shopId,
 					productId: item.productId,

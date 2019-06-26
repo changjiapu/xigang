@@ -168,7 +168,8 @@
   text-align: center;
   line-height: 70rpx;
   background-color: #6d71d5;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   color: #ffffff;
 }
 

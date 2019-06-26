@@ -107,7 +107,8 @@
 .content .comment .item .h_img.data-v-7f9b4810 {
   height: 80rpx;
   width: 80rpx;
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
 }
 .content .comment .item .x_img.data-v-7f9b4810 {
   margin-left: 10rpx;
@@ -293,7 +294,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid #999999;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
 }
 .content .bottomWindow .content .guige2 text.data-v-7f9b4810:not(:first-of-type) {
   margin-left: 20rpx;
@@ -327,7 +329,8 @@
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
 }
 .content .bottomWindow .content .shuliang .list-cont text.data-v-7f9b4810 {
   width: 60rpx;
@@ -349,7 +352,8 @@
   height: 96rpx;
   background-color: #ed7180;
   color: #ffffff;
-  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
   text-align: center;
   line-height: 96rpx;
   margin: 0 auto;
